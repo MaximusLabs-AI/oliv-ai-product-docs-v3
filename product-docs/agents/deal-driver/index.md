@@ -24,7 +24,7 @@ Oliv AI's Deal Driver agent keeps sales managers ahead of their team's pipeline 
 
 Oliv AI's Deal Driver agent is a manager intelligence agent. Managers stay informed at every level, from an individual rep to a single deal to the full team, from one agent. It doesn't write to the CRM. It surfaces signals for the manager to act on.
 
-Deal Driver is also a bundle. It includes the capabilities of [Oliv AI's Meeting Assistant agent](https://www.oliv.ai/agents/meeting-assistant): pre-call prep, post-call follow-up and CRM sync for reps. If you're on Deal Driver, your reps already have Meeting Assistant.
+Deal Driver is also a bundle. It includes the capabilities of [Oliv AI's Meeting Assistant agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/meeting-assistant/): pre-call prep, post-call follow-up and CRM sync for reps. If you're on Deal Driver, your reps already have Meeting Assistant.
 
 ### The daily rhythm {#daily-rhythm}
 
@@ -110,15 +110,15 @@ The Deal Driver bundle includes meeting-level support for individual reps.
 
 ### Coach {#with-coach}
 
-[Oliv AI's Coach agent](https://www.oliv.ai/agents/coach) is the rep development layer. Both run in the same Thursday-morning window: the 1:1 report lands first with pipeline status, and Coach follows minutes later with that rep's coaching goal and weekly progress.
+[Oliv AI's Coach agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/coach/) is the rep development layer. Both run in the same Thursday-morning window: the 1:1 report lands first with pipeline status, and Coach follows minutes later with that rep's coaching goal and weekly progress.
 
 ### Forecaster {#with-forecaster}
 
-[Oliv AI's Forecaster agent](https://www.oliv.ai/agents/forecaster) builds on Deal Driver's signals. Deal Driver flags the exceptions, such as close dates without activity, and Forecaster rolls those signals into the number.
+[Oliv AI's Forecaster agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/forecaster/) builds on Deal Driver's signals. Deal Driver flags the exceptions, such as close dates without activity, and Forecaster rolls those signals into the number.
 
 ### CRM Manager {#with-crm-manager}
 
-[Oliv AI's CRM Manager agent](https://www.oliv.ai/agents/crm-manager) refreshes deal fields overnight from calls, emails and meetings. It also supplies the Core 4 Fields completion data that triggers gap alerts.
+[Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) refreshes deal fields overnight from calls, emails and meetings. It also supplies the Core 4 Fields completion data that triggers gap alerts.
 
 ### Portfolio Manager {#with-portfolio-manager}
 
@@ -203,11 +203,11 @@ Visibility tools show you the pipeline. Deal Driver tells you when to look, what
 
 #### Do I need Meeting Assistant separately? {#faq-meeting-assistant}
 
-No. Meeting Assistant is included in Deal Driver, so your reps already have it.
+No. [Meeting Assistant](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/meeting-assistant/) is included in Deal Driver, so your reps already have it.
 
 #### Does Deal Driver write to the CRM? {#faq-crm-writes}
 
-No. It sends alerts, briefs and summaries to Slack, email or the Oliv platform. CRM Manager handles field updates.
+No. It sends alerts, briefs and summaries to [Slack](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/), email or the Oliv platform. [CRM Manager](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) handles field updates.
 
 #### Does it work for customer success managers? {#faq-cs-managers}
 

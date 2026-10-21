@@ -22,7 +22,7 @@ Oliv AI's Olivia agent is the agent you talk to rather than configure. You ask i
 
 ## What the Olivia agent is {#what-it-is}
 
-Oliv AI's Olivia agent is one of two super agents in Oliv AI. The other is [Oliv AI's Oliver agent](https://www.oliv.ai/agents/oliver). Oliver owns the back end: the process handbook, the configuration and the rules the org runs on. Olivia owns the front end: the relationship, the context and the execution.
+Oliv AI's Olivia agent is one of two super agents in Oliv AI. The other is [Oliv AI's Oliver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/). Oliver owns the back end: the process handbook, the configuration and the rules the org runs on. Olivia owns the front end: the relationship, the context and the execution.
 
 She is the same agent for the whole revenue org, not a separate instance per person. She adapts to each rep's accounts and deals, while Oliver keeps her inside consistent company process. In the agent picker she describes herself in one line: "I see everything across your team and dispatch the right sub-agent for each task."
 
@@ -114,11 +114,11 @@ Oliv AI's Oliver agent sets the process and Olivia runs within it. When Oliver u
 
 ### Meeting Assistant and Researcher {#with-meeting-agents}
 
-Before a meeting, Olivia coordinates with [Oliv AI's Meeting Assistant agent](https://www.oliv.ai/agents/meeting-assistant) for active opportunities and with Oliv AI's Researcher agent for new contacts.
+Before a meeting, Olivia coordinates with [Oliv AI's Meeting Assistant agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/meeting-assistant/) for active opportunities and with Oliv AI's Researcher agent for new contacts.
 
 ### CRM Manager {#with-crm-manager}
 
-After every call, she surfaces proposed CRM updates, such as field values, stage changes and next steps, for the rep to review and approve. [Oliv AI's CRM Manager agent](https://www.oliv.ai/agents/crm-manager) handles the execution of those writes.
+After every call, she surfaces proposed CRM updates, such as field values, stage changes and next steps, for the rep to review and approve. [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) handles the execution of those writes.
 
 ### Gold Digger and Portfolio Manager {#with-cs-agents}
 
@@ -126,7 +126,7 @@ Olivia alerts the team when [Oliv AI's Gold Digger agent](https://www.oliv.ai/ag
 
 ### Deal Driver {#with-deal-driver}
 
-She also alerts reps when [Oliv AI's Deal Driver agent](https://www.oliv.ai/agents/deal-driver) flags a manager-level concern on one of their deals.
+She also alerts reps when [Oliv AI's Deal Driver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/) flags a manager-level concern on one of their deals.
 
 ### Context underneath {#with-context}
 
@@ -204,7 +204,7 @@ Individual agents are specialists, but they don't know your full situation. Oliv
 
 #### Does Olivia work in Slack? {#faq-slack}
 
-Yes. She surfaces alerts and drives execution through Slack, Teams, or within the Oliv product.
+Yes. She surfaces alerts and drives execution through [Slack](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/), Teams, or within the Oliv product.
 
 #### Can I stop her acting on her own? {#faq-autonomy}
 
@@ -233,7 +233,7 @@ No. She's the front-facing interface through which the Oliv platform is experien
 ## Related {#related}
 
 - [Olivia, Chief of AI Staff](https://www.oliv.ai/agents/olivia): the Olivia agent's page on oliv.ai.
-- [The Oliver agent](https://www.oliv.ai/agents/oliver): the super agent that sets the rules Olivia works within.
+- [The Oliver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/): the super agent that sets the rules Olivia works within.
 - [AI agents vs AI copilots](https://www.oliv.ai/blog/ai-agents-vs-ai-copilots): why an agent that acts differs from one that only answers.
 - [How agentic sales automation works](https://www.oliv.ai/blog/agentic-sales-automation): the multi-agent model Olivia orchestrates.
 - [RevOps and Oliv AI](https://www.oliv.ai/revops): how revenue operations sets up the process Olivia follows.

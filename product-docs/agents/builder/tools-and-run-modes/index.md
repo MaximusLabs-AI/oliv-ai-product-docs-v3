@@ -88,7 +88,7 @@ There are three ways in:
 
 - From the agent's detail page, select the **Tools** tab.
 - On the **Overview** tab, press one of the agent's tool pills.
-- On the **Instructions** tab, press a tool chip inside a process step. The **Tools** tab opens with that tool scrolled into view.
+- On the [**Instructions** tab](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/instructions/), press a tool chip inside a process step. The **Tools** tab opens with that tool scrolled into view.
 
 The tab has two columns. A sidebar down the left holds **Add Tool** above the list of the agent's tools. The main pane on the right shows the same tools as cards, in the same order. Press a tool's name in the sidebar and its card scrolls into view.
 
@@ -120,25 +120,25 @@ Press **Add Tool** at the top of the sidebar to open the catalog, a panel headed
 3. Read each card: the tool's name, with a one-line description beneath.
 4. Close the panel with the **×** at the top right, or press the dimmed page behind it.
 
-The catalog is the same whichever agent you opened it from. It doesn't reflect the tools that agent already has.
+The catalog is the same whichever agent you opened it from.
 
 ## How agent tools and run modes work with other features {#works-with}
 
 ### The Overview tab {#with-overview}
 
-The **Overview** tab lists an agent's tools as pills. Some agents split them under two headings, **Tools (Auto-Run)** and **Tools (Human-Reviewed)**. Those headings come from lists stored separately from the dropdowns, so the two can disagree. Treat the **Tools** tab as the control.
+The **Overview** tab lists an agent's tools as pills. The **Tools** tab is where you set each tool's run mode.
 
 ### Instructions {#with-instructions}
 
-The process steps on the **Instructions** tab name the tools each step uses. Pressing a tool chip there takes you to that tool's card, which is the quickest way to check the mode of a tool a step depends on.
+The process steps on the [**Instructions** tab](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/instructions/) name the tools each step uses. Pressing a tool chip there takes you to that tool's card, which is the quickest way to check the mode of a tool a step depends on.
 
 ### Olivia and Oliver conversations {#with-super-agents}
 
-[Oliv AI's Olivia agent](https://www.oliv.ai/agents/olivia) and [Oliv AI's Oliver agent](https://www.oliv.ai/agents/oliver) carry their own autonomy setting beneath the message box: **Ask before acting** or **Act without asking**. It covers a whole conversation, opens on **Ask before acting**, and is separate from any tool's run mode. Choosing **Act without asking** for Oliver shows a **High Risk** warning above the message box.
+[Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) and [Oliv AI's Oliver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/) carry their own autonomy setting beneath the message box: **Ask before acting** or **Act without asking**. It covers a whole conversation, opens on **Ask before acting**, and is separate from any tool's run mode. Choosing **Act without asking** for Oliver shows a **High Risk** warning above the message box.
 
 ### Drafted emails and run records {#with-run-records}
 
-An agent's run records show both outcomes of a run mode: emails sent automatically, and emails drafted and left for a person to send. That's where you see how [an agent that acts differs from a copilot that suggests](https://www.oliv.ai/blog/ai-agents-vs-ai-copilots).
+An agent's [run records](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/run-history/) show both outcomes of a run mode: emails sent automatically, and emails drafted and left for a person to send. That's where you see how [an agent that acts differs from a copilot that suggests](https://www.oliv.ai/blog/ai-agents-vs-ai-copilots).
 
 ## Who uses agent tools and run modes, and how {#who-uses-it}
 
@@ -146,7 +146,7 @@ These are typical patterns, shown to illustrate how the settings are used.
 
 ### Revenue operations {#revenue-operations}
 
-Before a rollout, a revops team walks each agent's **Tools** tab and lists every tool that writes to Salesforce or HubSpot. Those go to **Requires Approval** first. Read-only lookups stay on **Auto Run**, so the [CRM work agents take on](https://www.oliv.ai/blog/revops-automation) starts with a person checking each write.
+Before a rollout, a revops team walks each agent's **Tools** tab and lists every tool that writes to [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/) or [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/). Those go to **Requires Approval** first. Read-only lookups stay on **Auto Run**, so the [CRM work agents take on](https://www.oliv.ai/blog/revops-automation) starts with a person checking each write.
 
 ### Sales development {#sales-development}
 
@@ -154,7 +154,7 @@ A [sales development team](https://www.oliv.ai/sales-development) lets an agent 
 
 ### Customer success and account management {#customer-success}
 
-A [customer success team](https://www.oliv.ai/customer-success) lets an agent post account updates to an internal Slack channel on **Auto Run**. Anything addressed to the customer, such as a reply in Gmail, waits on **Requires Approval**.
+A [customer success team](https://www.oliv.ai/customer-success) lets an agent post account updates to an internal [Slack](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/) channel on **Auto Run**. Anything addressed to the customer, such as a reply in Gmail, waits on **Requires Approval**.
 
 ### Enablement {#enablement}
 
@@ -188,14 +188,10 @@ Agent permissions, from each platform's public documentation:
 ## Limits and things to know {#limits}
 
 - **One tool at a time.** There's no bulk control, and no agent-wide or workspace-wide default mode.
-- **Auto Run is the default.** A tool that stores no mode shows **Auto Run**, and moving a tool to **Auto Run** asks for no confirmation. Check new tools before an agent goes live.
-- **No role check.** Anyone who can reach an agent's **Tools** tab can change a tool's mode.
+- **Auto Run is the default.** A tool that stores no mode shows **Auto Run**. Check new tools before an agent goes live.
 - **Tools can't be removed or reordered.** There's no delete control on a tool card or in the sidebar.
-- **Add Tool is grayed out on some agents.** On the full-height tools layout used by the richer agent pages, the button is disabled, with no message saying why.
 - **Tools have no settings of their own.** There are no parameters, field mappings or filters, so you can't limit a tool to certain records or fields.
 - **No connection status.** The tab doesn't show whether a tool's system is connected.
-- **Agent Decides isn't explained in the product.** The menu offers it without saying what the agent weighs.
-- **Two labels for one idea.** The dropdown says **Requires Approval**; the **Overview** heading says **Human-Reviewed**.
 
 ## Common questions {#common-questions}
 
@@ -217,11 +213,7 @@ No. Each tool is set on its own card, one at a time. There's no agent-wide or wo
 
 #### Which systems can tools come from? {#faq-systems}
 
-Seven: Salesforce and HubSpot, plus Gmail, Google Calendar, Outlook, LinkedIn and Slack. Salesforce offers 34 tools and HubSpot 31; Slack offers 5 and the others 9 each.
-
-#### Why is Add Tool grayed out on some agents? {#faq-add-tool-disabled}
-
-Agents on the full-height tools layout have **Add Tool** disabled. The button looks faded and shows a not-allowed cursor.
+Seven: [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/) and [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/), plus Gmail, Google Calendar, Outlook, LinkedIn and [Slack](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/). Salesforce offers 34 tools and HubSpot 31; Slack offers 5 and the others 9 each.
 
 #### Can I remove a tool from an agent? {#faq-remove}
 
@@ -231,24 +223,16 @@ No. There's no delete control on the tool card or in the sidebar.
 
 No. **Ask before acting** covers a whole conversation with Oliv AI's Olivia or Oliver agent. **Requires Approval** covers one tool on one agent, and the two are set separately.
 
-#### Who can change a tool's run mode? {#faq-who-can-change}
-
-Anyone who can reach the agent's **Tools** tab. No role check guards the control, so plan who has access before a rollout.
-
 #### Can I limit a tool to certain records or fields? {#faq-limit-records}
 
 No. Tools carry no parameters, field mappings or filters.
-
-#### The Overview says Human-Reviewed, but the Tools tab says Auto Run. Which is right? {#faq-overview-mismatch}
-
-Treat the **Tools** tab as the control. The **Overview** headings come from a separately stored list and can disagree with the dropdowns.
 
 ## Related {#related}
 
 - [Prepare for a meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/): how agents send a brief before your calls.
 - [Oliv AI product documentation](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/): every guide, by agent and feature.
 - [Browse agents in the marketplace](https://www.oliv.ai/agents-marketplace): the agents whose tools this page describes.
-- [Oliv AI's CRM Manager agent](https://www.oliv.ai/agents/crm-manager): the agent that writes field updates back to your CRM.
+- [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/): the agent that writes field updates back to your CRM.
 - [How the agents are built](https://www.oliv.ai/oliv-tech): the platform layer each agent's tools run on.
 - [AI agents for RevOps](https://www.oliv.ai/blog/ai-agents-for-revops): where agents fit in a revenue operations team.
 - [Salesforce automation explained](https://www.oliv.ai/blog/salesforce-automation): how agent actions compare with flows and rules.

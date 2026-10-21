@@ -23,18 +23,18 @@ Oliv AI sends you a brief before your sales meetings, so you walk in knowing whe
 
 ## Before you begin {#before-you-begin}
 
-- **Connect three things.** The brief draws on your calendar, your call recording tool or Oliv AI's own recorder, and your CRM: Salesforce, HubSpot or Zoho.
+- **Connect three things.** The brief draws on your calendar, your call recording tool or [Oliv AI's own recorder](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/), and your CRM: [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/), [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/) or Zoho.
 - **Have the deal in your CRM.** Deal briefs cover meetings linked to an active opportunity. First meetings with new contacts get a research brief instead.
 - **Know your methodology.** Qualification status is shown against the framework your company runs.
-- **Don't wait for a clean CRM.** Oliv AI's CRM Manager agent fills in missing or stale fields from call history as it goes, so the brief works from day one.
+- **Don't wait for a clean CRM.** [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) fills in missing or stale fields from call history as it goes, so the brief works from day one.
 
 ## Step 1: Connect your calendar, recorder and CRM {#step-1-connect}
 
-Connect your calendar so Oliv AI knows which meetings are coming up. Then [connect your call recorder and CRM](https://www.oliv.ai/integrations): your existing recording tool or Oliv AI's own recorder, plus Salesforce, HubSpot or Zoho. Past conversations and deal records are what the brief is built from. Most teams are connected within a week.
+Connect your calendar so Oliv AI knows which meetings are coming up. Then [connect your call recorder and CRM](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/): your existing recording tool or Oliv AI's own recorder, plus Salesforce, HubSpot or Zoho. Past conversations and deal records are what the brief is built from. Most teams are connected within a week.
 
 ## Step 2: Let the brief arrive before the call {#step-2-brief-arrives}
 
-There's nothing to request. [Oliv AI's Meeting Assistant agent](https://www.oliv.ai/agents/meeting-assistant) sends the brief automatically before every meeting linked to an active opportunity, 30 minutes ahead of the start time. [Oliv AI's Olivia agent](https://www.oliv.ai/agents/olivia) works through Slack, Teams or the Oliv AI product, so prep shows up where you already work.
+There's nothing to request. [Oliv AI's Meeting Assistant agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/meeting-assistant/) sends the brief automatically before every meeting linked to an active opportunity, 30 minutes ahead of the start time. [Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) works through Slack, Teams or the Oliv AI product, so prep shows up where you already work.
 
 ## Step 3: Read the brief in about a minute {#step-3-read-the-brief}
 
@@ -66,8 +66,8 @@ For a VP or C-suite contact, the brief also covers company tenure and publicly k
 1. Open the recommended agenda and check it against what you planned to cover.
 2. Turn each highlighted qualification gap into a question for the call.
 3. Read the stakeholder notes, and decide who each point is aimed at.
-4. If a competitor is live in the deal, watch the clips pulled from past calls before you join.
-5. Join the call. After it, the follow-up draft and proposed CRM updates come back to you for review.
+4. If a competitor is live in the deal, watch the [clips pulled from past calls](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/clips/) before you join.
+5. Join the call. After it, the [follow-up draft](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/record-and-follow-up/) and [proposed CRM updates](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/) come back to you for review.
 
 ## What meeting preparation in Oliv AI is {#what-it-is}
 
@@ -122,15 +122,15 @@ The research brief lands 30 minutes before the meeting, and the full detail view
 
 ### Follow-up after the call {#with-follow-up}
 
-Once the recording is processed, Oliv AI's Meeting Assistant agent drafts the follow-up email from the actual transcript, not a template. It also proposes CRM updates for stage, amount, close date, qualification fields and next steps. [Oliv AI's CRM Manager agent](https://www.oliv.ai/agents/crm-manager) writes those updates, so the next brief starts from current data.
+Once the recording is processed, Oliv AI's Meeting Assistant agent drafts the [follow-up email from the actual transcript](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/record-and-follow-up/), not a template. It also [proposes CRM updates](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/) for stage, amount, close date, qualification fields and next steps. [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) writes those updates, so the next brief starts from current data.
 
 ### Clips from past calls {#with-clips}
 
-[Oliv AI's Content Curator agent](https://www.oliv.ai/agents/content-curator) reviews every new recording and picks out clips that match a brief you set. When a competitor comes up in a live deal, Meeting Assistant pulls three recent clips from the competitive playlist before the next meeting, showing how other reps handled that comparison.
+[Oliv AI's Content Curator agent](https://www.oliv.ai/agents/content-curator) reviews every new recording and picks out clips that match a brief you set. When a competitor comes up in a live deal, Meeting Assistant pulls [three recent clips from the competitive playlist](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/clips/) before the next meeting, showing how other reps handled that comparison.
 
 ### Manager one-on-ones {#with-one-on-ones}
 
-Managers get prep too. [Oliv AI's Deal Driver agent](https://www.oliv.ai/agents/deal-driver) delivers a per-rep 1:1 report every Thursday, ready before the manager's first meeting of the day. [Oliv AI's Coach agent](https://www.oliv.ai/agents/coach) follows minutes later with that rep's coaching goal. On customer success teams, [Oliv AI's Portfolio Manager agent](https://www.oliv.ai/agents/portfolio-manager) builds a briefing of each CSM's book before every scheduled 1:1.
+Managers get prep too. [Oliv AI's Deal Driver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/) delivers a [per-rep 1:1 report every Thursday](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/run-a-pipeline-review/), ready before the manager's first meeting of the day. [Oliv AI's Coach agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/coach/) follows minutes later with that rep's coaching goal. On customer success teams, [Oliv AI's Portfolio Manager agent](https://www.oliv.ai/agents/portfolio-manager) builds a briefing of each CSM's book before every scheduled 1:1.
 
 ### Qualification methodology {#with-methodology}
 
@@ -150,7 +150,7 @@ A [sales development team](https://www.oliv.ai/sales-development) books first me
 
 ### Account executives {#account-executives}
 
-An account executive with a full pipeline reads the deal brief before each call. The qualification gaps become the questions for that meeting, and the stakeholder notes show who needs which point.
+An [account executive with a full pipeline](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/) reads the deal brief before each call. The qualification gaps become the questions for that meeting, and the stakeholder notes show who needs which point.
 
 ### Account managers {#account-managers}
 
@@ -158,7 +158,7 @@ An account manager walks into a renewal or expansion call with the full account 
 
 ### Sales managers {#sales-managers}
 
-A [sales manager](https://www.oliv.ai/sales-managers) opens each Thursday 1:1 with the rep's pipeline, activity and flagged deals already on the page. The conversation starts at strategy instead of status updates.
+A [sales manager](https://www.oliv.ai/sales-managers) opens each [Thursday 1:1](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/run-a-pipeline-review/) with the rep's pipeline, activity and flagged deals already on the page. The conversation starts at strategy instead of status updates.
 
 ## How meeting preparation compares {#compare}
 
@@ -238,8 +238,8 @@ No. A single rep gets value from the first brief. Gap tracking becomes more usef
 
 - [Agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/): choose which agent actions wait for your approval.
 - [Oliv AI product documentation](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/): every guide, by agent and feature.
-- [Meeting Assistant agent page](https://www.oliv.ai/agents/meeting-assistant): the agent that sends deal briefs and drafts follow-ups.
-- [Olivia agent page](https://www.oliv.ai/agents/olivia): the agent that prepares first meetings and routes work.
+- [Meeting Assistant agent page](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/meeting-assistant/): the agent that sends deal briefs and drafts follow-ups.
+- [Olivia agent page](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/): the agent that prepares first meetings and routes work.
 - [AI meeting preparation tools](https://www.oliv.ai/blog/ai-meeting-preparation-tool): how meeting prep tools differ on CRM depth.
 - [Score calls against MEDDIC, BANT or SPICED](https://www.oliv.ai/blog/sales-methodology-automation-auto-score-meddic-bant-spiced-from-calls): how qualification status is worked out from calls.
 - [Taking notes during sales calls](https://www.oliv.ai/blog/how-to-take-meeting-notes-during-sales-calls): what to capture once the meeting starts.

@@ -1,0 +1,11 @@
+# Oliv AI product documentation
+
+> Official product documentation for Oliv AI, AI agents for sales, customer success and RevOps teams that work on a context layer on top of the CRM. Each page states who it applies to, its status and when it was verified.
+
+## Pages
+- [Oliv AI product documentation](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/index.md): How Oliv AI works, page by page.
+- [Agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/index.md): What an Oliv AI agent's tools are, how to set each tool's run mode to Auto Run, Requires Approval or Agent Decides, and which systems the tool catalog draws on.
+- [Deal Driver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/index.md): What Oliv AI's Deal Driver agent sends sales managers each day and week, which deal risks trigger an alert, how to set it up, and how it compares with other pipeline tools.
+- [Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/index.md): What Oliv AI's Olivia agent does, how to ask her questions and hand her work, what she needs connected, and how she compares with other revenue assistants.
+- [Run deals as an account executive](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/index.md): How an account executive uses Oliv AI's agents to prepare for deal meetings, follow up after calls, keep the CRM current and catch stalled deals, and how that compares with other deal tools.
+- [Prepare for a meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/index.md): How Oliv AI prepares you for a sales meeting, from the deal brief that arrives 30 minutes before the call to first-meeting research on a new contact, and how to use both.

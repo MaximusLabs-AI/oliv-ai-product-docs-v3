@@ -1,3 +1,3 @@
 :HL["/oliv-ai-product-docs-v3/product-docs/_next/static/chunks/3hjro0kgo15z2.css","style"]
 :HC["/",""]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"dVj50h63SugIQPrqoePwf"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"Ofr3Xae1S__NpyqfAHvJA"}

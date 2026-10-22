@@ -4,7 +4,7 @@ How Oliv AI's CRM Manager agent automates CRM updates: what it writes after ever
 
 - Applies to: Account executives, revenue operations, sales managers and customer success teams
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/
 
 Oliv AI's CRM Manager agent is its CRM automation agent: it keeps every record in your CRM accurate and current, without anyone updating it by hand. After every meeting, call and email, it works out what changed and writes it to Salesforce, HubSpot or Zoho. Each suggested change waits on the deal's **CRM Updates** tab beside the field's current value, so reps can accept or reject it. Once the team trusts the results, you can switch it to fully automatic updates.

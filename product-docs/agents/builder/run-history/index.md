@@ -4,7 +4,7 @@ How to read an Oliv AI agent's Runs tab and open a run record, from every email 
 
 - Applies to: Every agent with a detail page
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/run-history/
 
 Run history is the record of every time an Oliv AI agent has worked. Each agent's **Runs** tab lists its past runs, newest first, with when each one ran, how it started and how it ended. Press **View** on a row and the full record opens, showing what that run produced: every email the agent wrote and the people it picked, a sequence's steps, a drafted reply or a clipped call.

@@ -4,7 +4,7 @@ How Oliv AI's Meeting Assistant agent works as an AI meeting assistant for sales
 
 - Applies to: Account executives, BDRs, account managers and customer success teams on active opportunities
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/meeting-assistant/
 
 Oliv AI's Meeting Assistant agent is an AI meeting assistant for sales. It prepares you for every meeting on an active deal and drives the follow-through after it. Thirty minutes before the call, it sends a one-screen brief with the deal status, qualification gaps and a recommended agenda. After the call, it drafts the follow-up email, proposes CRM field updates and flags new qualification gaps.

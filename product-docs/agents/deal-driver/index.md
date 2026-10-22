@@ -4,7 +4,7 @@ How Oliv AI's Deal Driver agent gives sales managers deal intelligence: what it 
 
 - Applies to: Sales managers, BDR leads and sales leadership
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/
 
 Oliv AI's Deal Driver agent is its deal intelligence agent: it keeps sales managers ahead of their team's pipeline without daily standups, manual rep check-ins or digging through CRM reports. Every weekday it sends a **Morning Brief**, fires alerts when something important happens, and closes the day with a **Sunset Summary**. It also prepares a **One-on-One Prep** report for each rep and a **Pipeline Review** every Monday.

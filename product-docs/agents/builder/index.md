@@ -4,7 +4,7 @@ The parts every Oliv AI agent is built from, from the marketplace where agents l
 
 - Applies to: Every agent with a detail page
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/
 
 The agent builder is where you see what an Oliv AI agent is and how it works. Every agent with a detail page shows the same parts: its purpose, its actions, what starts it, the files it reads and its past runs. This section explains each part, starting with the marketplace where agents live.

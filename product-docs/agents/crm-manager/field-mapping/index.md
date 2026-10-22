@@ -4,7 +4,7 @@ How to map your team's standard, methodology and custom opportunity fields so Ol
 
 - Applies to: Revenue operations admins connecting Salesforce, HubSpot or Zoho
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/field-mapping/
 
 Field mapping decides which CRM field each update from [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) lands in. Standard fields are pre-mapped when you connect your CRM, and Oliv AI's team maps your custom fields during onboarding. This guide walks a RevOps admin through preparing the field list, connecting the CRM, checking the first updates and switching to automatic writes.

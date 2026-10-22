@@ -4,7 +4,7 @@ How Oliv AI keeps Salesforce, HubSpot or Zoho current from every meeting, call a
 
 - Applies to: Workspaces with a connected CRM
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/
 
 Oliv AI keeps your CRM current from the work your team already does. [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) reads every meeting, call and email, then updates accounts, contacts, opportunities, activities and tasks in [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/), [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/) or Zoho. You review each proposed change before it's written, then switch to auto mode once you trust it. This guide covers setting it up and running a monthly hygiene check.

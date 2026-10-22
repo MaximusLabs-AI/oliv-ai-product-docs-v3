@@ -4,7 +4,7 @@ What an Oliv AI agent's instructions are, how to read its Objective, Process and
 
 - Applies to: Every agent with a detail page
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/instructions/
 
 Every Oliv AI agent with a detail page carries a written statement of what it is for and how it goes about its work. The **Instructions** tab shows it in three parts: **Objective**, **Process** and **Output**. Each process step names the tools it uses, and pressing a tool takes you straight to it.

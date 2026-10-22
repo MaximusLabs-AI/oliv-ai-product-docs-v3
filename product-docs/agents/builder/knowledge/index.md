@@ -4,7 +4,7 @@ What an Oliv AI agent's knowledge files are, how to check and open them on the K
 
 - Applies to: Agents with a Knowledge tab
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/knowledge/
 
 Knowledge is the background reading an Oliv AI agent does its work against, such as a buying-committee profile, an ideal-customer document or a solution deck. Each agent with a **Knowledge** tab lists the files it is using, and you can open any of them from there. The tab also carries an upload area that names the file formats it takes, and buttons to bring files in from other tools.

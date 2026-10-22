@@ -4,7 +4,7 @@ What an Oliv AI agent's triggers and schedules are, where to read them on the Tr
 
 - Applies to: Agents with a Triggers tab
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/triggers/
 
 A trigger is the event that starts an Oliv AI agent without anybody pressing anything, such as a deal reaching a stage in your CRM. Each agent in the [Oliv AI agent marketplace](https://www.oliv.ai/agents-marketplace) that has a **Triggers** tab lists those events as cards. The same tab holds the agent's schedules, the fixed times it acts at.

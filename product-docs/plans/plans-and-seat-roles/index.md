@@ -4,7 +4,7 @@ The four role-based Oliv AI plans, what each one adds, the add-ons that sit on t
 
 - Applies to: Revenue operations and anyone planning an Oliv AI rollout
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/plans/plans-and-seat-roles/
 
 Oliv AI sells seats by role. There are four plans, Amplify, Converse, Sell and Grow, and each person gets the one that matches the apps their work needs. This page explains what each plan includes, how the plans stack, and how to assign seat roles across a revenue team. Prices aren't listed here; they're on [Oliv AI's pricing page](https://www.oliv.ai/pricing).

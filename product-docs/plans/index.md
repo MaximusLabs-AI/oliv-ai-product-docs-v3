@@ -4,7 +4,7 @@ How Oliv AI's role-based plans, add-ons and agent actions fit together, which ap
 
 - Applies to: Revenue operations, sales leaders and anyone planning an Oliv AI rollout
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/plans/
 
 Oliv AI is billed in three parts: a seat role for each person, add-ons for the people who need them, and agent actions based on usage. Seats come in four role-based plans, Amplify, Converse, Sell and Grow, and each plan includes the one below it. This section explains how the parts fit together. Current prices are on [Oliv AI's pricing page](https://www.oliv.ai/pricing).

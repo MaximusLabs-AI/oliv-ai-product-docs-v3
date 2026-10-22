@@ -9,6 +9,13 @@ What an Oliv AI agent's tools are, how to set each tool's run mode to Auto Run, 
 
 A tool is one action an agent is allowed to take, such as looking up a record, drafting an email or posting to a channel. Every agent in the [Oliv AI agent marketplace](https://www.oliv.ai/agents-marketplace) with a detail page lists its tools on a **Tools** tab. Each tool carries a run mode that decides how much freedom the agent has with it: **Auto Run**, **Requires Approval** or **Agent Decides**.
 
+<figure>
+
+![Tools tab of Oliv AI's Multithreader agent: a purple Add Tool button above a list of five tools at left, and at right one card per tool, from Analyze buying committee to Send message to owner, each with a one-line description and an Auto Run dropdown.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_043_agent-detail_multi-threader_tools-tab_add-tool-button-five-tools-each-set-to-auto-run-with-run-mode-dropdown.webp)
+
+<figcaption>The Tools tab puts every action an agent may take in one list. Each card carries its own run-mode dropdown, and here all five tools sit on the default, Auto Run.</figcaption>
+</figure>
+
 ## At a glance {#at-a-glance}
 
 | | |
@@ -23,15 +30,24 @@ A tool is one action an agent is allowed to take, such as looking up a record, d
 
 ## What agent tools and run modes are {#what-it-is}
 
-Tools are what turn an agent from something that reads into something that acts. Each tool has a name, an icon and a one-sentence summary of what it does, and the agents described in the product hold between 3 and 8 tools each. The actions cover reading records, creating and updating them, logging calls, meetings and emails, sending and drafting email, managing calendar events and posting to channels.
+Tools are what turn an agent from something that reads into something that acts. Each tool has a name, an icon and a one-sentence summary of what it does, and agents hold between 2 and 6 tools each. The actions cover reading records, creating and updating them, logging calls, meetings and emails, sending and drafting email, managing calendar events and posting to channels.
 
 The run mode is the second half. It sits on each tool card as a dropdown, and it applies to that one tool on that one agent. Changing it on one tool changes nothing else.
 
 | Run mode | Icon | What the agent does with the tool |
 |---|---|---|
-| **Auto Run** | A filled lightning mark, indigo | Acts without asking |
-| **Requires Approval** | A warning circle, rose | Waits for a person to confirm first |
-| **Agent Decides** | A question mark, gray | Judges whether to ask |
+| **Auto Run** | A blue lightning bolt | Acts without asking |
+| **Requires Approval** | A red circle with an exclamation mark | Waits for a person to confirm first |
+| **Agent Decides** | A circled question mark, gray | Judges whether to ask |
+
+One agent can mix all three. Each tool keeps its own mode, so a lookup can run freely while the step before it waits for a person.
+
+<figure>
+
+![Multithreader's Tools tab with all three run modes in use at once: Analyze buying committee on Requires Approval with a red alert icon, Draft personalized message on Agent Decides with a question-mark icon, and the other three tools on Auto Run.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_051_agent-detail_multi-threader_tools-tab_three-run-modes-at-once-analyze-requires-approval-draft-message-agent-decides-others-auto-run.webp)
+
+<figcaption>Run modes are set one tool at a time, so a single agent can hold one step for approval, let the agent judge another and run the rest automatically.</figcaption>
+</figure>
 
 ### Where tool actions come from {#tool-sources}
 
@@ -40,7 +56,7 @@ The tool catalog groups actions by the system they come from. These are the same
 | System | Tools offered | What they cover |
 |---|---|---|
 | **Salesforce** | 34, in 6 groups | **Lookup / Search**, **Create / Update**, **Associations**, **Activities**, **Pipeline / Forecast**, **Utility** |
-| **Hubspot** | 31, in 6 groups | **Lookup / Search**, **Create / Update**, **Associations**, **Activities**, **Marketing**, **Utility** |
+| **HubSpot** | 32, in 6 groups | **Lookup / Search**, **Create / Update**, **Associations**, **Activities**, **Marketing**, **Utility** |
 | **Gmail** | 9 | Send, retrieve, search, reply, draft, attach, label, read threads, delete |
 | **Google Calendar** | 9 | Create, list, update and cancel events, read calendar details, find free slots |
 | **Outlook** | 9 | Send, retrieve, search, reply, draft, attach, read calendar events, categorize, delete |
@@ -101,6 +117,20 @@ The tab has two columns. A sidebar down the left holds **Add Tool** above the li
 5. Choose **Auto Run**, **Requires Approval** or **Agent Decides**. The menu closes and the button shows the new mode.
 6. Repeat for each tool you want to change. To close the menu without changing anything, press anywhere outside it.
 
+<figure>
+
+![Multithreader's Tools tab with the run-mode dropdown open on the Analyze buying committee card, listing three choices in order: Auto Run with a lightning icon, Requires Approval with a red alert icon and Agent Decides with a question-mark icon.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_049_agent-detail_multi-threader_tools-tab_run-mode-dropdown-open-on-analyze-buying-committee-auto-run-requires-approval-agent-decides.webp)
+
+<figcaption>Step 4: the dropdown on each tool card lists the three run modes in the same fixed order, each with the icon it keeps on the button.</figcaption>
+</figure>
+
+<figure>
+
+![Multithreader's Tools tab after step 5: the Analyze buying committee button now reads Requires Approval with a red alert icon, while Identify top 5 contacts, Draft personalized message, Add emails to drafts and Send message to owner stay on Auto Run.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_050_agent-detail_multi-threader_tools-tab_analyze-buying-committee-set-to-requires-approval-red-alert-icon-other-four-tools-on-auto-run.webp)
+
+<figcaption>Step 5: the button relabels at once to show the new mode. Only the tool you changed moves; the other four keep Auto Run.</figcaption>
+</figure>
+
 ### Choosing a mode {#choosing-a-mode}
 
 | Mode | A good fit for |
@@ -113,7 +143,7 @@ If you're weighing [how much an AI agent should do alone](https://www.oliv.ai/bl
 
 ## Browse the tool catalog {#tool-catalog}
 
-Press **Add Tool** at the top of the sidebar to open the catalog, a panel headed **Add Tool**. It shows the actions an agent could be given, grouped by the system they come from.
+Press **Add Tool** at the top of the sidebar to open the catalog, a panel headed **Add Tool**. It shows the actions an agent could be given, grouped by the system they come from. A **Search tools...** box and a **New Tool** button sit above the list of systems: HubSpot and Salesforce, then Gmail, Google Calendar, Outlook, LinkedIn and Slack.
 
 1. Pick a system in the list on the left. **Salesforce** is selected when the panel opens.
 2. Read the main pane. It lists that system's tools under category headings, such as **Lookup / Search** or **Create / Update** for a CRM, and **Actions** for Gmail, Google Calendar, Outlook, LinkedIn and Slack.
@@ -121,6 +151,13 @@ Press **Add Tool** at the top of the sidebar to open the catalog, a panel headed
 4. Close the panel with the **×** at the top right, or press the dimmed page behind it.
 
 The catalog is the same whichever agent you opened it from.
+
+<figure>
+
+![The Gmail list in the Add Tool catalog: one Actions heading above nine tool cards, Send Email via Gmail, Get Emails from Gmail, Search Emails in Gmail, Reply to Email, Draft Email in Gmail, Attach File to Gmail, Label Email in Gmail, Get Gmail Threads and Delete Email from Gmail.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_057_agent-detail_multi-threader_add-tool-catalog_gmail-complete-list-of-9-tools-single-actions-category-send-reply-draft-label-threads-delete_full-length.webp)
+
+<figcaption>Each system's tools appear as cards with a one-line description. Gmail's nine run from reading and drafting to sending and deleting, which is why writes deserve a run mode check.</figcaption>
+</figure>
 
 ## How agent tools and run modes work with other features {#works-with}
 
@@ -213,7 +250,7 @@ No. Each tool is set on its own card, one at a time. There's no agent-wide or wo
 
 #### Which systems can tools come from? {#faq-systems}
 
-Seven: [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/) and [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/), plus Gmail, Google Calendar, Outlook, LinkedIn and [Slack](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/). Salesforce offers 34 tools and HubSpot 31; Slack offers 5 and the others 9 each.
+Seven: [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/) and [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/), plus Gmail, Google Calendar, Outlook, LinkedIn and [Slack](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/). Salesforce offers 34 tools and HubSpot 32; Slack offers 5 and the others 9 each.
 
 #### Can I remove a tool from an agent? {#faq-remove}
 

@@ -4,7 +4,7 @@ What Oliv AI's Oliver agent keeps in the process handbook, how it turns a proces
 
 - Applies to: Revenue operations managers and revenue leaders
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/
 
 Oliv AI's Oliver agent owns how your revenue org operates. It keeps the company's process handbook, from your ICP and personas to your methodology and approval rules, and every other Oliv AI agent works inside those rules. When the process changes, you tell Oliver in plain language. It proposes the update, waits for your sign-off, then passes it to every agent that depends on it.
@@ -15,9 +15,10 @@ Oliv AI's Oliver agent owns how your revenue org operates. It keeps the company'
 |---|---|
 | **What it does** | Keeps the process handbook every Oliv AI agent follows, and updates it when your process changes |
 | **Who it's for** | RevOps managers, VPs of Sales, CROs and CEOs |
-| **Who doesn't use it** | Individual reps, who work with Olivia instead |
-| **How you work with it** | A chat, beside the **Agents** marketplace or on its own page |
-| **How changes apply** | Proposed first, then **Review Changes**, then **Merged** |
+| **Who can open it** | Anyone, from the agent picker on **Home**; RevOps owns the handbook |
+| **How you work with it** | A chat on **Home**, or a panel beside **Agents** and **Playbook** |
+| **Where the handbook lives** | **Playbook** in the sidebar, with **Edit** and **History** tabs |
+| **How changes apply** | **Pending Review**, then **Approve & merge** in **Review changes**, then **Merged** |
 | **Methodology** | MEDDPICC, BANT, SPICED or your own framework |
 | **Set-up paths** | **You Run It** (2 to 4 sessions) or **We Run It** (live in 2 weeks) |
 
@@ -25,7 +26,14 @@ Oliv AI's Oliver agent owns how your revenue org operates. It keeps the company'
 
 Oliv AI's Oliver agent is one of two super agents in Oliv AI. The other is [Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/), who works with reps on deals. Oliver works on the business rather than within it. Every other agent works on deals, contacts and activities, and Oliver owns the rules they all run by.
 
-On the live page, Oliver is your Chief GTM Engineer. In the agent picker it describes itself in one line: "I learn how your team operates and turn it into the rules every other agent follows."
+<figure>
+
+![Oliv AI Home on the Ask tab with Oliver chosen in the agent picker. An amber grid theme, the pill Your Chief GTM Engineer and a Good afternoon, Alex greeting sit above an orange message box asking about data quality, stage accuracy, forecast integrity or pipeline structure.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_003_home_ask-tab_oliver-selected-empty-chat-amber-grid-theme-chief-gtm-engineer-greeting-data-quality-prompt.webp)
+
+<figcaption>Oliv AI's Oliver agent on Home, in its amber theme. Its prompts point at process questions, such as stage accuracy and forecast integrity, rather than single deals.</figcaption>
+</figure>
+
+On **Home**, Oliver's pill reads **Your Chief GTM Engineer**. In the agent picker it describes itself in one line: "I learn how your team operates and turn it into the rules every other agent follows."
 
 ### What the handbook holds {#handbook}
 
@@ -39,7 +47,16 @@ The handbook is a set of structured, interlinked documents. Update the ICP, and 
 - **Proposal standards.** What goes into a proposal, who reviews it and the approval steps.
 - **Territory and segmentation rules.** How pipeline is divided, and who owns what.
 
-A sample handbook page such as `Target Market.md` runs through Winning Zone, Priority Segments, Disqualification Signals, Owner Notes, Trigger Events, Agent Behavior, How This Page Gets Used In Practice and Change Log Guidance. The [Process Graph](https://www.oliv.ai/process-graph) shows this playbook as agents read it.
+The handbook lives in **Playbook**, pinned at the bottom of the sidebar. A file tree groups markdown files into folders such as **Market**, **Prospecting** and **Sales**, with **Search playbook** above them. Each file opens on the **Edit** tab with a rich-text toolbar. A status row shows **Synced**, the last editor and a word count, and Oliver sits in a panel on the right.
+
+<figure>
+
+![The Playbook page with Target Market.md open on the Edit tab. A file tree of Market, Prospecting and Sales folders sits on the left, the status row reads Synced with the last edit by RevOps and Oliver, and Oliver's panel on the right offers three suggestions.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/playbook/oliv-ai_252_playbook_target-market-md-open_oliver-chat-panel-with-three-suggestions-and-market-prospecting-sales-file-tree.webp)
+
+<figcaption>The handbook Oliv AI's Oliver agent keeps is a set of files you can open and edit. Oliver works beside them, so you can ask for a change while reading the rule.</figcaption>
+</figure>
+
+A sample handbook page such as `Target Market.md` opens with a **Winning Zone** table and runs through Winning Zone, Priority Segments, Disqualification Signals, Owner Notes, Trigger Events, Agent Behavior, How This Page Gets Used In Practice and Change Log Guidance. `Sales Process.md` holds a **Sales Stages** table with win percentages, activities and exit criteria. Sections such as **Stage Rules**, **Deal Risk Flags**, **Forecast Category Guidance** and **Deal Driver Alerts** follow. The [Process Graph](https://www.oliv.ai/process-graph) shows this playbook as agents read it.
 
 ### What Oliver writes to {#writes-to}
 
@@ -60,7 +77,7 @@ Oliv AI's Oliver agent is for the people who decide how the company sells. It ma
 - **Same rules for every rep.** Two reps can't track different data points on the same type of opportunity.
 - **Drift gets flagged.** Deals or activity outside your norms go to a person for review.
 - **The playbook learns.** Oliver spots patterns across deals and drafts the next update for you.
-- **You stay in charge.** Oliver never applies a handbook change without human sign-off.
+- **You stay in charge.** Oliver's proposals wait as **Pending Review** until a person approves them.
 
 ### What happens without it {#without-it}
 
@@ -80,9 +97,9 @@ Teams often handle this with a slide, a Slack post and a few CRM field changes, 
 
 A handoff rule looks like one decision, but it touches qualification fields, coaching standards, routing and the context a rep reads before a call. Once agents do much of that work, the rule only has to be changed in the place every agent reads from.
 
-Oliv AI puts that place in its Oliver agent. The RevOps head describes the new rule in plain language. Oliver updates the handbook, reconfigures the related fields and passes the change to every agent that depends on it, from the next day forward. Nothing applies until a person signs off.
+Oliv AI puts that place in its Oliver agent. The RevOps head describes the new rule in plain language. Oliver updates the handbook, reconfigures the related fields and passes the change to every agent that depends on it, from the next day forward. The proposal waits for a person to approve it.
 
-Each proposal Oliver makes lists its changes one by one, and each names the thing being changed: a rules document, a field or another agent. The proposal waits behind **Review Changes** until it is approved. That review step is covered in How the Oliver agent compares, below.
+Each proposal opens in **Review changes** as a line-by-line diff of every file it touches, with its knock-on effects listed below. It waits as **Pending Review** until someone presses **Approve & merge**. That review step is covered in How the Oliver agent compares, below.
 
 ## Set up the Oliver agent {#set-up}
 
@@ -101,17 +118,60 @@ The [RevOps implementation guide](https://www.oliv.ai/blog/oliv-ai-revops-implem
 
 ## Change your process with Oliver {#change-process}
 
-1. **Open Oliver.** It sits in a panel down the right of the **Agents** marketplace, shown by default. A full chat page is reached by link, not from the sidebar.
-2. **Check the autonomy setting.** The dropdown under the message box opens on **Ask before acting**. Choosing **Act without asking** shows a **High Risk** banner: "Oliver can take action on your settings right now."
-3. **Ask or tell.** The box reads "Ask Oliver anything", followed by data quality, stage accuracy, forecast integrity and pipeline structure. Three prepared questions ask why deals stall in Proposal, why conversion is falling and why mid-market customers churn.
-4. **Read the proposal.** When an answer proposes changes, each one appears with an icon, a title and an explanation.
-5. **Approve it.** Press **Review Changes**, approve in the dialog, and the changes apply. A **Merged** marker replaces the buttons.
+1. **Open Oliver.** Choose **Oliver** in the agent picker on **Home**, or use its panel beside the **Agents** marketplace or **Playbook**. Its saved chats sit in the history panel.
+2. **Check the autonomy setting.** The dropdown under the message box opens on **Ask before acting**, where Oliver aligns on its approach before taking actions. **Act without asking** lets it act without asking for permission, and shows a **High Risk** banner: "Oliver can take action on your settings right now."
+3. **Ask or tell.** The box reads "Ask Oliver anything", followed by data quality, stage accuracy, forecast integrity and pipeline structure. In **Playbook**, suggestions offer changes such as updating qualification scoring from win/loss patterns.
+4. **Read the answer.** A why question returns a **Pipeline Snapshot**, then ranked causes. Each cause carries **Deals impacted** and **Value impacted** badges and chips for the accounts affected.
+5. **Find the proposal.** A change Oliver proposes appears on the Playbook **History** tab as **Pending Review**.
+6. **Review it.** **Review changes** shows each file as a diff, with removed lines in red and added lines in green. Cards below list the knock-on effects, such as a new CRM field, an agent retrained or deals re-scored.
+7. **Decide.** Press **Approve & merge**, **Request edit** or **Cancel**. Approved changes show as **Merged** in **History**.
 
-The same autonomy choice works on every agent, as covered in [agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/).
+<figure>
+
+![The autonomy dropdown open above Oliver's message box. Ask before acting, highlighted as the current choice, says Oliver aligns on its approach before taking actions. Act without asking says Oliver takes actions without asking for permission.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_004_home_ask-tab_oliver_autonomy-dropdown-open_ask-before-acting-vs-act-without-asking-descriptions.webp)
+
+<figcaption>Step 2: set how freely Oliv AI's Oliver agent may act in this conversation before you ask for a process change.</figcaption>
+</figure>
+
+<figure>
+
+![Oliver's answer to why deals are getting stuck in Proposal. A collapsed Reasoning Trace row sits above four Pipeline Snapshot cards for total deals, total value, stalled deals and stalled value, then cause 1, Economic Buyer not engaged, with Deals impacted and Value impacted badges and three account chips.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_007_home_chat_oliver_stuck-deals-answer_pipeline-snapshot-132-deals-58-stalled-first-cause-economic-buyer-not-engaged.webp)
+
+<figcaption>Step 4: Oliv AI's Oliver agent answers a why question with a snapshot, then each cause and its impact. The figures are sample values.</figcaption>
+</figure>
+
+<figure>
+
+![The Review changes dialog over the Playbook. Qualification Framework.md shows a diff of the Hard Gates for Proposal entry, with two removed lines in red and four added lines in green, and a Coaching Scorecard.md card below. The footer holds Cancel, Request edit and a green Approve & merge button.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/playbook/oliv-ai_257_playbook_review-changes-dialog_qualification-framework-md-diff-hard-gates-for-proposal-entry-cancel-request-edit-approve-and-merge.webp)
+
+<figcaption>Steps 6 and 7: read exactly what Oliv AI's Oliver agent would change in each file, then approve and merge, ask for an edit or cancel.</figcaption>
+</figure>
+
+Specialist agents carry a separate control on each of their tools, covered in [agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/).
+
+### Track every change {#history}
+
+The **History** tab lists every change to the playbook, by your company, by Oliver and by Oliv GTM Engineers. Filters narrow it to **All**, **By Oliver**, **By Your Company** or **By Oliv GTM Engineer**. Each card shows the date, the author, a status, a summary and the number of files changed.
+
+A status reads **Pending Review**, **Merged** or **Autonomous**. Autonomous marks a minor update Oliver applied on its own, such as syncing an agent prompt to a scorecard, noted as "No human review needed".
+
+<figure>
+
+![The Playbook History tab with the All filter selected beside By Oliver, By Your Company and By Oliv GTM Engineer. Three change cards show an Oliver win/loss review marked Pending Review, a RevOps and Oliver change marked Merged, and an Oliver auto-update marked Autonomous.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/playbook/oliv-ai_255_playbook_history-tab_all-filter_pending-review-merged-and-autonomous-changes-by-oliver-revops-and-oliv-gtm-engineers.webp)
+
+<figcaption>History shows who changed the playbook and whether each change is pending, merged or applied on its own by Oliv AI's Oliver agent.</figcaption>
+</figure>
 
 ### Changes Oliver drafts for you {#drafted-changes}
 
-Oliver watches what's winning in the field and drafts the next process update for your review. Its own example: "We've seen 14 POCs extend beyond 30 days without a clear qualification gate. Should we add one?" In the **Agent Feed**, a monthly review row from Oliver carries a badge counting changes still waiting, such as **Monthly review · N to review**.
+Oliver watches what's winning in the field and drafts the next process update for your review. Its own example: "We've seen 14 POCs extend beyond 30 days without a clear qualification gate. Should we add one?" In the **Agent Feed**, Oliver posts reviews such as a quarterly revenue review, with playbook and agent changes ready for you to review. It also reports when it has updated process files.
+
+<figure>
+
+![The Agent Feed filtered to Team RevOps, with Oliver, CRM Manager and Forecaster ticked. Oliver's 7:00 AM row says a Q3 revenue review is ready with three revenue leaks and six playbook and agent changes to review, above CRM Manager and Forecaster rows.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_027_home_agent-feed_team-revops_filters-and-today-timeline_oliver-q3-revenue-review-crm-manager-field-updates-forecaster-category-shifts.webp)
+
+<figcaption>In the RevOps view of the feed, Oliv AI's Oliver agent flags proposed playbook and agent changes waiting for you. The figures are sample values.</figcaption>
+</figure>
 
 ## How Oliver works with other agents {#works-with}
 
@@ -141,7 +201,7 @@ Health signals and escalation thresholds for [Oliv AI's Portfolio Manager agent]
 
 ### Revenue operations {#revops}
 
-RevOps managers own Oliver. They define, review and approve every handbook change, and one conversation replaces edits across many tools. More on Oliv AI for [revenue operations teams](https://www.oliv.ai/revops).
+RevOps managers own Oliver. They define the handbook and approve the changes Oliver proposes, and one conversation replaces edits across many tools. More on Oliv AI for [revenue operations teams](https://www.oliv.ai/revops).
 
 ### VPs of Sales and CROs {#sales-leadership}
 
@@ -187,13 +247,14 @@ Process and playbook features, from each platform's public documentation:
 - **It isn't a reporting tool.** Cross-deal insight reaches you through Olivia, Forecaster and Coach, which read Oliver's structured layer.
 - **Change management is still yours.** Oliver handles the configuration, but telling the team about a change remains a RevOps job.
 - **Act without asking carries a warning.** Only Oliver shows the **High Risk** banner, because it can change your settings.
+- **Minor updates can apply on their own.** **History** marks them **Autonomous**, so read it to see what changed without a review.
 - **It isn't a one-time setup.** Oliver is maintained continuously, not configured once.
 
 ## Common questions {#common-questions}
 
 #### Who talks to Oliver? {#faq-who-talks}
 
-RevOps managers and senior revenue leaders. Individual reps work with Olivia, not Oliver. Oliver is the system-level layer underneath.
+Anyone can choose Oliver in the agent picker on **Home**. RevOps managers and senior revenue leaders own the handbook and approve its changes, while reps mostly work with Olivia.
 
 #### How do we get Oliver up and running? {#faq-get-started}
 
@@ -205,7 +266,11 @@ You tell Oliver. It updates the handbook and passes the change to every connecte
 
 #### Does Oliver change things on its own? {#faq-on-its-own}
 
-No. Oliver surfaces patterns and drafts recommendations, but every handbook update needs human approval before it applies.
+Process proposals wait as **Pending Review** until a person approves them. Minor updates, such as syncing an agent prompt to a scorecard, can apply as **Autonomous** and appear in **History**.
+
+#### Can I see who changed the playbook? {#faq-history}
+
+Yes. The **History** tab lists every change with its author, status and files. Filter it by Oliver, by your company or by Oliv GTM Engineer.
 
 #### Can Oliver handle a custom methodology? {#faq-custom-methodology}
 

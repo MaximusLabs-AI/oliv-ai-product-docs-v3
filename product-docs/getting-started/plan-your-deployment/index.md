@@ -19,6 +19,7 @@ Rolling Oliv AI out across sales and customer success takes about a month, and m
 | **Process handbook** | Built with Oliv AI's onboarding team in 1 to 2 weeks |
 | **Tailored models** | Live within 1 day of the proof of value kickoff |
 | **Admins you need** | CRM, calendar or Microsoft 365, Zoom and Slack |
+| **Where you configure it** | **Settings**: stages, qualification framework, coaching scorecards, targets, measurements and forecast cadences |
 | **Rep training** | None for forecasting or deal alerts; reps keep working as they do now |
 
 ## Before you begin {#before-you-begin}
@@ -28,6 +29,14 @@ Rolling Oliv AI out across sales and customer success takes about a month, and m
 - **Find your admins.** Some connections need an admin on the other side. The table in Step 2 lists who to book.
 - **Decide your seat roles.** Each person gets the plan that fits their work. [Plans and seat roles](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/plans/plans-and-seat-roles/) helps you map your team before you invite anyone.
 - **Don't clean the CRM first.** Oliv AI reads what's already there, messy data included.
+- **Know where Settings lives.** **Settings**, at the bottom of the sidebar, opens **Revenue Process**, **Qualification Framework**, **Coaching Scorecard**, **Targets**, **Measurements**, **Organisational Settings** and **Profile Settings**. Steps 4 and 6 use most of them.
+
+<figure>
+
+![The Settings menu open from the bottom of the sidebar, listing Revenue Process, Qualification Framework, Coaching Scorecard, Targets, Measurements, Organisational Settings and Profile Settings, over the Playbook page with its History tab and Oliver's panel.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/settings/oliv-ai_259_settings_sidebar-settings-flyout-menu_open-with-revenue-process-qualification-framework-coaching-scorecard-targets-measurements-organisational-and-profile-settings.webp)
+
+<figcaption>Most of the rollout's configuration sits behind one menu: the stages, framework, scorecards, targets and cadences your agents and forecast work from.</figcaption>
+</figure>
 
 ## Step 1: Choose who runs the setup {#step-1-choose-a-path}
 
@@ -69,12 +78,37 @@ Oliv AI's onboarding team works with your revenue operations lead to translate e
 
 1. **Who you sell to.** Your ICP and the signals that qualify an account.
 2. **Who you sell to inside each account.** Your persona library.
-3. **How you qualify.** MEDDPICC, BANT, SPICED or your own framework, and the fields each stage requires.
+3. **How you qualify.** The framework your team uses, such as MEDDPICC, BANT or SPICED, and the fields each stage requires.
 4. **Who approves what.** Pricing desk triggers and the deal size where manager sign-off starts.
 5. **How proofs of concept run.** What makes one eligible, what success looks like and how long it should last.
 6. **How proposals and territories work.** Review steps, approvals and who owns which pipeline.
 
-Your stakeholder checks each section for accuracy. Once it's in place, every agent works inside those rules from day one, and a change goes live only after a person signs it off.
+Your stakeholder checks each section for accuracy. Once it's in place, every agent works inside those rules from day one. Oliver's proposed changes wait as **Pending Review** until your company approves them, and minor ones that apply on their own are still logged in the Playbook's **History**.
+
+### Set your stages and qualification framework {#step-4-settings}
+
+While the handbook is built, set the two definitions every deal is measured against.
+
+1. **Open Settings › Revenue Process.** Each sales motion has its own tab, such as **Enterprise Sales**, **Mid-Market sales** and **Customer Success**.
+2. **Bring in your stages.** Click **Import Pipeline from CRM** to pull the existing stages from the connected CRM.
+3. **Check each stage.** The table shows **Type** (**Open**, **Closed/Won** or **Closed/Lost**), **Probability** and the **Forecast Category** it rolls into, plus counts of **Outcomes** and **Entry Criteria**.
+
+<figure>
+
+![Revenue process settings on the Enterprise Sales tab, beside Mid-Market sales and Customer Success tabs, with an Import Pipeline from CRM button. A stage table from Qualification to Closed lost shows Type, Probability, Forecast Category, Outcomes and Entry Criteria for each stage.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/settings/oliv-ai_260_settings_revenue-process_enterprise-sales-tab_stage-table-with-type-probability-forecast-category-outcomes-and-import-pipeline-from-crm.webp)
+
+<figcaption>Your stages, imported from the CRM and mapped to a probability and forecast category, are what deal alerts and the forecast read from week one.</figcaption>
+</figure>
+
+4. **Open Settings › Qualification Framework.** The tabs are **MEDDPICC**, **MEDDIC**, **SPICED**, **BANT** and **DRIVE**, and the one in use carries an **Active** badge.
+5. **Preview, then activate.** Click a tab to see its criteria, scoring range and supporting fields, then click **Activate** to switch your organisation to it. Agents then score meetings and deals against that framework.
+
+<figure>
+
+![Qualification Framework settings with MEDDPICC marked Active and MEDDIC selected for preview, beside SPICED, BANT and DRIVE tabs and an Activate button. The criteria table lists Metrics, Economic Buyer and other MEDDIC criteria with a description, a 0-6 scoring range and a supporting-fields count.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/settings/oliv-ai_261_settings_qualification-framework_meddic-tab-selected-meddpicc-active_criteria-table-with-0-6-scoring-and-supporting-fields.webp)
+
+<figcaption>Pick the framework once, here, before managers switch on: every meeting insight and deal health score in the rollout is measured against the active one.</figcaption>
+</figure>
 
 ## Step 5: Switch on first value for reps {#step-5-first-value}
 
@@ -89,18 +123,56 @@ In weeks two to four, bring the manager agents online. Each has its own set-up t
 | Agent | What you set | Typical time to live |
 |---|---|---|
 | **Deal Driver** | Connect the CRM and team calendar, then set alert thresholds | Most managers are live within a week |
-| **Forecaster** | Set targets and define your forecast cadence | Most teams are live within two weeks |
-| **Coach** | Pick pre-built scorecards or bring your own criteria | First monthly review within two weeks |
+| **Forecaster** | Set targets, measurements and your forecast cadence in **Settings** | Most teams are live within two weeks |
+| **Coach** | Pick scorecards in **Settings › Coaching Scorecard** or bring your own criteria | First monthly review within two weeks |
 | **Portfolio Manager** | Connect CRM, recordings, email, calendar and engagement data | Depends on your integrations |
 
 [Oliv AI's Deal Driver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/) works in the background, so reps don't need to change anything. [Oliv AI's Forecaster agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/forecaster/) needs no rep training; reps see a pre-drafted view where they'd normally submit by hand. [Oliv AI's Coach agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/coach/) needs about ten calls per rep to find a real pattern. For customer success, Oliv AI's Portfolio Manager agent builds a briefing of each CSM's book before every scheduled 1:1.
+
+### Set up the forecast {#step-6-forecast-settings}
+
+The Forecaster agent works from four settings. Set them in this order:
+
+1. **Targets.** In **Settings › Targets**, click **Create Target**, assign the users it applies to and track **Overall Progress**. Finished targets move to **Completed Targets**.
+2. **Measurements.** In **Settings › Measurements**, click **Create Measurement**. A **Basic** measurement sums or counts deals, and a **Formula** measurement combines others, as **Pipeline Coverage** does.
+3. **Boards.** In **Organisational Settings › Monitoring › Boards**, group your forecast boards into collections, each with its target and users.
+4. **Cadence.** In **Organisational Settings › Agents › Forecaster**, the **Cadences** table shows each cadence's board and the days reps and managers submit. Click **Add** to create one.
+
+<figure>
+
+![Forecaster Settings under Organisational Settings, with a left menu of Agents (Forecaster) and Monitoring (Boards, Cadence). A Cadences table lists Weekly Forecast Cadence and Quarter-End Push, each on the Sales Forecast board with blue and orange interval chips such as Every Friday and Every Monday, beside an Add button.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/settings/oliv-ai_266_settings_organisational-settings_agents-forecaster_cadences-table-weekly-forecast-cadence-and-quarter-end-push-with-add-and-delete.webp)
+
+<figcaption>Each cadence ties a board to submission days for reps and managers, so the Forecaster knows when to ask each role for their number.</figcaption>
+</figure>
+
+**Add** opens the **New Cadence** wizard in three steps: **Overview**, **Boards & Measurements** and **People**. On **Overview**, type a **Title** and **Description**, then pick a **Period**: **Weekly**, **Monthly** or **Quarterly**. With **Monthly**, you set a **Rep Submission Day** and a **Manager Submission Day**, each by week and day. Click **Next** to choose boards and measurements, then people.
+
+<figure>
+
+![New Cadence wizard on step 1, Overview, of a three-step bar with Boards & Measurements and People. The General card holds Title and Description, and the Cadence Period card shows Period set to Monthly with Week and Day pickers for Rep Submission Day and Manager Submission Day, above a Next button.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/settings/oliv-ai_271_settings_new-cadence-wizard_step-1-overview_monthly-selected-with-rep-submission-day-and-manager-submission-day-week-and-day-pickers.webp)
+
+<figcaption>Step 1 of a new cadence: name it, pick how often it repeats, and set separate days for reps and managers to submit.</figcaption>
+</figure>
+
+**Monitoring › Cadence** then shows the submission plan week by week. Switch **Period** between **Quarterly** and **Monthly**, expand a period and tick which measurements are due in each week.
+
+### Choose Coach's scorecards {#step-6-scorecards}
+
+**Settings › Coaching Scorecard** is the library Coach applies, grouped into **Deals**, **Customers**, **Meetings** and **Phone calls**. Each scorecard has a description and its **Evaluations (Last 30 days)**, so you can see which ones are already in use before the first monthly review.
+
+<figure>
+
+![Coaching Scorecard settings with Deals, Customers, Meetings and Phone calls tabs above a table of scorecards. The Deals group lists Enterprise, Mid-Market, SMB and Upsell Opportunity scorecards, and the Customers group lists Retention, Onboarding and Renewal Readiness, each with a description and an evaluation count.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/settings/oliv-ai_262_settings_coaching-scorecard_deals-tab_scorecard-library-with-description-and-evaluations-last-30-days.webp)
+
+<figcaption>The starting scorecards for enablement to review: one library across deals, customers, meetings and phone calls, with a usage count beside each.</figcaption>
+</figure>
 
 ## Step 7: Review at day 30 {#step-7-review}
 
 1. **Check the CRM updates.** Look at what reps accepted and rejected. Once accuracy thresholds are met, revenue operations confirms the switch to auto mode, as the [CRM upkeep guide](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/) explains.
 2. **Read the first coaching review.** Coach's monthly review shows whether the scorecards match how you want calls run.
 3. **Watch a pipeline review.** Managers should open their 1:1s with Deal Driver's report, as in the [pipeline review workflow](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/run-a-pipeline-review/).
-4. **Tell Oliver what changed.** Anything you learned in the month goes to Oliver as a process update, and every connected agent picks it up after sign-off.
+4. **Tell Oliver what changed.** Anything you learned in the month goes to Oliver as a process update. It waits as **Pending Review** until you approve it, then every connected agent picks it up.
 
 ## What a deployment plan for Oliv AI is {#what-it-is}
 
@@ -142,7 +214,7 @@ Say a revenue operations lead has just signed with Oliv AI for 25 account execut
 
 The usual route is to clean the CRM, write the playbook down properly and then train everyone at once. Each of those steps can take weeks on its own. By the time they're done, the quarter has moved on and the team has lost interest.
 
-Nothing about the agents needs a finished playbook before reps can start. A brief only needs a calendar, a recorder and a CRM. The rules can be built alongside, as long as someone owns them and nothing changes without sign-off.
+Nothing about the agents needs a finished playbook before reps can start. A brief only needs a calendar, a recorder and a CRM. The rules can be built alongside, as long as someone owns them and reviews each change.
 
 Oliv AI runs both tracks for her. Reps get their first brief before their next meeting, while Oliv AI's onboarding team turns her deck into Oliver's handbook in one to two weeks. If she picks We Run It, Oliv AI's operators maintain the playbooks on her behalf.
 
@@ -215,7 +287,7 @@ Setup and onboarding, from each platform's public documentation:
 
 - **The calendar comes first.** Oliv AI can't take notes in meetings until calendars are connected, so that step can't be skipped or delayed.
 - **Some steps need an admin.** Salesforce, Zoom recording without the host and, in some workspaces, Slack all need an admin on your side.
-- **Handbook changes need a person.** Oliver drafts updates and surfaces patterns, but every change waits for human sign-off.
+- **Handbook changes are reviewed or logged.** Oliver's proposals wait for your company's approval. Minor changes can apply on their own, and every change appears in the Playbook's **History**.
 - **Reps don't work with Oliver.** Revenue operations and leaders do. Reps work with Olivia, who follows Oliver's rules.
 - **Coaching needs call volume.** Coach looks for about ten calls per rep before it reports a pattern.
 - **Auto mode is a decision.** CRM Manager starts in review. Revenue operations confirms the switch to auto mode once accuracy thresholds are met.
@@ -252,7 +324,7 @@ Not for forecasting or deal alerts. Reps see a pre-drafted forecast view where t
 
 #### Can we use our own sales methodology? {#faq-methodology}
 
-Yes. Oliver captures MEDDPICC, BANT, SPICED or a proprietary framework, and every agent then follows it.
+Yes. In **Settings › Qualification Framework**, preview **MEDDPICC**, **MEDDIC**, **SPICED**, **BANT** or **DRIVE**, then click **Activate**. Agents then score meetings and deals against the framework you chose.
 
 #### When should CRM updates go automatic? {#faq-auto-mode}
 

@@ -1,10 +1,10 @@
 # Coach agent
 
-How Oliv AI's Coach agent scores every call, recommends one monthly goal per rep, tracks progress every week, how to set it up, and how it compares with other sales coaching tools.
+How Oliv AI's Coach agent scores every call, recommends three goals per rep each month for the manager to set, tracks progress every week, how to set it up, and how it compares with other sales coaching tools.
 
 - Applies to: Sales managers, BDR leads, enablement managers and sales leadership
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/coach/
 
 Oliv AI's Coach agent runs the coaching cadence for every rep on your team. It scores every recorded call, meeting and deal, then recommends the three behaviors most likely to improve each rep's results that month. The manager sets one goal, and Coach tracks the rep's progress every week until the next monthly cycle begins.
@@ -16,27 +16,46 @@ Oliv AI's Coach agent runs the coaching cadence for every rep on your team. It s
 | **What it does** | Finds where coaching moves revenue for each rep and tracks progress weekly |
 | **Who it's for** | Sales managers and BDR leads, plus VPs of Sales, enablement managers and account managers |
 | **Scores** | 100% of recorded activity, against your scorecards |
-| **Monthly** | A review report per rep with three recommendations, ranked by expected impact |
+| **Monthly** | A review report per rep with three recommended goals, one marked **Recommended** |
 | **Weekly** | A progress report for each rep on the active goal |
 | **Before the 1:1** | A brief with goal progress, call highlights and one coaching question |
+| **Where you see it** | **Apps › Enable › People**, **Reports › My Reports** and the **Coaching** tab on meetings and deals |
 | **Needs** | About 10 recorded calls per rep, plus deal outcome data |
 
 ## What the Coach agent is {#what-it-is}
 
 Oliv AI's Coach agent is a revenue coaching agent. Its goals are tied to close rates, stage conversion and deal size, not to communication style or compliance. The manager doesn't have to watch a single recording, and the rep doesn't wait for a quarterly review.
 
+<figure>
+
+![The Coaching tab of a meeting details drawer. A left list shows Summary with a B+ grade and skill areas scored out of 5, such as Solution Presentation, Value Storytelling and Objection Handling. The right pane shows Improvement Required and Strength notes, a B+ gauge and a MEDDPICC Scorecard radar marked 2 of 8 improved.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_244_activities-meetings_meeting-details-drawer_coaching-tab_b-plus-summary-skill-scores-and-meddpicc-radar-chart.webp)
+
+<figcaption>Every recorded call gets a grade like this one, with a score per skill and plain feedback, which is the raw material Coach builds each rep's monthly goals from.</figcaption>
+</figure>
+
 ### Scoring across four dimensions {#four-dimensions}
 
 | Dimension | What it covers |
 |---|---|
-| **Pipeline coverage** | Whether the rep is building enough pipeline to hit their number |
-| **Deal execution** | How well active deals are run: qualification, stakeholder mapping, next-step discipline |
-| **Meeting effectiveness** | Discovery quality, positioning, objection handling, agenda control and follow-through |
-| **Foundational skills** | Presence, active listening, questioning, relating, positioning and checking |
+| **Pipeline Coverage** | Whether the rep is building enough pipeline to hit their number |
+| **Deal Execution** | How well active deals are run: qualification, stakeholder mapping, next-step discipline |
+| **Meeting Management** | Discovery quality, positioning, objection handling, agenda control and follow-through |
+| **Foundational Skills** | Presence, active listening, questioning, relating, positioning and checking |
+
+Each meeting's **Coaching** tab shows the call's grade, a score out of 5 for each skill and a radar of your qualification criteria. A deal's **Coaching** tab grades how the rep ran that whole deal, with **Strengths** and **Focus Areas**.
+
+<figure>
+
+![The Coaching tab of a deal drawer. A scored index lists Summary with a B+ grade, then Information Discovery, Solution Positioning, Building Consensus and Objection Handling with scores out of 5. The Summary pane shows a B+ ring, a Strengths card and the start of a Focus Areas card.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/records-deals/oliv-ai_224_records-deals_deal-detail-drawer_coaching-tab_summary-b-plus-score-index-information-discovery-strengths-focus-areas.webp)
+
+<figcaption>Coach also grades the deal as a whole, so a manager can coach on a live opportunity without listening to every call in it.</figcaption>
+</figure>
 
 ### The monthly review and the weekly report {#review-and-report}
 
 Once a month, Coach analyzes each rep's full performance data and produces a review report. It surfaces three focus areas, ranked by expected impact, each grounded in evidence from that rep's calls and deals.
+
+The review opens with **Goals for** the month: three goals, the first marked **Recommended**, each with a **Why?** that gives the evidence. Below sit last month's goal with its progress and metric cards against targets, then **Coaching Tasks** with due dates. **Performance Overview** scores the four dimensions, each with a **Strength**, a **Gap** and the change in points. **Drill Down Reports** compare last month with this month against a top performer.
 
 The manager picks the goal that fits and sets it. Coach then breaks the goal into weekly sub-goals. At the end of each week the rep gets a progress report: progress on the goal, wins from last week, and one focus for next week.
 
@@ -78,23 +97,30 @@ Coach needs about ten calls per rep to find a pattern. Most teams see their firs
 ## Set up Coach {#set-up}
 
 1. **Connect your call stack.** [Zoom](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/zoom/), your existing call recorder or Oliv AI's own call recording. Coach starts scoring as soon as calls start flowing in. It also connects to your CRM and [Slack](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/), with [more than 70 integrations](https://www.oliv.ai/integrations) in all.
-2. **Set your scorecards.** Start with the pre-built scorecards for enterprise, mid-market and SMB motions, or bring your own criteria. No engineering is required. Scorecard details are covered in Coaching scorecards.
+2. **Set your scorecards.** Start with the pre-built scorecards for enterprise, mid-market and SMB motions, or bring your own criteria. No engineering is required. The library lives in **Settings › Coaching Scorecard**.
 3. **Let the first monthly review land.** Coach needs about ten calls per rep to find a real pattern. Most teams see their first monthly review within two weeks.
 
 No rep training is needed.
 
 ### Pre-built scorecards {#scorecards}
 
-Coach ships with more than 10 pre-built scorecards mapped to common deal and motion types.
+Coach ships with fourteen pre-built scorecards, grouped under **Deals**, **Customers**, **Meetings** and **Phone calls**. Each one has a description and a count of **Evaluations (Last 30 days)**, so you can see which scorecards are in use.
 
 | Group | Scorecards |
 |---|---|
-| **Deals** | Enterprise, Mid-Market, SMB, Upsell Opportunity |
-| **Customers** | Customer Retention |
-| **Meetings** | Discovery, Demo, POC/Pilot Review, QBR |
-| **Calls** | Qualification, Follow-Up |
+| **Deals** | Enterprise Deal, Mid-Market Deal, SMB Deal, Upsell Opportunity |
+| **Customers** | Customer Retention, Customer Onboarding, Renewal Readiness |
+| **Meetings** | Discovery, Demo Meeting, POC Kickoff Meeting, POC Review Meeting |
+| **Phone calls** | Qualification Call, Cold-Call, Event Follow-Up Call |
 
-Every scorecard draws on a library of more than 100 criteria in six categories: Discovery & Qualification, Solution & Value, Stakeholder Alignment, Commercial & Negotiation, Risk & Competitive, and Foundational Skills. Managers add, remove or weight criteria to match their [sales methodology](https://www.oliv.ai/sales-methodology), such as a [SPICED scorecard](https://www.oliv.ai/spiced-scorecard).
+<figure>
+
+![The Coaching Scorecard table with fourteen scorecards in four bands: Deals, Customers, Meetings and Phone calls. Each row gives the scorecard name, such as Enterprise Deal Scorecard or Cold-Call Scorecard, a one-line description and its number of evaluations in the last 30 days.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/settings/oliv-ai_263_settings_coaching-scorecard_full-list-of-fourteen-scorecards-across-deals-customers-meetings-and-phone-calls-with-evaluation-counts_full-length.webp)
+
+<figcaption>The scorecard library covers deals, customer accounts, meetings and phone calls, and the evaluation counts show which ones Coach is actually applying.</figcaption>
+</figure>
+
+Some scorecards are written for a role, such as the solution engineer on a POC or the SDR on an event follow-up call. Every scorecard draws on a library of more than 100 criteria in six categories: Discovery & Qualification, Solution & Value, Stakeholder Alignment, Commercial & Negotiation, Risk & Competitive, and Foundational Skills. Managers add, remove or weight criteria to match their [sales methodology](https://www.oliv.ai/sales-methodology), such as a [SPICED scorecard](https://www.oliv.ai/spiced-scorecard).
 
 ## Run the coaching cadence {#coaching-cadence}
 
@@ -105,13 +131,40 @@ Every scorecard draws on a library of more than 100 criteria in six categories: 
 | **Thursday, or your configured day** | The 1:1 brief arrives before the meeting, with goal progress, call highlights and one coaching question. |
 | **The 1:1** | The conversation opens on what's getting in the way of the goal, not on pipeline reconstruction. |
 
+Each rep's **Monthly Review** is listed under Coach in **Reports › My Reports**, scheduled every 30 days. The same review sits in **Apps › Enable › People**, under the rep's **Coach** section, with a list of past months.
+
+<figure>
+
+![Reports, My Reports, with a monthly review open for one rep. The report outline lists Goals for October 2026, Performance Overview and Drill-down Reports. The first goal carries a Recommended badge, a Why? explanation and a Set as goal button, above two more goals and a September 2026 Goal with Continue with goal.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/reports/oliv-ai_206_reports_my-reports_coach-monthly-review_report-open-goals-for-october-2026-recommended-multi-thread-goal-set-as-goal-why.webp)
+
+<figcaption>The monthly review lands in My Reports for the manager, with the goal choice, the evidence and last month's progress in one report.</figcaption>
+</figure>
+
 ### Review and set the goal {#set-the-goal}
 
-The manager can accept a recommendation as written, edit it, or override it entirely. Nothing reaches the rep until the manager has reviewed it. The monthly review is for the manager only, and reps see their weekly progress reports, scoped to the goal already set.
+Read each goal's **Why?**, then click **Set as goal** on the one that fits. It doesn't have to be the **Recommended** one. **Continue with goal** carries last month's goal forward instead. Nothing reaches the rep until the manager has reviewed it. The monthly review is for the manager only, and reps see their weekly progress reports, scoped to the goal already set.
+
+<figure>
+
+![The Coach section of a rep's report in Enable, People. Goals for October 2026 shows a Recommended goal to multi-thread before Proposal stage, expanded to its Why? evidence, two more goals each with Set as goal, and the September 2026 Goal at 76% with Continue with goal.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/enable/oliv-ai_177_enable_people-report_coach-monthly-goals_recommended-goal-multi-thread-before-proposal-with-why-and-september-goal-progress-76-percent.webp)
+
+<figcaption>The manager chooses the month's goal from three, each with its evidence, or keeps last month's goal running, so the rep only ever works on one.</figcaption>
+</figure>
+
+Add **Coaching Tasks** with due dates to break the goal into steps, and tick them off as the rep completes them.
 
 ### Watch progress across the team {#team-visibility}
 
-Managers see a dashboard of every rep's active goal, weekly progress and improvement trajectory. It shows who's advancing, who's stalling and who needs a direct conversation. Sales leaders see coaching performance at team and org level, including skill gaps that repeat across reps. For a leader's view of this, read about [coaching at scale for VPs of Sales](https://www.oliv.ai/blog/vp-of-sales-coaching-at-scale-using-ai).
+Managers see a dashboard of every rep's active goal, weekly progress and improvement trajectory. It shows who's advancing, who's stalling and who needs a direct conversation. In **Apps › Enable › People**, **My Team** cards show each rep's target pacing, open deals, active pipeline and forecast. A rep's card opens their report, where the **One on One** report carries a **Coaching** block with the goal's progress and **View Coaching**.
+
+<figure>
+
+![The People tab in Enable. An Overview card shows closed revenue against Commit, Best Case and Target markers, with Open Deals, Pipeline, Forecast and Pipeline Coverage tiles. Below, six My Team cards each show a rep's Target Pacing bar with percent achieved, Open Deals, Active Pipeline and Forecast.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/enable/oliv-ai_174_enable_people-tab_overview-and-my-team-six-rep-cards-target-pacing-open-deals-active-pipeline-forecast_full-length.webp)
+
+<figcaption>People is the manager's way into each rep's coaching: spot who is behind pace, then open that rep's one-on-one and Coach reports.</figcaption>
+</figure>
+
+Sales leaders see coaching performance at team and org level, including skill gaps that repeat across reps. For a leader's view of this, read about [coaching at scale for VPs of Sales](https://www.oliv.ai/blog/vp-of-sales-coaching-at-scale-using-ai).
 
 ## How Coach works with other agents {#works-with}
 
@@ -176,12 +229,12 @@ Coaching features, from each platform's public documentation:
 
 ## Limits and things to know {#limits}
 
-- **The BDR version isn't built yet.** Current scoring focuses on AE, AM and CSM calls.
 - **It needs call volume.** About 10 calls per rep give enough data for a meaningful pattern. More calls raise confidence.
 - **It isn't real-time.** Coach works on recorded calls after the fact. Live, in-call guidance is a separate tool.
 - **It isn't a QA or compliance tool.** Goals are tied to revenue outcomes, not script adherence, tone or legal review.
 - **It doesn't queue calls to watch.** Coach surfaces conclusions, not a list of recordings to review.
 - **It doesn't replace the 1:1.** It gives managers better material for the conversation.
+- **One goal at a time.** Each month the manager sets one goal per rep from the three recommended, or continues the last one.
 
 ## Common questions {#common-questions}
 
@@ -189,9 +242,9 @@ Coaching features, from each platform's public documentation:
 
 Typically 10 or more calls per rep. More calls improve the quality and confidence of the goal recommendations.
 
-#### Can the manager override Coach's recommended goals? {#faq-override}
+#### Can the manager choose a different goal from the one Coach recommends? {#faq-override}
 
-Yes. Managers review the goals before they're sent to reps and can modify or replace them.
+Yes. Any of the three goals can be set, not only the one marked **Recommended**. The manager can also continue last month's goal. Nothing reaches the rep until the manager sets it.
 
 #### Does the rep see the monthly review? {#faq-who-sees-review}
 
@@ -199,7 +252,7 @@ No. The monthly review is for the manager only. Reps see their weekly progress r
 
 #### Does Coach work for BDRs? {#faq-bdrs}
 
-Not yet. The BDR version isn't built. Current capability focuses on AE, AM and CSM calls.
+The scorecard library includes phone call scorecards written for SDR work, such as the Cold-Call Scorecard and the Event Follow-Up Call scorecard. BDR leads use the same cadence as sales managers.
 
 #### What if a rep disagrees with the coaching goal? {#faq-rep-disagrees}
 
@@ -208,6 +261,10 @@ The goal is grounded in their own call data and deal outcomes, so the evidence i
 #### Can I use my own scoring framework? {#faq-own-framework}
 
 Yes. Start from the pre-built scorecards or build your own from a library of more than 100 criteria. No engineering is required.
+
+#### Where do I find a rep's monthly review? {#faq-where-review}
+
+In **Reports › My Reports** under Coach, or in **Apps › Enable › People** from the rep's card. Both show the same goals, scores and drill-downs.
 
 #### How does setup work? {#faq-setup}
 

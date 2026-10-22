@@ -4,7 +4,7 @@ How an account executive uses Oliv AI's agents to prepare for deal meetings, fol
 
 - Applies to: Account executives
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/
 
 Oliv AI gives an account executive [a set of agents](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/) that handle the work around each deal: [the prep before a meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/), [the follow-up after it](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/record-and-follow-up/) and [the CRM upkeep](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/) in between. You walk into calls prepared, review drafted emails and proposed field updates instead of writing them, and get a nudge when a deal starts to stall. This page shows how those pieces fit together across a deal.
@@ -18,7 +18,15 @@ Oliv AI gives an account executive [a set of agents](https://maximuslabs-ai.gith
 | **After a call** | A drafted follow-up email, proposed CRM field updates and qualification gap flags |
 | **In the CRM** | Accounts, contacts, activities and tasks kept current from your conversations |
 | **When a deal stalls** | Nudges when next steps go overdue or activity drops |
+| **Your day in one feed** | The Agent Feed on **Home**, with your morning brief, call prep and CRM update summaries |
 | **Agents involved** | Meeting Assistant, CRM Manager, Deal Driver, Olivia |
+
+<figure>
+
+![Home on the Agent Feed tab, filtered to Team Sales and Role Contributor. Six updates appear under TODAY: Olivia's morning brief, two Prospector updates, a Meeting Assistant call prep note, a Gold Digger expansion signal and a CRM Manager summary of fields updated from the day's calls.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_030_home_agent-feed_team-sales-role-contributor_filters-and-today-timeline-six-updates-olivia-prospector-meeting-assistant-gold-digger-crm-manager.webp)
+
+<figcaption>An account executive's day as the agents report it, from the morning brief and call prep to the evening CRM summary, each update in one feed.</figcaption>
+</figure>
 
 ## Where Oliv AI fits for account executives {#where-it-fits}
 
@@ -30,7 +38,7 @@ Oliv AI takes the admin around each deal off the account executive. The time bet
 
 - **Briefed before you join.** A one-screen brief lands about 30 minutes before each deal meeting.
 - **Follow-up written from the call.** The email draft comes from the actual transcript, not a template.
-- **Fields proposed, not typed.** You accept, edit or reject each suggested CRM update.
+- **Fields proposed, not typed.** You accept or reject each suggested CRM update.
 - **Stalls flagged early.** You get a nudge when next steps go overdue or activity drops.
 
 ### What happens without it {#without-it}
@@ -60,11 +68,11 @@ The brief is built to fit on one screen and take about 60 seconds to read, as de
 [Oliv AI's Meeting Assistant agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/meeting-assistant/) sends a brief about 30 minutes before every meeting linked to an active opportunity. If the deal exists and the meeting is on your calendar, it runs automatically. The brief covers:
 
 - **Deal summary.** Stage, amount, close date, last activity and next steps.
-- **Qualification status.** Where the deal stands against your methodology, with gaps and open questions highlighted. MEDDPICC, BANT, SPICED, MEDPICS and custom frameworks are supported.
+- **Qualification status.** Where the deal stands against your active qualification framework, with gaps and open questions highlighted. **Settings › Qualification Framework** offers MEDDPICC, MEDDIC, SPICED, BANT and DRIVE.
 - **Stakeholders.** Who is in the meeting, what roles they play and what they care about, based on prior conversations.
 - **Recommended agenda.** Tailored to the deal stage and the qualification gaps.
 
-For a first meeting with a new contact, Oliv AI's Researcher agent builds the brief instead. [Oliv AI's Olivia agent](https://www.oliv.ai/agents/olivia) also surfaces the right context before every meeting, such as deal status, stakeholder intel, qualification gaps and what was agreed last time. Read more on [getting the most from an AI meeting assistant](https://www.oliv.ai/blog/ai-meeting-assistant-for-sales).
+Shortly before the call, Meeting Assistant also posts a call prep note to your Agent Feed on **Home**. For a first meeting with a new contact, Oliv AI's Researcher agent builds the brief instead. [Oliv AI's Olivia agent](https://www.oliv.ai/agents/olivia) also surfaces the right context before every meeting, such as deal status, stakeholder intel, qualification gaps and what was agreed last time. Read more on [getting the most from an AI meeting assistant](https://www.oliv.ai/blog/ai-meeting-assistant-for-sales).
 
 ## After a call {#after-a-call}
 
@@ -74,11 +82,29 @@ Once the meeting recording is processed, Meeting Assistant prepares three things
 - **Proposed deal field updates.** Stage, amount, close date, qualification fields and next steps, based on what was said.
 - **Qualification gap flags.** New information, or notable absences, that change the deal's qualification status.
 
+Each meeting's record in **Activities › Meetings** holds the results in seven tabs: **Overview**, **Action Items**, **Meeting insights**, **Recording**, **Coaching**, **Attendees** and **CRM Updates**. **Meeting insights** files what was said under each criterion of your framework, with timestamps into the call. It also says plainly when a criterion wasn't discussed, which is where the gaps show.
+
+<figure>
+
+![The Meeting insights tab of a meeting details drawer. A row of chips runs from Metrics and Economic Buyer to Champion and Additional Fields. Cards under Metrics and Economic Buyer hold evidence from the call with timestamps, and an Investment ROI card notes that no ROI metrics were discussed.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_242_activities-meetings_meeting-details-drawer_meeting-insights-tab_meddpicc-sections-metrics-and-economic-buyer.webp)
+
+<figcaption>Qualification is filled in from what the buyer actually said, and the blanks are named, so you know what to ask on the next call.</figcaption>
+</figure>
+
 ### Review the proposed CRM updates {#review-updates}
 
-After every activity, you get a [Slack or preferred-channel message](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/) that says it found updates for a number of fields. The **Agent Updates** tab shows each field, its current CRM value, the proposed value and the moment in the conversation behind it. Choose **Accept**, **Edit and accept** or **Reject**.
+After every activity, you get a [Slack or preferred-channel message](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/) that says it found updates for a number of fields. The meeting's **CRM Updates** tab lists what changed after the call: completed updates, such as a refreshed account or a new contact, and pending ones with a button such as **Update Deal**.
 
-A full history of how each field was updated stays visible. Once accuracy thresholds are met, RevOps can confirm the switch to auto mode.
+<figure>
+
+![The CRM Updates tab of a meeting details drawer, showing a timeline of changes after the call. Completed entries with green checks cover an account update, a qualification scorecard update and new contacts, each with a View link. One Pending Update to move the deal to Proposal has an Update Deal button.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_246_activities-meetings_meeting-details-drawer_crm-updates-tab_account-deal-bant-and-contact-updates-with-pending-stage-move.webp)
+
+<figcaption>After each call you can see what was already written to the CRM and which change still waits for you, without opening the CRM.</figcaption>
+</figure>
+
+On the deal itself, the **CRM Updates** tab splits **AI Suggestions** from **AI Updates** and keeps an **Updates History**. Each suggestion shows the proposed value above the **Current Value**. Choose **Accept** or **Reject**.
+
+A full history of how each field was updated stays visible. CRM Manager applies some updates and holds others for your review, and its post in the Agent Feed says how many of each. Once accuracy thresholds are met, RevOps can confirm the switch to auto mode.
 
 ## Keep the CRM current without typing {#crm-current}
 
@@ -90,11 +116,29 @@ A full history of how each field was updated stays visible. Once accuracy thresh
 - **Buying committee roles.** It tracks each contact's role on the opportunity, such as economic buyer, champion or blocker.
 - **Meetings that weren't recorded.** It can prompt you for a quick voice summary and use that as a data source.
 
+A meeting's **Action Items** tab shows the **Next meeting**, **Next action** and **Next follow-up**, then the tasks from the call with an assignee and a due date. Each task links to the moment in the recording it came from.
+
+<figure>
+
+![The Action Items tab of a meeting details drawer. Three cards show the Next meeting marked Accepted, the Next action with a date, and the Next follow-up marked Overdue. Below, a Pending tasks table lists four tasks from the call, each with a recording timestamp, an assignee and a due date, plus Add task.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_241_activities-meetings_meeting-details-drawer_action-items-tab_next-meeting-next-action-follow-up-and-our-tasks-table.webp)
+
+<figcaption>The next steps agreed on the call become owned, dated tasks, so nothing depends on the rep's notes.</figcaption>
+</figure>
+
 It works with [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/), [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/) and Zoho, as a layer on top of the CRM you already use. More on how Oliv AI handles [CRM automation](https://www.oliv.ai/blog/ai-crm-automation).
 
 ## When a deal goes quiet {#deal-stalls}
 
 [Oliv AI's Deal Driver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/) nudges you directly when a deal stalls, a next step goes overdue or activity drops. That catches the gap [before your manager needs to step in](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/run-a-pipeline-review/). CRM Manager also sends end-of-day reminders for open CRM tasks or unverified deal updates.
+
+On the deal's **Action Plan** tab, the **Next follow-up** card shows how many days a follow-up is overdue, beside the next meeting, the next action and your task list.
+
+<figure>
+
+![The Action Plan tab of a deal drawer. Three cards show the Next Meeting marked Accepted, the Next Action with a date, and the Next follow-up marked Overdue by 3 days. Below, the Our Tasks table lists milestones with an assignee and due date, three of six completed.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/records-deals/oliv-ai_223_records-deals_deal-detail-drawer_action-plan-tab_next-meeting-accepted-next-action-follow-up-overdue-our-tasks-3-of-6.webp)
+
+<figcaption>A slipping follow-up shows on the deal itself, in days overdue, so you can catch the stall before the nudge or the pipeline review does.</figcaption>
+</figure>
 
 To work a stuck deal, tell Oliv AI's Olivia agent something like "This deal has been stuck for three weeks." She engages Oliv AI's Re-Activator agent and surfaces a re-engagement strategy, as covered in [the things you can hand Olivia](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/#things-to-ask). For how deals slip in the first place, read [why deal views miss half the picture](https://www.oliv.ai/blog/deal-intelligence-cross-channel-sales-leader-pipeline-visibility).
 
@@ -129,7 +173,7 @@ Deal workflow features for account executives, from each platform's public docum
 - **It needs a recording.** Meeting Assistant relies on [Oliv Notetaker recordings and transcripts](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/) and a Deal Insights subscription.
 - **Not a CRM.** CRM Manager works on top of Salesforce, HubSpot or Zoho. It doesn't replace them.
 - **Pending updates have a deadline.** If a rep doesn't complete updates within a defined window, deals can be deferred or flagged as closed-lost. Each org configures this.
-- **Auto mode comes later.** Updates stay in review until RevOps confirms the switch to auto mode.
+- **One framework at a time.** Briefs and meeting insights follow the framework marked **Active** in Settings, so switching it changes what every deal is scored against.
 
 ## Common questions {#common-questions}
 
@@ -143,7 +187,7 @@ One screen, about 60 seconds to read. It covers the deal summary, qualification 
 
 #### Which sales methodologies does it support? {#faq-methodologies}
 
-MEDDPICC, BANT, SPICED, MEDPICS, or your company's custom qualification framework.
+**Settings › Qualification Framework** offers MEDDPICC, MEDDIC, SPICED, BANT and DRIVE. One is marked **Active**, and each shows its criteria and scoring before you switch with **Activate**.
 
 #### Is the follow-up email a template? {#faq-follow-up-template}
 
@@ -151,7 +195,7 @@ No. Meeting Assistant reads the transcript and drafts from the actual conversati
 
 #### Do CRM updates go in without me seeing them? {#faq-review-updates}
 
-Not at first. You accept, edit or reject each one in **Agent Updates**. RevOps can switch to auto mode once accuracy thresholds are met.
+Some do. CRM Manager applies some updates, listed under **AI Updates** on the deal, and holds the rest under **AI Suggestions** for you to accept or reject. RevOps can switch to auto mode once accuracy thresholds are met.
 
 #### What if our CRM data is incomplete? {#faq-incomplete-crm}
 

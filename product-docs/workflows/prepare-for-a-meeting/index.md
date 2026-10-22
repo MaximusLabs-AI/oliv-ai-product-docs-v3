@@ -4,7 +4,7 @@ How Oliv AI prepares you for a sales meeting, from the deal brief that arrives 3
 
 - Applies to: Meetings on your connected calendar
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/
 
 Oliv AI sends you a brief before your sales meetings, so you walk in knowing where things stand and what to cover. For a meeting on an active deal, Oliv AI's Meeting Assistant agent sends the deal summary, qualification status, stakeholders and a recommended agenda 30 minutes before the call. For a first meeting with someone new, Oliv AI's Olivia agent researches the company and the person. This guide covers setting it up, reading the brief and getting more when you need it.
@@ -17,8 +17,9 @@ Oliv AI sends you a brief before your sales meetings, so you walk in knowing whe
 | **When** | 30 minutes before the meeting |
 | **Deal brief covers** | Deal summary, qualification status, stakeholders, recommended agenda |
 | **First-meeting brief covers** | Three bullets on the company and the person, plus an icebreaker |
+| **On demand** | Ask Oliv AI's Olivia agent on Home, and she lays out the deal, the attendees, risks and talking points |
 | **Reading time** | About 60 seconds |
-| **Methodologies** | MEDDPICC, BANT, SPICED, MEDPICS or your own framework |
+| **Methodologies** | MEDDPICC, MEDDIC, SPICED, BANT or DRIVE, whichever your team sets as Active |
 | **You connect** | Your calendar, your call recorder and your CRM |
 
 ## Before you begin {#before-you-begin}
@@ -49,9 +50,35 @@ The deal brief is designed to fit one screen and take about 60 seconds to read. 
 
 Start with the gaps. They're the questions worth asking while there's still time to act on the answers, which is the point of [sales meeting preparation](https://www.oliv.ai/blog/meeting-preparation-for-sales).
 
-## Step 4: Prepare a first meeting with Olivia {#step-4-first-meeting}
+## Step 4: Ask Olivia to get you ready {#step-4-first-meeting}
 
-A first meeting has no deal history to draw on, so the prep is research. Tell Oliv AI's Olivia agent you're meeting someone for the first time and ask her to prepare you. Thirty minutes before the meeting, she sends three bullets and an icebreaker:
+You don't have to wait for the scheduled brief. Open **Home**, keep the **Ask** tab on Oliv AI's Olivia agent, and type the call you're preparing for, such as "Get me ready for my renewal call at 4pm today." Olivia answers in the chat, and a collapsed **Reasoning Trace** row shows the steps she took.
+
+<figure>
+
+![Olivia's answer on the Home Ask tab to a request for renewal call prep. Under the heading Deal at a glance, four cards show the Deal Stage as Negotiation, the ARR, 23 days Since Economic Buyer Touch and a Deal Health of At Risk.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_014_home_chat_olivia_acme-renewal-prep_deal-at-a-glance-cards-negotiation-180k-arr-23-days-no-economic-buyer-touch-at-risk.webp)
+
+<figcaption>Oliv AI's Olivia agent opens her on-demand prep with the deal at a glance. Stage, value, the gap since the economic buyer was last touched and deal health tell you how much is at stake before you read on.</figcaption>
+</figure>
+
+Her answer runs in a fixed order:
+
+| Section | What it tells you |
+|---|---|
+| **Deal at a glance** | Four cards: deal stage, ARR, days since the economic buyer was last touched, and deal health |
+| **Who's Joining?** | Each attendee with their role, such as champion or a new addition to the call |
+| **Risks to watch** | What could go wrong on this call, such as a silent champion or missing decision criteria |
+| **Talking points** | A numbered list of what to raise and in what order |
+| **Researcher brief** | A short profile of a new attendee from Oliv AI's Researcher agent: role, background and what they're likely to ask |
+
+<figure>
+
+![The full prep answer in the Olivia chat: the four Deal at a glance cards, a Who's Joining card with a champion and a new CFO, three risks to watch, four numbered talking points, a Researcher brief on the CFO and a chip reading Draft the pre-meeting Email.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_015_home_chat_olivia_acme-renewal-prep-full-brief_who-is-joining-three-risks-talking-points-researcher-brief-on-cfo_full-length.webp)
+
+<figcaption>The whole prep fits in one answer, from the deal cards down to a brief from Oliv AI's Researcher agent on the attendee you haven't met. The figures and names in it are sample data.</figcaption>
+</figure>
+
+A first meeting has no deal history to draw on, so the prep is research. Tell Olivia you're meeting someone for the first time and ask her to prepare you. Thirty minutes before the meeting, she sends three bullets and an icebreaker:
 
 | Part | What it covers |
 |---|---|
@@ -61,13 +88,28 @@ A first meeting has no deal history to draw on, so the prep is research. Tell Ol
 
 For a VP or C-suite contact, the brief also covers company tenure and publicly known priorities. If you want more than the three bullets, the full detail view is in the Oliv AI platform.
 
+### Send a pre-meeting email {#step-4-pre-meeting-email}
+
+Oliv AI's Olivia agent ends her prep with a suggested next step, such as **Draft the pre-meeting Email**. Click it, and she writes the email two ways:
+
+1. **Compare the drafts.** One is marked **Recommended**, with a **Why this version?** box listing her reasons. The other is a softer alternative, tagged with when to use it.
+2. **Choose how it goes out.** Pick **Send Draft 1 now**, schedule it with **Send Draft 1 at 3:30pm**, **Edit before sending**, or **Send Draft 2 instead**. Nothing goes out until you choose.
+3. **Read what happens next.** Under **After this goes out, I'll**, Olivia lists her follow-through: log the touch on the deal through Oliv AI's CRM Manager agent, watch for a reply and ping you, and update your brief if none comes.
+
+<figure>
+
+![Olivia's pre-meeting email in the chat: Draft 1, short and value-led, marked Recommended with a Why this version box; Draft 2, softer and relationship-led; four buttons to send now, send at 3:30pm, edit before sending or send Draft 2; and three follow-up actions Olivia lists for after sending.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_016_home_chat_olivia_pre-meeting-email_two-drafts-recommended-short-value-led-and-softer-send-options-after-send-actions_full-length.webp)
+
+<figcaption>The pre-meeting email is the last step of prep. You pick the draft and the send option, and Oliv AI's Olivia agent says what she'll do once it's sent, including logging the touch on the deal.</figcaption>
+</figure>
+
 ## Step 5: Walk in with the agenda {#step-5-use-the-agenda}
 
 1. Open the recommended agenda and check it against what you planned to cover.
 2. Turn each highlighted qualification gap into a question for the call.
 3. Read the stakeholder notes, and decide who each point is aimed at.
 4. If a competitor is live in the deal, watch the [clips pulled from past calls](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/clips/) before you join.
-5. Join the call. After it, the [follow-up draft](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/record-and-follow-up/) and [proposed CRM updates](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/) come back to you for review.
+5. Join the call. After it, the [follow-up draft](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/record-and-follow-up/) and [proposed CRM updates](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/) come back to you.
 
 ## What meeting preparation in Oliv AI is {#what-it-is}
 
@@ -81,7 +123,7 @@ Meeting preparation is the work Oliv AI does before your meetings so you don't r
 | **Contains** | Deal summary, qualification status, stakeholders, agenda | Three bullets and an icebreaker |
 | **Arrives** | 30 minutes before the meeting | 30 minutes before the meeting |
 
-Oliv AI's Olivia agent sits across both. She surfaces the right context before every meeting, coordinating Meeting Assistant for active opportunities and doing the research for new contacts herself. That's the difference between [an AI meeting assistant for sales](https://www.oliv.ai/blog/ai-meeting-assistant-for-sales) and a recorder that only helps after the call.
+Oliv AI's Olivia agent sits across both. She surfaces the right context before every meeting, coordinating Meeting Assistant for active opportunities and doing the research for new contacts herself. You can also ask her for prep at any time, and she lays out the deal, the attendees, the risks and the talking points in one answer. That's the difference between [an AI meeting assistant for sales](https://www.oliv.ai/blog/ai-meeting-assistant-for-sales) and a recorder that only helps after the call.
 
 ## Why meeting preparation matters {#why-it-matters}
 
@@ -130,11 +172,29 @@ Once the recording is processed, Oliv AI's Meeting Assistant agent drafts the [f
 
 ### Manager one-on-ones {#with-one-on-ones}
 
-Managers get prep too. [Oliv AI's Deal Driver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/) delivers a [per-rep 1:1 report every Thursday](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/run-a-pipeline-review/), ready before the manager's first meeting of the day. [Oliv AI's Coach agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/coach/) follows minutes later with that rep's coaching goal. On customer success teams, [Oliv AI's Portfolio Manager agent](https://www.oliv.ai/agents/portfolio-manager) builds a briefing of each CSM's book before every scheduled 1:1.
+Managers get prep too. In **Reports › My Reports**, [Oliv AI's Deal Driver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/) delivers a **Morning Brief** every weekday. It covers the day's meetings, the ones marked important, and each rep's meetings with the deal behind them.
+
+<figure>
+
+![Deal Driver's Morning Brief open in My Reports, dated with a date picker and a Rate this report star. An inner navigation lists Overview, Important Meetings and each rep's meetings, and the Overview summarises the day's ten meetings, three of them marked important.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/reports/oliv-ai_202_reports_my-reports_deal-driver-morning-brief-report-open-meetings-overview-ten-meetings-three-important-key-highlights-and-important-meetings.webp)
+
+<figcaption>The Morning Brief from Oliv AI's Deal Driver agent is a manager's version of meeting prep. It shows which of the team's meetings need attention today, with buttons to join a call, leave the rep a note or review the deal.</figcaption>
+</figure>
+
+Each meeting card in the brief has **Add me to this call**, **Leave a note** and **Review Deal**, and a line comparing the meeting with your own calendar. Deal Driver also prepares a [**One-on-One Prep** report for each rep](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/run-a-pipeline-review/), on that rep's own day, such as every Thursday or every Friday. [Oliv AI's Coach agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/coach/) follows minutes later with that rep's coaching goal.
+
+<figure>
+
+![Deal Driver's One-on-One Prep report for one rep in My Reports. The report list shows one rep scheduled Every Thursday and another Every Friday, and the open report gives the rep's pipeline value, deal count and a Pipeline Summary of health, momentum and areas for improvement.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/reports/oliv-ai_200_reports_my-reports_deal-driver-one-on-one-prep-report-open-derek-evans-875000-pipeline-10-deals-pipeline-summary-and-closed-won.webp)
+
+<figcaption>One-on-One Prep puts a rep's whole pipeline in front of the manager before their 1:1. Each rep has their own delivery day, set in the report list.</figcaption>
+</figure>
+
+On customer success teams, [Oliv AI's Portfolio Manager agent](https://www.oliv.ai/agents/portfolio-manager) builds a briefing of each CSM's book before every scheduled 1:1.
 
 ### Qualification methodology {#with-methodology}
 
-The qualification status in each brief follows the framework your team runs, whether that's MEDDPICC, BANT, SPICED, MEDPICS or your own. See how Oliv AI [scores calls against your sales methodology](https://www.oliv.ai/sales-methodology).
+The qualification status in each brief follows the framework your team runs, whether that's MEDDPICC, MEDDIC, SPICED, BANT or DRIVE, set as **Active** in **Settings › Qualification Framework**. See how Oliv AI [scores calls against your sales methodology](https://www.oliv.ai/sales-methodology).
 
 ### Agent tools {#with-tools}
 
@@ -158,7 +218,7 @@ An account manager walks into a renewal or expansion call with the full account 
 
 ### Sales managers {#sales-managers}
 
-A [sales manager](https://www.oliv.ai/sales-managers) opens each [Thursday 1:1](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/run-a-pipeline-review/) with the rep's pipeline, activity and flagged deals already on the page. The conversation starts at strategy instead of status updates.
+A [sales manager](https://www.oliv.ai/sales-managers) starts the day with the Morning Brief, then opens each rep's 1:1 with their pipeline, activity and flagged deals already on the page. The conversation starts at strategy instead of status updates.
 
 ## How meeting preparation compares {#compare}
 
@@ -190,7 +250,7 @@ Meeting preparation, from each platform's public documentation:
 - **Deal briefs need a deal.** The deal brief covers meetings linked to an active opportunity in your CRM. Meetings with new contacts get the research brief instead.
 - **Connections come first.** No brief arrives until your calendar, recorder and CRM are connected. Most teams are connected within a week.
 - **The research brief is short by design.** It's three bullets and an icebreaker. The full detail view is in the platform.
-- **Follow-ups are drafts.** The follow-up email and CRM updates wait for you to review before anything is sent or saved.
+- **Emails wait for your choice.** A pre-meeting or follow-up email goes out only when you pick a send option or press send.
 
 ## Common questions {#common-questions}
 
@@ -208,7 +268,7 @@ Three bullets on the company and the person, plus an icebreaker. Oliv AI's Olivi
 
 #### Which sales methodologies does the brief use? {#faq-methodologies}
 
-MEDDPICC, BANT, SPICED, MEDPICS, or your company's own qualification framework. The brief maps the deal against whichever one your team runs.
+MEDDPICC, MEDDIC, SPICED, BANT or DRIVE. Your team marks one as **Active** in **Settings › Qualification Framework**, and the brief maps the deal against it.
 
 #### Does the brief include an agenda? {#faq-agenda}
 
@@ -220,7 +280,7 @@ No. Oliv AI's CRM Manager agent fills in missing or stale fields from call histo
 
 #### Where do briefs and alerts show up? {#faq-where}
 
-Oliv AI's Olivia agent works through Slack, Teams or the Oliv AI product. Choose the channel your team already uses.
+Oliv AI's Olivia agent works through Slack, Teams or the Oliv AI product. In the product, you ask her on the Home screen's Ask tab, and managers read Deal Driver's briefs in My Reports.
 
 #### Is the follow-up email a template? {#faq-follow-up-template}
 
@@ -228,7 +288,7 @@ No. Oliv AI's Meeting Assistant agent writes the draft from the call transcript:
 
 #### Can managers get prep for their 1:1s? {#faq-one-on-ones}
 
-Yes. Oliv AI's Deal Driver agent sends a per-rep 1:1 report every Thursday, ready before the manager's first meeting of the day.
+Yes. Oliv AI's Deal Driver agent prepares a One-on-One Prep report for each rep on that rep's set day, such as Thursday or Friday. Its Morning Brief covers the team's meetings every weekday.
 
 #### Is there a minimum team size? {#faq-team-size}
 

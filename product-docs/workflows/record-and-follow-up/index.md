@@ -4,7 +4,7 @@ How to get a sales call recorded in Oliv AI and send the follow-up, from the mee
 
 - Applies to: Meetings Oliv AI records, and follow-ups on active opportunities
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/record-and-follow-up/
 
 Oliv AI records your sales calls and has the follow-up ready within minutes of the call ending. Oliv AI's Meeting Assistant agent drafts the email from the transcript, with the recap, commitments, owners and next steps already written. It also proposes CRM updates and flags qualification gaps for you to review. This guide covers getting the call recorded, then reviewing and sending everything that comes back.
@@ -18,6 +18,7 @@ Oliv AI records your sales calls and has the follow-up ready within minutes of t
 | **Drafted by** | Oliv AI's Meeting Assistant agent, from the call transcript |
 | **The draft covers** | The recap, commitments, owners and next steps |
 | **CRM updates proposed** | Stage, amount, close date, qualification fields and next steps |
+| **Where you review it** | **Activities › Meetings** or **Activities › Calls**, in a drawer with tabs for the summary, tasks, insights, recording and CRM changes |
 | **Before anything goes out** | You review, adjust and send |
 | **Works on** | Meetings linked to an active opportunity |
 
@@ -36,7 +37,40 @@ Oliv AI joins Zoom, Google Meet and Microsoft Teams meetings automatically once 
 
 The meeting summary is sent immediately after the meeting ends, to Slack and to your email by default. It holds the meeting details: title, date, time, participants and the account. It also covers key takeaways, next steps, talk time and a scorecard.
 
-To [open the full recording](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meeting-details/) from Slack, click **Open Meeting** in the message. You can also find any recording later by searching the [**Meetings** tab](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meetings/), for example by the date it was held.
+To [open the full recording](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meeting-details/) from Slack, click **Open Meeting** in the message. You can also find any meeting later in **Activities › Meetings**. The [Meetings list](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meetings/) has **My meetings** and **Team meetings** tabs, with **Search**, **Group**, **Fields**, **Sort** and **Filter**.
+
+<figure>
+
+![The Meetings list on the My meetings tab, a grid of captured meetings with columns for Meeting, Duration, Meeting with, Next Step and AI Summary. Each row has a meeting-type dropdown such as Prospect, Customer, Candidate or Colleague and a colour-coded next step.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_239_activities-meetings_meetings-list_my-meetings-tab_grid-with-meeting-type-next-step-and-ai-summary-columns.webp)
+
+<figcaption>The Meetings list already shows each call's next step and AI summary, so you can see what needs following up before you open a single meeting.</figcaption>
+</figure>
+
+Each row shows the meeting's **Next Step** and **AI Summary**, and a **Meeting with** dropdown that classes it as Prospect, Customer, Candidate or Colleague. Click a row to open the meeting. Its **Overview** tab holds:
+
+- **Key takeaways**, each with timestamps that jump to that moment in the recording;
+- an **AI Summary**, in headed sections with their own timestamps;
+- an updates card for the account, with the deal's stage, amount and close date and a **Review Deal** button.
+
+<figure>
+
+![A meeting's details drawer on the Overview tab, with tabs for Overview, Action Items, Meeting insights, Recording, Coaching, Attendees and CRM Updates. A Key takeaways card and an AI Summary card carry blue timestamps, and an account updates card shows the deal stage, amount, close date and Review Deal.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_240_activities-meetings_meeting-details-drawer_overview-tab_key-takeaways-ai-summary-and-deal-updates-card.webp)
+
+<figcaption>The Overview tab is the in-app version of the meeting summary. Every takeaway links back to the moment it came from, and the seven tabs split the rest of the follow-up work.</figcaption>
+</figure>
+
+### Check the action items {#step-2-action-items}
+
+The **Action Items** tab turns the call's commitments into tasks. Three cards at the top show the **Next meeting**, the **Next action** and the **Next follow-up**, each with a status such as **Accepted** or **Overdue**. Below them, a **Tasks** table lists each task with an **Assignee**, a **Due Date** and a timestamp back to the moment it was agreed.
+
+<figure>
+
+![The Action Items tab of a meeting drawer. Cards for Next meeting, marked Accepted, Next action with a date, and Next follow-up, marked Overdue, sit above a Pending tasks table under Our tasks, with four tasks, an assignee and a due date for each, and Add task at the bottom.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_241_activities-meetings_meeting-details-drawer_action-items-tab_next-meeting-next-action-follow-up-and-our-tasks-table.webp)
+
+<figcaption>Action Items is where a call's commitments become tasks with owners and due dates. Each task links back to the moment in the call where it was agreed.</figcaption>
+</figure>
+
+Tick a task when it's done, switch the status filter from **Pending**, or **Add task** by hand. Phone calls in **Activities › Calls** get the same tab, split into **Our tasks** and **Their tasks**, so you can see what the buyer owes as well.
 
 ## Step 3: Review the follow-up draft {#step-3-review-draft}
 
@@ -53,29 +87,70 @@ Read it through, change anything that needs changing, and send it. Nothing reach
 
 ## Step 4: Approve the CRM updates {#step-4-crm}
 
-From what was said on the call, Oliv AI [proposes deal field updates](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/) for your approval:
+From what was said on the call, Oliv AI [proposes deal field updates](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/) and records them on the meeting's **CRM Updates** tab:
 
-1. Check the proposed **stage**, **amount** and **close date** against what the buyer told you.
-2. Check the qualification fields and the next steps.
-3. Approve the updates that are right. [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) writes them, so your pipeline stays current without manual cleanup.
+1. Open **CRM Updates**. A timeline lists every change made after the call, such as a refreshed account summary, a scorecard update or a new contact. A green check marks the ones already done.
+2. Find any **Pending Update**, such as a move to a new stage. Check it against what the buyer told you, then click **Update Deal** to confirm it.
+3. Open the changed records with **View Account**, **View Deal** or **View Contact**. On the deal itself, the **CRM Updates** tab lists **AI Suggestions** to **Accept** or **Reject**, with the current CRM value beside each one.
+
+<figure>
+
+![The CRM Updates tab of a meeting drawer: a vertical timeline of changes made after the meeting. Completed entries, marked with green checks, update the account, a BANT scorecard and two new contacts, while one Pending Update to move the deal to Proposal has an Update Deal button.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_246_activities-meetings_meeting-details-drawer_crm-updates-tab_account-deal-bant-and-contact-updates-with-pending-stage-move.webp)
+
+<figcaption>CRM Updates shows what reached your CRM after the call and what is still waiting. A stage move stays pending until you confirm it with Update Deal.</figcaption>
+</figure>
+
+[Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) writes the updates, so your pipeline stays current without manual cleanup.
 
 How freely agents act in your CRM is set per action. [Agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/) explains which actions wait for your approval.
 
 ## Step 5: Check the qualification gaps {#step-5-gaps}
 
-After every call, Oliv AI flags new information, or notable absences, that affect the deal's qualification status. Gaps show up while there's still time to close them. Turn each one into a question for the next meeting, and it will feed the brief that helps you [prepare for the next meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/).
+After every call, Oliv AI flags new information, or notable absences, that affect the deal's qualification status. Gaps show up while there's still time to close them.
+
+Open the meeting's **Meeting insights** tab to see them. A row of chips, from **Metrics** and **Economic Buyer** to **Champion** and **Additional Fields**, follows your qualification framework. Click a chip to jump to its section, where each card holds what was said, with timestamps. Where nothing was said, the card says so instead of guessing.
+
+<figure>
+
+![The Meeting insights tab of a meeting drawer, with chips for Metrics, Economic Buyer, Decision Criteria, Decision Process, Paper Process, Identify Pain, Champion and Additional Fields. Cards under Metrics and Economic Buyer hold evidence from the call with timestamps.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_242_activities-meetings_meeting-details-drawer_meeting-insights-tab_meddpicc-sections-metrics-and-economic-buyer.webp)
+
+<figcaption>Meeting insights files what the buyer said under each qualification criterion. A card that says nothing was discussed is the gap to raise on the next call.</figcaption>
+</figure>
+
+Turn each gap into a question for the next meeting, and it will feed the brief that helps you [prepare for the next meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/).
 
 ## Step 6: Share the moment that matters {#step-6-share}
 
-Sometimes a colleague needs one part of the call, not all of it. In the transcript, [find the minute marker you want](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meeting-details/) and check the box beside the segment. Copy the selected portion and open it in a new tab to start playback from that minute.
+Sometimes a colleague needs one part of the call, not all of it. Open the meeting's **Recording** tab, find the moment in **Chapters** or **Transcripts**, then use the buttons under the player:
+
+- **Clip** cuts the key moment, which then sits in your clip libraries.
+- **Share** sends the meeting to a colleague.
+- **Add Comment** pins a note to that point in the call, and **Comments** shows your team's notes.
+
+<figure>
+
+![The Recording tab of a meeting drawer: a video player with Add Comment, Clip and Share buttons beneath it, a speaker Timeline showing each person's talk time and engagement, and a Chapters list with titles, timestamps and a sentence for each chapter.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_243_activities-meetings_meeting-details-drawer_recording-tab_blank-player-add-comment-clip-share-timeline-and-chapters.webp)
+
+<figcaption>The Recording tab is where you cut and share the moment that matters. Chapters and the speaker timeline help you find it without replaying the whole call.</figcaption>
+</figure>
+
+A phone call's **Recording** tab plays the audio with a **Transcript** and **Comments** beside it, a **Timeline** of talk time and engagement, and **Add Comment**. The [meeting details page](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meeting-details/) covers every tab in depth.
+
+<figure>
+
+![The Recording tab of a phone call's drawer: an audio waveform player with play, a time readout and volume, a speaker Timeline with talk time and engagement for each person, an Add Comment button, and a speaker-labelled Transcript with timestamps on the right.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-calls/oliv-ai_250_activities-calls_call-details-drawer_recording-tab_audio-waveform-player-talk-time-timeline-and-transcript.webp)
+
+<figcaption>Phone calls get the same replay and transcript as meetings, with comments you can attach to a moment. Use it to check a commitment before you send the follow-up.</figcaption>
+</figure>
 
 ## What post-call follow-up in Oliv AI is {#what-it-is}
 
-Post-call follow-up is the work Oliv AI does once a recorded meeting ends, so you don't write the recap or update the CRM from memory. It has four outputs.
+Post-call follow-up is the work Oliv AI does once a recorded meeting ends, so you don't write the recap or update the CRM from memory. It has five outputs.
 
 | Output | Sent by | When |
 |---|---|---|
 | **Meeting summary** | Oliv AI, to Slack and email | Immediately after the meeting ends |
+| **Takeaways, summary and tasks** | Oliv AI, on the meeting's Overview and Action Items tabs | Once the recording is processed |
 | **Follow-up email draft** | Oliv AI's Meeting Assistant agent | Within minutes of the call ending |
 | **Proposed CRM updates** | Oliv AI's Meeting Assistant agent, written by Oliv AI's CRM Manager agent | After the recording is processed |
 | **Qualification gap flags** | Oliv AI's Meeting Assistant agent | After every call |
@@ -188,7 +263,8 @@ Post-call follow-up, from each platform's public documentation:
 
 - **Active opportunities only.** The follow-up draft, CRM updates and gap flags cover meetings linked to an active opportunity in your CRM.
 - **No recording, no draft.** The draft is built after the recording is processed, so the call has to be recorded first.
-- **Drafts wait for you.** Nothing is sent to your buyer and no field is written until you review it.
+- **Emails wait for you.** Nothing is sent to your buyer until you review the draft and send it.
+- **Stage moves wait for you.** A change of deal stage stays a **Pending Update** until you confirm it. Other updates, such as a refreshed account summary or a new contact, show on the **CRM Updates** tab once written.
 - **Lobbies can delay recording.** On a meeting the customer hosts, the note taker may need admitting before it can record.
 - **Summary messages can be turned off.** If you'd rather not get the Slack and email summaries, disable them on your **Profile Settings** page.
 
@@ -208,11 +284,11 @@ The recap, the commitments, the owners and the next steps, with specific dates w
 
 #### Is anything sent without me? {#faq-review}
 
-No. You review the draft, adjust anything that needs changing and send it yourself.
+No email is. You review the draft, adjust anything that needs changing and send it yourself. The meeting's CRM Updates tab shows each CRM change, and holds stage moves until you confirm them.
 
 #### Which CRM fields does it propose? {#faq-crm-fields}
 
-Stage, amount, close date, qualification fields and next steps, based on what was said on the call. You approve them before they're written.
+Stage, amount, close date, qualification fields and next steps, based on what was said on the call. A stage move waits for you to click Update Deal, and deal suggestions wait for Accept or Reject.
 
 #### What's in the meeting summary? {#faq-summary}
 
@@ -232,7 +308,7 @@ Meetings linked to an active opportunity in your CRM. If the deal exists and the
 
 #### Can I share part of a call? {#faq-share-part}
 
-Yes. Select the segment by its minute marker in the transcript, copy it, and open it in a new tab to play from that minute.
+Yes. On the meeting's Recording tab, find the moment in Chapters or Transcripts, then use Clip to cut it or Share to send the meeting.
 
 ## Related {#related}
 

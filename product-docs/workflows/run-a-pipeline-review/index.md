@@ -1,24 +1,25 @@
 # Run a pipeline review
 
-How a sales manager runs a weekly deal-by-deal pipeline review with Oliv AI, from the Thursday per-rep report and deal risk alerts to forecast adjustments, rep nudges and the Monday rollup.
+How a sales manager runs a weekly deal-by-deal pipeline review with Oliv AI, from each rep's One-on-One Prep report and deal risk alerts to the forecast board, rep nudges and the Monday Pipeline Review.
 
 - Applies to: Sales managers and BDR leads with a connected CRM and team calendar
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/run-a-pipeline-review/
 
-Oliv AI prepares a sales manager's pipeline review before the meeting starts. Oliv AI's Deal Driver agent sends a per-rep 1:1 report every Thursday, ready before the manager's first meeting of the day. Through the week it flags deals that need attention, each with a suggested action. This guide walks through a deal-by-deal review, from the Thursday report to the Monday rollup for leadership.
+Oliv AI prepares a sales manager's pipeline review before the meeting starts. Oliv AI's Deal Driver agent writes a **One-on-One Prep** report for each rep before their 1:1, on that rep's own schedule, such as every Thursday. Through the week it flags deals that need attention, each with a suggested action. This guide walks through a deal-by-deal review, from the rep reports to the Monday **Pipeline Review** for leadership.
 
 ## At a glance {#at-a-glance}
 
 | | |
 |---|---|
 | **Who runs it** | Sales managers and BDR leads, with Oliv AI's Deal Driver agent |
-| **Per-rep report** | Every Thursday, before the manager's first meeting |
-| **Daily rhythm** | Morning brief, live alerts and an end-of-day summary |
+| **Per-rep report** | **One-on-One Prep**, on each rep's schedule, such as every Thursday |
+| **Daily rhythm** | **Morning Brief** and **Sunset Summary** every weekday, plus live alerts |
 | **Each alert carries** | The deal, the signal, context and a suggested action |
-| **For leadership** | A Monday rollup, ready before the first standup |
-| **Works for** | AE and BDR pipelines |
+| **For leadership** | **Pipeline Review** every Monday, a full view of every deal by status |
+| **Where reports live** | **Reports › My Reports**, grouped by the agent that writes them |
+| **The forecast** | The **Boards** tab in Forecast, by manager and rep |
 | **Set-up** | Connect the CRM and team calendar, then set alert thresholds |
 
 ## Before you begin {#before-you-begin}
@@ -32,21 +33,37 @@ Oliv AI prepares a sales manager's pipeline review before the meeting starts. Ol
 
 Connect the CRM and the team's calendar, then set alert thresholds. Most managers are live within a week. Reps don't need to change anything: [Oliv AI's Deal Driver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/) works in the background and shows up for them as follow-up prompts and next-step reminders.
 
-You can also adjust alert sensitivity and the brief format. Briefs, alerts and summaries go to the manager through [Slack](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/), email or the Oliv platform.
+You can also adjust alert sensitivity and the brief format. Every scheduled report appears in **Reports › My Reports**, and briefs, alerts and summaries can also reach the manager through [Slack](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/) or email.
 
-## Step 2: Start the day with the morning brief {#step-2-morning-brief}
+## Step 2: Start the day with the Morning Brief {#step-2-morning-brief}
 
-Before the day starts, Deal Driver sends the morning brief. It covers:
+Every weekday, Deal Driver's **Morning Brief** opens on an **Overview**: the day's meetings across the team, the key highlights and customer engagement. **Important Meetings** come next, then each rep's meetings. It covers:
 
 - Today's meetings across the team: who is meeting whom, which deal it relates to and what matters about the call.
 - Flags for meetings where your attendance or pre-meeting notes would add value.
 - Priority deals to watch that day, based on signals from the prior 24 hours.
 
-On review day, the priority deals are a good first cut of the agenda.
+Each meeting card shows the meeting type and time, checks it against your calendar, and offers **Add me to this call** and **Leave a note**. On review day, the important meetings and priority deals are a good first cut of the agenda.
 
-## Step 3: Open each rep's 1:1 report {#step-3-rep-reports}
+<figure>
 
-Every Thursday, Deal Driver compiles a structured view of each rep's pipeline. The report covers deal health, activity levels, stuck deals and what to focus on next week. It's in your inbox before your first 1:1 of the day.
+![Reports, My Reports, with Deal Driver's Morning Brief open for the day. The left list shows Pipeline Review, One-on-One Prep and Morning Brief with their schedules. The report shows a navigation of Overview, Important Meetings and each rep's meetings, an Overview with meeting counts and key highlights, and the first important meeting card.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/reports/oliv-ai_202_reports_my-reports_deal-driver-morning-brief-report-open-meetings-overview-ten-meetings-three-important-key-highlights-and-important-meetings.webp)
+
+<figcaption>The Morning Brief turns the team's calendar into a short list of meetings that matter, which is where review day starts.</figcaption>
+</figure>
+
+## Step 3: Open each rep's One-on-One Prep {#step-3-rep-reports}
+
+Deal Driver compiles a structured view of each rep's pipeline before their 1:1. In **My Reports**, open **One-on-One Prep** and pick the rep. The report shows their total pipeline and deal count, then a **Pipeline Summary** of **Pipeline Health**, **Deal Momentum** and **Areas for Improvement**.
+
+The rest of the report sorts the rep's deals into **Closed Won**, **Closed Lost**, **Closing Soon**, **Quick Wins**, **On Track Deals**, **Deals at Risk**, **Existing Customers** and **Needs Follow Up**. Each deal has a summary and a next step.
+
+<figure>
+
+![One-on-One Prep report for one rep in My Reports. The rep's row is selected under Deal Driver with an Every Thursday tag. The report shows the total pipeline and deal count, a Pipeline Summary of Pipeline Health, Deal Momentum and Areas for Improvement, a status navigation and the start of Closed Won.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/reports/oliv-ai_200_reports_my-reports_deal-driver-one-on-one-prep-report-open-derek-evans-875000-pipeline-10-deals-pipeline-summary-and-closed-won.webp)
+
+<figcaption>One-on-One Prep gives the manager a rep's whole pipeline, sorted by what needs attention, so the 1:1 can skip the status recap.</figcaption>
+</figure>
 
 Minutes later, [Oliv AI's Coach agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/coach/) follows with that rep's coaching goal and weekly progress. You walk into each conversation with both status and development context. For prep on the customer meetings themselves, reps get their own brief, covered in [Prepare for a meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/).
 
@@ -60,6 +77,15 @@ Go through each rep's flagged deals in turn. Deal Driver monitors all activity a
 - A high-value opportunity goes quiet.
 - A rep shows a pattern that warrants attention, such as consistently missing next-step fields.
 
+For the whole team, Deal Driver's **Pipeline Review** lists every deal by status, including **Deals at Risk**, **Stalled Deals** and **Needs Follow Up**. Each section opens with a **Deals Overview**, and each deal card has a **Deal Summary**, a **Next Step** and **Review Deal** to open the deal.
+
+<figure>
+
+![Deal Driver's Pipeline Review open in My Reports under an Every Monday tag. A navigation lists Overview, Closed, Closing Soon, Deals at Risk, Quick Wins, Stalled Deals, On Track Deals, Existing Customer and Needs Follow Up. The Overview covers the pipeline, key opportunities, customer updates and next steps.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/reports/oliv-ai_198_reports_my-reports_deal-driver-pipeline-review-report-open-overview-closed-closing-soon-deals-at-risk-quick-wins-stalled-navigation.webp)
+
+<figcaption>Pipeline Review is the deal-by-deal agenda: jump straight to the at-risk and stalled sections instead of walking the healthy deals.</figcaption>
+</figure>
+
 For each flagged deal:
 
 1. Read the alert. It names the deal, the signal, the relevant context and a suggested action.
@@ -71,12 +97,34 @@ For each flagged deal:
 
 [Oliv AI's Forecaster agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/forecaster/) rolls Deal Driver's signals into the number: close dates without activity, confidence without engagement and stalled next steps. As the manager:
 
-1. Look at all rep submissions at a glance.
-2. Review each rep's forecast alongside the areas Forecaster flagged.
-3. Add manager-level adjustments, kept separate from the rep's own.
-4. Mark each rep's forecast as reviewed, then view the rolled-up team forecast.
+1. Open **Apps › Forecast › Boards**. Pick the board, then **Quarterly**, **Monthly** or **Weekly**, and the period.
+2. Expand your row to see each rep's **Target Attainment**, **Pipeline Coverage**, **Commit Forecast** and **Most Likely Forecast**, with the change since last week.
+3. Click a manager's name to drill into that team, and use the back arrow to return.
+4. Open a rep's submission drawer. Add a manager-level adjustment to **Commit** and a comment explaining it.
+5. In the deal tabs, accept or dismiss each suggested category move.
 
-The [Oliv Forecast overview](https://www.oliv.ai/oliv-forecast) covers the forecasting side in more depth.
+<figure>
+
+![Forecast Boards tab in monthly view for October. A leader's row sits at the top, a manager's row is expanded, and five reps appear indented beneath it, each with target attainment against target, pipeline coverage, commit forecast and most likely forecast, with changes in green or red.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/forecast/oliv-ai_162_forecast_boards-tab_monthly-view-manager-row-expanded-brian-davis-team-jordan-lee-alice-roberts-sarah-reed-kevin-turner.webp)
+
+<figcaption>Expanding a manager's row puts each rep's number next to the team roll-up, so the forecast conversation follows the same rep order as the review.</figcaption>
+</figure>
+
+<figure>
+
+![Forecast board drilled into one manager's team. The manager is pinned as the top row with a back arrow, and six reps are listed below with target attainment, pipeline coverage, commit forecast and most likely forecast for the month.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/forecast/oliv-ai_163_forecast_boards-tab_monthly-view-drilled-into-brian-davis-team-back-arrow-reps-attainment-coverage-commit-most-likely.webp)
+
+<figcaption>Drilling in narrows the board to one manager's team, which is the view a first-line manager walks through rep by rep.</figcaption>
+</figure>
+
+<figure>
+
+![Best Case Deals tab of a manager's submission drawer. A group titled Move Down to Pipeline lists three deals with a total, each with stage, next step, a red risk reason and a dark Pipeline button with a down arrow. A second group, Move up to Most Likely, starts below with an up-arrow button.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/forecast/oliv-ai_168_forecast_submission-drawer_brian-davis_best-case-deals-tab_move-down-to-pipeline-3-deals-230000-and-move-up-to-most-likely-with-risk-reasons.webp)
+
+<figcaption>Suggested moves go both ways, down for stalled deals and up for ready ones, and each carries the risk reason to raise with the rep.</figcaption>
+</figure>
+
+Forecaster's **Weekly Forecast** in **My Reports** then compares the team's forecast with the AI forecast and lists the deals likely to slip. The [Oliv Forecast overview](https://www.oliv.ai/oliv-forecast) covers the forecasting side in more depth.
 
 ## Step 6: Let follow-through run {#step-6-follow-through}
 
@@ -84,8 +132,8 @@ After the review, the agents keep the agreed next steps moving:
 
 - **Rep nudges.** Deal Driver nudges reps directly when deals stall, next steps go overdue or activity drops, before you need to step in.
 - **Evening voice check-in (Beta).** Each evening, Oliv AI's Voice Agent (Beta) reaches out to team members with targeted questions. They answer by voice, with no forms to fill in.
-- **End-of-day summary.** At end of day, Deal Driver sends deals won or lost, meetings held and their outcomes, deals newly flagged at risk and open situations to follow up.
-- **Monday rollup.** The week starts with a ready-to-review pipeline summary for leadership, prepared before the first standup.
+- **Sunset Summary.** Every weekday evening, Deal Driver recaps wins, risks and next-step gaps: deals won or lost, meetings held and their outcomes, deals newly flagged at risk and open situations to follow up. It also notes whether the day's meetings were recorded.
+- **Monday Pipeline Review.** The week starts with a ready-to-review summary of every deal for leadership, prepared before the first standup.
 
 ## What a pipeline review with Oliv AI is {#what-it-is}
 
@@ -93,14 +141,13 @@ A pipeline review with Oliv AI is your usual deal review, with the preparation d
 
 | Rhythm | What arrives | When |
 |---|---|---|
-| **Morning brief** | Today's team meetings, meetings worth joining, priority deals | Before the day starts |
+| **Morning Brief** | Today's team meetings, meetings worth joining, priority deals | Every weekday morning |
 | **Live alerts** | A deal, its signal, context and a suggested action | When something needs attention |
-| **End-of-day summary** | Deals won or lost, meeting outcomes, new risks, open items | End of each day |
-| **Per-rep 1:1 report** | Each rep's pipeline, activity, deal health and flagged items | Every Thursday |
-| **Team pipeline review** | The team's pipeline health, coverage and risk profile | Ready for leadership reviews |
-| **Monday rollup** | A pipeline summary for leadership | Before the first standup |
+| **Sunset Summary** | Wins, losses, meeting outcomes, new risks, next-step gaps | Every weekday evening |
+| **One-on-One Prep** | Each rep's pipeline by status, with a summary and next step per deal | On each rep's schedule, such as every Thursday |
+| **Pipeline Review** | Every deal in the pipeline by status, for executive updates | Every Monday |
 
-The same structure works for BDR and AE teams. Cadence and field configurations differ, but the morning brief, alerts and 1:1 reports work the same way.
+Each report opens in **Reports › My Reports** with a date picker to page through past editions and **Rate this report**. The same structure works for BDR and AE teams. Cadence and field configurations differ, but the briefs, alerts and rep reports work the same way.
 
 ## Why a pipeline review with Oliv AI matters {#why-it-matters}
 
@@ -110,7 +157,7 @@ A pipeline review is where a manager decides which deals need help this week. Wi
 
 ### How it helps {#how-it-helps}
 
-- **Reports arrive before the meeting.** Each rep's pipeline view lands Thursday morning, with nothing to pull.
+- **Reports arrive before the meeting.** Each rep's pipeline view is ready before the 1:1, with nothing to pull.
 - **Risk shows up early.** Alerts fire when deals stall or stages drift, not when a rep finally mentions it.
 - **Every alert suggests a move.** The deal, the signal and a suggested action come together.
 - **Follow-through doesn't depend on memory.** Reps get nudged when next steps go overdue.
@@ -133,7 +180,7 @@ Most managers prep by pulling a CRM report per rep and reading recent call notes
 
 Most of that time is lookup, not judgment. Which deals went quiet, which close dates moved and which fields are blank are all facts the system already holds. Hand the lookup to an agent, and the meeting can start at the problem deals.
 
-Oliv AI's Deal Driver agent does the lookup before Thursday. Each rep's 1:1 report lands before the manager's first meeting, with deal health, activity and flagged items. Alerts through the week mark the deals that changed. After the review, nudges keep the agreed next steps from slipping. The manager spends the fifteen minutes per rep on the two or three deals that need a decision, and the healthy ones get a nod.
+Oliv AI's Deal Driver agent does the lookup before Thursday. Each rep's prep report lands before the manager's first meeting, with deal health, activity and flagged items. Alerts through the week mark the deals that changed. After the review, nudges keep the agreed next steps from slipping. The manager spends the fifteen minutes per rep on the two or three deals that need a decision, and the healthy ones get a nod.
 
 Every alert includes the deal, the signal, relevant context and a suggested action for the manager. How other platforms support a weekly pipeline review is covered in How a pipeline review with Oliv AI compares, below.
 
@@ -149,7 +196,7 @@ Before every meeting on an active opportunity, reps get a brief with the deal su
 
 ### Olivia for reps {#with-olivia}
 
-[Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) is the front-facing agent for reps, while Deal Driver is the manager's tool. Reps work with Olivia day to day, and the manager sees the outcome in the review.
+[Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) is the front-facing agent for reps, while Deal Driver is the manager's tool. Reps work with Olivia day to day, and the manager sees the outcome in the review. During the review, the **Ask** button on the Forecast board opens Olivia beside it.
 
 ### Portfolio Manager for customer success {#with-portfolio-manager}
 
@@ -165,15 +212,15 @@ These are typical patterns, shown to illustrate how teams use the review rhythm.
 
 ### Sales managers {#sales-managers}
 
-A sales manager reads each rep's Thursday report over coffee and lists the flagged deals. The review covers only those, and standups get shorter because the morning brief already covers the day. The [sales manager's daily guide](https://www.oliv.ai/blog/oliv-ai-sales-manager-daily-use-guide-features) walks through the rest of the week.
+A sales manager reads each rep's prep report over coffee and lists the flagged deals. The review covers only those, and standups get shorter because the morning brief already covers the day. The [sales manager's daily guide](https://www.oliv.ai/blog/oliv-ai-sales-manager-daily-use-guide-features) walks through the rest of the week.
 
 ### BDR leads {#bdr-leads}
 
-A BDR lead runs the same review on an outbound pipeline. The morning brief, rep alerts and 1:1 reports work the same way, with cadence and fields set for the BDR motion.
+A BDR lead runs the same review on an outbound pipeline. The morning brief, rep alerts and rep reports work the same way, with cadence and fields set for the BDR motion.
 
 ### VPs of Sales and regional heads {#sales-leadership}
 
-A VP of Sales starts the week with the Monday rollup instead of stitching leadership reviews together by hand. Flagged deals point at the conversations worth having with each manager. It pairs with a habit of [evidence-based forecast commits](https://www.oliv.ai/blog/run-evidence-based-forecast-commits).
+A VP of Sales starts the week with the Monday Pipeline Review instead of stitching leadership reviews together by hand. Flagged deals point at the conversations worth having with each manager. It pairs with a habit of [evidence-based forecast commits](https://www.oliv.ai/blog/run-evidence-based-forecast-commits).
 
 ### Revenue operations {#revenue-operations}
 
@@ -198,9 +245,9 @@ Pipeline review support, from each platform's public documentation:
 
 ### Why Oliv AI is the stronger choice for pipeline reviews {#compare-stronger}
 
-- **Each rep's report arrives on its own.** Oliv AI's Deal Driver agent sends a per-rep report every Thursday, before the manager's first meeting. [Gong recommends checking a deal board weekly, particularly before 1:1s and pipeline reviews](https://help.gong.io/docs/recipe-focus-on-deals-that-need-your-attention). See [Gong vs Oliv AI](https://www.oliv.ai/blog/gong-vs-oliv).
+- **Each rep's report arrives on its own.** Oliv AI's Deal Driver agent prepares a report for each rep on that rep's schedule, before the 1:1. [Gong recommends checking a deal board weekly, particularly before 1:1s and pipeline reviews](https://help.gong.io/docs/recipe-focus-on-deals-that-need-your-attention). See [Gong vs Oliv AI](https://www.oliv.ai/blog/gong-vs-oliv).
 - **Overdue next steps reach the rep.** Deal Driver nudges reps directly when next steps go overdue. [Outreach reports count incomplete tasks at least one calendar day overdue](https://support.outreach.io/support/solutions/articles/159000423739-outreach-insights-sequence-performance-report-overview). See [how Outreach compares with Gong](https://www.oliv.ai/blog/gong-vs-outreach).
-- **A summary prepared for leadership.** Oliv AI's Monday rollup is ready before the first standup. [Avoma's forecast board is viewed by deal stage or forecast category](https://help.avoma.com/know-your-forecast-board). See [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).
+- **A summary prepared for leadership.** Oliv AI's Monday Pipeline Review is ready before the first standup. [Avoma's forecast board is viewed by deal stage or forecast category](https://help.avoma.com/know-your-forecast-board). See [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).
 - **A rollup built for the week, not a board subscription.** Oliv AI prepares the Monday summary for leadership automatically. [Gong subscribers receive a weekly digest of deals through the deal board](https://help.gong.io/docs/faqs-for-deals). See [Oliv AI as a Gong alternative](https://www.oliv.ai/gong-alternative).
 
 *Competitor details checked against each vendor's public documentation on 21 October 2026. Features and plans change, so confirm with the vendor before you decide.*
@@ -219,7 +266,7 @@ Pipeline review support, from each platform's public documentation:
 
 #### When does the per-rep report arrive? {#faq-report-timing}
 
-Every Thursday, before the manager's first 1:1 of the day. It covers deal health, activity levels, stuck deals and what to focus on next week.
+On each rep's schedule, such as every Thursday, before the manager's 1:1 with that rep. It covers deal health, activity levels, stuck deals and what to focus on next week.
 
 #### Will this replace my daily standup? {#faq-standup}
 
@@ -239,19 +286,23 @@ Yes. Sales managers and BDR leads use it the same way. Cadence and field configu
 
 #### What does leadership get? {#faq-leadership}
 
-A Monday rollup: a ready-to-review pipeline summary, prepared before the first standup. A team pipeline review covers pipeline health, coverage and risk.
+The Pipeline Review every Monday: a full view of every deal in the pipeline, sorted by status, prepared before the first standup.
 
 #### Do reps need to do anything differently? {#faq-reps}
 
 No. Deal Driver works in the background. Reps see it as follow-up prompts and next-step reminders.
 
-#### Where do briefs and alerts arrive? {#faq-channels}
+#### Where do briefs and reports arrive? {#faq-channels}
 
-Through manager communication channels: Slack, email or the Oliv platform.
+In **Reports › My Reports**, under the agent that writes each one. Alerts and summaries can also reach managers through Slack or email.
+
+#### Can I look back at last week's report? {#faq-past-reports}
+
+Yes. Each report has a date picker with previous and next arrows, so you can page back through past editions.
 
 #### What happens after the review? {#faq-after-review}
 
-Reps get nudges when deals stall or next steps go overdue. The end-of-day summary and the Monday rollup keep the manager and leadership current.
+Reps get nudges when deals stall or next steps go overdue. The Sunset Summary and the Monday Pipeline Review keep the manager and leadership current.
 
 #### Is there an equivalent for customer success? {#faq-customer-success}
 

@@ -17,13 +17,13 @@ Field mapping decides which CRM field each update from [Oliv AI's CRM Manager ag
 | **CRMs** | Salesforce, HubSpot and Zoho out of the box |
 | **Pre-mapped** | Close date, deal amount, stage, next steps, last activity date |
 | **Mapped for you** | Methodology fields and your custom fields |
-| **First mode** | **Ask First**, with the source moment shown for each update |
+| **First mode** | **Ask First**, with each suggestion beside the current value on the deal's **CRM Updates** tab |
 | **Then** | **Auto-Pilot**, once RevOps confirms accuracy |
 
 ## Before you begin {#before-you-begin}
 
 - **Have your CRM ready to connect.** You connect it during onboarding.
-- **Know which methodology you run.** MEDDPICC, MEDDIC, BANT or a custom one all work.
+- **Know which methodology you run.** **Settings › Qualification Framework** lists MEDDPICC, MEDDIC, SPICED, BANT and DRIVE, with one marked **Active**.
 - **List your custom opportunity fields.** Note what each one means and which reports read it.
 - **Plan a short review period.** Reps take part while the team checks early updates.
 - **For HubSpot, have access to HubSpot Settings.** You may need to create a custom property for Oliv data.
@@ -36,6 +36,24 @@ CRM Manager fills three kinds of field. Sort your list into them before you conn
 2. **Methodology fields.** The fields your qualification framework uses. Values come from Oliv AI's Deal Insights layer, and CRM Manager writes them and keeps them current.
 3. **Custom fields.** Anything unique to your process, such as a deck status, use case, competition or integration type.
 
+To see the standard fields as reps will, open a deal's **Details** tab. Its section index runs from **Overview** and **Next Steps** to **Opportunity and Risks**, **Adoption**, **Success Plan** and **Marketing Opportunity**.
+
+<figure>
+
+![A deal's Details tab, with a section index on the left and the Overview section open. Paired fields show Deal Name, Close Date, Amount, Stage, Pipeline, Deal Owner, Priority and Forecast Category, and a Next Step field starts the Next Steps section below.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/records-deals/oliv-ai_219_records-deals_deal-detail-drawer_details-tab_overview-fields-next-step-section-index-dunder-mifflin-scranton.webp)
+
+<figcaption>Use the Details tab as your checklist for Step 1. The standard fields are already here; note which custom fields belong in the later sections.</figcaption>
+</figure>
+
+For methodology fields, open **Settings › Qualification Framework**. Each criterion of the previewed framework shows a **Supporting fields** count, the CRM fields that back it.
+
+<figure>
+
+![Settings, Qualification Framework, with MEDDPICC marked Active and MEDDIC selected for preview among SPICED, BANT and DRIVE tabs. The table lists criteria such as Metrics, Economic Buyer and Champion, each with a description, a 0-6 scoring chip and a supporting fields count.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/settings/oliv-ai_261_settings_qualification-framework_meddic-tab-selected-meddpicc-active_criteria-table-with-0-6-scoring-and-supporting-fields.webp)
+
+<figcaption>The supporting fields count tells you how many CRM fields each criterion needs. Add those fields to your list so framework scores have somewhere to land.</figcaption>
+</figure>
+
 The [sales methodology overview](https://www.oliv.ai/sales-methodology) explains how framework fields fill from calls.
 
 ## Step 2: Connect your CRM {#step-2-connect}
@@ -43,6 +61,14 @@ The [sales methodology overview](https://www.oliv.ai/sales-methodology) explains
 1. Use the one-click integration for [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/), [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/) or Zoho. Your pipeline and fields sync straight away.
 2. For HubSpot, visit the HubSpot integration in the Oliv AI web app. Share your HubSpot URL with the Oliv AI admin through Intercom in the Oliv AI interface.
 3. To connect email and phone as well, add those integrations. They widen activity coverage beyond meetings.
+4. Open **Settings › Revenue Process** and check your stages. Each sales motion has its own tab, and **Import Pipeline from CRM** pulls in the stages from the connected CRM. Every stage carries a **Type**, a **Probability** and a **Forecast Category**.
+
+<figure>
+
+![Settings, Revenue process page with tabs for Enterprise Sales, Mid-Market sales and Customer Success, a Search box and an Import Pipeline from CRM button. The stage table lists seven stages with Type, Probability, Forecast Category, Outcomes and Entry Criteria columns.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/settings/oliv-ai_260_settings_revenue-process_enterprise-sales-tab_stage-table-with-type-probability-forecast-category-outcomes-and-import-pipeline-from-crm.webp)
+
+<figcaption>Stage values are the first mapping to confirm. Import them from the CRM here, then check that each stage rolls into the forecast category your reports expect.</figcaption>
+</figure>
 
 The [integrations directory](https://www.oliv.ai/integrations) lists the apps you can connect.
 
@@ -68,9 +94,18 @@ Once a custom field is mapped, CRM Manager updates it in the same way as standar
 
 1. **Leave CRM Manager on Ask First.** You review each update before it's written.
 2. **Watch for the notification.** After every activity, reps get a [Slack](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/) or preferred-channel message: "I found updates for X fields, review here."
-3. **Open the Agent Updates tab.** Each row shows the field, the current CRM value, the proposed value and the reasoning behind it.
-4. **Accept, edit or reject.** Reps choose **Accept**, **Edit and accept** or **Reject** for each field.
-5. **Check the counts.** Managers see pending update counts per deal from the deal board, and each field keeps a full update history.
+3. **Open the deal's CRM Updates tab.** Under **AI Suggestions**, each card names the field, holds the suggested value and shows "Current Value" below it.
+4. **Accept or reject.** Reps press **Accept** or **Reject** on each field.
+5. **Check the counts.** The index shows counts for **AI Suggestions**, **AI Updates** and **Updates History**, so you can see what's waiting and what already changed.
+
+<figure>
+
+![A deal's CRM Updates tab with an index of AI Suggestions, AI Updates and Updates History, each with a count. Cards for Use Case and Primary Contact show the suggested value, a Current Value line, and green Accept and outlined Reject buttons.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/records-deals/oliv-ai_225_records-deals_deal-detail-drawer_crm-updates-tab_ai-suggestions-4-accept-reject-use-case-primary-contact-competitor-notes.webp)
+
+<figcaption>This is where you check your first mapped fields. A custom field like Use Case shows up as a suggestion beside its current value, so a wrong mapping is easy to spot.</figcaption>
+</figure>
+
+The meeting's own **CRM Updates** tab says what changed and why, for example a stage move held as **Pending Update** until someone presses **Update Deal**.
 
 If a field keeps landing in the wrong place, raise it with Oliv AI's team before you move on. Reps see these reviews as part of [running their deals](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/).
 
@@ -90,7 +125,18 @@ Teams on the weekly cadence get a middle path. Reps receive pending CRM suggesti
 
 Field mapping is the link between what Oliv AI learns from a conversation and the CRM field that stores it. Oliv AI's CRM Manager agent writes to [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/), [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/) or Zoho, and every update flows into your existing workflows, reports and dashboards. Oliv AI works on top of your CRM and doesn't replace it.
 
-Mapping covers more than deal fields. CRM Manager also logs every meeting, call and email against the right account, contact and opportunity. In the live page example, it attaches an AI-generated summary and the full call transcript to the Opportunity record. The [CRM Manager agent page](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) shows that example in full.
+Mapping covers more than deal fields. CRM Manager also logs every meeting, call and email against the right account, contact and opportunity.
+
+An agent's **Data** tab shows the other side of the link: the CRM objects and fields an agent can read. Under **Sources**, Salesforce lists **Deals**, **Contacts**, **Accounts** and **Leads**, and each field comes with a plain-language description.
+
+<figure>
+
+![An agent's Data tab with a Sources list showing Salesforce expanded to Deals, Contacts, Accounts and Leads, plus Oliv AI, Slack and ZoomInfo. The Deals panel lists field cards such as Deal ID, Name, Account, OwnerId / Owner and StageName, each with a short description.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_046_agent-detail_multi-threader_data-tab_sources-list-salesforce-deals-selected-deal-id-name-account-owner-stagename-fields.webp)
+
+<figcaption>Field definitions are what agents read back from your CRM. Clear descriptions here mean every agent understands a mapped field the same way.</figcaption>
+</figure>
+
+For a recorded call, CRM Manager attaches an AI-generated summary and the full call transcript to the Opportunity record. The [CRM Manager agent page](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) shows that example in full.
 
 ## Why field mapping matters {#why-it-matters}
 
@@ -102,7 +148,7 @@ Field mapping is for RevOps teams whose reports depend on custom fields that rep
 
 - **Custom fields stay filled.** Once mapped, they update like stage and close date.
 - **No rules to maintain.** CRM Manager reasons from context instead of rules someone has to write and update.
-- **Every value is traceable.** Each update carries the moment in the conversation behind it.
+- **Every value can be checked.** Each suggestion sits beside the current value, and the meeting's update says why it changed.
 - **Methodology stays complete.** Framework fields fill from every call, and old deals can be backfilled.
 
 ### What happens without it {#without-it}
@@ -125,13 +171,13 @@ The information behind those fields is usually spoken on calls already. A buyer 
 
 Oliv AI takes that job on during onboarding. Its team maps your custom fields as a service, and the CRM Manager agent then updates them from every meeting, call and email. It treats them exactly as it treats stage, close date and methodology fields.
 
-While you're on **Ask First**, every suggestion sits next to the field's present value and quotes the moment in the call that produced it. Nothing reaches the CRM until a rep accepts it. That evidence on each update is covered in How field mapping compares, below.
+While you're on **Ask First**, every suggestion sits next to the field's present value on the deal's **CRM Updates** tab. Nothing reaches the CRM until a rep presses **Accept**. The reason given for each update is covered in How field mapping compares, below.
 
 ## How field mapping works with other agents {#works-with}
 
 ### Oliver {#with-oliver}
 
-[Oliv AI's Oliver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/) creates or modifies CRM field mappings when new tracking requirements emerge. When your process adds a field, Oliver works through CRM Manager to add it.
+[Oliv AI's Oliver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/) creates or modifies CRM field mappings when new tracking requirements emerge. When your process adds a field, Oliver works through CRM Manager to add it. An Oliver proposal can add a new Opportunity field that CRM Manager fills from meeting and email activity, with a 90-day backfill.
 
 ### Meeting Assistant {#with-meeting-assistant}
 
@@ -157,7 +203,7 @@ AEs review proposed updates during the Ask First period, then mostly stop touchi
 
 ### Sales managers {#sales-managers}
 
-Managers watch pending update counts per deal from the deal board. Custom fields they use in one-on-ones fill from real activity instead of reminders. Read about Oliv AI for [sales managers](https://www.oliv.ai/sales-managers).
+Managers watch the **AI Suggestions** count on each deal's **CRM Updates** tab. Custom fields they use in one-on-ones fill from real activity instead of reminders. Read about Oliv AI for [sales managers](https://www.oliv.ai/sales-managers).
 
 ### Customer success managers {#customer-success}
 
@@ -165,11 +211,11 @@ CS teams map renewal and account fields too, because CRM Manager covers onboardi
 
 ## How field mapping compares {#compare}
 
-Most tools here can fill custom CRM fields from calls once an admin sets up the mapping. Oliv AI's team does the mapping for you during onboarding, and every update shows the moment in the call it came from. Oliv AI is the only platform in this table that does all three.
+Most tools here can fill custom CRM fields from calls once an admin sets up the mapping. Oliv AI's team does the mapping for you during onboarding, and every update says why it was made. Oliv AI is the only platform in this table that does all three.
 
 Field mapping features, from each platform's public documentation:
 
-| Platform | Custom fields filled from calls | Mapping set up for you at onboarding | Source moment shown for each update |
+| Platform | Custom fields filled from calls | Mapping set up for you at onboarding | Reason shown for each update |
 |---|---|---|---|
 | **Oliv AI** | Yes | Yes | Yes |
 | **Outreach** | Yes ([Deal Agent field updates](https://support.outreach.io/support/solutions/articles/159000432550-deal-agent-faq)) | Admin task | Yes ([transcript excerpt and timestamp](https://support.outreach.io/support/solutions/articles/159000425187-deal-agent-overview)) |
@@ -212,7 +258,7 @@ No. Once a custom field is mapped, CRM Manager updates it in the same way as sta
 
 #### Which methodologies can be mapped? {#faq-methodologies}
 
-MEDDPICC, MEDDIC, BANT or any custom methodology your team uses. The [guide to MEDDIC](https://www.oliv.ai/blog/meddic-sales-methodology) explains its fields.
+MEDDPICC, MEDDIC, SPICED, BANT and DRIVE, listed in **Settings › Qualification Framework**. The [guide to MEDDIC](https://www.oliv.ai/blog/meddic-sales-methodology) explains its fields.
 
 #### What field type should a HubSpot property for Oliv data use? {#faq-hubspot-type}
 
@@ -220,11 +266,11 @@ Most Oliv fields work best as **Rich Text**. Set the object type to **Deal** so 
 
 #### Can I check a value before it's written? {#faq-check-value}
 
-Yes. On **Ask First**, every suggested update surfaces for review, with the moment in the conversation that triggered it.
+Yes. On **Ask First**, every suggested update waits on the deal's **CRM Updates** tab, beside the field's current value.
 
 #### What if a mapped field gets a wrong value? {#faq-wrong-value}
 
-Edit or reject the suggestion before it's written. Every update includes its source, and nothing is irreversible.
+Reject the suggestion before it's written. **Updates History** on the deal's **CRM Updates** tab keeps the record of changes.
 
 #### Can we fill fields on old deals? {#faq-backfill}
 

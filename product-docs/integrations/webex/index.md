@@ -22,7 +22,14 @@ Oliv AI's Webex integration brings Oliv into the meetings you run on Webex. You 
 
 ## What the Webex integration is {#what-it-is}
 
-The Webex integration is an app called **Oliv.ai** in the Webex App Hub. The App Hub is Webex's own place to find and install apps. Once the app is installed and your Oliv account is connected, Oliv starts joining your Webex calls and summarizing them.
+The Webex integration is an app called **Oliv.ai** in the Webex App Hub. The App Hub is Webex's own place to find and install apps. Once the app is installed and your Oliv account is connected, Oliv starts joining your Webex calls and summarizing them. Each captured call then appears under **Activities** › **Meetings**, next to calls from every other platform.
+
+<figure>
+
+![The Meetings list under Activities on the My meetings tab, showing captured meetings with a video icon, date and time, Duration, a Meeting with dropdown such as Prospect, Customer, Candidate or Colleague, a coloured Next Step and an AI Summary column.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_239_activities-meetings_meetings-list_my-meetings-tab_grid-with-meeting-type-next-step-and-ai-summary-columns.webp)
+
+<figcaption>A recorded Webex call lands in the same Meetings list as calls from any other platform, with its duration, meeting type, next step and AI summary.</figcaption>
+</figure>
 
 The integration covers the whole meeting. Before it, Oliv gives you AI-powered meeting prep. After it, Oliv writes and shares a summary of the call, so nobody has to take notes by hand.
 
@@ -33,6 +40,24 @@ The integration covers the whole meeting. Before it, Oliv gives you AI-powered m
 - **A summary.** Key discussion points, action items and next steps, generated and shared once the meeting ends.
 - **Follow-through.** A place to discuss outcomes, assign action items and work on them with your team.
 - **A record over time.** Past summaries and action items you can look back on, to track how next steps are moving.
+
+In Oliv AI, each meeting opens to an **Overview** tab with **Key takeaways** and an **AI Summary**. Each takeaway carries timestamps that jump back into the recording.
+
+<figure>
+
+![A meeting details drawer on the Overview tab, with tabs for Action Items, Meeting insights, Recording, Coaching, Attendees and CRM Updates, a Key takeaways card with timestamped points, an AI Summary card and a deal updates card with Review Deal.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_240_activities-meetings_meeting-details-drawer_overview-tab_key-takeaways-ai-summary-and-deal-updates-card.webp)
+
+<figcaption>This is the summary a Webex call produces: the key takeaways and AI summary, each point linked to its moment in the recording, plus the deal it belongs to.</figcaption>
+</figure>
+
+The **Action Items** tab is where the team works on what was agreed. It shows the **Next meeting**, **Next action** and **Next follow-up**, then a task table with an **Assignee** and **Due Date** for each item, and **Add task** for anything missed.
+
+<figure>
+
+![A meeting details drawer on the Action Items tab, with Next meeting, Next action and Next follow-up cards above a Tasks table filtered to Pending, listing four tasks with an Assignee, a Due Date and a timestamp, and an Add task button.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_241_activities-meetings_meeting-details-drawer_action-items-tab_next-meeting-next-action-follow-up-and-our-tasks-table.webp)
+
+<figcaption>After a Webex call, the action items wait here with an owner and a due date, and each one links back to the minute it was agreed.</figcaption>
+</figure>
 
 ## Why the Webex integration matters {#why-it-matters}
 
@@ -86,17 +111,25 @@ Calendar integration is required for Oliv to work. Without it, Oliv can't take n
 Oliv joins external calls automatically. You can manage that from your calendar or from Oliv itself. To keep the note taker out of a particular call, use one of these:
 
 1. The Oliv AI Chrome extension or the Oliv AI Outlook add-in.
-2. The **My schedule** page in Oliv AI.
-3. The **Meetings** page in Oliv AI, in the **Meet** section.
-4. The link to remove it in your meeting preparation summary, by email or in Slack.
+2. The **Meetings** page in Oliv AI, under **Activities**.
+3. The link to remove it in your meeting preparation summary, by email or in Slack.
 
 To remove the Webex integration, send Oliv a message through Intercom in the Oliv app.
 
 ## Find a Webex meeting afterward {#find-meetings}
 
-If Oliv sends you a [Slack message about a meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/), click **Open Meeting** to go straight to it. You can also open the [**Meeting** tab and search](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meetings/) for the call, for example by its date.
+If Oliv sends you a [Slack message about a meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/), click **Open Meeting** to go straight to it. You can also open **Activities** › **Meetings** and [search the list](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meetings/) for the call. **My meetings** holds your own calls, and **Team meetings** widens it to your team.
 
-To share part of a call, [find the minute marker in the transcript](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meeting-details/) and check the box for that segment. For ideas on how to lay out what you send, look through these [meeting summary templates](https://www.oliv.ai/blog/meeting-summary-templates).
+To share part of a call, open the meeting's [**Recording** tab](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meeting-details/). Find the moment in **Chapters** or **Transcripts**, then use **Clip** to cut it or **Share** to send the meeting.
+
+<figure>
+
+![A meeting details drawer on the Recording tab: a video player with Add Comment, Clip and Share buttons, a speaker Timeline with talk time and engagement per person, and Chapters, Transcripts and Comments sub-tabs with a list of chapter cards.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_243_activities-meetings_meeting-details-drawer_recording-tab_blank-player-add-comment-clip-share-timeline-and-chapters.webp)
+
+<figcaption>The Recording tab of a captured call. Chapters and the transcript help you find a moment fast, and Clip or Share sends it on without rewatching the whole meeting.</figcaption>
+</figure>
+
+ For ideas on how to lay out what you send, look through these [meeting summary templates](https://www.oliv.ai/blog/meeting-summary-templates).
 
 ## How Webex works with Oliv AI's agents {#works-with}
 
@@ -198,7 +231,7 @@ Yes. Oliv sends timely meeting reminders, so you stay on schedule across your da
 
 #### How do I stop Oliv joining one Webex call? {#faq-stop-one}
 
-Use the **My schedule** page, the **Meetings** page or the removal link in your meeting preparation summary. The Chrome extension and Outlook add-in work too.
+Use the **Meetings** page under **Activities**, or the removal link in your meeting preparation summary. The Chrome extension and Outlook add-in work too.
 
 #### Can my team work on the action items together? {#faq-collaborate}
 
@@ -206,7 +239,7 @@ Yes. You can discuss meeting outcomes, assign action items and work on them with
 
 #### Where do I find a Webex call later? {#faq-find}
 
-Click **Open Meeting** in the Slack message about the call, or search the **Meeting** tab, for example by date.
+Click **Open Meeting** in the Slack message about the call, or search the list under **Activities** › **Meetings**.
 
 #### Does it work for Zoom, Teams and Google Meet as well? {#faq-other-platforms}
 

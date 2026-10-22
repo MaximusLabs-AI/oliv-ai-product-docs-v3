@@ -15,16 +15,26 @@ Oliv AI works as a layer on top of your existing CRM, and the CRM stays your sys
 |---|---|
 | **What it is** | A layer that reads your CRM and writes conversation insights back to it |
 | **Which CRMs** | Salesforce, HubSpot and Zoho out of the box, others on request |
-| **System of record** | Your CRM. Oliv AI doesn't replace it or hold a second copy of your pipeline |
+| **System of record** | Your CRM. Oliv AI works on its records and syncs changes back, rather than replacing it |
+| **Where you see it** | **Records › Deals**, a grid of your pipeline with a ten-tab drawer for each deal |
 | **What reaches the CRM** | Activities, new accounts and contacts, field values, contact roles and meeting notes |
-| **How writes are approved** | **Ask First** (review each update) by default, or **Auto-Pilot** once RevOps confirms |
+| **How writes are approved** | **Accept** or **Reject** on each AI suggestion, under **Ask First** by default, or **Auto-Pilot** once RevOps confirms |
 | **What it needs** | A CRM connection and a calendar connection |
 
 ## How Oliv AI sits on your CRM {#what-it-is}
 
 Oliv AI is a layer that sits on top of an existing CRM, rather than replacing it. The sync runs both ways: Oliv AI learns from your records and updates them with new insights. Pipeline, fields, owners, close dates, stages and forecast categories all stay in step.
 
-You don't move your pipeline anywhere. Oliv AI [keeps the CRM updated](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/) from what customers actually said, so the reports your leaders already trust run on current data. [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) does the writing.
+You don't move your pipeline anywhere. Inside Oliv AI, the deals your CRM syncs appear under **Records › Deals**, in five views: **Commit**, **Most Likely**, **Best Case**, **Pipeline** and **Closed**. Each row adds AI signals for **Forecast**, **Risks**, **Health**, **Momentum** and **Relationships**.
+
+<figure>
+
+![Deals grid on the Commit view with a count badge of 14, tabs for Most Likely, Best Case, Pipeline and Closed, and a toolbar with Search, Group, Fields, Sort, Filter, Export CSV and Add Column. Rows show a priority flag, a comment icon, Forecast, Risks, eight lettered Health dots, Momentum and Relationships.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/records-deals/oliv-ai_211_records-deals_deals-list_commit-view-14-deals-forecast-risks-meddpicc-health-momentum-relationships.webp)
+
+<figcaption>Your CRM pipeline as Oliv AI shows it: the same deals, sorted into forecast views, with a signal column for each question a manager asks about a deal.</figcaption>
+</figure>
+
+Oliv AI [keeps the CRM updated](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/) from what customers actually said, so the reports your leaders already trust run on current data. [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) does the writing.
 
 ### One product across the revenue team {#one-product}
 
@@ -81,9 +91,22 @@ In the first week, Oliv AI's team maps your workflow, your CRM setup, where deal
 
 ## Decide how Oliv AI writes to the CRM {#write-rules}
 
-By default, every suggested update surfaces for review before anything hits the CRM. You choose between two modes:
+By default, every suggested update surfaces for review before anything hits the CRM. You review it on the deal itself, in the **CRM Updates** tab, which has three lists with a count on each:
 
-- **Ask First.** You review each update before it's written. Every update shows the exact moment in the conversation that triggered it.
+- **AI Suggestions.** One card per field, with the suggested value above its **Current Value**. You click **Accept** to apply it or **Reject** to drop it.
+- **AI Updates.** Changes Oliv AI has already applied to the deal.
+- **Updates History.** The record of changes on the deal.
+
+<figure>
+
+![CRM Updates tab of a deal with AI Suggestions (4) selected, AI Updates (3) and Updates History (4) in the left index. Cards for Use Case and Primary Contact show a suggested value, the Current Value beneath it, and green Accept and outlined Reject buttons.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/records-deals/oliv-ai_225_records-deals_deal-detail-drawer_crm-updates-tab_ai-suggestions-4-accept-reject-use-case-primary-contact-competitor-notes.webp)
+
+<figcaption>This is where Ask First happens: each proposed field change sits beside the value your CRM holds now, and nothing is written until you accept it.</figcaption>
+</figure>
+
+You choose between two modes:
+
+- **Ask First.** You review each update before it's written.
 - **Auto-Pilot.** Unreviewed updates apply automatically, and the pipeline stays current without anyone acting.
 
 Once accuracy thresholds are met, RevOps confirms the switch to auto mode. When Oliv AI can't resolve which record an activity belongs to, it asks the seller instead of guessing.
@@ -99,6 +122,54 @@ Once accuracy thresholds are met, RevOps confirms the switch to auto mode. When 
 | **Writes: notes** | Meeting notes on the record, alongside the AI summary and action items |
 
 For data that's already there, real-time mode resolves issues as new activity arrives and batch mode goes back to clean history. RevOps can ask for jobs such as "Find all duplicate accounts from last quarter" or "Backfill MEDDPICC fields across the pipeline."
+
+## Work a deal from Records {#deal-records}
+
+On the grid, **Group**, **Fields**, **Sort** and **Filter** reshape the list, **Add Column** adds a column and **Export CSV** downloads it. Click any row to open the deal drawer. Its header shows the segment, stage, amount, close date and owner, plus a **Sync to Salesforce** button that pushes the deal to the CRM.
+
+<figure>
+
+![Deal drawer on the Overview tab, with segment, stage, amount, close date and owner in the header beside a Sync to Salesforce button. Ten tabs run from Overview to Assets, above a Strengths card and a Risks & Gaps card, with Ask, Comments and History on the right rail.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/records-deals/oliv-ai_217_records-deals_deal-detail-drawer_overview-tab_dunder-mifflin-strengths-and-risks-and-gaps-cards.webp)
+
+<figcaption>One deal, one drawer: the CRM fields sit in the header, the AI read of the deal sits below, and Sync to Salesforce sends your changes back to the system of record.</figcaption>
+</figure>
+
+### What each tab holds {#deal-tabs}
+
+| Tab | What you see |
+|---|---|
+| **Overview** | **Strengths** and **Risks & Gaps** cards, with icons for the activities they draw on |
+| **Agents** | **Pending Your Review**: work agents have queued on the deal, with **Send** or **View Progress** |
+| **Details** | The deal's fields in sections, from **Overview** and **Next Steps** to **Success Plan** |
+| **Stages** | Days spent in each stage, criteria completed per stage, and **Suggested Activities** |
+| **Health** | Sub-tabs for **Forecast**, **Risks**, **Qualification**, **Competition**, **Objections**, **Buying Committee** and **POC Health** |
+| **Momentum** | An **Activity Map** of meetings, emails, internal and external Slack and agent actions, plus a **Timeline** |
+| **Action Plan** | **Next Meeting**, **Next Action**, **Next follow-up**, your task list and a **Mutual Action Plan** |
+| **Coaching** | A letter grade for the deal, with a score for each coaching section |
+| **CRM Updates** | **AI Suggestions**, **AI Updates** and **Updates History** |
+| **Assets** | **Instant Assets**: ready-to-use templates such as an executive summary or ROI calculator |
+
+### Edit the deal's fields {#deal-fields}
+
+**Details** groups the record into **Overview**, **Next Steps**, **Opportunity and Risks**, **Adoption**, **Success Plan** and **Marketing Opportunity**. Jump to a section from the index on the left, change a field, then use **Sync to Salesforce** to send it back.
+
+<figure>
+
+![Details tab of a deal with a section index listing Overview, Next Steps, Opportunity and Risks, Adoption, Success Plan and Marketing Opportunity. The Overview section shows Deal Name, Close Date, Amount, Stage, Pipeline, Deal Owner, Priority and Forecast Category, with a Next Step field below.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/records-deals/oliv-ai_219_records-deals_deal-detail-drawer_details-tab_overview-fields-next-step-section-index-dunder-mifflin-scranton.webp)
+
+<figcaption>The Details tab is the CRM record in editable sections, so a rep can correct a stage or close date on the deal without opening the CRM itself.</figcaption>
+</figure>
+
+### Talk about the deal with your team {#deal-comments}
+
+The right rail holds **Ask**, **Comments** and **History**. **Comments** opens a dated team thread beside whichever tab you have open. Type a note or dictate it with the microphone, then send.
+
+<figure>
+
+![Comments panel open beside a deal's Assets tab, listing five dated notes from two team members about a quiet buyer and when to hold an executive call. An Add comments box with a microphone and a send arrow sits at the bottom.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/records-deals/oliv-ai_227_records-deals_deal-detail-drawer_comments-panel-open-team-thread-sarah-chen-meredith-palmer-add-comments-voice-send.webp)
+
+<figcaption>The team's discussion stays on the deal, next to the fields and templates it is about, instead of in a separate chat that never reaches the record.</figcaption>
+</figure>
 
 ## How the CRM layer works with agents {#works-with}
 
@@ -134,7 +205,7 @@ RevOps picks the write mode, signs off the move to Auto-Pilot and runs batch cle
 
 ### Account executives {#account-executives}
 
-An AE reviews the proposed updates after a call and accepts most of them. New stakeholders are already contacts with roles on the opportunity. The guide to [running deals as an account executive](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/) shows where this fits in the day.
+An AE opens the deal's **CRM Updates** tab after a call and accepts or rejects each suggestion. New stakeholders are already contacts with roles on the opportunity. The guide to [running deals as an account executive](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/) shows where this fits in the day.
 
 ### Customer success and account management {#customer-success}
 
@@ -167,7 +238,7 @@ CRM sync features, from each platform's public documentation:
 
 ## Limits and things to know {#limits}
 
-- **A CRM comes first.** Oliv AI sits on top of an existing CRM. It isn't a CRM, so there's no pipeline to keep in Oliv AI on its own.
+- **A CRM comes first.** Oliv AI sits on top of an existing CRM and isn't one itself. The deals in **Records** come from the CRM you connect, and changes go back to it.
 - **Three CRMs out of the box.** Salesforce, HubSpot and Zoho connect directly. Any other CRM is a request to Oliv AI's team.
 - **A calendar is required.** Without a calendar connection, Oliv AI can't take notes in meetings.
 - **Custom fields go through onboarding.** Oliv AI's team maps them as a service, not from a settings screen.
@@ -195,6 +266,10 @@ No. All updates flow into your existing CRM workflows, reports and dashboards, s
 #### Who decides what gets written? {#faq-who-approves}
 
 You do. Every suggested update surfaces for review by default. RevOps confirms the move to **Auto-Pilot** once accuracy thresholds are met.
+
+#### Can I see what Oliv AI changed on a deal? {#faq-deal-changes}
+
+Yes. Open the deal in **Records › Deals** and go to **CRM Updates**. **AI Updates** lists the changes already applied, and **Updates History** keeps the record of changes on that deal.
 
 #### Does Slack and email activity reach the CRM? {#faq-slack-email}
 

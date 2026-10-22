@@ -4,7 +4,7 @@ What Oliv AI's Converse app captures, from online meetings and phone calls to em
 
 - Applies to: Converse, Sell and Grow plans
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/
 
 Converse is Oliv AI's conversation capture app. It records and transcribes your team's online meetings, phone calls and in-person conversations, and captures email and Slack the same way. Every conversation lands in one searchable record, with a summary and next steps ready as soon as a call ends.
@@ -17,7 +17,7 @@ Converse is Oliv AI's conversation capture app. It records and transcribes your 
 | **Who it's for** | Sales leaders, account executives, SDRs, customer success and enablement |
 | **What it captures** | Online meetings, phone calls, in-person meetings, email and Slack |
 | **Where you find it** | **Activities › Meetings** and **Activities › Calls** in the main navigation |
-| **What you get** | Transcript with speaker labels, AI summary, next steps and a follow-up draft |
+| **What you get** | Key takeaways, AI summary, tasks, transcript with speaker labels, coaching scores and CRM updates |
 | **Which plans** | Converse, and the Sell and Grow plans that include it |
 
 ## What the Converse app is {#what-it-is}
@@ -28,9 +28,23 @@ Converse feeds the same context graph the rest of Oliv AI runs on. Your CRM, you
 
 ### Where Converse lives in the product {#where-it-lives}
 
-- [**Activities › Meetings**](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meetings/) lists the meetings captured in your workspace in a grid. It's the way into each meeting record.
-- **Activities › Calls** lists captured phone calls the same way.
+- [**Activities › Meetings**](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meetings/) lists the meetings captured in your workspace in a grid, with **My meetings** and **Team meetings** tabs. Each row shows the next step and an AI summary.
+- **Activities › Calls** lists captured phone calls, with their direction, disposition, owner, company and deal.
 - [Clips](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/clips/) live in the **Library** tab of the Enable app, rather than on a route of their own.
+
+<figure>
+
+![Left sidebar with Activities selected and its flyout open, listing Meetings, highlighted, and Calls. Behind it, the Meetings list shows the My meetings tab with a badge of 10 and columns for Meeting, Duration, Meeting with, Next Step and AI Summary.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/navigation/oliv-ai_238_navigation_sidebar_activities-flyout-open-meetings-highlighted-calls-over-my-meetings-list.webp)
+
+<figcaption>Converse lives under Activities: Meetings and Calls are its two lists, and every captured conversation is reached from one of them.</figcaption>
+</figure>
+
+<figure>
+
+![Calls list on the All calls tab with a badge of 10. Each row shows a phone icon, the call subject with date and time, Duration, an orange Outbound or green Inbound tag, a Connected disposition, the Owner, the Company and the linked Deal.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-calls/oliv-ai_247_activities-calls_calls-list_all-calls-tab_grid-with-direction-disposition-owner-company-and-deal-columns.webp)
+
+<figcaption>Phone call capture gets its own Calls list, with direction, disposition and the deal each call belongs to, beside the meetings rather than mixed into them.</figcaption>
+</figure>
 
 ### Converse the app and Converse the plan {#app-and-plan}
 
@@ -46,7 +60,7 @@ Converse is for revenue teams that want every customer conversation on record, n
 
 - **Nothing to type up.** A summary and next steps are ready as soon as the call ends.
 - **Every channel in one record.** Meetings, phone calls, email and Slack are captured the same way.
-- **The exact moment, found.** You search for the objection or pricing concern, then clip it.
+- **The exact moment, found.** You search for the objection or pricing concern, then clip it into a library.
 - **Context agents can use.** Oliv AI's agents read the same record, so follow-ups and CRM updates start from the call.
 
 ### What happens without it {#without-it}
@@ -84,22 +98,38 @@ Capture is always intentional. With in-person capture, the rep decides when and 
 ## What you get after each conversation {#after-the-call}
 
 - **A transcript.** Oliv AI transcribes the conversation and labels every speaker.
-- **An AI summary and next steps.** Both are ready as soon as the call ends.
+- **An AI summary and next steps.** Both are ready as soon as the call ends, with key takeaways that link back to the recording.
+- **A meeting record in seven tabs.** [Meeting details](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meeting-details/) splits each meeting into **Overview**, **Action Items**, **Meeting insights**, **Recording**, **Coaching**, **Attendees** and **CRM Updates**.
+- **A call record in four tabs.** A phone call opens with **Overview**, **Action Items**, **Recording** and **Contact**.
 - **A follow-up draft.** It's ready within minutes, written from the actual conversation.
 - **Meeting notes in your CRM.** The AI summary and full transcript are attached to the opportunity record.
 - **Messages in Slack.** Once [Slack is connected](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/), Oliv AI sends a meeting summary as soon as each meeting ends, and a copy goes to your email by default.
+
+<figure>
+
+![Meeting details drawer on the Overview tab, open over the Meetings list. The header shows the meeting title, an account chip, the date and duration and a Prospect dropdown above seven tabs, and the cards show Key takeaways with timestamps, an AI Summary and a deal card with Review Deal.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_240_activities-meetings_meeting-details-drawer_overview-tab_key-takeaways-ai-summary-and-deal-updates-card.webp)
+
+<figcaption>This is what Converse hands you after a meeting: takeaways, a summary and the linked deal on the first tab, with tasks, insights, coaching and CRM changes one tab away.</figcaption>
+</figure>
 
 For the craft side of this, see [how to take meeting notes during sales calls](https://www.oliv.ai/blog/how-to-take-meeting-notes-during-sales-calls).
 
 ## Find and reuse what was said {#search-and-clips}
 
-Converse is built so key moments are easy to find. Search for the exact objection, competitor mention or pricing concern, then [clip it into a playlist](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/clips/) for coaching, enablement or product.
+Converse is built so key moments are easy to find. Search for the exact objection, competitor mention or pricing concern, then press **Clip** on the recording to [save it to a clip library](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/clips/) for coaching, enablement or product.
 
 - **Search for a meeting.** Open [**Activities › Meetings**](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meetings/) and use search. You can search by the date the meeting was held.
 - **Jump in from Slack.** A Slack message about a meeting carries an **Open Meeting** button that takes you to it.
 - **[Share part of a transcript](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meeting-details/).** Find the minute marker, tick the box for the segment and copy it. Open it in a new tab to start playback from that minute.
 
-Oliv AI's Content Curator agent can also build clip libraries for you. You describe the moments you care about in plain language, and it clips matching moments from every new recording. More on [the Content Curator agent](https://www.oliv.ai/agents/content-curator).
+Oliv AI's Content Curator agent can also build clip libraries for you. You describe the moments you care about in plain language, and it clips matching moments when each meeting is completed. More on [the Content Curator agent](https://www.oliv.ai/agents/content-curator).
+
+<figure>
+
+![Enable app on the Library tab with the All Libraries view selected. Favorites, My Library, AI Library and All Libraries views sit above a table of clip libraries with Library Name, Description and an Access Type of Public or Private, beside a New Library button.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/enable/oliv-ai_172_enable_library-tab_all-libraries-view_clip-library-list-name-description-access-type-public-private-with-views-tree-and-new-library.webp)
+
+<figcaption>Clipped moments from Converse are kept as clip libraries in the Enable app, where libraries the AI fills sit beside the ones your team curates.</figcaption>
+</figure>
 
 ## Get Converse running {#set-up}
 
@@ -144,7 +174,7 @@ A CSM taking over an account can read what sales promised, in the customer's own
 
 ### Enablement {#enablement}
 
-An enablement lead clips real objection handles and talk tracks into playlists for onboarding and coaching. More on [sales enablement software](https://www.oliv.ai/blog/sales-enablement-software).
+An enablement lead clips real objection handles and talk tracks into clip libraries for onboarding and coaching. More on [sales enablement software](https://www.oliv.ai/blog/sales-enablement-software).
 
 ## How the Converse app compares {#compare}
 

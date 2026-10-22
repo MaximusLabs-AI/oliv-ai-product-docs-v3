@@ -4,7 +4,7 @@ How Oliv AI records Zoom calls, picks between botless recording and a visible no
 
 - Applies to: Sales development, account executives, customer success and Zoom admins
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/zoom/
 
 Oliv AI's Zoom integration records your Zoom calls and turns them into summaries, follow-ups and deal updates. When your company hosts the call, Oliv can record botlessly through Zoom itself. When someone else hosts, a note taker joins under your company's name. A separate Zoom app puts Oliv inside the meeting window, so you can [update CRM fields](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/) while you talk.
@@ -22,7 +22,14 @@ Oliv AI's Zoom integration records your Zoom calls and turns them into summaries
 
 ## What the Zoom integration is {#what-it-is}
 
-The Zoom integration connects your Zoom account to Oliv AI. It is how [Oliv AI's Converse app](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/) captures Zoom calls: it joins Zoom, Meet and Teams automatically and labels every speaker. Once a call ends, the summary and next steps are ready, and a follow-up draft follows within minutes.
+The Zoom integration connects your Zoom account to Oliv AI. It is how [Oliv AI's Converse app](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/) captures Zoom calls: it joins Zoom, Meet and Teams automatically and labels every speaker. Once a call ends, the summary and next steps are ready, and a follow-up draft follows within minutes. Every recorded Zoom call then sits under **Activities** › **Meetings**.
+
+<figure>
+
+![The Meetings list under Activities with My meetings selected and Team meetings beside it, a Search box and Group, Fields, Sort and Filter controls, and rows showing each meeting's duration, Meeting with type, Next Step and AI Summary.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_239_activities-meetings_meetings-list_my-meetings-tab_grid-with-meeting-type-next-step-and-ai-summary-columns.webp)
+
+<figcaption>Where your recorded Zoom calls end up: one list of captured meetings, each with its duration, who it was with, the agreed next step and a short AI summary.</figcaption>
+</figure>
 
 ### The two Zoom apps {#two-apps}
 
@@ -97,18 +104,35 @@ A Zoom admin has to complete these steps, because they grant the needed permissi
 
 With the **Oliv.ai** app installed, you can open Oliv directly in the Zoom window. From there, you can update the deal data for the account while you talk. You can also see the important moments you highlighted through Oliv during the meeting.
 
-Once the call is done, the recording shows up in the Oliv app, where you can share it. The app also matches the Zoom meeting you're in to its calendar event, so the call lands on the right meeting.
+Once the call is done, the recording shows up in the Oliv app, where you can share it. The meeting's **Recording** tab has the player, a speaker **Timeline** with talk time and engagement, and **Chapters**, **Transcripts** and **Comments**, with **Clip** and **Share** under the player.
+
+<figure>
+
+![A meeting details drawer on the Recording tab, with a video player, Add Comment, Clip and Share buttons, a speaker Timeline showing talk time and engagement per person, and Chapters, Transcripts and Comments sub-tabs listing chapter cards with timestamps.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_243_activities-meetings_meeting-details-drawer_recording-tab_blank-player-add-comment-clip-share-timeline-and-chapters.webp)
+
+<figcaption>What a recorded Zoom call becomes in Oliv AI: the recording split into chapters and a transcript, with speaker stats and controls to clip or share a moment.</figcaption>
+</figure>
+
+CRM changes that come out of the call are listed on the meeting's **CRM Updates** tab. Completed writes carry a check, and a stage move waits as a **Pending Update** until you press **Update Deal**.
+
+<figure>
+
+![A meeting details drawer on the CRM Updates tab, a timeline with Account Updated, Pending Update: Move to Proposal with an Update Deal button, Opportunity Updated: BANT Scorecard and Contact Created entries, each with a View link.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_246_activities-meetings_meeting-details-drawer_crm-updates-tab_account-deal-bant-and-contact-updates-with-pending-stage-move.webp)
+
+<figcaption>Alongside the fields you edit inside Zoom, this tab records every CRM change made from the call and holds a stage move until someone confirms it.</figcaption>
+</figure>
+
+The app also matches the Zoom meeting you're in to its calendar event, so the call lands on the right meeting.
 
 ## Manage or stop the note taker {#manage-note-taker}
 
-Oliv joins external calls automatically. You can stop it from joining a call in six ways:
+Oliv joins external calls automatically. You can stop it from joining a call in five ways:
 
 1. The Oliv AI Chrome extension or the Oliv AI Outlook add-in.
-2. The **My schedule** page in Oliv AI.
-3. The **Meetings** page in Oliv AI, in the **Meet** section.
-4. The link to remove it in the meeting preparation summary, by email or in Slack.
-5. The link to remove it in the Zoom chat.
-6. Removing it directly from Zoom.
+2. The **Meetings** page in Oliv AI, under **Activities**.
+3. The link to remove it in the meeting preparation summary, by email or in Slack.
+4. The link to remove it in the Zoom chat.
+5. Removing it directly from Zoom.
 
 To remove the whole Zoom integration, send Oliv a message through Intercom in the Oliv app.
 
@@ -124,9 +148,9 @@ To remove the whole Zoom integration, send Oliv a message through Intercom in th
 
 ## Find a Zoom recording later {#find-recordings}
 
-If Oliv sends you a [Slack message](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/) about a meeting, click **Open Meeting** in it to jump to the call in Oliv. You can also go to the [**Meeting** tab](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meetings/) and search for the meeting, for example by its date.
+If Oliv sends you a [Slack message](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/) about a meeting, click **Open Meeting** in it to jump to the call in Oliv. You can also go to **Activities** › [**Meetings**](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meetings/) and search for it, on **My meetings** or **Team meetings**.
 
-To share part of a call, [find the minute marker in the transcript](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meeting-details/) and check the box for that segment. If you need ideas for what to capture, read about [taking notes during sales calls](https://www.oliv.ai/blog/how-to-take-meeting-notes-during-sales-calls).
+To share part of a call, open its [**Recording** tab](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meeting-details/), find the moment in **Chapters** or **Transcripts**, and press **Clip**. If you need ideas for what to capture, read about [taking notes during sales calls](https://www.oliv.ai/blog/how-to-take-meeting-notes-during-sales-calls).
 
 ## How Zoom works with Oliv AI's agents {#works-with}
 
@@ -144,7 +168,14 @@ Oliv AI's Researcher agent handles first calls with people you haven't met. Thir
 
 ### Deal Driver and Coach {#with-deal-driver-coach}
 
-[Oliv AI's Deal Driver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/) bundles Meeting Assistant for reps, so each recorded call feeds the manager's view. Oliv AI's Coach agent lists Zoom as one of the call sources it can [score for coaching](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/coach/).
+[Oliv AI's Deal Driver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/) bundles Meeting Assistant for reps, so each recorded call feeds the manager's view. Oliv AI's Coach agent lists Zoom as one of the call sources it can [score for coaching](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/coach/). Each scored call gets a **Coaching** tab with a grade, skill scores out of 5 and a **MEDDPICC Scorecard**.
+
+<figure>
+
+![A meeting details drawer on the Coaching tab, with a left list of Summary, Meeting Stats and skill groups scored out of 5, a Summary card with Improvement Required and Strength notes and a grade gauge, and a MEDDPICC Scorecard radar chart.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_244_activities-meetings_meeting-details-drawer_coaching-tab_b-plus-summary-skill-scores-and-meddpicc-radar-chart.webp)
+
+<figcaption>A recorded Zoom call scored by Oliv AI's Coach agent: an overall grade, a score per skill and qualification coverage on one radar, ready for the next one-to-one.</figcaption>
+</figure>
 
 ### Content Curator {#with-content-curator}
 
@@ -225,7 +256,7 @@ Check that your calendar is connected and that the host gave permission to recor
 
 #### How do I stop the note taker joining one call? {#faq-stop-one-call}
 
-Use the link in the Zoom chat, the link in your meeting preparation summary, or the **My schedule** page. You can also remove it directly in Zoom.
+Use the link in the Zoom chat, the link in your meeting preparation summary, or the **Meetings** page under **Activities**. You can also remove it directly in Zoom.
 
 #### What can I do inside Zoom during a call? {#faq-in-meeting}
 
@@ -233,7 +264,7 @@ With the **Oliv.ai** app, you can open Oliv in the Zoom window, update deal data
 
 #### Where do I find a recording after the call? {#faq-find-recording}
 
-Click **Open Meeting** in the Slack message about the call, or search the **Meeting** tab. You can share a segment by its minute marker.
+Click **Open Meeting** in the Slack message about the call, or search **Activities** › **Meetings**. On the call's **Recording** tab, **Clip** cuts a moment and **Share** sends the meeting.
 
 #### Which Zoom permissions does Oliv ask for? {#faq-permissions}
 

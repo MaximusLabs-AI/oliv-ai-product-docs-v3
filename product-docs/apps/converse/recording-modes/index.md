@@ -4,7 +4,7 @@ How Oliv AI decides whether to record a meeting botlessly through Zoom or Micros
 
 - Applies to: Anyone whose meetings Oliv AI records, plus the admins who set recording up
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/recording-modes/
 
 Oliv AI records your meetings in one of two ways, and it picks the way for you based on who organized the meeting. When someone from your company is the organizer, Oliv AI records botlessly, through [Zoom](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/zoom/) or Microsoft Teams itself. When someone outside your company is the organizer, a visible note taker joins the call, named after your company. This page explains both modes and how to prepare your meetings so they record.
@@ -20,6 +20,7 @@ Oliv AI records your meetings in one of two ways, and it picks the way for you b
 | **What attendees see** | The meeting app's own recording indicator, or the named note taker |
 | **Needs** | A connected calendar, and botless recording enabled for your organization |
 | **Platforms named** | Zoom and Microsoft Teams |
+| **Phone calls** | A **Record call** toggle and a **Recording method** of **One-way** or **Two-way** in the Power Dialer |
 
 ## What recording modes are {#what-it-is}
 
@@ -33,6 +34,26 @@ A recording mode is how Oliv AI captures a meeting. When native or botless recor
 | **Before it starts** | Nothing to admit | May need admitting from a waiting room or lobby |
 
 Botless recording happens inside the meeting app, such as Zoom or Microsoft Teams. The note taker is Oliv AI's visible way of joining a call to take notes, so you can focus on the conversation.
+
+Whichever mode records it, the meeting lands in **Activities › Meetings** with its duration, type, next step and AI summary.
+
+<figure>
+
+![Meetings list on the My meetings tab with a badge of 10, showing recorded meetings in a grid with Meeting title and date, Duration, a Meeting with dropdown such as Prospect or Customer, a colour-coded Next Step and the start of an AI Summary.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_239_activities-meetings_meetings-list_my-meetings-tab_grid-with-meeting-type-next-step-and-ai-summary-columns.webp)
+
+<figcaption>Botless or note taker, every recorded meeting ends up in the same Meetings list, so the mode changes how a call is captured but never where you find it.</figcaption>
+</figure>
+
+### Recording phone calls {#phone-calls}
+
+Phone calls placed from the Power Dialer in [Engage](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/engage/) have their own recording controls. Once a call connects, the contact card shows a **Record call** toggle and a **Recording method** choice of **One-way** or **Two-way**. Pause, mute and **End Call** sit beside them.
+
+<figure>
+
+![Power Dialer during a live call. Under the contact card, a Record call toggle is switched on and a Recording method row offers One-way or Two-way, with Two-way selected, above pause, mute and a red End Call button. The tailored call plan fills the left side.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/engage/oliv-ai_134_engage_power-dialer_in-call-controls_record-call-toggle-on-recording-method-one-way-two-way-pause-mute-and-end-call-beside-call-plan.webp)
+
+<figcaption>For dialer calls the rep sets recording on the call itself, with the Record call toggle and a choice of recording method, rather than through the meeting organizer rule.</figcaption>
+</figure>
 
 ## Why recording modes matter {#why-it-matters}
 
@@ -104,14 +125,13 @@ A Zoom admin can grant permissions so that Zoom meetings are recorded even when 
 
 ## Stop the note taker joining a meeting {#manage-notetaker}
 
-Oliv AI joins external calls automatically, but you can manage that from Oliv AI or from your Google or Outlook calendar. There are six ways to stop the note taker joining:
+Oliv AI joins external calls automatically, but you can manage that from Oliv AI or from your Google or Outlook calendar. There are five ways to stop the note taker joining:
 
 1. The Oliv AI Chrome extension or the Oliv AI Outlook add-in.
-2. The **My schedule** page in Oliv AI.
-3. The Meet section of the **Meetings** page in Oliv AI.
-4. The remove link in your meeting preparation summary, by email or Slack.
-5. The remove link in the Zoom chat.
-6. Removing the note taker directly in Zoom.
+2. The **Meetings** page in Oliv AI, under **Activities**.
+3. The remove link in your meeting preparation summary, by email or Slack.
+4. The remove link in the Zoom chat.
+5. Removing the note taker directly in Zoom.
 
 ## How recording modes work with other features {#works-with}
 
@@ -122,6 +142,24 @@ Recordings feed what happens before and after your calls. [Oliv AI's Meeting Ass
 ### Conversation capture {#with-converse}
 
 [Converse](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/) captures online meetings, bot-free calls, phone calls and email the same way. In-person meetings are captured with Plaud, a wearable recorder that travels with your reps, and the rep decides when and what to record.
+
+A recorded meeting opens with a **Recording** tab: the player with **Add Comment**, **Clip** and **Share**, a speaker **Timeline** with talk time and engagement, and **Chapters**, **Transcripts** and **Comments**. The [meeting details page](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meeting-details/) covers each tab.
+
+<figure>
+
+![Meeting details drawer on the Recording tab: a video player with Add Comment, Clip and Share buttons, a Timeline grouping speakers by company with Talk time and Engagement, and a Chapters list with Meeting Purpose, Action Items, Next Steps and Feedback Request and their timestamps.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_243_activities-meetings_meeting-details-drawer_recording-tab_blank-player-add-comment-clip-share-timeline-and-chapters.webp)
+
+<figcaption>This is what a recording becomes once it is processed: chapters, a transcript, comments and per-speaker talk time, ready to clip or share.</figcaption>
+</figure>
+
+A recorded phone call gets an audio player instead, with a **Timeline** of talk time per speaker, **Chapters**, **Add Comment** and a timestamped **Transcript**.
+
+<figure>
+
+![Call details drawer on the Recording tab for an outbound call marked Connected. An audio waveform player with play, time, scrubber and volume sits above Timeline and Chapters sub-tabs, Add Comment, and two speaker rows with Talk time and Engagement, beside a speaker-labelled Transcript.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-calls/oliv-ai_250_activities-calls_call-details-drawer_recording-tab_audio-waveform-player-talk-time-timeline-and-transcript.webp)
+
+<figcaption>A recorded phone call is replayed the same way as a meeting, with the transcript beside an audio player, so calls are as easy to review as video meetings.</figcaption>
+</figure>
 
 ### Inside Zoom {#with-zoom-app}
 
@@ -224,7 +262,11 @@ Yes, once a Zoom admin grants admin-level permissions through the Zoom meeting b
 
 #### How do I stop the note taker joining one meeting? {#faq-remove}
 
-Use the Chrome extension or Outlook add-in, the **My schedule** page, the **Meetings** page, the remove link in your prep summary or the Zoom chat, or remove it in Zoom.
+Use the Chrome extension or Outlook add-in, the **Meetings** page under **Activities**, the remove link in your prep summary or the Zoom chat, or remove it in Zoom.
+
+#### Can I record phone calls? {#faq-phone}
+
+Yes. In the Power Dialer, turn on **Record call** and pick a **Recording method** of **One-way** or **Two-way**.
 
 #### Can Oliv AI capture in-person meetings? {#faq-in-person}
 

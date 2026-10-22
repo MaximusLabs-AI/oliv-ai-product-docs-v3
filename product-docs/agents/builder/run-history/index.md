@@ -1,13 +1,20 @@
 # Agent run history
 
-How to read an Oliv AI agent's Runs tab and open a run record, with every email the agent sent, the people it touched and each change it made elsewhere.
+How to read an Oliv AI agent's Runs tab and open a run record, from every email the agent wrote and the people it picked to a sequence's steps or a drafted reply.
 
 - Applies to: Every agent with a detail page
 - Status: Live
 - Verified: 2026-10-21
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/run-history/
 
-Run history is the record of every time an Oliv AI agent has worked. Each agent's **Runs** tab lists its past runs, newest first, with when each one ran, how it started and how it ended. Press **View** on a row and the full record opens: every email the agent wrote, the people it touched and each change it made elsewhere, with the time.
+Run history is the record of every time an Oliv AI agent has worked. Each agent's **Runs** tab lists its past runs, newest first, with when each one ran, how it started and how it ended. Press **View** on a row and the full record opens, showing what that run produced: every email the agent wrote and the people it picked, a sequence's steps, a drafted reply or a clipped call.
+
+<figure>
+
+![Runs tab of Oliv AI's Multithreader agent: a Run history heading, a Search previous runs box and a table with Time, Type and Status columns, listing ten runs, most Auto-triggered and two Manually run, all marked Success, each with a View link.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_048_agent-detail_multi-threader_runs-tab_run-history-table-time-type-status-view-links-auto-triggered-and-manually-run.webp)
+
+<figcaption>The Runs tab is the list layer of run history. Each row is one run, with when it ran, how it started and how it ended.</figcaption>
+</figure>
 
 ## At a glance {#at-a-glance}
 
@@ -16,8 +23,8 @@ Run history is the record of every time an Oliv AI agent has worked. Each agent'
 | **What it is** | A list of every run an agent has made, plus a full record for each run |
 | **Where it lives** | **Agents › [agent] › Runs**, on every agent with a detail page |
 | **Columns** | **Time**, **Type** and **Status** on every table, plus extra columns on some agents |
-| **Run types** | **Auto-triggered** or **Manually run** |
-| **Run record shows** | Emails in full, contacts touched, meetings booked, alerts and **Auto-actions logged** |
+| **Run types** | **Auto-triggered** or **Manually run**; **Auto Trigger** or **Manual** on some agents |
+| **Run record shows** | What the run produced: emails in full with their contacts, sequence steps, a drafted reply and its deal context, or a clipped call |
 | **Order** | Newest first |
 | **Summary cards** | **Last run** and a weekly run count on the **Overview** tab |
 
@@ -34,7 +41,20 @@ The list's columns depend on the agent. Every table carries **Time**, **Type** a
 | Contact-oriented | **Contact**, **Company** | Agents whose runs are per person |
 | Message-oriented | A title column, sometimes **Channel** | Agents that send messages |
 
-The **Type** column says whether a run was **Auto-triggered** or **Manually run**. The **Status** column shows **Success**, **Sent**, or a phrase naming the step reached in a multi-step sequence. Times appear in a long format with the weekday, date and time, ending in GMT.
+<figure>
+
+![Runs tab of Oliv AI's Quick Qualifier agent: a Run history table with Time, Type, Status and Action columns. Seven Auto-triggered runs all show Success, and the Action column names the rep each lead was routed to, with a View link per row.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_079_agent-detail_quick-qualifier_runs-tab_run-history-seven-auto-triggered-successes-routed-to-reps-view-links.webp)
+
+<figcaption>The basic-with-action table adds one column. Here Action shows where each run sent its lead, so the routing is readable without opening a record.</figcaption>
+</figure>
+
+The **Type** column says whether a run was **Auto-triggered** or **Manually run**. Some agents label the same thing **Auto Trigger** or **Manual**. The **Status** column shows how the run ended:
+
+- **Success** or **Sent**, for a finished run;
+- **Draft ready** or **No reply needed**, on an agent that drafts replies;
+- the step a sequence reached, such as **Completed Step 2**, then **Escalated to CSM** or **Sequence Completed**.
+
+On the message-oriented table, **Channel** names where the message came from, such as Gmail, Slack or Teams, with a colored dot. Times appear in a long format with the weekday, date and time, ending in GMT. A few tables use relative times instead, such as "Today, 07:58 AM".
 
 ## Why agent run history matters {#why-it-matters}
 
@@ -47,7 +67,7 @@ Run history shows what an agent actually did, not what it was set up to do. You 
 - **Every run has a row.** The list holds each run, so a change made overnight has a place to look.
 - **Emails are shown word for word.** The record shows each message in full, with the recipient and subject.
 - **Changes carry a time.** Each change a run made elsewhere sits on its own card with a timestamp.
-- **Escalations stand out.** An amber panel marks work where the agent needed a person to look.
+- **Drafts show their sources.** A drafted reply lists the deal context it was written from.
 
 ### What happens without it {#without-it}
 
@@ -80,7 +100,14 @@ There are two ways in:
 
 The tab is headed **Run history**. Beneath the heading is a search box with the placeholder "Search previous runs", then the table of runs in a bordered box.
 
-The **Overview** tab's **Runs** section also carries two summary cards. **Last run** shows a date, with a line beneath describing how it started. **Weekly Throughout** shows a total run count, split into automated and manual.
+The **Overview** tab's **Runs** section also carries two summary cards. **Last run** shows a date, with a line beneath describing how it started. The second card shows the week's run count, split into automated and manual.
+
+<figure>
+
+![The full Overview tab of the Multithreader agent: goal, trigger, tool and knowledge cards, then a Runs section with a See run history link and two cards, Last run with a date and time on trigger, and a weekly count of runs split into automated and manual.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_040_agent-detail_multi-threader_overview-tab_goal-triggers-tools-knowledge-and-runs-last-run-weekly-throughput_full-length.webp)
+
+<figcaption>The Runs section of the Overview is the way in. See run history opens the Runs tab, and the two cards show at a glance how recently and how often the agent ran.</figcaption>
+</figure>
 
 ## Find a run {#find-a-run}
 
@@ -91,6 +118,13 @@ The **Overview** tab's **Runs** section also carries two summary cards. **Last r
 5. Read the **Status** column to see how the run ended.
 
 The search box matches different columns on different agents. On most tables it matches the time, type and status, plus the action where there is one. On the contact-oriented table it matches only the contact, company and status. Search there by name, not by date.
+
+<figure>
+
+![Runs tab of an agent with a contact-oriented table: Contact, Company, Time, Type and Status columns for five Auto Trigger runs, with statuses Completed Step 2, Completed Step 3, Escalated to CSM, Sequence Completed and Completed Step 1, each with a View link.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_113_agent-detail_module-activator_runs-tab_run-history-contact-company-time-type-status-completed-step-escalated-to-csm-sequence-completed.webp)
+
+<figcaption>On a contact-oriented table each row is one person in a sequence. Status shows the step reached, so search by name to find the run you need.</figcaption>
+</figure>
 
 ## Read a run record {#read-a-run-record}
 
@@ -104,9 +138,32 @@ The search box matches different columns on different agents. On most tables it 
 8. Scroll to **Auto-actions logged** at the foot. Each change the run made elsewhere is a card with a timestamp and a description.
 9. Close the drawer with the round button outside its top-left corner, or press the dimmed page behind it.
 
+<figure>
+
+![A run record drawer headed Run History over the Runs tab: the run's date, Auto-triggered and Success at the top, a fictional account with its owner chip, Top Identified Contacts listing five people with job titles, and an Email Sent card showing the first contact's email in full with To, Subject and body.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-builder/oliv-ai_072_agent-builder_multithreader_runs-tab_run-record-drawer-dunder-mifflin-top-identified-contacts-email-sent-to-vp-of-sales.webp)
+
+<figcaption>Steps 2 to 7 in one drawer: the header facts, the account and owner, the contacts the run picked, and each email shown word for word.</figcaption>
+</figure>
+
 ### Records for sequence agents {#sequence-records}
 
-On an agent that runs a sequence, the record is a numbered timeline instead of contacts and emails. Each step carries a day label, a **Completed** or **Upcoming** badge, a title, a description and a preview of what was sent. It's the only place in the product where you can see what an agent still intends to do.
+On an agent that runs a sequence, the record is a numbered timeline instead of contacts and emails. The header names the contact and company. Each step carries a day label with its channel, a **Completed** or **Upcoming** badge, a title, a description and a preview of what was sent. A sent step also shows how it landed, such as "Opened - No Reply". It's the only place in the product where you can see what an agent still intends to do.
+
+<figure>
+
+![A sequence run record: the contact, company, date and Auto-triggered at the top, then a four-step timeline. A Day 0 email and a Day 3 in-app prompt are marked Completed, with Opened and Displayed outcomes, and Day 7 and Day 14 steps are marked Upcoming.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_115_agent-detail_module-activator_run-record-drawer_four-step-sequence-email-in-app-create-qbr-draft-upcoming-sms-and-call-escalate-to-csm_full-length.webp)
+
+<figcaption>A sequence record reads as a timeline. Completed steps show what was sent and how it landed; Upcoming steps show what the agent will do next.</figcaption>
+</figure>
+
+
+### Records for drafts and clips {#draft-and-clip-records}
+
+Other agents produce other records:
+
+- **A drafted reply.** A **Draft · Gmail** label sits above the draft's **To**, **Subject** and body. A **Deal context used:** box lists the facts the draft relied on. **Review draft in Gmail** opens it, and **Copy** copies it.
+- **A clipped call.** The record shows the call's title and length, a video player with **Add Comment** and **Share**, a speaker **Timeline**, and a transcript you can search by speaker. **Ask AI** answers questions about the call, and **View Clip Library** and **View Slack Alert** open where the clip went.
+- **A release email.** An **Email** section shows the audience chip with its contact count, the subject and body with merge fields, and a **Copy** action.
 
 ## How agent run history works with other features {#works-with}
 
@@ -120,7 +177,7 @@ When one agent drafts an email for another, the record names it with a "Drafted 
 
 ### Open in Gmail {#with-gmail}
 
-Beneath each email sits an **Open in Gmail** link. It opens Gmail's compose screen in a new browser tab, with the recipient, subject and body already filled in. It doesn't send anything. On the message-oriented record, a **Copy** button copies the message instead.
+Beneath each email sits an **Open in Gmail** link. It opens Gmail's compose screen in a new browser tab, with the recipient, subject and body already filled in. It doesn't send anything. A drafted reply carries **Review draft in Gmail** instead, and message records carry a **Copy** button.
 
 ### The Agent Feed {#with-agent-feed}
 
@@ -179,10 +236,10 @@ Agent run records, from each platform's public documentation:
 
 - **The cause isn't named.** A run is marked automatic without saying which [trigger or schedule](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/triggers/) started it.
 - **No duration or inputs.** A run doesn't record how long it took or which records the agent read before acting.
-- **Read-only.** There's no send, approve, reject, edit or re-run control in a run record.
+- **No approve or re-run.** A record can hand a draft to Gmail or copy it, but it has no approve, reject, edit or re-run control.
 - **No export.** Run history and run records can't be exported, downloaded or printed.
 - **No sort, date filter or paging.** The list is one scrolling table, newest first.
-- **Gmail only.** **Open in Gmail** has no Outlook equivalent.
+- **Gmail hand-off only.** **Open in Gmail** and **Review draft in Gmail** have no Outlook equivalent.
 
 ## Common questions {#common-questions}
 
@@ -192,7 +249,7 @@ Open the agent and select **Runs**. Each row is one run, and **View** opens the 
 
 #### How do I tell whether a run was automatic or started by hand? {#faq-auto-or-manual}
 
-Read the **Type** column. It says **Auto-triggered** or **Manually run**.
+Read the **Type** column. It says **Auto-triggered** or **Manually run**, or **Auto Trigger** or **Manual** on some agents.
 
 #### Can I see which trigger started a run? {#faq-which-trigger}
 
@@ -208,11 +265,11 @@ Yes. Every email is shown in full under an **Email Sent** banner: recipient, sub
 
 #### What statuses can a run have? {#faq-statuses}
 
-**Success**, **Sent**, or a phrase naming the step reached in a multi-step sequence.
+**Success** and **Sent** on most agents. An agent that drafts replies adds **Draft ready** and **No reply needed**. A sequence shows the step reached, such as **Completed Step 2**, then **Escalated to CSM** or **Sequence Completed**.
 
 #### Can I undo or re-run something from the record? {#faq-undo}
 
-No. The run record is read-only. It has no send, approve, edit or re-run control.
+No. A record can open a draft in Gmail or copy it, but it has no approve, edit or re-run control.
 
 #### Can I export run history? {#faq-export}
 

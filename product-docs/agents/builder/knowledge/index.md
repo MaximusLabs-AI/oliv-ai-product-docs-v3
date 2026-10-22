@@ -7,7 +7,14 @@ What an Oliv AI agent's knowledge files are, how to check and open them on the K
 - Verified: 2026-10-21
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/knowledge/
 
-Knowledge is the background reading an Oliv AI agent does its work against, such as a buying-committee profile, an ideal-customer document or a solution deck. Each agent with a **Knowledge** tab lists the files it is using, and you can open any of them from there. The tab also carries an upload area that names the file formats it takes.
+Knowledge is the background reading an Oliv AI agent does its work against, such as a buying-committee profile, an ideal-customer document or a solution deck. Each agent with a **Knowledge** tab lists the files it is using, and you can open any of them from there. The tab also carries an upload area that names the file formats it takes, and buttons to bring files in from other tools.
+
+<figure>
+
+![Knowledge tab of Oliv AI's Multithreader agent: a Knowledge in use table of three files with View links, then a What should your agent know? section with a dashed drag-and-drop area listing supported formats and Max 5 files per upload, above a row of import buttons.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_045_agent-detail_multi-threader_knowledge-tab_knowledge-in-use-three-md-files-view-links-upload-drop-area-and-import-buttons.webp)
+
+<figcaption>The Knowledge tab shows an agent's reading list and the way to add to it, on one screen: files in use at the top, the upload area and import buttons below.</figcaption>
+</figure>
 
 ## At a glance {#at-a-glance}
 
@@ -18,6 +25,7 @@ Knowledge is the background reading an Oliv AI agent does its work against, such
 | **File list** | **Knowledge in use**, one row per file, each with a **View** link |
 | **Stated formats** | .csv, json, .pdf, xlsx, xls, txt, md, docx, .pptx |
 | **Stated upload limit** | "Max 5 files per upload" |
+| **Import buttons** | **Upload from Google Drive**, **Upload from OneDrive**, **Import from Seismic**, **Import from Highspot**, **Scrape from website** |
 | **Also shown on** | The **Overview** tab, as knowledge pills |
 
 ## What agent knowledge files are {#what-it-is}
@@ -75,6 +83,15 @@ The line beneath it reads "Max 5 files per upload". How other platforms handle t
 2. Read the **Knowledge in use** table. It has a **Name** column and one row per file, each with a document icon.
 3. Press **View** on a row. That file opens in a new browser tab.
 
+The list grows with the agent's job. A customer-facing agent can carry a playbook, response-time standards, FAQs and a file of approved attachments.
+
+<figure>
+
+![Knowledge tab of Oliv AI's Comms Manager agent: a Knowledge in use table with five rows, Customer Communication Playbook, Response Time Standards, Security & Compliance FAQ, Product FAQ and Approved Attachments, each with a View link, above the drag-and-drop upload area.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_096_agent-detail_comms-manager_knowledge-tab_five-md-files-playbook-response-times-faqs-attachments-drag-drop-upload.webp)
+
+<figcaption>Step 2: each row in Knowledge in use is one file the agent works against. Press View on any row to open it and check its content.</figcaption>
+</figure>
+
 You can also press a knowledge pill on the **Overview** tab. Unlike the tools and [trigger pills](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/triggers/) beside it, a knowledge pill doesn't switch tabs. It opens that file in a new browser tab instead.
 
 ## Add files to an agent {#add-files}
@@ -85,6 +102,14 @@ The second section, **What should your agent know?**, holds the upload area.
 2. Drag files onto the dashed area marked "Drag & drop or choose files to upload."
 3. Or press **choose files** inside that line. Your computer's file picker opens and lets you pick several files at once.
 4. Keep to five files at a time. The area states "Max 5 files per upload".
+5. Or press one of the buttons beneath the area, after the word "or": **Upload from Google Drive**, **Upload from OneDrive**, **Import from Seismic**, **Import from Highspot** or **Scrape from website**.
+
+<figure>
+
+![The full Knowledge tab of Comms Manager: five files in use with View links, the What should your agent know? drag-and-drop area with its supported formats and five-file limit, and a row of five buttons: Upload from Google Drive, Upload from OneDrive, Import from Seismic, Import from Highspot and Scrape from website.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_097_agent-detail_comms-manager_knowledge-tab_five-files-upload-area-google-drive-onedrive-seismic-highspot-website-scrape_full-length.webp)
+
+<figcaption>Step 5: besides drag and drop, the tab offers five ways to bring material in, from cloud drives and enablement libraries to a page on your website.</figcaption>
+</figure>
 
 Drag-and-drop needs a mouse or trackpad. The **choose files** link works without one.
 
@@ -110,11 +135,18 @@ Knowledge is what an agent reads. Tools are what it does, and each tool's run mo
 
 ### Data sources {#with-data}
 
-An agent also reads structured data, shown on its **Data** tab: the systems it draws on and the fields within each. Data sources are the other thing an agent reads, beside its files.
+An agent also reads structured data, shown on its **Data** tab: a **Sources** list of the systems it draws on, such as Salesforce, and a card for each field with a plain-language description. On agents without that tab, the **Overview** can list **Data Sources** instead, such as product usage and Salesforce accounts. Data sources are the other thing an agent reads, beside its files.
 
 ### The Overview tab {#with-overview}
 
 The **Overview** tab lists an agent's knowledge as pills under a **Knowledge** heading. It's the quickest place to see what background an agent has, from the [agents in the marketplace](https://www.oliv.ai/agents-marketplace) to the ones your team runs.
+
+<figure>
+
+![Overview tab of Oliv AI's Product Release Messenger agent: a header card, a Goal, one trigger chip for release announcements in a Slack channel, three tool chips, and a Knowledge card with two file pills, Product Update Comms and Release Messaging Library, above the start of a Data Sources card.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_116_agent-detail_product-release-messenger_overview-tab_goal-releases-slack-trigger-tools-and-knowledge-cards.webp)
+
+<figcaption>On the Overview, knowledge shows as file pills beside the agent's triggers and tools. Pressing a pill opens that file rather than the Knowledge tab.</figcaption>
+</figure>
 
 ## Who uses agent knowledge files, and how {#who-uses-it}
 

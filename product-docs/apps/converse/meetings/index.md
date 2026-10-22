@@ -1,13 +1,13 @@
 # Meetings list
 
-How to find a past customer meeting in Oliv AI, from the Meetings list and search to the Slack messages that link straight to a meeting, and how it compares with other meeting tools.
+How to find a past customer meeting in Oliv AI, from the Meetings list tabs, columns and search to the Slack messages that link straight to a meeting, and how it compares with other meeting tools.
 
 - Applies to: Converse, Sell and Grow plans
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meetings/
 
-The Meetings list is where every customer meeting Oliv AI has captured is kept. It sits under **Activities › Meetings** and opens each meeting's record. You can search it by date or keyword, or skip it entirely and open a meeting from the Slack message Oliv AI sends after the call.
+The Meetings list is where every customer meeting Oliv AI has captured is kept. It sits under **Activities › Meetings** and shows each meeting with its length, who it was with, the next step and an AI summary. You can search it, switch to your team's meetings, or skip it and open a meeting from the Slack message Oliv AI sends after the call.
 
 ## At a glance {#at-a-glance}
 
@@ -15,20 +15,47 @@ The Meetings list is where every customer meeting Oliv AI has captured is kept. 
 |---|---|
 | **What it does** | Lists your captured meetings and opens each meeting's record |
 | **Where it is** | **Activities › Meetings** in the main navigation |
-| **How you find a meeting** | Search by date or keyword, or press **Open Meeting** in a Slack message |
+| **Tabs** | **My meetings** and **Team meetings**, plus a **Favorites** toggle |
+| **Columns** | **Meeting**, **Duration**, **Meeting with**, **Next Step** and **AI Summary** |
+| **How you find a meeting** | **Search**, **Group**, **Fields**, **Sort** and **Filter**, or **Open Meeting** in a Slack message |
 | **Phone calls** | Kept in their own list, under **Activities › Calls** |
-| **What reaches Slack** | Tomorrow's meetings, a prep summary and a summary after each meeting |
 | **Who it's for** | Account executives, SDRs, sales managers and customer success |
 
 ## What the Meetings list is {#what-it-is}
 
-The Meetings list shows the meetings captured in your workspace in a grid. Each row is the way into one meeting record, with its recording, transcript and notes. **Meetings** is one of the few items shown in every build of the product, alongside **Home**, **Deals**, **Calls** and **Playbook**.
+The Meetings list shows the meetings captured in your workspace in a grid. Each row is the way into one meeting record, with its recording, transcript and notes. Clicking a row opens that meeting's details in a drawer over the list.
+
+<figure>
+
+![Meetings list on the My meetings tab with a badge of 10. A toolbar holds Search, Group : None, Fields, Sort and Filter, and the grid shows Meeting, Duration, a Meeting with dropdown set to Prospect, Customer, Candidate or Colleague, a colour-coded Next Step and an AI Summary.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_239_activities-meetings_meetings-list_my-meetings-tab_grid-with-meeting-type-next-step-and-ai-summary-columns.webp)
+
+<figcaption>The Meetings list puts each captured meeting's type, next step and AI summary in one row, so you can see where a conversation landed before you open it.</figcaption>
+</figure>
 
 The list belongs to [Converse](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/), Oliv AI's conversation capture app. Online meetings are [recorded one of two ways](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/recording-modes/): botlessly through the meeting platform when your company hosts, or by a visible note taker when someone else does.
 
+### What each row shows {#row-columns}
+
+- **Meeting.** A video icon, the meeting title, and the date and time it was held.
+- **Duration.** How long the meeting ran, in minutes.
+- **Meeting with.** A dropdown that classifies the meeting as **Prospect**, **Customer**, **Candidate** or **Colleague**.
+- **Next Step.** The next step Oliv AI picked out of the call, with a colour-coded status icon.
+- **AI Summary.** The opening of the meeting's AI summary.
+
+### Tabs and views {#tabs-and-views}
+
+**My meetings** shows the meetings you were in, with a count badge. **Team meetings** widens the list beyond your own calls, which is how a manager reviews the team's week. **Favorites** keeps the meetings you return to most within reach.
+
 ### Meetings and calls are separate {#meetings-and-calls}
 
-Phone calls don't appear in the Meetings list. They have their own grid under **Activities › Calls**, which works the same way as the entry point to each call record.
+Phone calls don't appear in the Meetings list. **Activities** opens a menu with two entries, **Meetings** and **Calls**. The **Calls** list works the same way, with its own columns for direction, disposition, owner, company and deal.
+
+<figure>
+
+![Calls list on the All calls tab with a badge of 10. Columns read Call Subject, Duration, Direction with orange Outbound and green Inbound tags, Disposition reading Connected, Owner, Company and Deal, under a Search, Group, Fields, Sort and Filter toolbar.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-calls/oliv-ai_247_activities-calls_calls-list_all-calls-tab_grid-with-direction-disposition-owner-company-and-deal-columns.webp)
+
+<figcaption>Phone calls live in their own Calls list, with direction, disposition, owner and linked deal, so look there when the conversation you need was a call rather than a meeting.</figcaption>
+</figure>
 
 ## Why the Meetings list matters {#why-it-matters}
 
@@ -39,9 +66,9 @@ The Meetings list is for getting back to a conversation you've already had. It g
 ### How it helps {#how-it-helps}
 
 - **One place to look.** Every captured meeting in the workspace is in the same grid.
+- **The outcome at a glance.** Each row shows the next step and the start of the AI summary.
 - **Found by date or phrase.** You search for the day it happened or the words that were said.
 - **One press from Slack.** The message after a meeting links straight to it.
-- **A heads-up the day before.** Tomorrow's meetings arrive in Slack in the afternoon.
 
 ### What happens without it {#without-it}
 
@@ -61,19 +88,39 @@ Often the AE scrolls back through the calendar to find the date, then scrubs thr
 
 The call itself was recorded. What's missing is a fast way back to it at the moment the AE needs it. A recording only helps if it surfaces before the meeting, not after it.
 
-Oliv AI puts that way back in two places. The afternoon before, a Slack message lists tomorrow's meetings, so Thursday's call is on the AE's radar early. In **Activities › Meetings**, the AE searches for the last call and opens it. From there they can search the exact concern and clip it into a playlist. The sales engineer gets the clip, not a request to remember.
+Oliv AI puts that way back in two places. The afternoon before, a Slack message lists tomorrow's meetings, so Thursday's call is on the AE's radar early. In **Activities › Meetings**, the AE searches for the last call, reads its next step in the row and opens it. From there they can find the exact concern and clip it for the sales engineer.
 
 Oliv AI's own help article shows the date search with a worked example: a meeting held on June 12th, found by searching for that date. Searching by date is one of the points covered in How the Meetings list compares, below.
 
 ## Find a past meeting {#find-a-meeting}
 
-1. Open **Activities › Meetings** from the main navigation.
-2. Use the search to locate the meeting. To find a meeting from a particular day, search for its date.
-3. [Open the meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meeting-details/) from the list to see its recording and notes.
-4. If you're after one moment, search for the exact objection, competitor mention or pricing concern.
-5. [Clip the moment into a playlist](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/clips/), so you can share it with a colleague before the meeting.
+1. Open **Activities** from the main navigation and choose **Meetings**.
+2. Stay on **My meetings**, or switch to **Team meetings** to see your team's calls too.
+3. Use **Search** to locate the meeting. To find a meeting from a particular day, search for its date.
+4. Reshape the grid with **Group**, **Fields**, **Sort** and **Filter**, or open the **Quick Filters** panel from the filter icon beside the search.
+5. Click the row to [open the meeting's details](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meeting-details/), with its recording and notes.
 
-For more on getting ready, read [how to prepare for a sales meeting](https://www.oliv.ai/blog/meeting-preparation-for-sales).
+<figure>
+
+![Left sidebar with the Activities icon selected and its flyout open, listing Meetings with a video icon, highlighted, and Calls with a phone icon. Behind it the Meetings list shows My meetings (10) and the Meeting, Duration, Meeting with, Next Step and AI Summary columns.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/navigation/oliv-ai_238_navigation_sidebar_activities-flyout-open-meetings-highlighted-calls-over-my-meetings-list.webp)
+
+<figcaption>Step 1: the Activities menu holds Meetings and Calls, so this is where you start whenever you need to get back to a past customer conversation.</figcaption>
+</figure>
+
+Clicking a row opens a drawer with seven tabs: **Overview**, **Action Items**, **Meeting insights**, **Recording**, **Coaching**, **Attendees** and **CRM Updates**. A round arrow on its left edge collapses it back to the list.
+
+<figure>
+
+![Meeting details drawer open over the dimmed Meetings list for a proposal review, with an account chip, the date and duration, a Prospect dropdown and seven tabs. The Overview tab shows Key takeaways, an AI Summary and a deal updates card with Review Deal.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_240_activities-meetings_meeting-details-drawer_overview-tab_key-takeaways-ai-summary-and-deal-updates-card.webp)
+
+<figcaption>Step 5: a row opens the meeting's drawer on its Overview tab, so the takeaways and deal context are one click away from the list.</figcaption>
+</figure>
+
+If you're after one moment, search for the exact objection, competitor mention or pricing concern. Then [clip the moment into a clip library](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/clips/), so you can share it with a colleague before the meeting. For more on getting ready, read [how to prepare for a sales meeting](https://www.oliv.ai/blog/meeting-preparation-for-sales).
+
+### Classify who a meeting was with {#meeting-with}
+
+Change the **Meeting with** dropdown in the row to **Prospect**, **Customer**, **Candidate** or **Colleague**. The same dropdown sits in the header of the meeting drawer, so you can correct it from either place.
 
 ## Open a meeting from Slack {#from-slack}
 
@@ -108,7 +155,7 @@ You can ask [Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-pr
 
 ### Deal Driver {#with-deal-driver}
 
-Every captured meeting feeds the same record that [Oliv AI's Deal Driver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/) reads to flag deals at risk. A manager reviewing a flagged deal can open the meetings behind it from this list.
+Every captured meeting feeds the same record that [Oliv AI's Deal Driver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/) reads to flag deals at risk. A manager reviewing a flagged deal can open the meetings behind it from the **Team meetings** tab.
 
 ### Content Curator {#with-content-curator}
 
@@ -126,7 +173,7 @@ An SDR checks the discovery call before handing a qualified meeting to an AE, so
 
 ### Sales managers {#sales-managers}
 
-A manager opens a rep's meeting before a 1:1 to coach from what happened, not from a summary of a summary. See Oliv AI for [sales managers](https://www.oliv.ai/sales-managers).
+A manager opens **Team meetings** before a 1:1 and reads each rep's next steps down the column. Then they open one meeting to coach from what happened. See Oliv AI for [sales managers](https://www.oliv.ai/sales-managers).
 
 ### Customer success {#customer-success}
 
@@ -152,7 +199,7 @@ Finding past meetings, from each platform's public documentation:
 
 - **Tomorrow's meetings, in Slack, the day before.** Oliv AI sends the list at 4 PM local time. Gong's [daily digest is an email](https://help.gong.io/docs/about-the-emails-gong-sends-you) for team members with calls that day. Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **The link arrives without anyone sharing it.** Each Oliv AI meeting message carries **Open Meeting** automatically. Avoma documents a way to [share the meeting link directly to a Slack channel or DM](https://help.avoma.com/sharing-meetings-in-avoma). Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).
-- **Clips made for the team, not a private shelf.** Oliv AI clips found moments into a playlist for coaching, enablement or product. Gong describes the [call library as a private workspace](https://help.gong.io/docs/about-the-call-library) unless you share. See [Oliv AI as a Gong alternative](https://www.oliv.ai/gong-alternative).
+- **Clips made for the team, not a private shelf.** Oliv AI clips found moments into a library for coaching, enablement or product. Gong describes the [call library as a private workspace](https://help.gong.io/docs/about-the-call-library) unless you share. See [Oliv AI as a Gong alternative](https://www.oliv.ai/gong-alternative).
 
 *Competitor details checked against each vendor's public documentation on 21 October 2026. Features and plans change, so confirm with the vendor before you decide.*
 
@@ -168,7 +215,7 @@ Finding past meetings, from each platform's public documentation:
 
 #### Where is the Meetings list? {#faq-where}
 
-Under **Activities › Meetings** in the main navigation. It's shown in every build of Oliv AI.
+Under **Activities › Meetings** in the main navigation. The **Activities** menu also holds **Calls**.
 
 #### How do I find a meeting from a specific day? {#faq-by-date}
 
@@ -176,7 +223,15 @@ Search the Meetings list for the date. Oliv AI's help article uses a meeting hel
 
 #### Can I search for something that was said? {#faq-phrase}
 
-Yes. Search for the exact objection, competitor mention or pricing concern, then clip the moment into a playlist.
+Yes. Search for the exact objection, competitor mention or pricing concern, then clip the moment into a clip library.
+
+#### Can I see my team's meetings? {#faq-team}
+
+Yes. Switch from **My meetings** to **Team meetings** to see meetings beyond your own calls.
+
+#### What does each row show? {#faq-columns}
+
+The meeting title, date and time, its duration, who it was with, the next step and the start of the AI summary.
 
 #### Are phone calls in the Meetings list? {#faq-calls}
 
@@ -194,13 +249,13 @@ At 4 PM local time the day before, once Oliv AI is connected to Slack.
 
 Ten minutes before the meeting. It shows the meeting details and research on the account and contact.
 
-#### Do I need to set up these messages? {#faq-setup}
-
-No. They start automatically once Slack is connected, and they also go to your email by default.
-
 #### Can I stop the Slack messages? {#faq-stop}
 
 Yes. Turn them off on your **Profile Settings** page.
+
+#### Do I need to set up these messages? {#faq-setup}
+
+No. They start automatically once Slack is connected, and they also go to your email by default.
 
 #### Why did a meeting not record? {#faq-not-recorded}
 

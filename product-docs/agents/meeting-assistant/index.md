@@ -19,11 +19,12 @@ Oliv AI's Meeting Assistant agent prepares you for every meeting on an active de
 | **After the meeting** | A follow-up email draft, proposed CRM updates and qualification gap flags |
 | **Runs on** | Every meeting linked to an active opportunity in your CRM |
 | **Built from** | Oliv Notetaker recordings and transcripts |
+| **Where you see it** | Home's **Agent Feed** before the call; the meeting's page in **Activities › Meetings** after it |
 | **Also part of** | The Deal Driver bundle |
 
 ## What the Meeting Assistant agent is {#what-it-is}
 
-Oliv AI's Meeting Assistant agent is an action agent for the people who run meetings on open deals. It works only on active opportunities. If the deal exists and the meeting is on your calendar, it runs automatically. First meetings with new contacts get a research brief instead, covered in [Prepare for a meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/).
+Oliv AI's Meeting Assistant agent is an action agent for the people who run meetings on open deals. It works only on active opportunities. If the deal exists and the meeting is on your calendar, it runs automatically. First meetings with new contacts get a research brief instead, covered in [Prepare for a meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/). In the **Agents** marketplace it's listed as a **Pre-built** agent under **Customer Success**.
 
 ### Before the meeting {#before-the-meeting}
 
@@ -34,6 +35,15 @@ The brief arrives 30 minutes before the call. It's built to fit one screen and t
 - **Stakeholders.** Who's in the meeting, the role each plays, and what they care about based on earlier conversations.
 - **Recommended agenda.** Tailored to the deal stage and the qualification gaps.
 
+The prep also reaches you on Home. When something about an upcoming meeting changes, Meeting Assistant posts a row in the **Agent Feed**. Olivia's daily brief carries a Meeting Assistant section with **Detours**, plans for objections that might come up, and a **Review meeting plan** button.
+
+<figure>
+
+![Home's Agent Feed tab with the Filters panel set to Team Sales and Role Contributor, and the Agents list ticked. The TODAY stream shows rows from Olivia, two from Prospector and one from Meeting Assistant at 11:15 AM about a proposal review starting at 11:45 AM.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_018_home_agent-feed-tab_sales-contributor-filters-and-today-timeline_olivia-brief-prospector-power-dial-meeting-assistant.webp)
+
+<figcaption>Before the call, Meeting Assistant's update sits in the same Agent Feed as your other agents. Its row says what changed about the meeting, so you walk in with the latest picture.</figcaption>
+</figure>
+
 ### After the meeting {#after-the-meeting}
 
 Once the recording is processed, three things are ready for you.
@@ -41,6 +51,28 @@ Once the recording is processed, three things are ready for you.
 - **A follow-up email draft.** Written from the transcript: what was discussed, what was agreed, and next steps with dates where possible. It isn't a template.
 - **Proposed deal field updates.** Stage, amount, close date, qualification fields and next steps, based on what was said.
 - **Qualification gap flags.** New information, or notable absences, that change the deal's qualification status.
+
+### On the meeting's page {#meeting-page}
+
+Open the meeting from **Activities › Meetings**. Its **Overview** tab shows **Key takeaways** and an **AI Summary**, with blue timestamps that link into the recording. A deal card under the takeaways shows stage, amount and close date, with **Review Deal**.
+
+<figure>
+
+![A meeting's page open on the Overview tab, with seven tabs from Overview to CRM Updates. A Key takeaways card lists five points with blue timestamps, an AI Summary card holds longer entries, and a deal updates card shows stage, amount and close date with a Review Deal button.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_240_activities-meetings_meeting-details-drawer_overview-tab_key-takeaways-ai-summary-and-deal-updates-card.webp)
+
+<figcaption>After the call, the meeting's Overview gives you the takeaways and summary with timestamps back to the moment. The deal card beside them is one click from the deal itself.</figcaption>
+</figure>
+
+The **Action Items** tab turns commitments into work. **Next meeting**, **Next action** and **Next follow-up** cards sit above a **Tasks** table with **Assignee** and **Due Date**. Each task links to the moment it was agreed, and **Add task** adds your own.
+
+<figure>
+
+![The Action Items tab of a meeting's page. Next meeting shows an Accepted badge, Next action a date chip and Next follow-up an Overdue badge. Below, a Tasks table filtered to Pending lists four tasks with timestamps, an assignee and due dates, and an Add task button.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_241_activities-meetings_meeting-details-drawer_action-items-tab_next-meeting-next-action-follow-up-and-our-tasks-table.webp)
+
+<figcaption>Every commitment from the call becomes a task with an owner, a due date and a timestamp to the source. That's the follow-through the recap email promises, already tracked.</figcaption>
+</figure>
+
+The full tour of every tab is in [meeting details](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meeting-details/).
 
 ### Across the life of a deal {#across-meetings}
 
@@ -56,7 +88,7 @@ Oliv AI's Meeting Assistant agent is for anyone who runs meetings on live deals.
 
 - **You walk in ready.** The brief lands half an hour early and reads in about a minute.
 - **The email is already written.** The draft comes from the real conversation, so you edit rather than start from a blank page.
-- **The CRM keeps pace.** Changes heard on the call come back as proposed updates you approve.
+- **The CRM keeps pace.** Changes heard on the call come back as CRM updates you can check on the meeting.
 - **Gaps show up early.** Missing qualification details are flagged after every call, while there's time to fix them.
 
 ### What happens without it {#without-it}
@@ -79,14 +111,22 @@ Yet nothing in that recap is new information. Every ask, owner and date was said
 
 Oliv AI does that with its Meeting Assistant agent. When the recording is processed, it drafts the follow-up from the transcript with the recap, commitments, owners and next steps. It also proposes field updates for the renewal and flags any qualification gaps the call exposed. The CSM reads it, adjusts a line or two and sends it.
 
-The draft lands within minutes of the call ending, and each CRM change arrives as a proposal to approve rather than a silent write. How that set of outputs lines up against other meeting tools is covered in How the Meeting Assistant agent compares, below.
+The draft lands within minutes of the call ending. Each CRM change shows on the meeting's **CRM Updates** tab, with a stage move held for the CSM to confirm. How that set of outputs lines up against other meeting tools is covered in How the Meeting Assistant agent compares, below.
 
 ## Set up Meeting Assistant {#set-up}
 
 1. **Connect your calendar.** Meeting Assistant looks for meetings linked to an active opportunity.
 2. **Connect your call recorder.** Use your existing recording tool or Oliv AI's own recorder. The follow-up and gap flags are built from recordings and transcripts, which [Oliv AI's Converse app](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/) captures with call recording and transcription.
 3. **Connect your CRM.** [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/), [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/) or Zoho. This is where the deal context comes from and where approved updates go. See the full list of [supported integrations](https://www.oliv.ai/integrations).
-4. **Confirm your methodology.** MEDDPICC, BANT, SPICED, MEDPICS or your company's own framework. Meeting Assistant maps every call against the one your team runs.
+4. **Confirm your methodology.** Open **Settings › Qualification Framework**. It lists MEDDPICC, MEDDIC, SPICED, BANT and DRIVE, and the one marked **Active** is what Meeting Assistant maps every call against. Preview another tab, then press **Activate** to switch.
+
+<figure>
+
+![Settings, Qualification Framework page with five methodology tabs: MEDDPICC with an Active badge, MEDDIC selected for preview, SPICED, BANT and DRIVE, plus an Activate button. The table lists MEDDIC criteria with descriptions, a 0-6 scoring range and a supporting fields count.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/settings/oliv-ai_261_settings_qualification-framework_meddic-tab-selected-meddpicc-active_criteria-table-with-0-6-scoring-and-supporting-fields.webp)
+
+<figcaption>The Active framework decides which criteria every call is checked against. Set it here before the first meetings, so gap flags match the way your team qualifies.</figcaption>
+</figure>
+
 
 Most teams are connected within a week. You don't need a clean CRM to start: [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) fills in missing or stale fields from call history as it goes.
 
@@ -96,11 +136,30 @@ The follow-up is a draft, not an automatic send. Read it, adjust anything that n
 
 ### Approve the proposed field updates {#approve-updates}
 
-The agent reads the call, finds what changed, and proposes updates for approval. That keeps stage, close date and next steps current without chasing anyone. Approval settings for agent actions in general are explained in [agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/).
+The agent reads the call, finds what changed, and proposes updates. That keeps stage, close date and next steps current without chasing anyone.
+
+The meeting's **CRM Updates** tab lists what changed after the call. Applied changes, such as an account summary, a scorecard or a new contact, carry a green check and a link to the record. A change waiting for you, such as a stage move, shows as **Pending Update** with **Update Deal**.
+
+<figure>
+
+![The CRM Updates tab of a meeting's page: a vertical timeline of cards. Account Updated, Opportunity Updated: BANT Scorecard and two Contact Created cards carry green checks with View Account, View Deal and View Contact buttons. Pending Update: Move to Proposal has a grey clock and an Update Deal button.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_246_activities-meetings_meeting-details-drawer_crm-updates-tab_account-deal-bant-and-contact-updates-with-pending-stage-move.webp)
+
+<figcaption>This is where the call's field changes land. Done items link to the record, and a pending stage move waits for you to press Update Deal.</figcaption>
+</figure>
+
+Approval settings for agent actions in general are explained in [agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/).
 
 ### Act on the qualification gaps {#act-on-gaps}
 
-Gap flags appear after every call, so reps and managers can act before missing details hurt the deal. Your team's framework decides what counts as a gap, so it helps to agree on your [sales methodology](https://www.oliv.ai/sales-methodology) first.
+Gap flags appear after every call, so reps and managers can act before missing details hurt the deal. The meeting's **Meeting insights** tab has a chip for each criterion of the active framework, from **Metrics** to **Champion**, plus **Additional Fields**. Each section holds evidence cards with timestamps. Where nothing was said, the card says so, as in "No ROI".
+
+<figure>
+
+![The Meeting insights tab of a meeting's page, with chips for Metrics, Economic Buyer, Decision Criteria, Decision Process, Paper Process, Identify Pain, Champion and Additional Fields. The Metrics section shows Success Metrics, Business Impact and an Investment ROI card reading No ROI, above Economic Buyer cards.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_242_activities-meetings_meeting-details-drawer_meeting-insights-tab_meddpicc-sections-metrics-and-economic-buyer.webp)
+
+<figcaption>Gaps show up as plainly as evidence. A "not discussed" card, like the missing ROI here, is the question to raise on the next call.</figcaption>
+</figure>
+ Your team's framework decides what counts as a gap, so it helps to agree on your [sales methodology](https://www.oliv.ai/sales-methodology) first.
 
 ## How Meeting Assistant works with other agents {#works-with}
 
@@ -110,7 +169,7 @@ Gap flags appear after every call, so reps and managers can act before missing d
 
 ### Deal Driver {#with-deal-driver}
 
-[Oliv AI's Deal Driver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/) adds pipeline context before every manager 1:1: what changed, what's stuck and which deals need attention. Meeting Assistant summarizes what happened on each call, so managers coach from the same context their reps have.
+[Oliv AI's Deal Driver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/) adds pipeline context before every manager 1:1: what changed, what's stuck and which deals need attention. Meeting Assistant summarizes what happened on each call, so managers coach from the same context their reps have. Deal Driver's **Sunset Summary** also says whether the notetaker recorded the day's meetings.
 
 ### Forecaster {#with-forecaster}
 
@@ -170,7 +229,7 @@ After-the-call features, from each platform's public documentation:
 ## Limits and things to know {#limits}
 
 - **It works on active opportunities.** Meetings with no linked opportunity don't get a deal brief. First meetings with new contacts are handled by research before the first call.
-- **It proposes, it doesn't send.** You review, adjust and send the follow-up yourself, and field updates wait for approval.
+- **It proposes, it doesn't send.** You review, adjust and send the follow-up yourself. Field updates go through CRM Manager, which holds changes like a stage move for you to confirm.
 - **It isn't a forecasting agent.** Meeting Assistant surfaces field updates. Forecaster uses them for pipeline projection.
 - **It isn't a coaching tool.** Meeting Assistant is operational. Coach handles rep development.
 - **It needs recordings.** The follow-up, field updates and gap flags come from Oliv Notetaker recordings and transcripts.
@@ -183,7 +242,7 @@ One screen, about 60 seconds to read. It covers the deal summary, qualification 
 
 #### What sales methodologies does it support? {#faq-methodologies}
 
-MEDDPICC, BANT, SPICED, MEDPICS or your company's custom qualification framework. Meeting Assistant maps every call against whichever one your team runs.
+MEDDPICC, MEDDIC, SPICED, BANT and DRIVE, listed in **Settings › Qualification Framework**. Meeting Assistant maps every call against the one marked **Active**.
 
 #### Does it work for every meeting, or only some? {#faq-which-meetings}
 
@@ -199,7 +258,7 @@ The follow-up is drafted within minutes of the call ending, once the recording i
 
 #### Does it change CRM fields on its own? {#faq-crm-changes}
 
-No. It proposes updates for approval. CRM Manager then writes the updates Meeting Assistant surfaces.
+Meeting Assistant proposes the updates, and CRM Manager writes them. Check the meeting's **CRM Updates** tab: a stage move waits as a **Pending Update** until you press **Update Deal**.
 
 #### I'm already on Deal Driver. Do I need this separately? {#faq-deal-driver}
 

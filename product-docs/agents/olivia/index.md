@@ -4,7 +4,7 @@ What Oliv AI's Olivia agent does, how to ask her questions and hand her work, wh
 
 - Applies to: All revenue teams
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/
 
 Oliv AI's Olivia agent is the agent you talk to rather than configure. You ask in plain language about deals, meeting prep, pipeline or next steps, and she either answers or hands the work to a specialist agent and reports back. She also monitors your conversations in the background and takes care of things before you ask.
@@ -15,8 +15,9 @@ Oliv AI's Olivia agent is the agent you talk to rather than configure. You ask i
 |---|---|
 | **What it does** | Answers questions and gets work done through specialist agents |
 | **Who it's for** | AEs, BDRs, SDRs, CSMs and AMs across the revenue org |
-| **Where you find her** | A side panel on the right of a screen, or the full chat page |
+| **Where you find her** | The **Ask** tab on **Home**, or a side panel opened with **Ask** from other screens |
 | **How freely she acts** | **Ask before acting** (the default) or **Act without asking**, set per conversation |
+| **Past conversations** | Saved in a history panel, with search and **New Chat** |
 | **Where alerts reach you** | Slack, Teams, or within the Oliv product |
 | **What she needs** | A recording or transcript input, a CRM connection and a calendar |
 
@@ -24,11 +25,20 @@ Oliv AI's Olivia agent is the agent you talk to rather than configure. You ask i
 
 Oliv AI's Olivia agent is one of two super agents in Oliv AI. The other is [Oliv AI's Oliver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/). Oliver owns the back end: the process handbook, the configuration and the rules the org runs on. Olivia owns the front end: the relationship, the context and the execution.
 
+<figure>
+
+![Oliv AI Home on the Ask tab with Olivia chosen in the agent picker. Her avatar sits above the pill Your Chief of AI Staff, a Good afternoon, Alex greeting and her introduction, over a message box with an Ask before acting dropdown, a plus attach button, a microphone and a send arrow.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_001_home_ask-tab_olivia-selected-empty-chat-good-afternoon-alex-greeting-ask-before-acting-control.webp)
+
+<figcaption>Oliv AI's Olivia agent opens on Home's Ask tab, ready for a question. The dropdown under the box shows how freely she may act in this conversation.</figcaption>
+</figure>
+
+On **Home**, the **Ask** tab opens with Olivia chosen. Her pill reads **Your Chief of AI Staff**, and the **Agent Feed** tab beside it shows what your agents have done.
+
 She is the same agent for the whole revenue org, not a separate instance per person. She adapts to each rep's accounts and deals, while Oliver keeps her inside consistent company process. In the agent picker she describes herself in one line: "I see everything across your team and dispatch the right sub-agent for each task."
 
 ### Olivia is a conversation, not a marketplace agent {#a-conversation}
 
-Olivia doesn't appear in the [agent marketplace](https://www.oliv.ai/agents-marketplace). She has no card, no detail page, no tools tab and no run history. You reach her through a chat surface, and her background work shows up as rows in the **Agent Feed**.
+Olivia doesn't appear in the [agent marketplace](https://www.oliv.ai/agents-marketplace). She has no card, no detail page, no tools tab and no run history. You reach her on the **Ask** tab or in a side panel, and her background work shows up as rows in the **Agent Feed**.
 
 ## Why the Olivia agent matters {#why-it-matters}
 
@@ -61,31 +71,89 @@ A common fix is to open the CRM record, skim old call notes, search the inbox an
 
 None of this information is new. It already sits in the calls, the CRM and the inbox. What the CSM lacks is someone who holds that history and assembles it at the right moment, without being asked twice.
 
-Oliv AI puts that assembly in a chat beside the work. The CSM presses the suggestion card for a renewal call at 4pm. Oliv AI's Olivia agent then lists the checks she runs, one line at a time. She can call on Oliv AI's Portfolio Manager agent for account health and its Gold Digger agent for expansion signals.
+Oliv AI puts that assembly in a chat beside the work. The CSM presses the suggestion for a renewal call at 4pm. Oliv AI's Olivia agent returns the deal at a glance, who is joining, the risks to watch and talking points. She can call on Oliv AI's Portfolio Manager agent for account health and its Gold Digger agent for expansion signals.
 
 The autonomy dropdown under the message box opens on **Ask before acting**, so Olivia aligns on her approach before she takes any action. That setting is one of the points covered in How the Olivia agent compares, below.
 
 ## Ask Olivia a question {#ask-olivia}
 
-1. Open a chat with Olivia. Use the side panel on the right of a screen, or the full chat page, which is reached by link and isn't in the sidebar.
+1. Open **Home** and stay on the **Ask** tab. On another screen, press **Ask** in the header to open her in a side panel beside your work.
 2. Check the agent picker at the top reads **Olivia**. Her surface is blue to violet with a dotted background. Oliver's is amber to orange with a grid.
 3. Choose how freely she acts with the dropdown beneath the message box: **Ask before acting** or **Act without asking**.
-4. Ask your question. Press one of the three suggestion cards, or type into the box that reads *Ask olivia anything - deals, meeting prep, pipeline, next steps...*.
-5. Watch her work. Her row shows *Thinking...* beside her picture, with a card listing each step as she takes it.
-6. Read the answer. It can be plain text or a structured result, such as a list of deals with the company, the owner and a suggested next move.
-7. If the answer proposes changes, press **Review Changes** to approve them. Accepted changes show as **Merged**.
+4. Ask your question. Type into the box that reads *Ask olivia anything - deals, meeting prep, pipeline, next steps...*, or use the microphone. The **+** button attaches a file.
+5. Check her working. A **Reasoning Trace** row sits above each answer. It stays collapsed until you open it to read the steps she took.
+6. Read the answer. It can be plain text or a structured result, such as a renewal brief with the deal at a glance, attendees, risks and talking points.
+7. Choose what goes out. Drafted work waits for you to pick a send option, edit it or open a review button.
+
+<figure>
+
+![The agent picker open on Oliv AI Home, listing two agents. Olivia, highlighted as the current choice, sees everything across the team and dispatches the right sub-agent for each task. Oliver learns how the team operates and turns it into the rules every other agent follows.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_002_home_ask-tab_agent-picker-dropdown-open_olivia-dispatches-sub-agents-oliver-turns-team-rules-into-agent-rules.webp)
+
+<figcaption>Step 2: the picker lists both super agents with their own one-line descriptions. Choose Olivia for deals, meetings and next steps, and Oliv AI's Oliver agent for process questions.</figcaption>
+</figure>
 
 ### The suggestion cards {#suggestions}
 
-Olivia's three suggestions are about your own day and deals:
+In the side panel, Olivia offers three suggestions about your own day and deals:
 
 - **What does my day look like?**
 - **Get me ready for my [account] renewal call at 4pm today.**
 - **Where are my deals getting stuck the most?**
 
+<figure>
+
+![The Forecast board with Olivia's side panel open on the right after pressing Ask in the header. The panel shows her greeting, three suggestion cards for the day, an Acme renewal call and stuck deals, and a message box set to Ask before acting.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/forecast/oliv-ai_171_forecast_boards-view_olivia-side-panel_ask-button-opened-greeting-three-suggestion-cards-ask-before-acting-beside-rep-drill-down.webp)
+
+<figcaption>Press Ask on any screen and Oliv AI's Olivia agent opens beside it with three suggestion cards. You keep your place on the board while you ask.</figcaption>
+</figure>
+
+### What a call-prep answer holds {#call-prep-answer}
+
+Ask Olivia to get you ready for a call, and she starts with **Deal at a glance**: four cards for **Deal Stage**, **ARR**, **Since Economic Buyer Touch** and **Deal Health**. Below them sit **Who's Joining?**, **Three risks to watch**, numbered **Talking points** and a **Researcher brief** on a new attendee. A suggestion chip at the end offers the next step, such as drafting the pre-meeting email.
+
+<figure>
+
+![Olivia's answer to Get me ready for my Acme renewal call at 4pm today. A collapsed Reasoning Trace row sits above Deal at a glance, four cards showing Negotiation as the deal stage, ARR, days since the economic buyer was last touched and At Risk deal health.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_014_home_chat_olivia_acme-renewal-prep_deal-at-a-glance-cards-negotiation-180k-arr-23-days-no-economic-buyer-touch-at-risk.webp)
+
+<figcaption>A call-prep answer opens with the deal at a glance, so the state of the deal is the first thing you read. The figures are sample values.</figcaption>
+</figure>
+
+### Drafts that wait for your choice {#drafts}
+
+When Olivia drafts an email, she writes two versions. **Draft 1** carries a **Recommended** badge and a **Why this version?** box, and the second draft says when to use it instead. You choose **Send Draft 1 now**, send it at a set time, **Edit before sending** or **Send Draft 2 instead**.
+
+Under **After this goes out, I'll**, she lists what follows. Oliv AI's CRM Manager agent logs the touch on the deal, and she watches for a reply.
+
+<figure>
+
+![Two email drafts from Olivia. Draft 1, short and value-led, has a Recommended badge and a Why this version list. Draft 2 is softer and relationship-led. Four buttons follow: Send Draft 1 now, Send Draft 1 at 3:30pm, Edit before sending and Send Draft 2 instead, then an After this goes out list.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_016_home_chat_olivia_pre-meeting-email_two-drafts-recommended-short-value-led-and-softer-send-options-after-send-actions_full-length.webp)
+
+<figcaption>Nothing goes out until you press one of the four buttons. Oliv AI's Olivia agent also says what she and Oliv AI's CRM Manager agent will do after it sends.</figcaption>
+</figure>
+
+A daily brief works the same way. It groups the work under the agent that did it, with a review button for each, such as **Review meeting plan** and **Review draft from Deal Driver**.
+
+### Pick up an earlier conversation {#history}
+
+Press the menu icon beside the picker to open the history panel. It lists your saved chats with Olivia, with a search icon and **New Chat** at the top. Oliver keeps a separate list. The pencil icon starts a new chat at any time.
+
+<figure>
+
+![The conversation history panel open beside Olivia on the Ask tab. It has a collapse arrow, a search icon, New Chat and two saved chats titled What does my day look like and Get me ready for my Acme renewal call.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_011_home_ask-tab_olivia_conversation-history-panel-open_new-chat-search-saved-day-brief-and-acme-renewal-chats.webp)
+
+<figcaption>Saved chats let you reopen a brief or a renewal prep later. Oliv AI's Olivia agent keeps her own history, separate from Oliver's.</figcaption>
+</figure>
+
 ### Ask about a row in the Agent Feed {#from-the-feed}
 
-Hover a row in the **Agent Feed** and press its comment button. A conversation opens about that row, with the row's agent shown as a chip in the message box and the placeholder changed to *Start talking*.
+Hover a row in the **Agent Feed** to show two buttons: a comment button and **Clear**. Press the comment button and Olivia opens in a side panel beside the feed, with that row outlined. The panel has its own new chat, history and close buttons.
+
+<figure>
+
+![The Agent Feed with an Olivia side panel open at the right. Filters for Team, Role and Agents sit on the left, the selected Olivia row is outlined in the stream, and the panel shows a Hey Alex greeting and a message box with Ask before acting.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_022_home_agent-feed_olivia-side-panel-open-from-feed-comment-button_hey-alex-what-can-i-help-with-new-chat-history-close.webp)
+
+<figcaption>Ask Oliv AI's Olivia agent about a feed update without leaving the feed. The outlined row shows which update the conversation is about.</figcaption>
+</figure>
 
 ### Things you can hand her {#things-to-ask}
 
@@ -177,11 +245,11 @@ Revenue assistant features, from each platform's public documentation:
 
 ## Limits and things to know {#limits}
 
-- **Not in the marketplace.** Browsing agents won't find Olivia. Reach her through the side panel, the chat page or an **Agent Feed** row.
-- **Conversations aren't saved.** A conversation can't be named, reopened or searched, and leaving the screen loses it.
+- **Not in the marketplace.** Browsing agents won't find Olivia. Reach her on the **Ask** tab, through **Ask** on another screen or from an **Agent Feed** row.
+- **One history per super agent.** Saved chats with Olivia and with Oliver sit in separate lists, so switch the picker to find a conversation.
 - **English only.** Olivia works in English.
 - **No warning on Act without asking.** Oliver shows a **High Risk** banner for this setting and Olivia doesn't, so check the dropdown before you leave a conversation.
-- **No dispatch log.** You see which agent did a piece of work through its "Drafted by" line, not through a list of hand-offs.
+- **Hand-offs show in the work, not in a log.** A brief groups each piece under the agent that did it, and delegated work carries a "Drafted by" line.
 - **She doesn't own process.** Stages, ownership and handoffs are set through Oliver.
 
 ## Common questions {#common-questions}
@@ -216,11 +284,15 @@ Her introduction says she monitors your conversations in the background and proa
 
 #### How do I see what she has done? {#faq-see-work}
 
-Her work shows up as rows in the **Agent Feed**. Work she delegated carries a "Drafted by" line naming the agent that produced it.
+Her work shows up as rows in the **Agent Feed**. In a chat, her answers group each piece of work under the agent that produced it.
 
 #### Are my conversations with her saved? {#faq-saved}
 
-No. Leaving the screen loses the conversation.
+Yes. The history panel lists your saved chats with Olivia, with search and **New Chat**. Oliver keeps a separate list of his own.
+
+#### Can I ask Olivia from other screens? {#faq-other-screens}
+
+Yes. Press **Ask** in the header of a screen such as the Forecast board, and she opens in a side panel beside it.
 
 #### What does Olivia need connected? {#faq-needs}
 

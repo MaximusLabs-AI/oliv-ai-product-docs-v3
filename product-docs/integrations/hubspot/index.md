@@ -4,7 +4,7 @@ How to connect Oliv AI to HubSpot, show Oliv AI fields on deal records, decide h
 
 - Applies to: Sales leaders and teams that run on HubSpot
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/
 
 Oliv AI connects to HubSpot so your deals, contacts and companies stay current without reps typing updates after every call. HubSpot remains your CRM, and Oliv AI works on top of it. Here you'll find the connection steps, how to show Oliv AI fields on a deal, and how approvals work.
@@ -46,7 +46,7 @@ The HubSpot integration is for sales teams whose deal records fall behind their 
 - **Deals you can trust on Monday.** Stage, amount and next steps update after each activity.
 - **Stakeholders on the record.** Every new person from a call becomes a contact with a role on the deal.
 - **Next steps that don't get lost.** Commitments from calls turn into HubSpot tasks with an owner.
-- **Approval you control.** Reps see each proposed change with the moment that triggered it, and accept, edit or reject it.
+- **Approval you control.** Reps see each proposed change beside the current CRM value, then accept or reject it.
 
 ### What happens without it {#without-it}
 
@@ -66,15 +66,24 @@ A common fix is to make key deal properties required before a deal can change st
 
 The information she needs already exists. It was said out loud on calls and written in emails during the week. What is missing is a step that turns those conversations into property values, with a person checking them before they count.
 
-Oliv AI adds that step on top of HubSpot. Oliv AI's CRM Manager agent reads each meeting, call and email, then proposes updates to the deal, its contacts and its tasks. She starts every rep on **Ask First**, so reps accept, edit or reject each proposal in the **Agent Updates** tab.
+Oliv AI adds that step on top of HubSpot. Oliv AI's CRM Manager agent reads each meeting, call and email, then proposes updates to the deal, its contacts and its tasks. She starts every rep on **Ask First**, so reps **Accept** or **Reject** each proposal on the deal's **CRM Updates** tab.
 
-Nothing reaches HubSpot until a rep approves it, and every proposal names the moment in the conversation behind it. Approval before writing is one of the points covered in How the HubSpot integration compares, below.
+Nothing reaches HubSpot until a rep approves it, and every proposal shows the current CRM value beside the suggested one. Approval before writing is one of the points covered in How the HubSpot integration compares, below.
 
 ## Connect HubSpot {#connect-hubspot}
 
 1. Sign in to the Oliv AI web app and visit the HubSpot integration, at `web.oliv.ai/hubspot/connect`.
 2. Share your HubSpot URL with the Oliv AI admin through Intercom in the Oliv AI app.
 3. Connect your Gmail or Outlook calendar. Oliv AI needs a calendar integration to take notes in meetings.
+
+Once you're connected, **Settings** › **Revenue Process** has an **Import Pipeline from CRM** button that pulls your existing stages into Oliv AI, one tab per sales motion.
+
+<figure>
+
+![The Revenue process settings page on the Enterprise Sales tab, with Mid-Market sales and Customer Success tabs, a blue Import Pipeline from CRM button, and a stage table showing type, probability, forecast category, outcomes and entry criteria.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/settings/oliv-ai_260_settings_revenue-process_enterprise-sales-tab_stage-table-with-type-probability-forecast-category-outcomes-and-import-pipeline-from-crm.webp)
+
+<figcaption>After HubSpot is connected, Import Pipeline from CRM brings your deal stages into Oliv AI, so agents and the forecast use the same pipeline as your portal.</figcaption>
+</figure>
 
 Your core deal properties are mapped on connection and start filling from day one. If you track properties unique to your process, Oliv AI's team [maps them for you during onboarding](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/field-mapping/).
 
@@ -95,10 +104,26 @@ Oliv AI's help center walks through adding a custom property and a card, so Oliv
 
 Out of the box, Oliv AI's CRM Manager agent holds every suggestion for review before it touches HubSpot. There are two control modes:
 
-- **Ask First.** Each update waits for a rep, with the exact moment that triggered it shown alongside.
+- **Ask First.** Each update waits for a rep before anything is written to HubSpot.
 - **Auto-Pilot.** Updates nobody reviewed are applied on their own, so deals stay current with no one acting.
 
-After a call, the rep gets a [Slack message](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/), or a note in their preferred channel, saying updates were found. The **Agent Updates** tab lists each field with its current HubSpot value, the proposed value and the reasoning. Choices are **Accept**, **Edit and accept** or **Reject**.
+After a call, the rep gets a [Slack message](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/), or a note in their preferred channel, saying updates were found. On the deal, the **CRM Updates** tab lists each proposed change under **AI Suggestions**. The suggested value sits in its own field above the **Current Value**, and the choices are **Accept** or **Reject**. **AI Updates** holds changes already applied, and **Updates History** keeps the record.
+
+<figure>
+
+![A deal drawer on the CRM Updates tab, with an index of AI Suggestions, AI Updates and Updates History, and suggestion cards for Use Case and Primary Contact, each showing the suggested value, the Current Value, and Accept and Reject buttons.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/records-deals/oliv-ai_225_records-deals_deal-detail-drawer_crm-updates-tab_ai-suggestions-4-accept-reject-use-case-primary-contact-competitor-notes.webp)
+
+<figcaption>This is where a rep approves HubSpot updates on Ask First: each suggestion sits beside the value HubSpot holds now, and nothing is written until the rep accepts it.</figcaption>
+</figure>
+
+Each meeting has a **CRM Updates** tab of its own. It lists what was written after the call, such as **Account Updated** or **Contact Created**, and holds a stage move as a **Pending Update** until you press **Update Deal**.
+
+<figure>
+
+![A meeting details drawer on the CRM Updates tab: a timeline with Account Updated, Pending Update: Move to Proposal with an Update Deal button, Opportunity Updated: BANT Scorecard and two Contact Created entries, each with a View link.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_246_activities-meetings_meeting-details-drawer_crm-updates-tab_account-deal-bant-and-contact-updates-with-pending-stage-move.webp)
+
+<figcaption>After a call, the meeting's CRM Updates timeline shows what reached HubSpot and what is still pending, with a link to each record that changed.</figcaption>
+</figure>
 
 Reps with open tasks or unverified deal updates get an end-of-day reminder. If updates stay undone past a set window, deals can be deferred or flagged as closed-lost, and your org chooses whether that happens. When accuracy is good enough, the person who owns HubSpot confirms the move to auto mode.
 
@@ -122,13 +147,31 @@ Oliv AI's CRM Manager agent does every write, so updates show up in the HubSpot 
 
 ### Agents you build {#with-custom-agents}
 
-HubSpot appears in the tool picker with 31 tools in six groups, including **Marketing**. Hubspot is also listed under **Most popular** when you add a trigger. How each tool asks for approval is explained in [agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/).
+HubSpot appears in the **Add Tool** catalogue with 32 tools in six groups: **Lookup / Search**, **Create / Update**, **Associations**, **Activities**, **Marketing** and **Utility**. They run from **Find Deal** and **Update Deal Stage & Dates** to **Enroll Contact in Sequence** and **Submit Form**.
+
+<figure>
+
+![The full HubSpot tool list in the Add Tool catalogue, six category bars with 32 tool cards: Lookup / Search, Create / Update, Associations, Activities, Marketing and Utility, from Find Company down to Get Recently Modified Records.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_055_agent-detail_multi-threader_add-tool-catalog_hubspot-complete-list-of-32-tools-in-6-categories-lookup-create-associations-activities-marketing-utility_full-length.webp)
+
+<figcaption>Every action an agent you build can take in HubSpot, including the Marketing group for lists and forms. Each tool you add gets its own run mode.</figcaption>
+</figure>
+
+HubSpot is also listed under **Most popular** when you add a trigger, so a change in your portal can start an agent.
+
+<figure>
+
+![The Triggers picker opened from Add Trigger, with a Search triggers box and a Most popular group of 11 systems, where Hubspot appears beside Salesforce, Google Calendar, Google Mail and Microsoft Outlook.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_065_agent-detail_multi-threader_triggers-tab_add-trigger-picker-modal_search-triggers-most-popular-outlook-google-mail-calendar-salesforce-hubspot-zoominfo-linkedin.webp)
+
+<figcaption>HubSpot is one of the most popular trigger sources, which lets an event in your portal start an agent without anyone pressing Run Agent.</figcaption>
+</figure>
+
+How each tool asks for approval is explained in [agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/).
 
 ## Who uses the HubSpot integration, and how {#who-uses-it}
 
 ### Sales leaders {#sales-leaders}
 
-A head of sales opens the deals board on Monday and finds stages, amounts and next steps already updated from last week's calls. Pending update counts per deal show who still has changes to review. More on Oliv AI for [sales managers](https://www.oliv.ai/sales-managers).
+A head of sales opens the deals board on Monday and finds stages, amounts and next steps already updated from last week's calls. The **AI Suggestions** count on each deal's **CRM Updates** tab shows what still needs review. More on Oliv AI for [sales managers](https://www.oliv.ai/sales-managers).
 
 ### Account executives {#account-executives}
 
@@ -211,7 +254,7 @@ No. CRM Manager works with unclean data and normalizes it as it goes, resolving 
 
 #### Can a wrong update be undone? {#faq-wrong-update}
 
-Every update carries its source, the exact moment in the conversation behind it. You can review, edit or reject any suggestion before it's written, so nothing is irreversible.
+Every suggestion shows the current value next to the proposed one, and you can reject it before it's written. Changes already applied are listed under **AI Updates**, and **Updates History** keeps the record.
 
 #### Does it work for customer calls after the sale? {#faq-after-sale}
 

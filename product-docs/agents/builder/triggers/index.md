@@ -9,17 +9,24 @@ What an Oliv AI agent's triggers and schedules are, where to read them on the Tr
 
 A trigger is the event that starts an Oliv AI agent without anybody pressing anything, such as a deal reaching a stage in your CRM. Each agent in the [Oliv AI agent marketplace](https://www.oliv.ai/agents-marketplace) that has a **Triggers** tab lists those events as cards. The same tab holds the agent's schedules, the fixed times it acts at.
 
+<figure>
+
+![Triggers tab of Oliv AI's Multithreader agent: a Triggers section with the line Triggers allow your agent to work on auto-pilot, an Add Trigger button and one card, Deal enters Proposal Stage in Salesforce, then an empty Schedule messages section with a Set Schedule button.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_044_agent-detail_multi-threader_triggers-tab_deal-enters-proposal-stage-in-salesforce-trigger-add-trigger-and-set-schedule-buttons.webp)
+
+<figcaption>The Triggers tab answers what starts an agent. Each card names the event in one line and explains when the agent fires; schedules sit in their own section below.</figcaption>
+</figure>
+
 ## At a glance {#at-a-glance}
 
 | | |
 |---|---|
 | **What a trigger is** | The event that starts an agent on its own |
 | **Where triggers live** | **Agents › [agent] › Triggers** |
-| **What a card shows** | The source system's icon, the event in one line, and when the agent fires |
+| **What a card shows** | The source's icon, the event in one line, when the agent fires, and a menu button |
 | **Schedules** | The **Schedule messages** section of the same tab |
 | **Schedule frequencies** | **Daily**, **Every Week**, **Monthly**, **Yearly** |
-| **How automatic runs show** | **Auto-triggered** in the run history, apart from **Manually run** |
-| **Also shown on** | The **Overview** tab, as trigger pills |
+| **How automatic runs show** | **Auto-triggered** or **Auto Trigger** in the run history, apart from **Manually run** or **Manual** |
+| **Also shown on** | The **Overview** tab, as trigger pills, including on agents with no **Triggers** tab |
 
 ## What agent triggers are {#what-it-is}
 
@@ -30,9 +37,34 @@ The **Triggers** tab answers one question: what makes this agent start work by i
 | **Triggers** | The events the agent watches for, one card each | **Add Trigger** |
 | **Schedule messages** | The fixed times the agent acts at, one card each | **Set Schedule** |
 
-A trigger card has three parts: a small icon for the system the event comes from, the event as a one-line title, and a longer sentence explaining when the agent fires. The agents described in the product carry between 1 and 4 triggers each. On the trigger cards those agents carry, the system named is [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/).
+A trigger card has three parts: a small icon for the source the event comes from, the event as a one-line title, and a longer explanation of when the agent fires. The explanation can be one sentence or a short list. A menu button (⋮) sits at the card's right.
 
-Take Oliv AI's Multithreader agent as an example. It has one trigger: it fires on its own when a deal's stage is set to Proposal in the connected CRM. It can also be started by hand with **Run Agent**.
+Agents carry between 1 and 5 triggers each, and they start from many kinds of event:
+
+| Event that starts the agent | Example |
+|---|---|
+| A deal's stage is set to Proposal in [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/) | Oliv AI's Multithreader agent |
+| A tracked lead starts a new session on your website | Oliv AI's Quick Qualifier agent |
+| Company Insights detects a funding signal on an account | Oliv AI's Momentum Reviver agent |
+| A new customer email in Gmail or Outlook, a message in a shared Teams or Slack Connect channel, a deadline, or a message unanswered for 24 hours | Oliv AI's Comms Manager agent |
+| A meeting is completed | Oliv AI's Content Curator agent |
+| A release announcement in a [Slack](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/) channel | Oliv AI's Product Release Messenger agent |
+
+<figure>
+
+![Triggers tab of Oliv AI's Quick Qualifier agent: one trigger card, New website session, which fires when a tracked lead starts a new session on the website, with an Add Trigger button above and an empty Schedule messages section with Set Schedule below.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_078_agent-detail_quick-qualifier_triggers-tab_new-website-session-trigger-add-trigger-schedule-messages-set-schedule.webp)
+
+<figcaption>A trigger can come from outside the CRM. This agent starts the moment a tracked lead begins a new website session.</figcaption>
+</figure>
+
+<figure>
+
+![Triggers tab of Oliv AI's Momentum Reviver agent: one card, When funding signal is detected from Company Insights, explained as two bullets about a strong company signal on an account and other events that suggest fresh budget, with Add Trigger and Set Schedule buttons.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_086_agent-detail_momentum-reviver_triggers-tab_funding-signal-from-company-insights-trigger-add-trigger-set-schedule.webp)
+
+<figcaption>A card's explanation can be a short list. Here it spells out which signals count as fresh budget before the agent wakes up.</figcaption>
+</figure>
+
+Take the Multithreader agent as an example. It has one trigger: it fires on its own when a deal's stage is set to Proposal in the connected CRM. It can also be started by hand with **Run Agent**.
 
 ## Why agent triggers matter {#why-it-matters}
 
@@ -83,22 +115,36 @@ On some agents, the **Overview** tab also carries a plain-language sentence abov
 Press **Add Trigger** at the right of the **Triggers** heading to open the picker. It opens as a panel headed **Triggers**, over a dimmed page.
 
 1. Type in the search box, marked "Search triggers...". It narrows both groups as you type, matching any part of a system's name and ignoring case.
-2. Read the **Most popular** group: a fixed list of 11 systems, each shown with its logo, two to a row.
-3. Read the **All triggers** group beneath it, a longer list.
+2. Read the **Most popular** group: a fixed list of 11 systems, each shown with its logo, two to a row. They are Microsoft Outlook, Google Mail, Google Calendar, Salesforce, HubSpot, Freshdesk, ZoomInfo, Relevance Meeting Bot, LinkedIn, WhatsApp and Telegram.
+3. Read the **All triggers** group beneath it, a longer list that starts with WhatsApp Business, Airtable and Aircall. A **Show more** link sits at its foot.
 4. Close the picker with the **×** at the top right, or press the dimmed page behind it.
 
 The picker is the same whichever agent you opened it from.
+
+<figure>
+
+![The Triggers picker opened from Add Trigger: a Search triggers box above a Most popular group of 11 systems, two to a row: Microsoft Outlook, Google Mail, Google Calendar, Salesforce, Hubspot, Freshdesk, ZoomInfo, Relevance Meeting Bot, LinkedIn, WhatsApp and Telegram.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_065_agent-detail_multi-threader_triggers-tab_add-trigger-picker-modal_search-triggers-most-popular-outlook-google-mail-calendar-salesforce-hubspot-zoominfo-linkedin.webp)
+
+<figcaption>The picker lists the systems a trigger can come from. Search narrows both groups, and the most common sources sit at the top.</figcaption>
+</figure>
 
 ## Set a schedule {#set-schedule}
 
 A schedule lets an agent act at fixed times, alongside its event triggers. The section explains itself as "Schedule allow your agent to schedule future actions."
 
 1. Open the agent's **Triggers** tab and scroll to **Schedule messages**.
-2. Press **Set Schedule**. A form headed **Set Schedule** opens.
-3. Type a name in the **Name** field.
+2. Press **Set Schedule**. A form headed **Set Schedule** opens. A line at the top shows the timezone the schedule uses.
+3. Type a name in the **Name** field, marked "Enter text...".
 4. Choose how often in the first **Schedule** dropdown: **Daily**, **Every Week**, **Monthly** or **Yearly**. It opens on **Every Week**.
-5. Fill in the dropdowns that appear to its right. They change with the frequency, as the table below shows.
+5. Fill in the dropdowns that appear to its right, such as **Select day** and **Select time**. They change with the frequency, as the table below shows.
 6. Press **Finish**.
+
+<figure>
+
+![The Set Schedule form with the frequency dropdown open on four choices, Daily, Every Week, Monthly and Yearly, beside unset Select day and Select time dropdowns, with an empty Name field above and a Finish button at the bottom right.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_068_agent-detail_multi-threader_triggers-tab_set-schedule-form_frequency-dropdown-open-daily-every-week-monthly-yearly-options.webp)
+
+<figcaption>Step 4: the frequency comes first. The day and time dropdowns beside it follow whichever of the four you choose.</figcaption>
+</figure>
 
 | Frequency | Further dropdowns |
 |---|---|
@@ -106,6 +152,8 @@ A schedule lets an agent act at fixed times, alongside its event triggers. The s
 | **Every Week** | Day of the week, then a time at half-hour steps |
 | **Monthly** | Day of the month (**1** to **31**), then a time |
 | **Yearly** | Month, then day of the month, then a time |
+
+A fixed time can also show as a trigger. Oliv AI's Comms Manager agent lists "Morning inbox sweep, weekdays 7:30 AM" among its trigger pills.
 
 ## How agent triggers work with other features {#works-with}
 
@@ -115,11 +163,18 @@ A trigger decides when an agent starts. How freely it then acts is set by each t
 
 ### Run history {#with-run-history}
 
-The run history on the agent's **Runs** tab records each run's type: **Auto-triggered** for runs that started on their own, **Manually run** for the rest. That's where you see a trigger at work, as the [run history guide](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/run-history/) in this documentation explains.
+The run history on the agent's **Runs** tab records each run's type: **Auto-triggered** or **Auto Trigger** for runs that started on their own, **Manually run** or **Manual** for the rest. That's where you see a trigger at work, as the [run history guide](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/run-history/) in this documentation explains.
 
 ### The Overview tab {#with-overview}
 
-The **Overview** tab lists the agent's triggers as pills under a **Triggers** heading. Pressing a pill opens the **Triggers** tab, so it's a quick way to check what starts an agent you're about to rely on.
+The **Overview** tab lists the agent's triggers as pills under a **Triggers** heading. Pressing a pill opens the **Triggers** tab, so it's a quick way to check what starts an agent you're about to rely on. Agents with no **Triggers** tab still list their triggers here, each pill with its own icon.
+
+<figure>
+
+![Overview tab of the Comms Manager agent, which has no Triggers tab: a Goal, then a Triggers card with five pills, New customer email in Gmail or Outlook, New message in a shared Teams or Slack Connect channel, A deadline in the message or the deal, Backstop: customer message unanswered for 24 hours, and Morning inbox sweep, weekdays 7:30 AM.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_091_agent-detail_comms-manager_overview-tab_goal-five-triggers-six-tools-watches-gmail-outlook-teams-slack-connect.webp)
+
+<figcaption>One agent can carry several triggers. Here five pills cover new messages, deadlines, an unanswered-message backstop and a weekday morning sweep.</figcaption>
+</figure>
 
 ### Deal work that starts from a stage {#with-deal-work}
 
@@ -163,7 +218,7 @@ Agent start rules, from each platform's public documentation:
 
 ### Why Oliv AI is the stronger choice for agent triggers {#compare-stronger}
 
-- **Several triggers on one agent.** The agents described in Oliv AI carry between 1 and 4 triggers each. [Gong's help center says each automated agent uses one trigger](https://help.gong.io/docs/create-an-automated-agent). See [Oliv AI as a Gong alternative](https://www.oliv.ai/blog/gong-vs-oliv).
+- **Several triggers on one agent.** Oliv AI agents carry between 1 and 5 triggers each. [Gong's help center says each automated agent uses one trigger](https://help.gong.io/docs/create-an-automated-agent). See [Oliv AI as a Gong alternative](https://www.oliv.ai/blog/gong-vs-oliv).
 - **Events and schedules in one place.** Oliv AI lists an agent's event triggers and its schedules on one **Triggers** tab. [Outreach documents scheduled Research Agent runs as their own scheduled workflows](https://support.outreach.io/support/solutions/articles/159000425162-schedule-workflows-for-research-agent). See [how Gong and Outreach compare](https://www.oliv.ai/blog/gong-vs-outreach).
 - **Started by a deal event, not only the clock.** Oliv AI's Multithreader agent fires when a deal's stage is set to Proposal. [Avoma's scheduled prompts run a question on a recurring basis](https://help.avoma.com/scheduled-prompts-in-ask-avoma). See [Avoma vs Oliv AI](https://www.oliv.ai/blog/avoma-vs-oliv-ai).
 - **Automatic runs you can pick out.** Oliv AI's run history marks each run **Auto-triggered** or **Manually run**. [Fireflies.ai documents skills that run after every meeting or on a schedule](https://guide.fireflies.ai/articles/8965294647-setting-up-multi-meeting-ai-apps).
@@ -172,8 +227,8 @@ Agent start rules, from each platform's public documentation:
 
 ## Limits and things to know {#limits}
 
-- **Not every agent has the tab.** Only agents that offer triggers show a **Triggers** tab. For the others, the tab isn't there to read.
-- **No edit, pause or delete.** A trigger or schedule card has no control to change it, and there's no agent-wide off switch.
+- **Not every agent has the tab.** Only some agents show a **Triggers** tab. For the others, the trigger pills on the **Overview** tab say what starts them.
+- **No pause or off switch.** A trigger or schedule can't be paused from the tab, and there's no agent-wide off switch.
 - **No conditions or filters.** A trigger can't be narrowed to a team, a region or a deal size.
 - **No firing record on the card.** There's no last-fired time, firing count or failure marker on any trigger.
 - **Runs don't name their trigger.** The run history says a run was **Auto-triggered**, not which trigger or schedule started it.
@@ -194,7 +249,7 @@ Yes. Oliv AI's Multithreader agent, for example, fires on its own when a deal's 
 
 #### Can one agent have more than one trigger? {#faq-several-triggers}
 
-Yes. The agents described in the product carry between 1 and 4 triggers each.
+Yes. Agents carry between 1 and 5 triggers each. One agent starts on new customer messages, deadlines, a 24-hour backstop and a weekday morning sweep.
 
 #### What's the difference between a trigger and a schedule? {#faq-trigger-vs-schedule}
 
@@ -206,7 +261,7 @@ Open the agent's run history. Runs that started on their own are marked **Auto-t
 
 #### Can I pause or remove a trigger? {#faq-pause}
 
-No. There's no pause, disable or delete control on a trigger card, and no off switch for the whole agent.
+No. A trigger can't be paused or disabled from the tab, and there's no off switch for the whole agent.
 
 #### Can I limit a trigger to certain deals or people? {#faq-filters}
 
@@ -214,7 +269,7 @@ No. A trigger carries a title and a description and nothing you can configure, s
 
 #### Why does this agent have no Triggers tab? {#faq-no-tab}
 
-Only some agents offer one.
+Only some agents offer one. Their triggers still show as pills on the **Overview** tab.
 
 ## Related {#related}
 

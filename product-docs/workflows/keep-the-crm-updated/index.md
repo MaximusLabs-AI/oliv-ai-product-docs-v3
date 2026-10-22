@@ -19,6 +19,7 @@ Oliv AI keeps your CRM current from the work your team already does. [Oliv AI's 
 | **Fields** | Standard fields, methodology fields and your custom fields |
 | **Starts from** | Every meeting, call and email |
 | **Control** | **Ask First** to review each update, or **Auto-Pilot** once you trust it |
+| **Where you review** | The deal's **CRM Updates** tab in **Records › Deals** |
 | **For RevOps** | A weekly report and batch clean-up jobs on request |
 
 ## Before you begin {#before-you-begin}
@@ -32,6 +33,15 @@ Oliv AI keeps your CRM current from the work your team already does. [Oliv AI's 
 
 Connect Salesforce, HubSpot or Zoho. Your pipeline and fields sync once the CRM is connected. Standard fields such as close date, deal amount, stage, next steps and last activity date are pre-mapped, so they populate from day one. Oliv AI works on top of your CRM, so every update flows into the workflows, reports and dashboards you already use.
 
+Then check your stages in **Settings › Revenue Process**. **Import Pipeline from CRM** pulls in the stages from the connected CRM, with a tab for each sales motion. Each deal's header also carries **Sync to Salesforce** to push the deal to the CRM.
+
+<figure>
+
+![Settings, Revenue process page with tabs for Enterprise Sales, Mid-Market sales and Customer Success, and an Import Pipeline from CRM button. The table lists seven stages from Qualification to Closed lost, each with a Type, Probability, Forecast Category, Outcomes and Entry Criteria.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/settings/oliv-ai_260_settings_revenue-process_enterprise-sales-tab_stage-table-with-type-probability-forecast-category-outcomes-and-import-pipeline-from-crm.webp)
+
+<figcaption>Importing your pipeline gives CRM Manager the same stages your CRM uses. Stage moves it suggests later will then match the stages and forecast categories your reports expect.</figcaption>
+</figure>
+
 ## Step 2: Let activity start the work {#step-2-activity}
 
 There's nothing to schedule. From the first meeting, call or email, [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) is already working. It's the idea behind [autonomous CRM hygiene](https://www.oliv.ai/blog/crm-data-quality-automation-revops): no rules to maintain. After each activity it:
@@ -39,25 +49,50 @@ There's nothing to schedule. From the first meeting, call or email, [Oliv AI's C
 - Creates accounts and contacts that aren't in the CRM yet, and enriches them.
 - Logs the meeting, call or email against the right account, contact and opportunity.
 - Creates tasks from next steps, and assigns each one to the right rep or owner.
-- Updates deal stage as the deal moves, and writes methodology fields such as MEDDPICC, MEDDIC or BANT.
+- Updates deal stage as the deal moves, and writes methodology fields for the framework marked **Active** in **Settings › Qualification Framework**.
 - Tracks each contact's role on the deal, such as economic buyer, champion or blocker.
 
 If it can't work out which account or opportunity an activity belongs to, it asks the seller.
+
+Each meeting's **CRM Updates** tab, in **Activities › Meetings**, lists what was written after the call. Completed cards such as **Account Updated** and **Contact Created** link to the record. A stage move waits as **Pending Update** until you press **Update Deal**.
+
+<figure>
+
+![The CRM Updates tab of a meeting's page: a vertical timeline with Account Updated, Opportunity Updated: BANT Scorecard and two Contact Created cards marked with green checks, and a Pending Update: Move to Proposal card with a grey clock and an Update Deal button.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_246_activities-meetings_meeting-details-drawer_crm-updates-tab_account-deal-bant-and-contact-updates-with-pending-stage-move.webp)
+
+<figcaption>This is Step 2 at work: one meeting refreshed the account, updated a scorecard and created two contacts. Only the stage move is left for a person to confirm.</figcaption>
+</figure>
 
 ## Step 3: Review proposed updates {#step-3-review}
 
 By default, every suggested update surfaces for review before anything is written to the CRM. This is the **Ask First** mode.
 
 1. Watch for the notification. After every activity, CRM Manager sends a [message in Slack](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/) or your preferred channel saying it found updates for a number of fields, with a link to review them.
-2. Open the **Agent Updates** tab. Each update shows the field, the current CRM value, the proposed value and the reasoning.
-3. Read the reasoning. It points to the moment in the conversation that triggered the update.
-4. Choose **Accept**, **Edit and accept** or **Reject**.
+2. Open the deal from **Records › Deals** and pick the **CRM Updates** tab. **AI Suggestions** lists each proposed change.
+3. Compare the suggested value with the "Current Value" line under it.
+4. Choose **Accept** or **Reject**.
 
-Managers can see pending update counts for each deal from the deal board. A full history of how each field has been updated is kept and visible.
+<figure>
+
+![A deal's CRM Updates tab with an index of AI Suggestions, AI Updates and Updates History, each with a count. The AI Suggestions pane shows cards for Use Case and Primary Contact, each with a suggested value, a Current Value line, and Accept and Reject buttons.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/records-deals/oliv-ai_225_records-deals_deal-detail-drawer_crm-updates-tab_ai-suggestions-4-accept-reject-use-case-primary-contact-competitor-notes.webp)
+
+<figcaption>Each suggestion sits above the value it would replace, so reviewing takes a glance. Nothing in the CRM changes until you press Accept.</figcaption>
+</figure>
+
+The count beside **AI Suggestions** shows what is waiting on each deal. **AI Updates** lists changes already applied, and **Updates History** keeps the record.
 
 ## Step 4: Switch to auto mode when you're ready {#step-4-auto-mode}
 
 Once accuracy thresholds are met, RevOps confirms the switch to auto mode. In **Auto-Pilot**, unreviewed updates apply automatically, so the pipeline stays current without anyone acting.
+
+On Home, CRM Manager's **Agent Feed** row reports each batch of work. It says how many fields changed, how many applied straight away and how many still need your review.
+
+<figure>
+
+![Home's Agent Feed with Team set to RevOps and Oliver, CRM Manager and Forecaster ticked under Agents. A CRM Manager row under TODAY reports fields updated across deals from today's calls, with some auto-applied and some needing review.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_027_home_agent-feed_team-revops_filters-and-today-timeline_oliver-q3-revenue-review-crm-manager-field-updates-forecaster-category-shifts.webp)
+
+<figcaption>The feed row is how RevOps watches auto mode without opening every deal. It shows applied and held changes together, so trust builds from real numbers.</figcaption>
+</figure>
 
 Some teams run a weekly review window instead. Reps get their pending suggestions on Friday morning, and on Sunday night they get a confirmation of what was auto-accepted.
 
@@ -87,7 +122,7 @@ It fills three kinds of fields:
 | Field type | Examples | How it's set up |
 |---|---|---|
 | **Standard** | Close date, deal amount, stage, next steps, last activity date | Pre-mapped when the CRM connects |
-| **Methodology** | MEDDPICC, MEDDIC, BANT or your own framework | Values come from Oliv's Deal Insights layer |
+| **Methodology** | The framework marked **Active**: MEDDPICC, MEDDIC, SPICED, BANT or DRIVE | Values come from Oliv's Deal Insights layer |
 | **Custom** | Any field unique to your process | [Mapped by Oliv's team](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/field-mapping/) during onboarding |
 
 ## Why keeping the CRM updated matters {#why-it-matters}
@@ -99,7 +134,7 @@ An updated CRM means the records match what actually happened on calls and in em
 ### How it helps {#how-it-helps}
 
 - **Updates come from conversations.** Fields change because something was said, not because someone remembered to type it.
-- **Each change shows its reason.** The proposed value sits next to the moment in the call that prompted it.
+- **Each change sits beside the old value.** The suggested value shows above the field's current value.
 - **New people get records.** Contacts and accounts appear when they first show up in a meeting or email.
 - **Old mess gets cleaned too.** Batch jobs work back through duplicates and empty fields from earlier quarters.
 
@@ -121,9 +156,9 @@ The usual routine is an export to a spreadsheet and a round of messages to reps.
 
 The records drift because updating them is a separate job from selling. Every call already holds the facts the CRM needs. If those facts flow into the fields as calls happen, the end-of-month scramble shrinks to a check.
 
-Oliv AI's CRM Manager agent does that work after every meeting, call and email. It proposes each change with the current value, the new value and the moment in the conversation behind it. Once the team trusts it, RevOps turns on auto mode, and batch jobs clean up older records on request. New contacts, such as a buyer added late to a call, get their own records along the way. Each week's changes then land in one report for RevOps.
+Oliv AI's CRM Manager agent does that work after every meeting, call and email. It proposes each change with the suggested value and the current value side by side. Once the team trusts it, RevOps turns on auto mode, and batch jobs clean up older records on request. New contacts, such as a buyer added late to a call, get their own records along the way. Each week's changes then land in one report for RevOps.
 
-Each proposed update in the **Agent Updates** tab can be accepted, edited and accepted, or rejected. How other platforms keep CRM fields current is covered in How keeping the CRM updated compares, below.
+Each suggestion on the deal's **CRM Updates** tab can be accepted or rejected. How other platforms keep CRM fields current is covered in How keeping the CRM updated compares, below.
 
 ## How keeping the CRM updated works with other features {#works-with}
 
@@ -147,6 +182,15 @@ Agents that write to Salesforce or HubSpot do it through tools on their **Tools*
 
 [Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) can hand field updates and data hygiene work to CRM Manager, one of the [specialists she orchestrates](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/). Everything downstream in Oliv AI, from deal scoring to [pipeline reviews](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/run-a-pipeline-review/), is only as good as the data CRM Manager keeps current.
 
+When Olivia drafts an email for you, her plan for after it goes out names CRM Manager to log the touch on the deal.
+
+<figure>
+
+![Olivia's drafted pre-meeting email in two versions, Draft 1 marked Recommended with a Why this version? box and Draft 2 as a softer option. Below are Send Draft 1 now, Send Draft 1 at 3:30pm, Edit before sending and Send Draft 2 instead, then an After this goes out list.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_016_home_chat_olivia_pre-meeting-email_two-drafts-recommended-short-value-led-and-softer-send-options-after-send-actions_full-length.webp)
+
+<figcaption>The first item under After this goes out is Log the touch on the deal, attributed to CRM Manager. Emails sent through Olivia reach the CRM without a separate step.</figcaption>
+</figure>
+
 ### Unrecorded meetings {#with-voice}
 
 If a meeting wasn't recorded, CRM Manager can prompt the rep by voice (Beta). The rep gives a quick spoken summary, and CRM Manager uses it as a source.
@@ -165,7 +209,7 @@ An account executive finishes a demo where a new economic buyer joined late. By 
 
 ### Sales managers {#sales-managers}
 
-A sales manager checks pending update counts on the deal board [before a 1:1](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/run-a-pipeline-review/). Deals with a pile of unreviewed updates are the ones to raise first. The [sales manager's daily guide](https://www.oliv.ai/blog/oliv-ai-sales-manager-daily-use-guide-features) shows the rest of the routine.
+A sales manager checks the **AI Suggestions** count on each deal's **CRM Updates** tab [before a 1:1](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/run-a-pipeline-review/). Deals with a pile of unreviewed updates are the ones to raise first. The [sales manager's daily guide](https://www.oliv.ai/blog/oliv-ai-sales-manager-daily-use-guide-features) shows the rest of the routine.
 
 ### Customer success and account management {#customer-success}
 
@@ -220,7 +264,7 @@ Both ways are possible. By default, every suggested update surfaces for review f
 
 #### What if it makes a wrong update? {#faq-wrong-update}
 
-Every update carries its source: the exact moment in the conversation that triggered it. Review, edit or reject any suggestion before it's written.
+Each suggestion shows the field's current value beside the suggested one, so you can reject it before it's written. **Updates History** keeps the record of what changed.
 
 #### Which CRMs are supported? {#faq-crms}
 
@@ -244,11 +288,11 @@ A report of newly created deals, accounts and contacts, fields updated and enric
 
 #### Can managers see what's waiting for review? {#faq-pending}
 
-Yes. Managers can see pending update counts for each deal from the deal board.
+Yes. The count beside **AI Suggestions** on each deal's **CRM Updates** tab shows what's waiting.
 
 #### Can I see how a field changed over time? {#faq-field-history}
 
-Yes. A full history of how each field has been updated is kept and visible.
+Yes. Each deal's **CRM Updates** tab has an **Updates History** list of the changes made.
 
 ## Related {#related}
 

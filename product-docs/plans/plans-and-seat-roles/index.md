@@ -49,16 +49,23 @@ Converse is the conversation intelligence plan, and you can buy it on its own. I
 - Phone call capture, meeting transcription, and [AI summaries and action items](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meeting-details/)
 - A [conversation library with search](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meetings/), and meeting notes in the CRM
 
-More on the app itself on the [Converse page](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/).
+More on the app itself on the [Converse page](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/). In the web app, captured conversations sit under **Activities**, as **Meetings** and **Calls**, and the meetings list has **My meetings** and **Team meetings** views.
+
+<figure>
+
+![Activities menu open from the sidebar, listing Meetings, highlighted, and Calls, over the Meetings list on My meetings with a Team meetings tab. Columns show Meeting, Duration, a Meeting with dropdown, Next Step and AI Summary.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/navigation/oliv-ai_238_navigation_sidebar_activities-flyout-open-meetings-highlighted-calls-over-my-meetings-list.webp)
+
+<figcaption>Where a Converse seat's captured conversations land: meetings and calls under Activities, each meeting with an AI-written next step and summary.</figcaption>
+</figure>
 
 ### Sell {#sell}
 
 Sell adds opportunity management through the Forecast app. It's built for account executives, sales engineering and partnerships. On top of everything in Converse, it includes:
 
 - Opportunity grids and deal health and risks
-- Sales methodology tracking, using MEDDPICC, MEDDIC, BANT, SPIN, SPICED, DRIVE or your own qualification process
+- Sales methodology tracking against the framework you activate: **MEDDPICC**, **MEDDIC**, **SPICED**, **BANT** or **DRIVE**
 - Buying committee tracking
-- Revenue forecast boards, forecast submissions and weekly pipeline snapshots
+- Revenue forecast boards, forecast submissions and weekly pipeline snapshots, on the Forecast app's **Boards** and **Submissions** tabs
 - Deal change history
 
 The [Forecast app page](https://www.oliv.ai/oliv-forecast) shows these views, and [sales methodology tracking](https://www.oliv.ai/sales-methodology) covers the frameworks.
@@ -90,6 +97,17 @@ Count each person once, in the group that fits their work. A sorting like this o
 
 The product marketer is the judgment call. The role examples are a guide, and a customer-facing product marketer can use Converse when they need conversation capture. The same logic works in reverse: give someone Sell or Grow only when they'll work in the Forecast or Retain app.
 
+### What people see in the product {#in-product-views}
+
+Inside Oliv AI, the **Agent Feed** on Home filters by **Team** (**Sales**, **Sales Development**, **Customer Success**, **RevOps**) and **Role** (**Contributor** or **Manager**). Each combination shows the agents that group uses. These are views, not seat roles: use them to check that the seat you pick fits the work each person does.
+
+<figure>
+
+![Agent Feed Filters panel with Team options Sales, Sales Development, Customer Success and RevOps, Role options Contributor and Manager, an Agents list of ticked checkboxes, and Timeline options from Today to Last 30d above a Clear All Filters button.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_020_home_agent-feed_filters-panel_team-role-agents-select-all-timeline-today-7d-14d-30d-clear-all-filters_panel-only.webp)
+
+<figcaption>The team and role filters show which agents each group relies on, a quick way to sanity-check the seat role you give each person.</figcaption>
+</figure>
+
 ### Questions to ask for each person {#questions-per-person}
 
 1. **Do they run customer conversations that should be captured?** If yes, they need at least Converse.
@@ -105,13 +123,13 @@ Add-ons are priced separately from the four plans. Each one is added per person,
 
 ### Enable {#enable}
 
-Enable evaluates customer conversations against coaching scorecards to identify where a rep needs help. It's an add-on, priced separately from the plans.
+Enable evaluates customer conversations against coaching scorecards to identify where a rep needs help. It's an add-on, priced separately from the plans. In the app, its **Library** tab holds clip libraries, each **Public** or **Private**, and its **People** tab shows each rep's pacing for managers.
 
 ### Engage {#engage}
 
-Engage runs email and LinkedIn outreach from Oliv AI. Add it to Converse, Sell or Grow for team members who connect with prospects and customers. It includes one connected primary mailbox and LinkedIn automation. You can add more on top:
+Engage runs email and LinkedIn outreach from Oliv AI. Add it to Converse, Sell or Grow for team members who connect with prospects and customers. It includes one connected primary mailbox and LinkedIn automation. In the app, Engage has **Inbox**, **Dialer**, **Plays**, **Flows**, **Signals** and **Experiments** tabs. You can add more on top:
 
-- **Dialer.** One US phone number, with calling minutes to the US and Canada.
+- **Dialer.** One US phone number, with calling minutes to the US and Canada. The **Dialer** tab runs **Power** and **Parallel** sessions.
 - **WhatsApp, Telegram or Instagram.** Choose the channels you need, priced per channel.
 - **Extra mailboxes.** Additional warm email mailboxes to scale outreach.
 

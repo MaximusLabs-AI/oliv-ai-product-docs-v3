@@ -9,6 +9,13 @@ What an Oliv AI agent's instructions are, how to read its Objective, Process and
 
 Every Oliv AI agent with a detail page carries a written statement of what it is for and how it goes about its work. The **Instructions** tab shows it in three parts: **Objective**, **Process** and **Output**. Each process step names the tools it uses, and pressing a tool takes you straight to it.
 
+<figure>
+
+![Instructions tab of Oliv AI's Multithreader agent: a contents list at left with Objective, five numbered Process steps and two Output items, and at right the agent's header card, its Objective and the first three Process steps, each with a tool chip.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_041_agent-detail_multi-threader_instructions-tab_objective-process-output-contents-list-steps-with-tool-chips.webp)
+
+<figcaption>The Instructions tab sets out an agent's method in writing. The contents list on the left jumps to each part, and every step names the tool that carries it out.</figcaption>
+</figure>
+
 ## At a glance {#at-a-glance}
 
 | | |
@@ -16,8 +23,8 @@ Every Oliv AI agent with a detail page carries a written statement of what it is
 | **What instructions are** | A written statement of what an agent does and how |
 | **Where they live** | **Agents › [agent] › Instructions**, the second tab after **Overview** |
 | **Sections** | **Objective**, **Process**, **Output** |
-| **Process steps** | 3 to 7 per agent, each with a title and a description |
-| **Output items** | 1 to 4 per agent, where the agent has any |
+| **Process steps** | 3 to 6 per agent, each with a title and a description |
+| **Output items** | 1 to 3 per agent, where the agent has any |
 | **Tool chips** | Inside each step; pressing one opens that tool on the **Tools** tab |
 | **Navigation** | A contents list down the left |
 
@@ -31,7 +38,29 @@ Instructions are how you understand an agent before you trust it. They spell out
 | **Process** | A numbered list of steps, each with a short title and a description | Yes, with at least one step |
 | **Output** | A numbered list of what the agent produces, each with a title and a description | Only when the agent has output items |
 
-Within a step's description, each tool the step uses appears as a small bordered chip with the tool's name and icon. A step may carry a main tool chip and further chips below it, one per line, each with its own description. That lets you see which outside action each part of the agent's work depends on.
+Within a step's description, each tool the step uses appears as a small bordered chip with the tool's name and icon. A step can carry two chips when it uses two tools, such as one for an inbox and one for team chat. That lets you see which outside action each part of the agent's work depends on.
+
+<figure>
+
+![The complete Multithreader instructions: a header card, an Objective, five Process steps from assessing buying committee strength to notifying the owner, each with a tool chip, and two Output items, including a Slack notification template with placeholders for the owner, deal and drafts link.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_042_agent-detail_multi-threader_instructions-tab_objective-five-step-process-and-output-with-slack-message-template_full-length.webp)
+
+<figcaption>A full set of instructions reads top to bottom: what the agent aims for, the five steps it takes, and what it hands back, down to the wording of its Slack message.</figcaption>
+</figure>
+
+Steps can hold more than plain prose:
+
+- **Conditions.** A step title can set a rule, such as "If coverage is weak, then find new stakeholders".
+- **Criteria.** A step can list its rules under bold labels, such as **Territory** and **Company size**.
+- **Mentions.** A routing step can name a rep pool as an @-mention chip, such as **@enterpriseAE**.
+- **Highlights.** Key values, such as when the agent should start, are picked out in bold or color.
+- **Templates.** An output can give the exact message the agent sends, with placeholders such as `{{deal_name}}`.
+
+<figure>
+
+![Instructions tab of Oliv AI's Quick Qualifier agent: a contents list with Objective and five Process steps, and a pane showing the Objective, an Enrich lead and company tool chip, disqualifying criteria under bold Territory and Company size labels, and routing rules with an @enterpriseAE pool chip.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_075_agent-detail_quick-qualifier_instructions-tab_objective-process-pull-context-qualify-route-script-log-to-crm.webp)
+
+<figcaption>Instructions can carry real rules: who to disqualify by territory and size, and which rep pool gets each lead, named as an @-mention chip.</figcaption>
+</figure>
 
 The tab opens with a header card carrying the agent's picture, its name and its one-line description. The **Overview** tab carries a separate, shorter **Goal** statement.
 
@@ -88,12 +117,28 @@ Steps are numbered from 1 in the order they're stored.
 
 The run mode decides whether that action needs a person's approval, as the guide to [agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/) explains. Every chip opens the **Tools** tab, wherever it sits in a step.
 
+<figure>
+
+![The complete instructions of Oliv AI's Comms Manager agent: five Process steps, the first carrying two chips, Monitor inbox and Monitor Teams and Slack, then Read deal context, Prioritize message, Draft reply and Notify seller, and three Output items ending in a manager escalation.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_094_agent-detail_comms-manager_instructions-tab_five-process-steps-three-outputs-48-hour-manager-escalation_full-length.webp)
+
+<figcaption>Every chip names a tool you can trace. Here the Draft reply step also states its own rule in words: never send without the seller's approval.</figcaption>
+</figure>
+
 ## Move around with the contents list {#contents-list}
 
 The contents list runs down the left of the tab. The text pane on the right scrolls on its own.
 
 - **Top-level entries**, such as **Objective**, **Process** and **Output**, appear in darker, heavier text. Pressing one scrolls to that section.
 - **Indented entries** name each process step and output item, in lighter text. Pressing one scrolls to it and marks it as the active entry. Pressing it again clears the mark.
+
+Long entries are cut short with an ellipsis, so the list stays one line per step.
+
+<figure>
+
+![Instructions tab of Oliv AI's Product Release Messenger agent: a contents list with Objective, three Process steps and one Output item, some cut short with an ellipsis, beside a pane showing the Objective and three steps with Monitor Slack channel, Read Slack message and Draft email chips.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_118_agent-detail_product-release-messenger_instructions-tab_outline-objective-detect-release-announcement-understand-items-draft-email.webp)
+
+<figcaption>The contents list mirrors the instructions. On a short agent like this one, three steps and one output fit in view at once.</figcaption>
+</figure>
 
 ## How agent instructions work with other features {#works-with}
 
@@ -186,7 +231,7 @@ Press the tool chip in that step. The **Tools** tab opens on that tool, and its 
 
 #### How many steps does an agent's process have? {#faq-how-many-steps}
 
-Between 3 and 7 across the agents in the product.
+Between 3 and 6 across the agents in the product.
 
 #### Why does one agent have no Output section? {#faq-no-output}
 

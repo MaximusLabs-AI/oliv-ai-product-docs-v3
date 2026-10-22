@@ -1,0 +1,572 @@
+{
+ "/product-docs/images/screens/activities-calls/oliv-ai_247_activities-calls_calls-list_all-calls-tab_grid-with-direction-disposition-owner-company-and-deal-columns.webp": {
+  "height": 920,
+  "id": "OLV-SB-247",
+  "width": 1600
+ },
+ "/product-docs/images/screens/activities-calls/oliv-ai_250_activities-calls_call-details-drawer_recording-tab_audio-waveform-player-talk-time-timeline-and-transcript.webp": {
+  "height": 920,
+  "id": "OLV-SB-250",
+  "width": 1600
+ },
+ "/product-docs/images/screens/activities-meetings/oliv-ai_239_activities-meetings_meetings-list_my-meetings-tab_grid-with-meeting-type-next-step-and-ai-summary-columns.webp": {
+  "height": 920,
+  "id": "OLV-SB-239",
+  "width": 1600
+ },
+ "/product-docs/images/screens/activities-meetings/oliv-ai_240_activities-meetings_meeting-details-drawer_overview-tab_key-takeaways-ai-summary-and-deal-updates-card.webp": {
+  "height": 920,
+  "id": "OLV-SB-240",
+  "width": 1600
+ },
+ "/product-docs/images/screens/activities-meetings/oliv-ai_241_activities-meetings_meeting-details-drawer_action-items-tab_next-meeting-next-action-follow-up-and-our-tasks-table.webp": {
+  "height": 920,
+  "id": "OLV-SB-241",
+  "width": 1600
+ },
+ "/product-docs/images/screens/activities-meetings/oliv-ai_242_activities-meetings_meeting-details-drawer_meeting-insights-tab_meddpicc-sections-metrics-and-economic-buyer.webp": {
+  "height": 920,
+  "id": "OLV-SB-242",
+  "width": 1600
+ },
+ "/product-docs/images/screens/activities-meetings/oliv-ai_243_activities-meetings_meeting-details-drawer_recording-tab_blank-player-add-comment-clip-share-timeline-and-chapters.webp": {
+  "height": 920,
+  "id": "OLV-SB-243",
+  "width": 1600
+ },
+ "/product-docs/images/screens/activities-meetings/oliv-ai_244_activities-meetings_meeting-details-drawer_coaching-tab_b-plus-summary-skill-scores-and-meddpicc-radar-chart.webp": {
+  "height": 920,
+  "id": "OLV-SB-244",
+  "width": 1600
+ },
+ "/product-docs/images/screens/activities-meetings/oliv-ai_245_activities-meetings_meeting-details-drawer_attendees-tab_buying-committee-sentiment-access-talk-time-and-insights.webp": {
+  "height": 920,
+  "id": "OLV-SB-245",
+  "width": 1600
+ },
+ "/product-docs/images/screens/activities-meetings/oliv-ai_246_activities-meetings_meeting-details-drawer_crm-updates-tab_account-deal-bant-and-contact-updates-with-pending-stage-move.webp": {
+  "height": 920,
+  "id": "OLV-SB-246",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-builder/oliv-ai_072_agent-builder_multithreader_runs-tab_run-record-drawer-dunder-mifflin-top-identified-contacts-email-sent-to-vp-of-sales.webp": {
+  "height": 920,
+  "id": "OLV-SB-072",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_039_agent-detail_multi-threader_overview-tab_goal-triggers-tools-knowledge-summary-cards-run-agent-button.webp": {
+  "height": 920,
+  "id": "OLV-SB-039",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_040_agent-detail_multi-threader_overview-tab_goal-triggers-tools-knowledge-and-runs-last-run-weekly-throughput_full-length.webp": {
+  "height": 956,
+  "id": "OLV-SB-040",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_041_agent-detail_multi-threader_instructions-tab_objective-process-output-contents-list-steps-with-tool-chips.webp": {
+  "height": 920,
+  "id": "OLV-SB-041",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_042_agent-detail_multi-threader_instructions-tab_objective-five-step-process-and-output-with-slack-message-template_full-length.webp": {
+  "height": 1622,
+  "id": "OLV-SB-042",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_043_agent-detail_multi-threader_tools-tab_add-tool-button-five-tools-each-set-to-auto-run-with-run-mode-dropdown.webp": {
+  "height": 920,
+  "id": "OLV-SB-043",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_044_agent-detail_multi-threader_triggers-tab_deal-enters-proposal-stage-in-salesforce-trigger-add-trigger-and-set-schedule-buttons.webp": {
+  "height": 920,
+  "id": "OLV-SB-044",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_045_agent-detail_multi-threader_knowledge-tab_knowledge-in-use-three-md-files-view-links-upload-drop-area-and-import-buttons.webp": {
+  "height": 920,
+  "id": "OLV-SB-045",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_046_agent-detail_multi-threader_data-tab_sources-list-salesforce-deals-selected-deal-id-name-account-owner-stagename-fields.webp": {
+  "height": 920,
+  "id": "OLV-SB-046",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_048_agent-detail_multi-threader_runs-tab_run-history-table-time-type-status-view-links-auto-triggered-and-manually-run.webp": {
+  "height": 920,
+  "id": "OLV-SB-048",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_049_agent-detail_multi-threader_tools-tab_run-mode-dropdown-open-on-analyze-buying-committee-auto-run-requires-approval-agent-decides.webp": {
+  "height": 920,
+  "id": "OLV-SB-049",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_050_agent-detail_multi-threader_tools-tab_analyze-buying-committee-set-to-requires-approval-red-alert-icon-other-four-tools-on-auto-run.webp": {
+  "height": 920,
+  "id": "OLV-SB-050",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_051_agent-detail_multi-threader_tools-tab_three-run-modes-at-once-analyze-requires-approval-draft-message-agent-decides-others-auto-run.webp": {
+  "height": 920,
+  "id": "OLV-SB-051",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_053_agent-detail_multi-threader_add-tool-catalog_salesforce-complete-list-of-34-tools-in-6-categories-lookup-create-associations-activities-pipeline-utility_full-length.webp": {
+  "height": 6298,
+  "id": "OLV-SB-053",
+  "width": 1276
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_055_agent-detail_multi-threader_add-tool-catalog_hubspot-complete-list-of-32-tools-in-6-categories-lookup-create-associations-activities-marketing-utility_full-length.webp": {
+  "height": 5970,
+  "id": "OLV-SB-055",
+  "width": 1276
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_057_agent-detail_multi-threader_add-tool-catalog_gmail-complete-list-of-9-tools-single-actions-category-send-reply-draft-label-threads-delete_full-length.webp": {
+  "height": 1608,
+  "id": "OLV-SB-057",
+  "width": 1276
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_065_agent-detail_multi-threader_triggers-tab_add-trigger-picker-modal_search-triggers-most-popular-outlook-google-mail-calendar-salesforce-hubspot-zoominfo-linkedin.webp": {
+  "height": 920,
+  "id": "OLV-SB-065",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_068_agent-detail_multi-threader_triggers-tab_set-schedule-form_frequency-dropdown-open-daily-every-week-monthly-yearly-options.webp": {
+  "height": 920,
+  "id": "OLV-SB-068",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_075_agent-detail_quick-qualifier_instructions-tab_objective-process-pull-context-qualify-route-script-log-to-crm.webp": {
+  "height": 920,
+  "id": "OLV-SB-075",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_077_agent-detail_quick-qualifier_tools-tab_add-tool-generate-call-script-and-log-to-crm-both-auto-run.webp": {
+  "height": 920,
+  "id": "OLV-SB-077",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_078_agent-detail_quick-qualifier_triggers-tab_new-website-session-trigger-add-trigger-schedule-messages-set-schedule.webp": {
+  "height": 920,
+  "id": "OLV-SB-078",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_079_agent-detail_quick-qualifier_runs-tab_run-history-seven-auto-triggered-successes-routed-to-reps-view-links.webp": {
+  "height": 920,
+  "id": "OLV-SB-079",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_086_agent-detail_momentum-reviver_triggers-tab_funding-signal-from-company-insights-trigger-add-trigger-set-schedule.webp": {
+  "height": 920,
+  "id": "OLV-SB-086",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_091_agent-detail_comms-manager_overview-tab_goal-five-triggers-six-tools-watches-gmail-outlook-teams-slack-connect.webp": {
+  "height": 920,
+  "id": "OLV-SB-091",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_094_agent-detail_comms-manager_instructions-tab_five-process-steps-three-outputs-48-hour-manager-escalation_full-length.webp": {
+  "height": 1825,
+  "id": "OLV-SB-094",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_096_agent-detail_comms-manager_knowledge-tab_five-md-files-playbook-response-times-faqs-attachments-drag-drop-upload.webp": {
+  "height": 920,
+  "id": "OLV-SB-096",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_097_agent-detail_comms-manager_knowledge-tab_five-files-upload-area-google-drive-onedrive-seismic-highspot-website-scrape_full-length.webp": {
+  "height": 945,
+  "id": "OLV-SB-097",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_100_agent-detail_content-curator_overview-tab_goal-meeting-completed-trigger-five-tools-three-moment-types.webp": {
+  "height": 920,
+  "id": "OLV-SB-100",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_104_agent-detail_content-curator_tools-tab_five-tools-analyze-recordings-detect-moments-generate-summary-clip-library-slack-all-auto-run.webp": {
+  "height": 920,
+  "id": "OLV-SB-104",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_106_agent-detail_content-curator_runs-tab_run-record-drawer-open-hooli-corp-procurement-call-clip-view-clip-library-view-slack-alert.webp": {
+  "height": 920,
+  "id": "OLV-SB-106",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_113_agent-detail_module-activator_runs-tab_run-history-contact-company-time-type-status-completed-step-escalated-to-csm-sequence-completed.webp": {
+  "height": 920,
+  "id": "OLV-SB-113",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_115_agent-detail_module-activator_run-record-drawer_four-step-sequence-email-in-app-create-qbr-draft-upcoming-sms-and-call-escalate-to-csm_full-length.webp": {
+  "height": 2017,
+  "id": "OLV-SB-115",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_116_agent-detail_product-release-messenger_overview-tab_goal-releases-slack-trigger-tools-and-knowledge-cards.webp": {
+  "height": 920,
+  "id": "OLV-SB-116",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agent-detail/oliv-ai_118_agent-detail_product-release-messenger_instructions-tab_outline-objective-detect-release-announcement-understand-items-draft-email.webp": {
+  "height": 920,
+  "id": "OLV-SB-118",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agents-marketplace/oliv-ai_031_agents-marketplace_all-tab_nine-agent-cards-view-agent-and-clone-agent-buttons-category-filters-search-oliver-chat-panel-open.webp": {
+  "height": 920,
+  "id": "OLV-SB-031",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agents-marketplace/oliv-ai_037_agents-marketplace_agents-page_customer-success-category-tab-selected_seven-agent-cards-qbr-builder-portfolio-manager-meeting-assistant-pre-built-and-custom-badges.webp": {
+  "height": 920,
+  "id": "OLV-SB-037",
+  "width": 1600
+ },
+ "/product-docs/images/screens/agents-marketplace/oliv-ai_038_agents-marketplace_agents-page_search-box-typed-renewal_all-tab-filtered-to-renewal-radar-and-qbr-builder.webp": {
+  "height": 920,
+  "id": "OLV-SB-038",
+  "width": 1600
+ },
+ "/product-docs/images/screens/clip-libraries/oliv-ai_182_clip-libraries_master-objection-library_clip-details_hooli-procurement-call-video-player-attendees-talk-time-engagement-transcript-ask-ai.webp": {
+  "height": 920,
+  "id": "OLV-SB-182",
+  "width": 1600
+ },
+ "/product-docs/images/screens/enable/oliv-ai_172_enable_library-tab_all-libraries-view_clip-library-list-name-description-access-type-public-private-with-views-tree-and-new-library.webp": {
+  "height": 920,
+  "id": "OLV-SB-172",
+  "width": 1600
+ },
+ "/product-docs/images/screens/enable/oliv-ai_173_enable_people-tab_overview-closed-commit-best-case-target-bar-and-my-team-rep-cards-with-target-pacing.webp": {
+  "height": 920,
+  "id": "OLV-SB-173",
+  "width": 1600
+ },
+ "/product-docs/images/screens/enable/oliv-ai_174_enable_people-tab_overview-and-my-team-six-rep-cards-target-pacing-open-deals-active-pipeline-forecast_full-length.webp": {
+  "height": 1048,
+  "id": "OLV-SB-174",
+  "width": 1600
+ },
+ "/product-docs/images/screens/enable/oliv-ai_177_enable_people-report_coach-monthly-goals_recommended-goal-multi-thread-before-proposal-with-why-and-september-goal-progress-76-percent.webp": {
+  "height": 920,
+  "id": "OLV-SB-177",
+  "width": 1600
+ },
+ "/product-docs/images/screens/enable/oliv-ai_181_enable_library-tab_ai-library-view-selected-count-3-master-objection-competitive-landscape-best-of-product-pitches-public-private.webp": {
+  "height": 920,
+  "id": "OLV-SB-181",
+  "width": 1600
+ },
+ "/product-docs/images/screens/engage/oliv-ai_124_engage_inbox-tab_all-active-37-dispositions-filtered-out-channels-email-linkedin-whatsapp-prospect-reply-list.webp": {
+  "height": 920,
+  "id": "OLV-SB-124",
+  "width": 1600
+ },
+ "/product-docs/images/screens/engage/oliv-ai_129_engage_dialer-tab_session-list-power-and-parallel-types-active-paused-completed-created-by-prospector-contact-list-dialed-connects.webp": {
+  "height": 920,
+  "id": "OLV-SB-129",
+  "width": 1600
+ },
+ "/product-docs/images/screens/engage/oliv-ai_134_engage_power-dialer_in-call-controls_record-call-toggle-on-recording-method-one-way-two-way-pause-mute-and-end-call-beside-call-plan.webp": {
+  "height": 920,
+  "id": "OLV-SB-134",
+  "width": 1600
+ },
+ "/product-docs/images/screens/engage/oliv-ai_137_engage_plays-tab_plays-list-priority-status-outreach-type-description-stats-columns-asap-high-medium-active-inactive.webp": {
+  "height": 920,
+  "id": "OLV-SB-137",
+  "width": 1600
+ },
+ "/product-docs/images/screens/engage/oliv-ai_139_engage_signals-tab_signals-list-topic-description-category-source-first-party-third-party-add-signal.webp": {
+  "height": 920,
+  "id": "OLV-SB-139",
+  "width": 1600
+ },
+ "/product-docs/images/screens/engage/oliv-ai_142_engage_play-detail_high-intent-website-visitors_details-tab_funnel-cards-identified-contacted-replied-meetings-booked-edit-play.webp": {
+  "height": 920,
+  "id": "OLV-SB-142",
+  "width": 1600
+ },
+ "/product-docs/images/screens/engage/oliv-ai_146_engage_play-detail_high-intent-website-visitors_companies-tab_icp-fit-engagement-point-of-view-signal-coverage-stage-columns.webp": {
+  "height": 920,
+  "id": "OLV-SB-146",
+  "width": 1600
+ },
+ "/product-docs/images/screens/engage/oliv-ai_154_engage_edit-play-wizard_step-2-of-6-play-type_outbound-always-on-or-inbound-signal-triggered-inbound-selected.webp": {
+  "height": 920,
+  "id": "OLV-SB-154",
+  "width": 1600
+ },
+ "/product-docs/images/screens/forecast/oliv-ai_155_forecast_submissions-tab_my-team-priya-shah-3-of-9-submitted-due-october-26-2026-measurement-submission-deals-sum-roll-up.webp": {
+  "height": 920,
+  "id": "OLV-SB-155",
+  "width": 1600
+ },
+ "/product-docs/images/screens/forecast/oliv-ai_157_forecast_boards-tab_sales-forecast-quarterly-fy2026-q4-snapshot-oct-22-2026-target-attainment-pipeline-coverage-commit-most-likely.webp": {
+  "height": 920,
+  "id": "OLV-SB-157",
+  "width": 1600
+ },
+ "/product-docs/images/screens/forecast/oliv-ai_162_forecast_boards-tab_monthly-view-manager-row-expanded-brian-davis-team-jordan-lee-alice-roberts-sarah-reed-kevin-turner.webp": {
+  "height": 920,
+  "id": "OLV-SB-162",
+  "width": 1600
+ },
+ "/product-docs/images/screens/forecast/oliv-ai_163_forecast_boards-tab_monthly-view-drilled-into-brian-davis-team-back-arrow-reps-attainment-coverage-commit-most-likely.webp": {
+  "height": 920,
+  "id": "OLV-SB-163",
+  "width": 1600
+ },
+ "/product-docs/images/screens/forecast/oliv-ai_164_forecast_submission-drawer_brian-davis_commit-forecast-tab_mon-oct-26-commit-1-450-000-adjustment-0-forecaster-comment-deals-in-snapshot.webp": {
+  "height": 920,
+  "id": "OLV-SB-164",
+  "width": 1600
+ },
+ "/product-docs/images/screens/forecast/oliv-ai_166_forecast_submission-drawer_brian-davis_committed-deals-tab_suggested-move-down-to-most-likely-4-deals-275000-with-risk-reasons.webp": {
+  "height": 920,
+  "id": "OLV-SB-166",
+  "width": 1600
+ },
+ "/product-docs/images/screens/forecast/oliv-ai_168_forecast_submission-drawer_brian-davis_best-case-deals-tab_move-down-to-pipeline-3-deals-230000-and-move-up-to-most-likely-with-risk-reasons.webp": {
+  "height": 920,
+  "id": "OLV-SB-168",
+  "width": 1600
+ },
+ "/product-docs/images/screens/forecast/oliv-ai_171_forecast_boards-view_olivia-side-panel_ask-button-opened-greeting-three-suggestion-cards-ask-before-acting-beside-rep-drill-down.webp": {
+  "height": 920,
+  "id": "OLV-SB-171",
+  "width": 1600
+ },
+ "/product-docs/images/screens/home/oliv-ai_001_home_ask-tab_olivia-selected-empty-chat-good-afternoon-alex-greeting-ask-before-acting-control.webp": {
+  "height": 920,
+  "id": "OLV-SB-001",
+  "width": 1600
+ },
+ "/product-docs/images/screens/home/oliv-ai_002_home_ask-tab_agent-picker-dropdown-open_olivia-dispatches-sub-agents-oliver-turns-team-rules-into-agent-rules.webp": {
+  "height": 920,
+  "id": "OLV-SB-002",
+  "width": 1600
+ },
+ "/product-docs/images/screens/home/oliv-ai_003_home_ask-tab_oliver-selected-empty-chat-amber-grid-theme-chief-gtm-engineer-greeting-data-quality-prompt.webp": {
+  "height": 920,
+  "id": "OLV-SB-003",
+  "width": 1600
+ },
+ "/product-docs/images/screens/home/oliv-ai_004_home_ask-tab_oliver_autonomy-dropdown-open_ask-before-acting-vs-act-without-asking-descriptions.webp": {
+  "height": 920,
+  "id": "OLV-SB-004",
+  "width": 1600
+ },
+ "/product-docs/images/screens/home/oliv-ai_007_home_chat_oliver_stuck-deals-answer_pipeline-snapshot-132-deals-58-stalled-first-cause-economic-buyer-not-engaged.webp": {
+  "height": 920,
+  "id": "OLV-SB-007",
+  "width": 1600
+ },
+ "/product-docs/images/screens/home/oliv-ai_009_home_chat_oliver_reasoning-trace-expanded_analyzing-database-four-steps-done-then-pipeline-snapshot.webp": {
+  "height": 920,
+  "id": "OLV-SB-009",
+  "width": 1600
+ },
+ "/product-docs/images/screens/home/oliv-ai_011_home_ask-tab_olivia_conversation-history-panel-open_new-chat-search-saved-day-brief-and-acme-renewal-chats.webp": {
+  "height": 920,
+  "id": "OLV-SB-011",
+  "width": 1600
+ },
+ "/product-docs/images/screens/home/oliv-ai_014_home_chat_olivia_acme-renewal-prep_deal-at-a-glance-cards-negotiation-180k-arr-23-days-no-economic-buyer-touch-at-risk.webp": {
+  "height": 895,
+  "id": "OLV-SB-014",
+  "width": 1600
+ },
+ "/product-docs/images/screens/home/oliv-ai_015_home_chat_olivia_acme-renewal-prep-full-brief_who-is-joining-three-risks-talking-points-researcher-brief-on-cfo_full-length.webp": {
+  "height": 1936,
+  "id": "OLV-SB-015",
+  "width": 1528
+ },
+ "/product-docs/images/screens/home/oliv-ai_016_home_chat_olivia_pre-meeting-email_two-drafts-recommended-short-value-led-and-softer-send-options-after-send-actions_full-length.webp": {
+  "height": 1979,
+  "id": "OLV-SB-016",
+  "width": 1528
+ },
+ "/product-docs/images/screens/home/oliv-ai_018_home_agent-feed-tab_sales-contributor-filters-and-today-timeline_olivia-brief-prospector-power-dial-meeting-assistant.webp": {
+  "height": 895,
+  "id": "OLV-SB-018",
+  "width": 1600
+ },
+ "/product-docs/images/screens/home/oliv-ai_020_home_agent-feed_filters-panel_team-role-agents-select-all-timeline-today-7d-14d-30d-clear-all-filters_panel-only.webp": {
+  "height": 1714,
+  "id": "OLV-SB-020",
+  "width": 488
+ },
+ "/product-docs/images/screens/home/oliv-ai_022_home_agent-feed_olivia-side-panel-open-from-feed-comment-button_hey-alex-what-can-i-help-with-new-chat-history-close.webp": {
+  "height": 895,
+  "id": "OLV-SB-022",
+  "width": 1600
+ },
+ "/product-docs/images/screens/home/oliv-ai_024_home_agent-feed_team-sales-role-manager_olivia-brief-forecaster-category-shifts-oliver-stalled-proposal-update.webp": {
+  "height": 895,
+  "id": "OLV-SB-024",
+  "width": 1600
+ },
+ "/product-docs/images/screens/home/oliv-ai_027_home_agent-feed_team-revops_filters-and-today-timeline_oliver-q3-revenue-review-crm-manager-field-updates-forecaster-category-shifts.webp": {
+  "height": 920,
+  "id": "OLV-SB-027",
+  "width": 1600
+ },
+ "/product-docs/images/screens/home/oliv-ai_029_home_agent-feed_team-customer-success-role-manager_yesterday-group-portfolio-manager-1-1-agenda-oliver-renewal-and-process-updates.webp": {
+  "height": 920,
+  "id": "OLV-SB-029",
+  "width": 1600
+ },
+ "/product-docs/images/screens/home/oliv-ai_030_home_agent-feed_team-sales-role-contributor_filters-and-today-timeline-six-updates-olivia-prospector-meeting-assistant-gold-digger-crm-manager.webp": {
+  "height": 920,
+  "id": "OLV-SB-030",
+  "width": 1600
+ },
+ "/product-docs/images/screens/navigation/oliv-ai_238_navigation_sidebar_activities-flyout-open-meetings-highlighted-calls-over-my-meetings-list.webp": {
+  "height": 920,
+  "id": "OLV-SB-238",
+  "width": 1600
+ },
+ "/product-docs/images/screens/playbook/oliv-ai_252_playbook_target-market-md-open_oliver-chat-panel-with-three-suggestions-and-market-prospecting-sales-file-tree.webp": {
+  "height": 920,
+  "id": "OLV-SB-252",
+  "width": 1600
+ },
+ "/product-docs/images/screens/playbook/oliv-ai_255_playbook_history-tab_all-filter_pending-review-merged-and-autonomous-changes-by-oliver-revops-and-oliv-gtm-engineers.webp": {
+  "height": 920,
+  "id": "OLV-SB-255",
+  "width": 1600
+ },
+ "/product-docs/images/screens/playbook/oliv-ai_257_playbook_review-changes-dialog_qualification-framework-md-diff-hard-gates-for-proposal-entry-cancel-request-edit-approve-and-merge.webp": {
+  "height": 920,
+  "id": "OLV-SB-257",
+  "width": 1600
+ },
+ "/product-docs/images/screens/records-companies/oliv-ai_231_records-companies_company-detail-drawer_timeline-tab_filters-communication-contact-activity-upcoming-and-past-activities.webp": {
+  "height": 920,
+  "id": "OLV-SB-231",
+  "width": 1600
+ },
+ "/product-docs/images/screens/records-companies/oliv-ai_233_records-companies_company-detail-drawer_contacts-tab_buying-committee-sentiment-kendall-roy-ally-economic-buyer-pain-and-needs-objections.webp": {
+  "height": 920,
+  "id": "OLV-SB-233",
+  "width": 1600
+ },
+ "/product-docs/images/screens/records-deals/oliv-ai_211_records-deals_deals-list_commit-view-14-deals-forecast-risks-meddpicc-health-momentum-relationships.webp": {
+  "height": 920,
+  "id": "OLV-SB-211",
+  "width": 1600
+ },
+ "/product-docs/images/screens/records-deals/oliv-ai_217_records-deals_deal-detail-drawer_overview-tab_dunder-mifflin-strengths-and-risks-and-gaps-cards.webp": {
+  "height": 920,
+  "id": "OLV-SB-217",
+  "width": 1600
+ },
+ "/product-docs/images/screens/records-deals/oliv-ai_219_records-deals_deal-detail-drawer_details-tab_overview-fields-next-step-section-index-dunder-mifflin-scranton.webp": {
+  "height": 920,
+  "id": "OLV-SB-219",
+  "width": 1600
+ },
+ "/product-docs/images/screens/records-deals/oliv-ai_221_records-deals_deal-detail-drawer_health-tab_forecast-subtab-summary-win-probability-close-date-slips-whats-dragging-score-down.webp": {
+  "height": 920,
+  "id": "OLV-SB-221",
+  "width": 1600
+ },
+ "/product-docs/images/screens/records-deals/oliv-ai_222_records-deals_deal-detail-drawer_momentum-tab_activity-map-meetings-emails-internal-external-slack-system-dots-today-line.webp": {
+  "height": 920,
+  "id": "OLV-SB-222",
+  "width": 1600
+ },
+ "/product-docs/images/screens/records-deals/oliv-ai_223_records-deals_deal-detail-drawer_action-plan-tab_next-meeting-accepted-next-action-follow-up-overdue-our-tasks-3-of-6.webp": {
+  "height": 920,
+  "id": "OLV-SB-223",
+  "width": 1600
+ },
+ "/product-docs/images/screens/records-deals/oliv-ai_224_records-deals_deal-detail-drawer_coaching-tab_summary-b-plus-score-index-information-discovery-strengths-focus-areas.webp": {
+  "height": 920,
+  "id": "OLV-SB-224",
+  "width": 1600
+ },
+ "/product-docs/images/screens/records-deals/oliv-ai_225_records-deals_deal-detail-drawer_crm-updates-tab_ai-suggestions-4-accept-reject-use-case-primary-contact-competitor-notes.webp": {
+  "height": 920,
+  "id": "OLV-SB-225",
+  "width": 1600
+ },
+ "/product-docs/images/screens/records-deals/oliv-ai_227_records-deals_deal-detail-drawer_comments-panel-open-team-thread-sarah-chen-meredith-palmer-add-comments-voice-send.webp": {
+  "height": 920,
+  "id": "OLV-SB-227",
+  "width": 1600
+ },
+ "/product-docs/images/screens/reports/oliv-ai_195_reports_my-reports_forecaster-weekly-forecast-report-open-current-standing-team-forecast-1-6m-vs-ai-forecast-1-45m.webp": {
+  "height": 920,
+  "id": "OLV-SB-195",
+  "width": 1600
+ },
+ "/product-docs/images/screens/reports/oliv-ai_198_reports_my-reports_deal-driver-pipeline-review-report-open-overview-closed-closing-soon-deals-at-risk-quick-wins-stalled-navigation.webp": {
+  "height": 920,
+  "id": "OLV-SB-198",
+  "width": 1600
+ },
+ "/product-docs/images/screens/reports/oliv-ai_200_reports_my-reports_deal-driver-one-on-one-prep-report-open-derek-evans-875000-pipeline-10-deals-pipeline-summary-and-closed-won.webp": {
+  "height": 920,
+  "id": "OLV-SB-200",
+  "width": 1600
+ },
+ "/product-docs/images/screens/reports/oliv-ai_202_reports_my-reports_deal-driver-morning-brief-report-open-meetings-overview-ten-meetings-three-important-key-highlights-and-important-meetings.webp": {
+  "height": 920,
+  "id": "OLV-SB-202",
+  "width": 1600
+ },
+ "/product-docs/images/screens/reports/oliv-ai_204_reports_my-reports_deal-driver-sunset-summary-report-open-ten-meetings-recorded-deal-progress-notable-updates-and-customer-engagement.webp": {
+  "height": 920,
+  "id": "OLV-SB-204",
+  "width": 1600
+ },
+ "/product-docs/images/screens/reports/oliv-ai_206_reports_my-reports_coach-monthly-review_report-open-goals-for-october-2026-recommended-multi-thread-goal-set-as-goal-why.webp": {
+  "height": 920,
+  "id": "OLV-SB-206",
+  "width": 1600
+ },
+ "/product-docs/images/screens/settings/oliv-ai_259_settings_sidebar-settings-flyout-menu_open-with-revenue-process-qualification-framework-coaching-scorecard-targets-measurements-organisational-and-profile-settings.webp": {
+  "height": 920,
+  "id": "OLV-SB-259",
+  "width": 1600
+ },
+ "/product-docs/images/screens/settings/oliv-ai_260_settings_revenue-process_enterprise-sales-tab_stage-table-with-type-probability-forecast-category-outcomes-and-import-pipeline-from-crm.webp": {
+  "height": 920,
+  "id": "OLV-SB-260",
+  "width": 1600
+ },
+ "/product-docs/images/screens/settings/oliv-ai_261_settings_qualification-framework_meddic-tab-selected-meddpicc-active_criteria-table-with-0-6-scoring-and-supporting-fields.webp": {
+  "height": 920,
+  "id": "OLV-SB-261",
+  "width": 1600
+ },
+ "/product-docs/images/screens/settings/oliv-ai_262_settings_coaching-scorecard_deals-tab_scorecard-library-with-description-and-evaluations-last-30-days.webp": {
+  "height": 920,
+  "id": "OLV-SB-262",
+  "width": 1600
+ },
+ "/product-docs/images/screens/settings/oliv-ai_263_settings_coaching-scorecard_full-list-of-fourteen-scorecards-across-deals-customers-meetings-and-phone-calls-with-evaluation-counts_full-length.webp": {
+  "height": 1314,
+  "id": "OLV-SB-263",
+  "width": 1600
+ },
+ "/product-docs/images/screens/settings/oliv-ai_266_settings_organisational-settings_agents-forecaster_cadences-table-weekly-forecast-cadence-and-quarter-end-push-with-add-and-delete.webp": {
+  "height": 920,
+  "id": "OLV-SB-266",
+  "width": 1600
+ },
+ "/product-docs/images/screens/settings/oliv-ai_271_settings_new-cadence-wizard_step-1-overview_monthly-selected-with-rep-submission-day-and-manager-submission-day-week-and-day-pickers.webp": {
+  "height": 920,
+  "id": "OLV-SB-271",
+  "width": 1600
+ }
+}

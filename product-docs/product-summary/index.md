@@ -15,6 +15,7 @@ Oliv AI builds AI agents for revenue teams. The agents prospect, close, retain a
 |---|---|
 | **What it is** | AI agents for revenue teams, working as a layer on top of your CRM |
 | **How you work with it** | You ask two agents, Olivia and Oliver, for work in plain language |
+| **Where you work** | A web app with **Home**, **Agents**, **Apps**, **Reports**, **Records**, **Activities**, **Playbook** and **Settings** in the sidebar |
 | **What the agents read** | Calls, meetings, email, Slack, in-person conversations and your CRM |
 | **Apps** | Converse, Forecast and Retain, plus the Enable and Engage add-ons |
 | **Who it's for** | Sales development, sales, sales engineering, onboarding, customer success, account management, RevOps and enablement |
@@ -27,6 +28,15 @@ Oliv AI is a set of AI agents for revenue teams that sits on top of an existing 
 Oliv AI isn't a CRM. It works with the CRM you have, brings the customer context together and keeps your systems updated. You don't need a clean CRM to start either. Oliv AI's Olivia agent reads what's already there, messy data included.
 
 The agents don't wait for a prompt. They run in the background, start work from signals and schedules, and collaborate with your team and with each other.
+
+You start on **Home**. Its **Ask** tab is where you talk to Olivia or Oliver, picked from one menu, and its **Agent Feed** tab shows what the agents have done.
+
+<figure>
+
+![Home on the Ask tab with the agent picker open, listing Olivia, who sees everything across the team and dispatches the right sub-agent for each task, and Oliver, who learns how the team operates and turns it into rules every agent follows. The sidebar shows Home, Agents, Apps, Reports, Records, Activities, Playbook and Settings.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_002_home_ask-tab_agent-picker-dropdown-open_olivia-dispatches-sub-agents-oliver-turns-team-rules-into-agent-rules.webp)
+
+<figcaption>The whole product starts here: two agents you talk to in one chat, with every app, record and setting one click away in the sidebar.</figcaption>
+</figure>
 
 ## How Oliv AI works {#how-it-works}
 
@@ -45,8 +55,8 @@ Agents are the product. You talk to two of them, and they hand focused work to s
 
 ### The two agents you talk to {#agents-you-talk-to}
 
-- [Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) is your chief of AI staff. You ask for something in plain language, and she answers or hands the work to a specialist agent and reports back.
-- [Oliv AI's Oliver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/) is your AI GTM engineer. It keeps the playbook every other agent follows up to date.
+- [Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) is your **Chief of AI Staff**. You ask for something in plain language, and she answers or hands the work to a specialist agent and reports back.
+- [Oliv AI's Oliver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/) is your **Chief GTM Engineer**. It keeps the playbook every other agent follows up to date.
 
 Put simply, Oliver configures how agents work, and Olivia coordinates their tasks across your team.
 
@@ -65,7 +75,14 @@ Put simply, Oliver configures how agents work, and Olivia coordinates their task
 | [Oliv AI's Portfolio Manager agent](https://www.oliv.ai/agents/portfolio-manager) | Tracks CSM portfolios and flags the accounts that need attention |
 | [Oliv AI's Gold Digger agent](https://www.oliv.ai/agents/gold-digger) | Finds expansion signals across your accounts |
 
-The [agent marketplace on oliv.ai](https://www.oliv.ai/agents-marketplace) lists pre-built agents for specific jobs, and you can create your own.
+The [agent marketplace on oliv.ai](https://www.oliv.ai/agents-marketplace) lists pre-built agents for specific jobs, and you can create your own. In the web app, **Agents** opens the same kind of marketplace. Filter by **All**, **Our Agents**, **Sales**, **Revenue Operations** or **Customer Success**. **View Agent** opens an agent your organisation already runs, and **Clone Agent** copies a pre-built one to start from.
+
+<figure>
+
+![Agents marketplace on the All tab, with filters for Our Agents, Sales, Revenue Operations and Customer Success and a search box above a grid of agent cards. Each card has a name, a short description and a View Agent or Clone Agent button, with an Oliver panel open on the right.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agents-marketplace/oliv-ai_031_agents-marketplace_all-tab_nine-agent-cards-view-agent-and-clone-agent-buttons-category-filters-search-oliver-chat-panel-open.webp)
+
+<figcaption>The specialist agents in one place: the ones your team already runs, the templates you can clone, and Oliver on hand to answer questions about any of them.</figcaption>
+</figure>
 
 ### What every agent is built from {#agent-parts}
 
@@ -95,11 +112,27 @@ The apps are where your team reviews conversations, opportunities and accounts. 
 | **Enable** | Coaching: evaluating customer conversations against coaching scorecards to find where a rep needs help |
 | **Engage** | Outreach: email and LinkedIn, with calling and messaging channels added separately |
 
-The [Converse app](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/) is built to understand context, not just track keywords. Sales methodology tracking supports MEDDPICC, MEDDIC, BANT, SPIN, SPICED, DRIVE or your own qualification process.
+In the web app, the **Apps** menu opens **Engage**, **Forecast** and **Enable**. Recorded conversations live under **Activities**, as **Meetings** and **Calls**. **Records** holds **Deals**, **Companies** and **Contacts**, and **Reports** holds **My Reports** and an analyst **Library**.
+
+<figure>
+
+![Meetings list on the My meetings tab, with a Team meetings tab beside it and a toolbar of Search, Group, Fields, Sort and Filter. Columns show each meeting's title and date, Duration, a Meeting with dropdown such as Prospect or Customer, a Next Step and an AI Summary.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_239_activities-meetings_meetings-list_my-meetings-tab_grid-with-meeting-type-next-step-and-ai-summary-columns.webp)
+
+<figcaption>Every captured meeting in one grid, each with an AI-written next step and summary, so the conversation work behind Converse is visible at a glance.</figcaption>
+</figure>
+
+<figure>
+
+![Forecast app on the Boards tab for the Sales Forecast board, with Quarterly, FY2026, Q4 and a Current snapshot selected. Rows for a manager and her reps show Target Attainment with a progress bar, Pipeline Coverage, Commit Forecast and Most Likely Forecast with week-over-week changes.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/forecast/oliv-ai_157_forecast_boards-tab_sales-forecast-quarterly-fy2026-q4-snapshot-oct-22-2026-target-attainment-pipeline-coverage-commit-most-likely.webp)
+
+<figcaption>The Forecast app rolls each team up by period and snapshot, which is where a manager reads attainment, coverage and the commit number in one view.</figcaption>
+</figure>
+
+The [Converse app](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/) is built to understand context, not just track keywords. Sales methodology tracking follows the framework you activate in **Settings › Qualification Framework**: **MEDDPICC**, **MEDDIC**, **SPICED**, **BANT** or **DRIVE**.
 
 ## Where you use Oliv AI {#where-you-use-it}
 
-- **The web app.** Agents, apps, records and settings live here.
+- **The web app.** Home, agents, apps, reports, records, activities, the playbook and settings live here.
 - **Slack.** Agents deliver their work where your team already talks. A meeting summary arrives in Slack as soon as each meeting ends.
 - **Your meetings.** Oliv AI joins Zoom, Google Meet and Microsoft Teams automatically, and joins Webex calls through the Webex App Hub. [Bot and botless recording](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/recording-modes/) covers how each meeting is recorded.
 - **Outlook.** An add-in is available for Outlook on Windows and on Mac.

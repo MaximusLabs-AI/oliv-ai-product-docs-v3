@@ -23,14 +23,21 @@ The [plans and seat roles](https://maximuslabs-ai.github.io/oliv-ai-product-docs
 
 Plans are cumulative. Converse includes Amplify, Sell includes Converse, and Grow includes Sell. You can use all four in one company and give each person the plan that matches the apps they need.
 
-- **Amplify** gives every role the super agents, Oliv AI's [Oliver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/) and [Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/). People can ask questions of customer context, review conversations, opportunities and accounts, and build custom agents. The agent builder pages, starting with [agent instructions](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/instructions/), show what a custom agent is made of.
+- **Amplify** gives every role the super agents, Oliv AI's [Oliver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/) and [Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/), on the **Ask** tab of **Home**. People can ask questions of customer context, review conversations, opportunities and accounts, and build custom agents. The agent builder pages, starting with [agent instructions](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/instructions/), show what a custom agent is made of.
 - **Converse** adds conversation capture: online meetings, email, in-person meetings and phone calls. It is the conversation intelligence plan, and you can buy it on its own. The [Converse app](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/) docs cover what it captures, and [bot and botless recording](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/recording-modes/) explains how meetings are recorded.
 - **Sell** adds the Forecast app, with sales methodologies and deal risks, for account executives, sales engineering and partnerships. The [Forecast app](https://www.oliv.ai/oliv-forecast) page shows its views, and [sales methodology tracking](https://www.oliv.ai/sales-methodology) lists the frameworks.
 - **Grow** adds the Retain app, with customer health scorecards and churn risks, for customer success, account management, solution engineering and onboarding. More on Oliv AI for [customer success](https://www.oliv.ai/customer-success) and [account management](https://www.oliv.ai/account-management) teams.
 
+<figure>
+
+![Home on the Ask tab with Olivia selected in the agent picker, the pill Your Chief of AI Staff, a Good afternoon greeting and a message box with an Ask before acting control. Ask and Agent Feed tabs sit at the top, and the sidebar runs from Home to Settings.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_001_home_ask-tab_olivia-selected-empty-chat-good-afternoon-alex-greeting-ask-before-acting-control.webp)
+
+<figcaption>What every seat role starts with: the super agents on Home, where anyone from the C-suite to a new SDR can ask Olivia or Oliver for work.</figcaption>
+</figure>
+
 ## Add-ons {#add-ons}
 
-Add-ons are priced separately from the four plans and added per person. Enable evaluates customer conversations against coaching scorecards to find where a rep needs help. Engage runs email and LinkedIn outreach from Oliv AI, with a dialer, messaging channels and extra mailboxes available on top.
+Add-ons are priced separately from the four plans and added per person. Enable evaluates customer conversations against coaching scorecards to find where a rep needs help. Engage runs email and LinkedIn outreach from Oliv AI, with a dialer, messaging channels and extra mailboxes available on top. In the app, Engage has **Inbox**, **Dialer**, **Plays**, **Flows**, **Signals** and **Experiments** tabs, and Enable has **Library** (clip libraries) and **People** tabs.
 
 Capture add-ons extend Converse, Sell and Grow. Bot-based meeting capture sends a meeting assistant into the call, including externally hosted meetings when permitted. Slack, WhatsApp and LinkedIn capture are listed as add-ons too. Plaud hardware for in-person recording is purchased separately. The [add-ons section](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/plans/plans-and-seat-roles/#add-ons) lists what each one includes.
 
@@ -43,6 +50,15 @@ The pricing page gives example actions for several agents. Oliv AI's [CRM Manage
 ## Choosing seats for your team {#choosing-seats}
 
 Assign seat roles by the apps a person needs, not by job title alone. Ask four questions for each person. Do they run customer conversations that should be captured? Do they own or forecast opportunities? Do they own renewals, health or expansion for live customers? Or do they only read context, ask questions and build agents?
+
+Inside the product, the **Agent Feed** on Home can be filtered by **Team** (**Sales**, **Sales Development**, **Customer Success** or **RevOps**) and **Role** (**Contributor** or **Manager**). Each view shows the agents that team and role use. Those filters are views, not seat roles, but they show which agents each group works with.
+
+<figure>
+
+![Agent Feed on Home filtered to Team Customer Success and Role Manager, with Portfolio Manager and Oliver selected under Agents. The feed shows a Portfolio Manager 1:1 agenda for at-risk renewals and two Oliver updates about renewals and stalled Proposal deals.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_029_home_agent-feed_team-customer-success-role-manager_yesterday-group-portfolio-manager-1-1-agenda-oliver-renewal-and-process-updates.webp)
+
+<figcaption>The same product, seen by a customer success manager: the feed shows the agents that work for that team and role, which is a useful check when you decide who needs a Grow seat.</figcaption>
+</figure>
 
 For an account executive's day on the Sell plan's agents, read [running deals as an account executive](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/). A sales manager's week is in the [pipeline review guide](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/run-a-pipeline-review/). Oliv AI works with your existing CRM, so you keep [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/) or [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/) as your system of record.
 

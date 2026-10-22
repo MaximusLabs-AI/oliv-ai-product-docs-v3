@@ -4,7 +4,7 @@ Which meeting messages Oliv AI sends to Slack and when, which agents post alerts
 
 - Applies to: Customer success, account managers, account executives, sales managers and enablement
 - Status: Live
-- Verified: 2026-10-21
+- Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/
 
 Oliv AI's Slack integration brings your meetings and your agents' alerts into Slack. Once Slack is connected, you get a summary of tomorrow's meetings, a prep summary before each call and a meeting summary straight after it. Agents add their own messages on top, such as an expansion signal for the account executive or a new clip for the team.
@@ -32,6 +32,15 @@ The Slack integration connects Oliv AI to your Slack workspace. Oliv uses a coll
 ### What arrives in Slack {#what-arrives}
 
 Two kinds of message reach you. The first is the three built-in meeting messages, which start as soon as Slack is connected. The second is alerts and reports from Oliv AI's agents, each sent when that agent has something to tell you.
+
+Slack also works the other way round. Slack messages are captured as context, and each deal's **Momentum** tab plots **Internal Slack** and **External Slack** on the same timeline as meetings and email.
+
+<figure>
+
+![A deal's Momentum tab on the Activity Map sub-tab: dot rows for Meetings, Emails, Int. Slack, Ext. Slack and System along a date axis, a dashed Today line, and a legend that separates Internal Slack from External Slack.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/records-deals/oliv-ai_222_records-deals_deal-detail-drawer_momentum-tab_activity-map-meetings-emails-internal-external-slack-system-dots-today-line.webp)
+
+<figcaption>Slack conversations about a deal show up as two rows on its Activity Map, internal and external, so a quiet deal is easy to spot even when the talk moved to Slack.</figcaption>
+</figure>
 
 ## Why the Slack integration matters {#why-it-matters}
 
@@ -74,7 +83,14 @@ The timing of each message is fixed and stated. The prep summary comes 10 minute
 2. **Connect Slack.** Install the Oliv Slack app at web.oliv.ai/slack/direct-install, or accept the Slack Connect request Oliv sends you.
 3. **Let the messages start.** The three meeting messages begin automatically. There's no manual setup.
 4. **Add the Sales Companion app, if you want it.** The Help Center suggests installing the **Oliv Slack Sales Companion** app to make the most of Slack.
-5. **Turn messages off if you prefer.** You can disable the automated messages from your **Profile Settings** page.
+5. **Turn messages off if you prefer.** You can disable the automated messages from your **Profile Settings** page, the last item in the **Settings** menu.
+
+<figure>
+
+![The Settings flyout opened from the bottom of the left sidebar, listing Revenue Process, Qualification Framework, Coaching Scorecard, Targets, Measurements, Organisational Settings and Profile Settings, over a dimmed Playbook page.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/settings/oliv-ai_259_settings_sidebar-settings-flyout-menu_open-with-revenue-process-qualification-framework-coaching-scorecard-targets-measurements-organisational-and-profile-settings.webp)
+
+<figcaption>Profile Settings sits at the foot of the Settings menu. It's your own page, so turning the meeting messages off there changes only what you receive.</figcaption>
+</figure>
 
 ## Meeting messages in Slack {#meeting-messages}
 
@@ -114,7 +130,23 @@ Straight after the meeting, the summary repeats the meeting details and adds the
 
 ### Content Curator {#with-content-curator}
 
-Oliv AI's Content Curator agent posts to the Slack or Teams channel you configure. Each notification carries the intent name, a one-line summary, the source call and [a direct link to the clip](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/clips/). You choose real-time posts, the default, or a daily digest.
+Oliv AI's Content Curator agent posts to the Slack or Teams channel you configure. Each notification carries the intent name, a one-line summary, the source call and [a direct link to the clip](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/clips/). You choose real-time posts, the default, or a daily digest. On its **Tools** tab, the last step is **Send to Slack**, which notifies the relevant channels or team members with moment highlights and links to the clip library.
+
+<figure>
+
+![Content Curator's Tools tab with five tools, Analyze Recordings, Detect Moments, Generate Summary, Add to Clip Library and Send to Slack, each card with a one-line description and an Auto Run run-mode dropdown.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_104_agent-detail_content-curator_tools-tab_five-tools-analyze-recordings-detect-moments-generate-summary-clip-library-slack-all-auto-run.webp)
+
+<figcaption>Send to Slack is the final step of Oliv AI's Content Curator agent, after it analyses recordings, tags moments, summarises them and files the clip.</figcaption>
+</figure>
+
+Each run record keeps the Slack side in reach. The **Run History** drawer for a run shows the clip with its transcript, plus **View Clip Library** and **View Slack Alert** buttons.
+
+<figure>
+
+![A Run History drawer for an auto-triggered Content Curator run, showing a customer call clip with a video player, speaker timeline and transcript, and View Clip Library and View Slack Alert buttons at the top right.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_106_agent-detail_content-curator_runs-tab_run-record-drawer-open-hooli-corp-procurement-call-clip-view-clip-library-view-slack-alert.webp)
+
+<figcaption>From any Content Curator run you can jump to the Slack alert it posted, or to the clip library where the moment was filed.</figcaption>
+</figure>
 
 ### CRM Manager {#with-crm-manager}
 
@@ -126,7 +158,27 @@ Oliv AI's Content Curator agent posts to the Slack or Teams channel you configur
 
 ### Olivia and custom agents {#with-olivia-custom}
 
-[Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) raises alerts and drives work through Slack, Teams or the Oliv product. A custom agent can use Slack as a tool too, with five named actions: send a message, read messages, create a channel, invite users and upload a file. Each action's [run mode controls approval](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/).
+[Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) raises alerts and drives work through Slack, Teams or the Oliv product. A custom agent can use Slack as a tool too, with five actions: **Send Message to Slack**, **Get Slack Messages**, **Create Slack Channel**, **Invite Users to Channel** and **Upload File to Slack**. Each action's [run mode controls approval](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/).
+
+### Agents that start from Slack {#with-slack-triggers}
+
+Some catalog agents start from a Slack message. Oliv AI's Product Release Messenger agent fires on a **Release announcement in #releases Slack channel**. It then uses **Monitor Slack channel**, **Read Slack message** and **Draft email** to turn release notes into customer updates for review.
+
+<figure>
+
+![Product Release Messenger's Overview tab: a goal of drafting customer product update emails when release notes are posted in Slack, one trigger chip for release announcements in the #releases Slack channel, and tools Monitor Slack channel, Read Slack message and Draft email.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_116_agent-detail_product-release-messenger_overview-tab_goal-releases-slack-trigger-tools-and-knowledge-cards.webp)
+
+<figcaption>A post in a Slack channel can be the event that starts an agent. Here a release announcement becomes a customer update draft for the success team to review.</figcaption>
+</figure>
+
+Oliv AI's Comms Manager agent watches shared channels as well as email. One of its triggers is a **New message in a shared Teams or Slack Connect channel**, and its **Monitor Teams and Slack** tool reads those threads before it drafts a reply.
+
+<figure>
+
+![Comms Manager's Overview tab with a goal covering Gmail, Outlook, Microsoft Teams and Slack Connect, five trigger chips including New message in a shared Teams or Slack Connect channel, and six tool chips including Monitor Teams and Slack.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_091_agent-detail_comms-manager_overview-tab_goal-five-triggers-six-tools-watches-gmail-outlook-teams-slack-connect.webp)
+
+<figcaption>Oliv AI's Comms Manager agent treats a customer's Slack Connect message like an email: it flags what needs a reply and drafts one for the seller to check.</figcaption>
+</figure>
 
 ## Who uses the Slack integration, and how {#who-uses-it}
 

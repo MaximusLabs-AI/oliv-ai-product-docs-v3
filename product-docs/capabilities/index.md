@@ -14,13 +14,13 @@ This catalog lists what Oliv AI does, grouped the way the product is organized. 
 | Group | What it covers |
 |---|---|
 | **Agents** | The two agents you talk to and the specialist agents they hand work to |
-| **Agent building** | Instructions, tools, triggers, schedules, knowledge, data and sequences |
-| **Autonomy and review** | Run modes, approval, drafted emails, run history and the agent feed |
+| **Agent building** | The marketplace, instructions, tools, triggers, schedules, knowledge, data and sequences |
+| **Autonomy and review** | Run modes, approval, drafted emails, run history, the agent feed and scheduled reports |
 | **Conversation capture** | Meetings, phone calls, in-person meetings, email and Slack, in the Converse app |
-| **Opportunity management** | Deal grids, methodology tracking, deal risks and forecasts, in the Forecast app |
+| **Opportunity management** | Deals, companies and contacts in **Records**, plus forecasting in the Forecast app |
 | **Account management** | Customer health, churn risks, renewals and expansion, in the Retain app |
-| **Add-ons** | Enable for coaching, Engage for outreach |
-| **Context layer** | The capture, graphs and models every agent reads from |
+| **Add-ons** | Enable for coaching and clip libraries, Engage for outreach and dialling |
+| **Context layer** | The capture, graphs, playbook and models every agent reads from |
 | **Integrations and surfaces** | CRMs, meeting platforms, Slack, Outlook, Chrome and the iPhone app |
 
 ## Agents {#agents}
@@ -31,8 +31,8 @@ Agents are the product. You talk to two of them, and they pass focused work to s
 
 | Capability | What it does |
 |---|---|
-| [Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) | Your chief of AI staff. You ask in plain language, and she answers or hands the work to a specialist agent and reports back |
-| [Oliv AI's Oliver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/) | Your AI GTM engineer. It studies how the team operates and keeps the playbook every other agent follows up to date |
+| [Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) | Your **Chief of AI Staff**. You ask in plain language, and she answers or hands the work to a specialist agent and reports back |
+| [Oliv AI's Oliver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/) | Your **Chief GTM Engineer**. It studies how the team operates and keeps the playbook every other agent follows up to date |
 
 ### Specialist agents {#specialist-agents}
 
@@ -58,7 +58,8 @@ Every agent with a detail page is built from the same parts. The [agent builder 
 | Capability | What it does |
 |---|---|
 | **Agent marketplace** | One place to see every agent available to you, as cards you can filter by category or search |
-| **Categories and persona filters** | Agents are grouped by the revenue team they serve, with one filter per group |
+| **Categories and persona filters** | Filters for **All**, **Our Agents**, **Sales**, **Revenue Operations** and **Customer Success** |
+| **View Agent and Clone Agent** | **View Agent** opens an agent your organisation runs; **Clone Agent** copies a pre-built one to start from |
 | **Pre-built and Custom badges** | A badge on a card shows where that agent came from |
 | [Instructions](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/instructions/) | The agent's objective, process and output, with each process step naming the tool it uses |
 | [Tools](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/) | The actions an agent may take, such as looking up a record, drafting an email, posting to a channel or updating a field |
@@ -75,11 +76,20 @@ You decide how much freedom an agent has, and you can check every action it took
 | Capability | What it does |
 |---|---|
 | **Run mode per tool** | Each tool is set to **Auto Run**, **Requires Approval** or **Agent Decides** on the agent's **Tools** tab |
+| **Run Agent** | Runs an agent by hand from its detail page, beside the runs its triggers start |
 | **Ask before acting** | A conversation with Olivia or Oliver is set to **Ask before acting** or **Act without asking** |
 | **Drafted email review** | When an agent writes an email instead of sending it, a person reviews the draft and presses **Send** |
 | [Run history](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/run-history/) | Every time an agent worked: when it ran, how it started and how it ended |
 | **Run details** | For one run: the people it touched, the exact text of every email, any meeting booked and a timestamped list of changes |
-| **Agent Feed** | One stream of everything your agents have done, with items that need you grouped under **WAITING ON YOU** |
+| **Agent Feed** | One stream of everything your agents have done, with items that need you grouped under **WAITING ON YOU**. Filter it by **Team**, **Role**, **Agents** and **Timeline** |
+| **My Reports** | Reports agents deliver on a schedule, beside an analyst report **Library** under **Reports** |
+
+<figure>
+
+![An agent's Tools tab with the run-mode dropdown open on the Analyze buying committee tool, offering Auto Run, Requires Approval and Agent Decides. Other tools such as Draft personalized message and Add emails to drafts are listed below, each with its own run mode, and a Run Agent button sits at top right.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_049_agent-detail_multi-threader_tools-tab_run-mode-dropdown-open-on-analyze-buying-committee-auto-run-requires-approval-agent-decides.webp)
+
+<figcaption>Autonomy is set tool by tool: the same agent can draft on its own but wait for a person before it does something you want to check first.</figcaption>
+</figure>
 
 ## Conversation capture {#conversation-capture}
 
@@ -95,23 +105,41 @@ The [Converse app](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/prod
 | **Slack, WhatsApp and LinkedIn capture** | Conversations on these channels join the record, each priced as an add-on |
 | **Meeting transcription** | Every conversation transcribed, with every speaker labeled |
 | **AI summaries and action items** | A summary and next steps, ready as soon as the call ends |
-| [Conversation library and search](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meetings/) | Every captured meeting in one list, searchable by date or keyword |
+| [Conversation library and search](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meetings/) | Every captured meeting in one list under **Activities**, with **My meetings** and **Team meetings** views |
 | [Meeting record](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meeting-details/) | The recording, transcript, notes, AI summary and next steps for one meeting |
-| [Clips](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/clips/) | Moments from calls saved into playlists for coaching, enablement or product |
+| [Clips](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/clips/) | A **Clip** button on a meeting's recording saves a moment into a clip library, each set to **Public** or **Private** |
 | **Meeting notes in the CRM** | The AI summary and full transcript attached to the opportunity record |
 
 ## Opportunity management {#opportunity-management}
 
-The Forecast app covers opportunity management. It comes with the Sell and Grow plans. The [Forecast app page](https://www.oliv.ai/oliv-forecast) on oliv.ai shows its views.
+Opportunity management spans **Records** (**Deals**, **Companies** and **Contacts**) and the Forecast app, which comes with the Sell and Grow plans. The [Forecast app page](https://www.oliv.ai/oliv-forecast) on oliv.ai shows its views.
 
 | Capability | What it does |
 |---|---|
-| **Opportunity grids** | Every deal in one grid, sliced by forecast category, stage, segment, motion or owner |
-| **Sales methodology tracking** | Tracks MEDDPICC, MEDDIC, BANT, SPIN, SPICED, DRIVE or your own qualification process |
+| **Opportunity grids** | Every deal in one grid, in **Commit**, **Most Likely**, **Best Case**, **Pipeline** and **Closed** views, with **Forecast**, **Risks**, **Health**, **Momentum** and **Relationships** signals per row |
+| **Deal record** | One drawer per deal, with tabs from **Overview** to **CRM Updates** and **Assets**, covered in [Oliv AI and your CRM](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/platform/oliv-and-your-crm/) |
+| **Account prioritisation** | **Companies** ranks target accounts by ICP fit, in **Target Prospects**, **Customers**, **Trending Prospects** and **Lookalike Prospects** views |
+| **Contacts** | Each person's company, owner and last meaningful engagement, in **My Contacts** and **Team Contacts** views |
+| **Sales methodology tracking** | Pick the active framework in **Settings › Qualification Framework**: **MEDDPICC**, **MEDDIC**, **SPICED**, **BANT** or **DRIVE** |
+
+<figure>
+
+![Qualification Framework settings with tabs for MEDDPICC, marked Active, MEDDIC, selected for viewing, SPICED, BANT and DRIVE, and an Activate button. The table lists each MEDDIC criterion with a description, a 0-6 scoring range and a count of supporting fields.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/settings/oliv-ai_261_settings_qualification-framework_meddic-tab-selected-meddpicc-active_criteria-table-with-0-6-scoring-and-supporting-fields.webp)
+
+<figcaption>Methodology tracking starts from one setting: you preview each framework's criteria and scoring, then activate the one every deal and meeting is measured against.</figcaption>
+</figure>
 | **Buying committee tracking** | Tracks the buying committee on each deal |
 | **Deal health and risks** | Flags at-risk deals before the review call |
-| **Revenue forecast boards** | Deal boards grouped by forecast category |
-| **Forecast submissions** | Reps submit their forecast. Oliv AI's Forecaster agent pre-drafts it, and the rep reviews, adjusts and submits |
+| **Revenue forecast boards** | The **Boards** tab rolls a team up by period and snapshot, with target attainment, pipeline coverage, commit and most likely per manager and rep |
+| **Forecast submissions** | Reps submit their forecast. Oliv AI's Forecaster agent pre-drafts it, and the rep reviews, adjusts and submits. The **Submissions** tab compares each number with the deals sum, last week and the roll-up |
+| **Targets, measurements and cadences** | **Settings** holds revenue targets, the **Basic** or **Formula** measurements a forecast is built from, and the rep and manager submission cadence |
+
+<figure>
+
+![Forecast app on the Submissions tab, with a My Team panel listing a sales manager and her team with submission counts. A table shows each measurement by period with a Submission input, Deals Sum, Last Week, Roll-Up and an action button, under Submissions progress and a Due Date.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/forecast/oliv-ai_155_forecast_submissions-tab_my-team-priya-shah-3-of-9-submitted-due-october-26-2026-measurement-submission-deals-sum-roll-up.webp)
+
+<figcaption>A forecast submission checked three ways at once: against the deals behind it, last week's number and what the team below rolls up to.</figcaption>
+</figure>
 | **Weekly pipeline snapshots** | A snapshot of the pipeline taken each week |
 | **Deal change history** | Stage movement and deal velocity tracked over time |
 
@@ -136,11 +164,28 @@ Add-ons are priced separately and added per person.
 
 | Capability | What it does |
 |---|---|
-| **Enable: coaching scorecards** | Evaluates customer conversations against coaching scorecards to identify where a rep needs help |
+| **Enable: coaching scorecards** | Evaluates customer conversations against coaching scorecards to identify where a rep needs help. **Settings › Coaching Scorecard** holds the library across **Deals**, **Customers**, **Meetings** and **Phone calls** |
+| **Enable: clip libraries** | The **Library** tab lists clip libraries, including AI-built ones, each **Public** or **Private** |
+| **Enable: People** | The **People** tab shows the team's attainment and each rep's pacing, leading to one-on-one and coaching reports |
 | **Engage: email and LinkedIn outreach** | One connected primary mailbox and LinkedIn automation |
-| **Engage: dialer** | One US phone number, with calling minutes to the US and Canada |
+| **Engage: plays, flows and signals** | **Plays** react to buying signals with **Agentic** or **Step-based** outreach, **Flows** lists each outreach flow and how it performs, and **Signals** is the library of buying signals plays react to |
+| **Engage: dialer** | One US phone number, with calling minutes to the US and Canada. The **Dialer** tab runs **Power** and **Parallel** sessions |
 | **Engage: messaging channels** | WhatsApp, Telegram or Instagram, chosen per channel |
 | **Engage: extra mailboxes** | Additional warm email mailboxes to scale outreach |
+
+<figure>
+
+![Engage on the Plays tab, with tabs for Inbox, Dialer, Plays, Flows, Signals and Experiments. A table lists plays such as High-Intent Website Visitors with a Priority dropdown, an Active or Inactive status, an Agentic or Step-based outreach type, a description and a contact count.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/engage/oliv-ai_137_engage_plays-tab_plays-list-priority-status-outreach-type-description-stats-columns-asap-high-medium-active-inactive.webp)
+
+<figcaption>Engage turns buying signals into outreach: each play says what triggers it, how it reaches out and how many contacts are in it.</figcaption>
+</figure>
+
+<figure>
+
+![Enable on the Library tab in the All Libraries view, with Favorites, My Library and AI Library views, a Views tree and a New Library button. The table lists clip libraries such as Master Objection Library by name and description, each with a Public or Private access type.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/enable/oliv-ai_172_enable_library-tab_all-libraries-view_clip-library-list-name-description-access-type-public-private-with-views-tree-and-new-library.webp)
+
+<figcaption>The coaching side of Enable: clips from real calls grouped into libraries you can keep private or share across the team.</figcaption>
+</figure>
 
 [Plans and seat roles](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/plans/plans-and-seat-roles/) shows which plan brings each app and which add-ons stack on top. Prices are on [Oliv AI's pricing page](https://www.oliv.ai/pricing).
 
@@ -152,7 +197,7 @@ Every agent and app reads from the same context. This layer is why one captured 
 |---|---|
 | **Context capture** | Captures calls, emails, Zoom meetings, messages and in-person meetings, enriched with ZoomInfo, 6Sense and LinkedIn data |
 | [Context graph](https://www.oliv.ai/context-graph) | Connects every conversation, message and activity to the right people, account and opportunity |
-| [Process graph](https://www.oliv.ai/process-graph) | Learns your product, qualification criteria, processes and exceptions, and documents them as a playbook agents follow |
+| [Process graph](https://www.oliv.ai/process-graph) | Learns your product, qualification criteria, processes and exceptions, and documents them as a playbook agents follow. You edit it in **Playbook**, with Oliver beside it |
 | [Signal graph](https://www.oliv.ai/signal-graph) | More than 100 specialized small language models, each answering one revenue question as new information arrives |
 | **Always-on agents** | Agents run in the background, start work from signals and schedules, and collaborate with your team and each other |
 | **Context sync** | Brings account and opportunity context back into Salesforce, Snowflake, Databricks or Redshift |

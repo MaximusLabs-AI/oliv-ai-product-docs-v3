@@ -35,6 +35,15 @@ The Gmail integration links your Google mailbox and calendar to Oliv AI. Gmail a
 
 Oliv AI uses AI to connect each email to the right account, contact and opportunity in your CRM. That holds when one account has several opportunities. It also covers a contact who now emails from a new domain after an acquisition. When Oliv AI's [CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) can't settle where an email belongs, it asks the seller.
 
+On the deal itself, captured emails get their own row on the **Momentum** tab's **Activity Map**. They sit next to meetings, internal and external Slack, and agent actions, so you can see when the thread went quiet.
+
+<figure>
+
+![A deal's Momentum tab on the Activity Map sub-tab, with an Emails row of green dots between the Meetings row and the Int. Slack and Ext. Slack rows, a System row, a dashed Today line and a colour legend.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/records-deals/oliv-ai_222_records-deals_deal-detail-drawer_momentum-tab_activity-map-meetings-emails-internal-external-slack-system-dots-today-line.webp)
+
+<figcaption>Captured Gmail threads appear as the Emails row on each deal's Activity Map, so the written side of a deal sits on the same timeline as its calls.</figcaption>
+</figure>
+
 ## Why the Gmail integration matters {#why-it-matters}
 
 ### What it's for {#what-its-for}
@@ -93,18 +102,43 @@ CRM Manager works after every activity, including each email, and syncs its upda
 
 ## Drafts and replies in Gmail {#drafts}
 
-- **Drafts wait for a person.** When an agent writes an email rather than sending one, the draft is put in front of a person first. The draft sheet shows the conversation it answers, a **Drafted by** line and a **Send** button.
+- **Drafts wait for a person.** When an agent writes an email rather than sending one, the draft is put in front of a person first. On a Comms Manager run, the record labels the draft **Draft · Gmail**, lists the **Deal context used:** and offers **Review draft in Gmail** or **Copy**.
 - **Drafts can sit in Gmail.** Oliv AI's customer success workflow shows targeted outreach drafted per customer, with the drafts left in Gmail, ready to send.
-- **Run records hand off to Gmail.** On an agent's [run record](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/run-history/), **Open in Gmail** opens Gmail's compose screen with the recipient, subject and body filled in. It doesn't send anything.
+- **Run records hand off to Gmail.** An agent's [run record](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/run-history/) shows one card per contact under an **Email Sent** banner, with the **To** chip, **Subject** and full body. **Open in Gmail** opens Gmail's compose screen with the recipient, subject and body filled in. It doesn't send anything.
 - **You decide what may send.** Each Gmail tool has a run mode: **Auto Run**, **Requires Approval** or **Agent Decides**. The [tools and run modes guide](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/) explains each one.
+
+<figure>
+
+![A run record drawer headed Run History, with the run time, Auto-triggered and Success, a Dunder Mifflin account with its owner chip, a Top Identified Contacts list of five people, and an Email Sent card with To, Subject and body.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-builder/oliv-ai_072_agent-builder_multithreader_runs-tab_run-record-drawer-dunder-mifflin-top-identified-contacts-email-sent-to-vp-of-sales.webp)
+
+<figcaption>A multithreading run record: the contacts the agent picked on the left and the Gmail email written for the selected one, ready to open in Gmail.</figcaption>
+</figure>
 
 For writing that lands, Oliv AI's notes on [sales emails that get responses](https://www.oliv.ai/blog/sales-emails-that-get-responses) and [sales email templates by stage](https://www.oliv.ai/blog/sales-email-templates) are a useful start.
 
 ## Gmail in agents you build {#agent-tools}
 
-In the **Add Tool** picker, Gmail has one group of tools named **Actions**. It offers nine: send, retrieve, search, reply, draft, attach, label, read threads and delete. Oliv AI's public RevOps page describes custom agents whose runs execute across Gmail, Slack and the CRM.
+In the **Add Tool** picker, Gmail has one group of tools named **Actions**. It offers nine: **Send Email via Gmail**, **Get Emails from Gmail**, **Search Emails in Gmail**, **Reply to Email**, **Draft Email in Gmail**, **Attach File to Gmail**, **Label Email in Gmail**, **Get Gmail Threads** and **Delete Email from Gmail**. Oliv AI's public RevOps page describes custom agents whose runs execute across Gmail, Slack and the CRM.
 
-Pick a [trigger](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/triggers/) for when the agent starts, then choose which Gmail actions it may take. The [agent builder overview](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/) walks through the rest of the setup.
+<figure>
+
+![The Gmail tool list in the Add Tool catalogue, one Actions category with nine cards: Send Email via Gmail, Get Emails from Gmail, Search Emails in Gmail, Reply to Email, Draft Email in Gmail, Attach File to Gmail, Label Email in Gmail, Get Gmail Threads and Delete Email from Gmail.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_057_agent-detail_multi-threader_add-tool-catalog_gmail-complete-list-of-9-tools-single-actions-category-send-reply-draft-label-threads-delete_full-length.webp)
+
+<figcaption>Every Gmail action you can give an agent you build. Read-only tools sit next to send and delete, so set each one's run mode before the agent goes live.</figcaption>
+</figure>
+
+Give **Send Email via Gmail** and **Delete Email from Gmail** the **Requires Approval** run mode if a person should check every one.
+
+Pick a [trigger](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/triggers/) for when the agent starts, then choose which Gmail actions it may take. Gmail can start an agent too: **Google Mail** is in the **Most popular** group of the trigger picker.
+
+<figure>
+
+![The Triggers picker opened from Add Trigger, with a Search triggers box and a Most popular group of 11 systems, with Google Mail listed beside Microsoft Outlook, then Google Calendar, Salesforce, Hubspot, ZoomInfo and LinkedIn.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_065_agent-detail_multi-threader_triggers-tab_add-trigger-picker-modal_search-triggers-most-popular-outlook-google-mail-calendar-salesforce-hubspot-zoominfo-linkedin.webp)
+
+<figcaption>Google Mail sits in the trigger picker's Most popular group, so a new email can be the event that starts an agent you build.</figcaption>
+</figure>
+
+The [agent builder overview](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/) walks through the rest of the setup.
 
 ## How Gmail works with Oliv AI's agents {#works-with}
 
@@ -132,7 +166,14 @@ Oliv AI's Portfolio Manager agent reads customer-facing interactions to keep acc
 
 - **Multithreader.** Oliv AI's Multithreader agent proposes five more people for a deal at Proposal stage. It writes one labeled Gmail draft per contact.
 - **Momentum Reviver.** Oliv AI's Momentum Reviver agent drafts an email for each stalled opportunity after a funding signal. The seller reviews and sends.
-- **Comms Manager.** Oliv AI's Comms Manager agent watches customer email and chat, and drafts replies threaded under the customer's message. It sends nothing itself.
+- **Comms Manager.** Oliv AI's Comms Manager agent watches customer email and chat, and drafts replies threaded under the customer's message. It sends nothing itself. It starts on a **New customer email in Gmail or Outlook**, and runs a **Morning inbox sweep, weekdays 7:30 AM**.
+
+<figure>
+
+![Comms Manager's Overview tab with its goal of watching every customer conversation across Gmail, Outlook, Microsoft Teams and Slack Connect, five trigger chips starting with New customer email in Gmail or Outlook, and six tool chips such as Monitor inbox and Draft reply.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_091_agent-detail_comms-manager_overview-tab_goal-five-triggers-six-tools-watches-gmail-outlook-teams-slack-connect.webp)
+
+<figcaption>Oliv AI's Comms Manager agent is a catalog agent built on Gmail: a new customer email starts it, and each reply it drafts waits for the seller to review.</figcaption>
+</figure>
 
 ## Who uses the Gmail integration, and how {#who-uses-it}
 

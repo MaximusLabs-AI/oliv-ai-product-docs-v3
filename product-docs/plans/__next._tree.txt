@@ -1,5 +1,5 @@
-:HL["/oliv-ai-product-docs-v3/product-docs/_next/static/chunks/2cgj1ogfkbgzr.css","style"]
+:HL["/oliv-ai-product-docs-v3/product-docs/_next/static/chunks/03-ubfb82z3dv.css","style"]
 :HC["/",""]
 :HL["/oliv-ai-product-docs-v3/product-docs/oliv-ai-logo-black.svg","image"]
 :HL["/oliv-ai-product-docs-v3/product-docs/oliv-ai-logo-white.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"product-docs","param":null,"prefetchHints":4128,"slots":{"children":{"name":"slug","param":{"type":"oc","key":"plans","siblings":["api"]},"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"7IoLlNeWlgPv-FNds7e0y"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"product-docs","param":null,"prefetchHints":4128,"slots":{"children":{"name":"slug","param":{"type":"oc","key":"plans","siblings":["api"]},"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"-plyntQI6GDS-n87ogpYc"}

@@ -7,6 +7,8 @@ How Oliv AI's agents and apps work, from asking Olivia a question to recording m
 - Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/
 
+<DocsHome title="Oliv AI product documentation" />
+
 ## What Oliv AI is {#what-oliv-ai-is}
 
 Oliv AI builds AI agents for revenue teams. It works as a layer on top of the CRM you already use, not as a replacement for it. The agents work alongside your team to prospect, close, retain and expand revenue.

@@ -1,13 +1,13 @@
-# Deal Driver agent
+# Deal Driver: the deal intelligence agent
 
-What Oliv AI's Deal Driver agent sends sales managers each day and week, which deal risks trigger an alert, how to set it up, and how it compares with other pipeline tools.
+How Oliv AI's Deal Driver agent gives sales managers deal intelligence: what it sends each day and week, which deal risks trigger an alert, how to set it up, and how it compares with other deal intelligence tools.
 
 - Applies to: Sales managers, BDR leads and sales leadership
 - Status: Live
 - Verified: 2026-10-21
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/
 
-Oliv AI's Deal Driver agent keeps sales managers ahead of their team's pipeline without daily standups, manual rep check-ins or digging through CRM reports. Every weekday it sends a **Morning Brief**, fires alerts when something important happens, and closes the day with a **Sunset Summary**. It also prepares a **One-on-One Prep** report for each rep and a **Pipeline Review** every Monday.
+Oliv AI's Deal Driver agent is its deal intelligence agent: it keeps sales managers ahead of their team's pipeline without daily standups, manual rep check-ins or digging through CRM reports. Every weekday it sends a **Morning Brief**, fires alerts when something important happens, and closes the day with a **Sunset Summary**. It also prepares a **One-on-One Prep** report for each rep and a **Pipeline Review** every Monday.
 
 ## At a glance {#at-a-glance}
 
@@ -112,7 +112,7 @@ The raw signals already exist as the team works. Meetings get held, next steps g
 
 Oliv AI handles this with its Deal Driver agent. It monitors all activity on the team's deals and alerts the leader when a deal enters a risk state. Each alert carries the signal, the context and a suggested action. Before the first Monday standup, the Pipeline Review is already prepared.
 
-Managers choose what counts as risk. Inactivity windows, field completion requirements and deal value thresholds can all be set per manager or per team, as listed in the set-up steps. How that rhythm lines up against other pipeline tools is covered in How the Deal Driver agent compares, below.
+Managers choose what counts as risk. Inactivity windows, field completion requirements and deal value thresholds can all be set per manager or per team, as listed in the set-up steps. How that rhythm lines up against other pipeline tools is covered in How Oliv AI compares for deal intelligence, below.
 
 ## Set up Deal Driver {#set-up}
 
@@ -187,11 +187,11 @@ Leaders get the Pipeline Review every Monday, ready before the first standup of 
 
 RevOps sets the alert thresholds and keeps the CRM data behind them accurate. More on how Oliv AI works for [revenue operations](https://www.oliv.ai/revops).
 
-## How the Deal Driver agent compares {#compare}
+## How Oliv AI compares for deal intelligence {#compare}
 
-Most pipeline tools give managers somewhere to look. Deal Driver tells them when to look, sends a 1:1 report for every rep each week, and wraps each weekday in a Sunset Summary. Oliv AI is the only platform in this table that does all three.
+Most deal intelligence tools give managers somewhere to look. Deal Driver tells them when to look, sends a 1:1 report for every rep each week, and wraps each weekday in a Sunset Summary. Oliv AI is the only platform in this table that does all three.
 
-Pipeline management features, from each platform's public documentation:
+Deal intelligence features, from each platform's public documentation:
 
 | Platform | Deal risk alerts | Per-rep 1:1 report each week | End-of-day summary for the manager |
 |---|---|---|---|
@@ -204,7 +204,7 @@ Pipeline management features, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for the Deal Driver agent {#compare-stronger}
+### Why Oliv AI is the stronger choice for deal intelligence {#compare-stronger}
 
 - **The 1:1 report comes to you.** Deal Driver compiles each rep's pipeline on that rep's own schedule and files it in the manager's My Reports. Gong [recommends checking a deal board weekly, particularly before 1:1s and pipeline reviews](https://help.gong.io/docs/recipe-focus-on-deals-that-need-your-attention). Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **An alert with a next move.** Each Deal Driver alert carries the deal, the signal, the context and a suggested action. Avoma's Deal Health [produces a 0 to 100 risk score with a Low, Medium or High classification](https://help.avoma.com/deal-health). Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).

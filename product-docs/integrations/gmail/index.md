@@ -77,7 +77,7 @@ Yet the thread already holds the facts. Who asked what, who agreed to what, and 
 
 Oliv AI captures email from Gmail into the same record as calls and meetings. Each email keeps its participants, content and timestamps, and is matched to the right account, contact and opportunity. Oliv AI's CRM Manager agent then turns what changed into CRM updates. Oliv AI's Olivia agent can draw on the thread when you ask about the deal.
 
-The matching holds when one account has several opportunities, as Where your emails land sets out above. How that lines up with other tools is covered in How the Gmail integration compares, below.
+The matching holds when one account has several opportunities, as Where your emails land sets out above. How that lines up with other tools is covered in How Oliv AI compares for sales email in Gmail, below.
 
 ## Connect Gmail {#set-up}
 
@@ -193,7 +193,7 @@ CSMs get account health that reflects email threads, not just meetings. Drafted 
 
 RevOps gets email activity matched to the right opportunity, even when one account has several. Its [integration blueprint for calls, email and Slack](https://www.oliv.ai/blog/revenue-intelligence-integration-revops-crm-slack-email) covers the wider stack.
 
-## How the Gmail integration compares {#compare}
+## How Oliv AI compares for sales email in Gmail {#compare}
 
 Oliv AI files each email against the right deal, even when one account has several opportunities. It also drafts replies inside the customer's thread, and gives the agents you build nine Gmail actions. Oliv AI is the only platform in this table that does all four.
 
@@ -210,7 +210,7 @@ Email features, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for the Gmail integration {#compare-stronger}
+### Why Oliv AI is the stronger choice for sales email in Gmail {#compare-stronger}
 
 - **The right deal, not just the account.** Oliv AI matches email to the right opportunity when an account has several. In Gong's Salesforce logging, [the account is used when several opportunities could match](https://help.gong.io/docs/configure-salesforce-tasks-or-events). Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **Replies, not only follow-ups.** Oliv AI's Comms Manager agent drafts replies threaded under the customer's message. Avoma [drafts a follow-up email from your meeting notes](https://help.avoma.com/use-avoma-after-meeting). Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).

@@ -75,7 +75,7 @@ The call already holds the signal. It was said out loud, by a named person, at a
 
 Oliv AI handles this with its Gold Digger agent. Gold Digger listens to every call. When it detects an expansion signal, it sends the account executive a Slack notification right after the call ends. It also drafts the handoff email from the CSM. Meanwhile each CSM gets a meeting summary in Slack after every call.
 
-The timing of each message is fixed and stated. The prep summary comes 10 minutes before a meeting. The list of tomorrow's meetings comes at 4 PM local time, as set out in Meeting messages in Slack. How those messages line up with other tools is covered in How the Slack integration compares, below.
+The timing of each message is fixed and stated. The prep summary comes 10 minutes before a meeting. The list of tomorrow's meetings comes at 4 PM local time, as set out in Meeting messages in Slack. How those messages line up with other tools is covered in How Oliv AI compares for sales alerts in Slack, below.
 
 ## Set up the Slack integration {#set-up}
 
@@ -198,7 +198,7 @@ Managers get [Deal Driver's alerts and briefs](https://maximuslabs-ai.github.io/
 
 Enablement leads point Content Curator at a team channel, so [new clips](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/clips/) reach reps as they're found. Read more on [Content Curator](https://www.oliv.ai/agents/content-curator).
 
-## How the Slack integration compares {#compare}
+## How Oliv AI compares for sales alerts in Slack {#compare}
 
 Oliv AI posts three meeting messages in Slack on its own: tomorrow's meetings the afternoon before, a prep summary just ahead of each call and a summary right after it. Oliv AI is the only platform in this table that does all three.
 
@@ -215,7 +215,7 @@ Slack meeting messages, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for the Slack integration {#compare-stronger}
+### Why Oliv AI is the stronger choice for sales alerts in Slack {#compare-stronger}
 
 - **Tomorrow's plan, in Slack.** Oliv posts the next day's meetings at 4 PM local time. Gong's daily digest is an email that [may include a personalized schedule of upcoming calls](https://help.gong.io/docs/about-the-emails-gong-sends-you). Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **A summary nobody has to share.** Oliv sends the meeting summary as soon as the meeting ends, with next steps, talk time and a scorecard. Avoma's Slack integration lets you [share entire meetings or select snippets to any Slack channel](https://help.avoma.com/enhance-collaboration-with-avomas-slack-integration). Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).

@@ -89,7 +89,7 @@ When agents work overnight, the question changes. It isn't only who made the cha
 
 Oliv AI keeps that record on every agent with a detail page. The manager opens the agent, selects **Runs** and finds the overnight row by its time. Pressing **View** opens the run record, which lists each change the run made elsewhere under **Auto-actions logged**. It also shows any emails the run sent and the contacts it touched.
 
-Each row's **Type** column says **Auto-triggered** or **Manually run**, so it's clear whether a person started the run. How other platforms record what their agents did is covered in How agent run history compares, below.
+Each row's **Type** column says **Auto-triggered** or **Manually run**, so it's clear whether a person started the run. How other platforms record what their agents did is covered in How Oliv AI compares for AI agent audit trails, below.
 
 ## Open an agent's run history {#open-run-history}
 
@@ -207,7 +207,7 @@ A customer success manager checks which contacts an agent touched on a renewal a
 
 An enablement lead uses run records as worked examples. A sequence agent's timeline shows each step marked **Completed** or **Upcoming**, which helps new reps see how a sequence unfolds before they run one. The [meeting preparation workflow](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/) is a good companion read.
 
-## How agent run history compares {#compare}
+## How Oliv AI compares for AI agent audit trails {#compare}
 
 Oliv AI keeps a list of every run on each agent, and every row opens a full record of that run. The record shows each email the agent sent in full and lists each change it made elsewhere with a timestamp. Oliv AI is the only platform in this table that does all three.
 
@@ -223,7 +223,7 @@ Agent run records, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for agent run history {#compare-stronger}
+### Why Oliv AI is the stronger choice for AI agent audit trails {#compare-stronger}
 
 - **Every message, word for word.** Oliv AI's run record shows each email with its recipient, subject and full body. [Gong records every automation execution in Run history](https://help.gong.io/docs/understanding-automations). See [Gong vs Oliv AI](https://www.oliv.ai/blog/gong-vs-oliv).
 - **Manual and automatic runs told apart.** Each Oliv AI row says **Auto-triggered** or **Manually run**. [Gong's troubleshooting guide uses Run history to confirm whether an automation triggered](https://help.gong.io/docs/troubleshooting-automation-run-issues). See [Oliv AI as a Gong alternative](https://www.oliv.ai/gong-alternative).

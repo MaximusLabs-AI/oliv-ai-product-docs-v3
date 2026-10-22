@@ -68,7 +68,7 @@ The blank fields and the duplicates come from the same place. Fields stay empty 
 
 Oliv AI starts from the org as it is. Oliv AI's CRM Manager agent writes to Salesforce after every meeting, call and email, and it resolves duplicates as activity touches them. For the backlog, the admin gives it a direct job. It can find all duplicate accounts from last quarter, or backfill MEDDPICC fields across the pipeline.
 
-Before anything is written, the admin picks how updates land. **Ask First** shows each proposed update beside the current Salesforce value, while **Auto-Pilot** applies updates without review. That review step is one of the points covered in How the Salesforce integration compares, below.
+Before anything is written, the admin picks how updates land. **Ask First** shows each proposed update beside the current Salesforce value, while **Auto-Pilot** applies updates without review. That review step is one of the points covered in How Oliv AI compares for Salesforce automation, below.
 
 ## Connect Salesforce {#connect-salesforce}
 
@@ -194,7 +194,7 @@ An AE reviews the proposed updates after a call, accepts most of them and edits 
 
 Renewals, QBRs and check-in calls are logged against the account like any sales call. A CSM opening the account sees this week's activity, not last month's. More on Oliv AI for [customer success teams](https://www.oliv.ai/customer-success).
 
-## How the Salesforce integration compares {#compare}
+## How Oliv AI compares for Salesforce automation {#compare}
 
 Many conversation tools write call notes or fields into Salesforce. Oliv AI also lets you review each update before it's written, creates missing accounts and contacts, and resolves duplicate accounts as activity arrives. Oliv AI is the only platform in this table that does all four.
 
@@ -211,7 +211,7 @@ Salesforce sync features, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for the Salesforce integration {#compare-stronger}
+### Why Oliv AI is the stronger choice for Salesforce automation {#compare-stronger}
 
 - **It starts from the org you have.** Oliv AI's CRM Manager agent creates missing accounts and contacts and resolves duplicates as activity arrives. Gong describes [Salesforce flows for new contacts that ship inactive](https://help.gong.io/docs/built-in-flows-to-enrich-your-gong-data-in-salesforce). Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **Review first, automate later.** Ask First shows each update beside the current value, and RevOps decides when to switch to Auto-Pilot. Gong documents that [AI Data Extractor runs automatically, with no action from reps](https://help.gong.io/docs/ai-data-extractor). See [Oliv AI as a Gong alternative](https://www.oliv.ai/gong-alternative).

@@ -2,4 +2,4 @@
 :HC["/",""]
 :HL["/oliv-ai-product-docs-v3/product-docs/oliv-ai-logo-black.svg","image"]
 :HL["/oliv-ai-product-docs-v3/product-docs/oliv-ai-logo-white.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"product-docs","param":null,"prefetchHints":4128,"slots":{"children":{"name":"slug","param":{"type":"oc","key":"apps/converse/clips","siblings":["api"]},"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"SoJ57uJRfv1KRNCAy0_yW"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"product-docs","param":null,"prefetchHints":4128,"slots":{"children":{"name":"slug","param":{"type":"oc","key":"apps/converse/clips","siblings":["api"]},"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"7IoLlNeWlgPv-FNds7e0y"}

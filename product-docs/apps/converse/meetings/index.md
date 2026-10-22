@@ -90,7 +90,7 @@ The call itself was recorded. What's missing is a fast way back to it at the mom
 
 Oliv AI puts that way back in two places. The afternoon before, a Slack message lists tomorrow's meetings, so Thursday's call is on the AE's radar early. In **Activities › Meetings**, the AE searches for the last call, reads its next step in the row and opens it. From there they can find the exact concern and clip it for the sales engineer.
 
-Oliv AI's own help article shows the date search with a worked example: a meeting held on June 12th, found by searching for that date. Searching by date is one of the points covered in How the Meetings list compares, below.
+Oliv AI's own help article shows the date search with a worked example: a meeting held on June 12th, found by searching for that date. Searching by date is one of the points covered in How Oliv AI compares for finding past sales meetings, below.
 
 ## Find a past meeting {#find-a-meeting}
 
@@ -179,7 +179,7 @@ A manager opens **Team meetings** before a 1:1 and reads each rep's next steps d
 
 A CSM finds the sales calls for a new account, so onboarding starts from what the customer was promised. More on Oliv AI for [customer success teams](https://www.oliv.ai/customer-success).
 
-## How the Meetings list compares {#compare}
+## How Oliv AI compares for finding past sales meetings {#compare}
 
 Most meeting tools let you search past calls and clip moments. Oliv AI also links each Slack message straight to its meeting and lists tomorrow's meetings in Slack the afternoon before. Oliv AI is the only platform in this table that does all four.
 
@@ -195,7 +195,7 @@ Finding past meetings, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for finding past meetings {#compare-stronger}
+### Why Oliv AI is the stronger choice for finding past sales meetings {#compare-stronger}
 
 - **Tomorrow's meetings, in Slack, the day before.** Oliv AI sends the list at 4 PM local time. Gong's [daily digest is an email](https://help.gong.io/docs/about-the-emails-gong-sends-you) for team members with calls that day. Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **The link arrives without anyone sharing it.** Each Oliv AI meeting message carries **Open Meeting** automatically. Avoma documents a way to [share the meeting link directly to a Slack channel or DM](https://help.avoma.com/sharing-meetings-in-avoma). Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).

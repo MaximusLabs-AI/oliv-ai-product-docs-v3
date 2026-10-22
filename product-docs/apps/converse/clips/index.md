@@ -111,7 +111,7 @@ Strong objection handling keeps happening on calls every week. The hard part isn
 
 Oliv AI does that catching with its Content Curator agent. The manager describes the moment once, in plain words: a rep answers a pricing or security concern and keeps the deal moving. From then on, every completed meeting is reviewed, matching moments are clipped, and each clip goes into the objection library and the onboarding channel.
 
-Every clip arrives with a short note on why it was captured. It also carries the people on the call, the timestamp, the call date and a link to the full recording. How that compares with other call clipping tools is covered in How the clip library compares, below.
+Every clip arrives with a short note on why it was captured. It also carries the people on the call, the timestamp, the call date and a link to the full recording. How that compares with other call clipping tools is covered in How Oliv AI compares for sales call clips, below.
 
 ## Set up a moment {#set-up}
 
@@ -190,7 +190,7 @@ An account executive with a competitive deal gets recent clips of colleagues han
 
 Every recording is in scope, including onboarding sessions, QBRs and check-ins. A [customer success](https://www.oliv.ai/customer-success) lead uses the **Product Requests** moment and routes it to a channel the product team reads.
 
-## How the clip library compares {#compare}
+## How Oliv AI compares for sales call clips {#compare}
 
 Oliv AI's clip library fills itself from moments you describe in plain words. Oliv AI's Content Curator agent clips each match, files it in that moment's library and posts it to your channel, every time a meeting is completed. Oliv AI is the only platform in this table that does all four.
 
@@ -206,7 +206,7 @@ Call clipping features, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for the clip library {#compare-stronger}
+### Why Oliv AI is the stronger choice for sales call clips {#compare-stronger}
 
 - **Moments you describe, clipped for you.** Oliv AI's Content Curator agent cuts the segments that match a moment you wrote in plain words. [Gong documents snippets made by dragging bars across the call timeline](https://help.gong.io/docs/add-calls-and-snippets-to-a-folder). See [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **Libraries of clips, not whole calls.** Oliv AI files each clip in the library its moment points to. [Avoma's Smart Playlists pull in whole recordings that match your filter rules](https://help.avoma.com/creating-a-playlist). See [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).

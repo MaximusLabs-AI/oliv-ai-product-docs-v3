@@ -92,7 +92,7 @@ The meeting tool is the only thing that is different here. The calls still sit o
 
 Oliv AI does this with its app in the Webex App Hub. Oliv AI joins the account manager's Webex calls, sends meeting prep before each one and shares a summary with action items and next steps afterward. Those summaries then sit alongside the calls from every other platform the team uses.
 
-The setup is short enough to follow in one sitting: five steps, all listed under Set up the Webex integration. What the app offers next to other Webex options is covered in How the Webex integration compares, below.
+The setup is short enough to follow in one sitting: five steps, all listed under Set up the Webex integration. What the app offers next to other Webex options is covered in How Oliv AI compares for Webex meeting notes for sales, below.
 
 ## Set up the Webex integration {#set-up}
 
@@ -171,7 +171,7 @@ Account executives selling into Webex-standard companies get the same prep and f
 
 Webex admins see a familiar install path, because the app comes from the App Hub. RevOps can check which Oliv seats each team needs in [plans and seat roles](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/plans/plans-and-seat-roles/).
 
-## How the Webex integration compares {#compare}
+## How Oliv AI compares for Webex meeting notes for sales {#compare}
 
 Oliv AI installs from the Webex App Hub, joins your Webex calls and sends meeting prep before each one without a click. Oliv AI is the only platform in this table that does all three.
 
@@ -188,7 +188,7 @@ Webex meeting features, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for the Webex integration {#compare-stronger}
+### Why Oliv AI is the stronger choice for Webex meeting notes for sales {#compare-stronger}
 
 - **Prep that arrives on its own.** Oliv AI provides meeting prep before your Webex meetings without being asked. In Avoma, you [click the Prepare for Meeting button](https://help.avoma.com/prepare-for-meetings) on each upcoming meeting. Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).
 - **Installed where Webex users look.** You add Oliv from the Webex App Hub in your own Webex account. Gong's Webex recording is switched on [in the Gong admin center, under Web conferencing](https://help.gong.io/docs/set-the-providers-to-record). Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).

@@ -1,4 +1,4 @@
-# Coach agent
+# Coach: the AI sales coaching agent
 
 How Oliv AI's Coach agent scores every call, recommends three goals per rep each month for the manager to set, tracks progress every week, how to set it up, and how it compares with other sales coaching tools.
 
@@ -7,7 +7,7 @@ How Oliv AI's Coach agent scores every call, recommends three goals per rep each
 - Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/coach/
 
-Oliv AI's Coach agent runs the coaching cadence for every rep on your team. It scores every recorded call, meeting and deal, then recommends the three behaviors most likely to improve each rep's results that month. The manager sets one goal, and Coach tracks the rep's progress every week until the next monthly cycle begins.
+Oliv AI's Coach agent is its AI sales coaching agent: it runs the coaching cadence for every rep on your team. It scores every recorded call, meeting and deal, then recommends the three behaviors most likely to improve each rep's results that month. The manager sets one goal, and Coach tracks the rep's progress every week until the next monthly cycle begins.
 
 ## At a glance {#at-a-glance}
 
@@ -92,7 +92,7 @@ But every one of those calls is already recorded. The patterns that matter, like
 
 Oliv AI handles this with its Coach agent. It scores every recorded call against the team's scorecards and looks for each new hire's real pattern. Their sales manager reviews three ranked recommendations per person and sets one goal. Every week after that, each new hire gets a progress report, and the enablement manager can see who is advancing.
 
-Coach needs about ten calls per rep to find a pattern. Most teams see their first monthly review within two weeks of connecting their call stack. How that cadence measures up against other coaching tools is covered in How the Coach agent compares, below.
+Coach needs about ten calls per rep to find a pattern. Most teams see their first monthly review within two weeks of connecting their call stack. How that cadence measures up against other coaching tools is covered in How Oliv AI compares for AI sales coaching, below.
 
 ## Set up Coach {#set-up}
 
@@ -202,11 +202,11 @@ Leaders see which managers are consistently developing their reps and where impr
 
 Account executives, account managers and CSMs get a weekly progress report and a goal grounded in their own calls. They self-coach between conversations. The rest of a rep's week is in [Run deals as an account executive](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/), and customer-facing teams can read about Oliv AI for [customer success](https://www.oliv.ai/customer-success).
 
-## How the Coach agent compares {#compare}
+## How Oliv AI compares for AI sales coaching {#compare}
 
 Coach scores every call against a pre-built scorecard library and turns the scores into one evidence-backed goal per rep each month. Each week, the rep gets a progress report on that goal. Oliv AI is the only platform in this table that does all four.
 
-Coaching features, from each platform's public documentation:
+AI sales coaching features, from each platform's public documentation:
 
 | Platform | Auto-scores every recorded call | Monthly goal recommended per rep | Weekly progress report for the rep | Pre-built scorecard library |
 |---|---|---|---|---|
@@ -219,7 +219,7 @@ Coaching features, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for the Coach agent {#compare-stronger}
+### Why Oliv AI is the stronger choice for AI sales coaching {#compare-stronger}
 
 - **Goals come from your reps' own deals.** Coach ranks three recommendations per rep by expected impact, with evidence from that rep's calls and deals. Gong's Whisper notes that [its recommendations are based on industry best practices](https://help.gong.io/docs/managing-whisper). Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **The goal is tracked every week.** Once the manager sets a goal, Coach sends the rep a weekly report on wins, the remaining gap and one focus. Avoma sends [coaching recommendations as Slack alerts, with its Revenue Intelligence add-on](https://help.avoma.com/slack-integration-setup-guide). Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).

@@ -158,7 +158,7 @@ The records drift because updating them is a separate job from selling. Every ca
 
 Oliv AI's CRM Manager agent does that work after every meeting, call and email. It proposes each change with the suggested value and the current value side by side. Once the team trusts it, RevOps turns on auto mode, and batch jobs clean up older records on request. New contacts, such as a buyer added late to a call, get their own records along the way. Each week's changes then land in one report for RevOps.
 
-Each suggestion on the deal's **CRM Updates** tab can be accepted or rejected. How other platforms keep CRM fields current is covered in How keeping the CRM updated compares, below.
+Each suggestion on the deal's **CRM Updates** tab can be accepted or rejected. How other platforms keep CRM fields current is covered in How Oliv AI compares for keeping the CRM updated, below.
 
 ## How keeping the CRM updated works with other features {#works-with}
 
@@ -215,7 +215,7 @@ A sales manager checks the **AI Suggestions** count on each deal's **CRM Updates
 
 A customer success manager's QBRs and check-in calls update account records too. When a champion mentions a reorg in passing, the stakeholder map changes and the champion is flagged at risk. CRM Manager covers renewals and CS check-ins, not just new sales.
 
-## How keeping the CRM updated compares {#compare}
+## How Oliv AI compares for keeping the CRM updated {#compare}
 
 Oliv AI proposes each CRM change for review first, then lets RevOps switch to automatic updates once they're trusted. It creates new contacts from activity and sends RevOps a weekly report of what changed. Oliv AI is the only platform in this table that does all four.
 

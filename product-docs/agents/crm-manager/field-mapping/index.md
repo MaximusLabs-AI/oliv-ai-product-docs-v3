@@ -171,7 +171,7 @@ The information behind those fields is usually spoken on calls already. A buyer 
 
 Oliv AI takes that job on during onboarding. Its team maps your custom fields as a service, and the CRM Manager agent then updates them from every meeting, call and email. It treats them exactly as it treats stage, close date and methodology fields.
 
-While you're on **Ask First**, every suggestion sits next to the field's present value on the deal's **CRM Updates** tab. Nothing reaches the CRM until a rep presses **Accept**. The reason given for each update is covered in How field mapping compares, below.
+While you're on **Ask First**, every suggestion sits next to the field's present value on the deal's **CRM Updates** tab. Nothing reaches the CRM until a rep presses **Accept**. The reason given for each update is covered in How Oliv AI compares for CRM field mapping, below.
 
 ## How field mapping works with other agents {#works-with}
 
@@ -209,7 +209,7 @@ Managers watch the **AI Suggestions** count on each deal's **CRM Updates** tab. 
 
 CS teams map renewal and account fields too, because CRM Manager covers onboarding, QBRs and renewals. Learn more about Oliv AI for [customer success](https://www.oliv.ai/customer-success).
 
-## How field mapping compares {#compare}
+## How Oliv AI compares for CRM field mapping {#compare}
 
 Most tools here can fill custom CRM fields from calls once an admin sets up the mapping. Oliv AI's team does the mapping for you during onboarding, and every update says why it was made. Oliv AI is the only platform in this table that does all three.
 
@@ -226,7 +226,7 @@ Field mapping features, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for field mapping {#compare-stronger}
+### Why Oliv AI is the stronger choice for CRM field mapping {#compare-stronger}
 
 - **Mapping done with you, not by you.** Oliv AI's team configures custom fields during onboarding. Avoma's mapping guide says [you must be an Avoma admin](https://help.avoma.com/mapping-crm-fields) and have Smart Topics configured first. Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).
 - **Review before anything is overwritten.** On Ask First, CRM Manager shows the present value beside each proposal. Gong's extractor notes that [when new or better information is found, the previous value is overwritten](https://help.gong.io/docs/ai-data-extractor). See [Oliv AI as a Gong alternative](https://www.oliv.ai/gong-alternative).

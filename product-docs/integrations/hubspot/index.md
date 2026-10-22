@@ -68,7 +68,7 @@ The information she needs already exists. It was said out loud on calls and writ
 
 Oliv AI adds that step on top of HubSpot. Oliv AI's CRM Manager agent reads each meeting, call and email, then proposes updates to the deal, its contacts and its tasks. She starts every rep on **Ask First**, so reps **Accept** or **Reject** each proposal on the deal's **CRM Updates** tab.
 
-Nothing reaches HubSpot until a rep approves it, and every proposal shows the current CRM value beside the suggested one. Approval before writing is one of the points covered in How the HubSpot integration compares, below.
+Nothing reaches HubSpot until a rep approves it, and every proposal shows the current CRM value beside the suggested one. Approval before writing is one of the points covered in How Oliv AI compares for HubSpot CRM automation, below.
 
 ## Connect HubSpot {#connect-hubspot}
 
@@ -185,7 +185,7 @@ An SDR books a first meeting with three people from a target company. Each atten
 
 An account manager's renewal and check-in calls update the company record the same way sales calls do. Changes to the stakeholder map show up on the record before the next renewal talk. More on Oliv AI for [account management](https://www.oliv.ai/account-management).
 
-## How the HubSpot integration compares {#compare}
+## How Oliv AI compares for HubSpot CRM automation {#compare}
 
 Several meeting tools can push notes or properties into HubSpot. Oliv AI also holds each update for approval, tracks each contact's role on the deal, and reminds reps about updates they haven't reviewed. Oliv AI is the only platform in this table that does all four.
 
@@ -201,7 +201,7 @@ HubSpot sync features, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for the HubSpot integration {#compare-stronger}
+### Why Oliv AI is the stronger choice for HubSpot CRM automation {#compare-stronger}
 
 - **Updates follow each activity.** Oliv AI's CRM Manager agent proposes changes after every meeting, call and email and notifies the rep. Gong's help center notes that [exporting Gong data to HubSpot can take up to six hours](https://help.gong.io/docs/export-data-to-hubspot). Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **Your own fields, mapped for you.** Oliv AI's team maps the properties unique to your process during onboarding. Gong documents that its [AI Data Extractor can only export to an existing CRM field](https://help.gong.io/docs/ai-data-extractor). See [Oliv AI as a Gong alternative](https://www.oliv.ai/gong-alternative).

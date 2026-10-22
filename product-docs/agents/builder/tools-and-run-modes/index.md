@@ -96,7 +96,7 @@ The risk isn't spread evenly across the agent. It sits in the handful of actions
 
 Oliv AI puts the control on each tool instead of on the agent. Every card on an agent's **Tools** tab carries its own run mode. The RevOps lead leaves lookups on **Auto Run** and sets stage and close date updates to **Requires Approval**. Call logging goes on **Agent Decides** while the team watches how the agent behaves.
 
-You can see the setting on the tab itself. The three modes always appear in the same order, and each keeps one icon and color on the button and in the menu. How other platforms handle an agent's freedom to act is covered in How agent tools and run modes compare, below.
+You can see the setting on the tab itself. The three modes always appear in the same order, and each keeps one icon and color on the button and in the menu. How other platforms handle an agent's freedom to act is covered in How Oliv AI compares for AI agent permissions, below.
 
 ## Open an agent's tools {#open-tools}
 
@@ -197,7 +197,7 @@ A [customer success team](https://www.oliv.ai/customer-success) lets an agent po
 
 An enablement lead uses the one-line summaries on each tool card to brief new reps on what each agent may do in their accounts. The colored icons make it easy to point out which actions run unattended and which wait for a person.
 
-## How agent tools and run modes compare {#compare}
+## How Oliv AI compares for AI agent permissions {#compare}
 
 Oliv AI sets an agent's freedom to act on each tool, with a choice of three modes. One of them lets the agent itself judge whether a check is needed. Its tools act in the systems revenue teams work in, from CRM records to email, calendars and Slack. Oliv AI is the only platform in this table that does all three.
 
@@ -213,7 +213,7 @@ Agent permissions, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for agent tools and run modes {#compare-stronger}
+### Why Oliv AI is the stronger choice for AI agent permissions {#compare-stronger}
 
 - **Approval set per action.** Oliv AI gives each tool its own run mode, so lookups and writes on one agent can differ. [Outreach's Omni pauses for confirmation before any change to a Prospect, Account or Opportunity record](https://support.outreach.io/support/solutions/articles/159000435308-outreach-product-release-notes-september-2026).
 - **Agents that act beyond their own app.** Oliv AI's tools update CRM records, send email and post to Slack. [Gong's help center says its agents generate outputs within Gong Assistant and do not perform actions in external systems](https://help.gong.io/docs/about-agents). See [Oliv AI as a Gong alternative](https://www.oliv.ai/gong-alternative).

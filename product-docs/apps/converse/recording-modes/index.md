@@ -88,7 +88,7 @@ What the customer objects to is an extra participant, not a record of the meetin
 
 Oliv AI answers it from the invite. When the account manager organizes the meeting, Oliv AI records through Zoom or Microsoft Teams directly, with no Oliv participant on the call. When the customer organizes, the note taker joins visibly, named after the account manager's company. Nobody has to change a setting before the call.
 
-Attendees on a botless call still see the meeting app's own recording indicator, so nobody is recorded without knowing it. How that organizer rule stacks up against other recorders is covered in How recording modes compare, below.
+Attendees on a botless call still see the meeting app's own recording indicator, so nobody is recorded without knowing it. How that organizer rule stacks up against other recorders is covered in How Oliv AI compares for recording sales meetings, below.
 
 ## Prepare your meetings for recording {#prepare}
 
@@ -193,7 +193,7 @@ A [customer success](https://www.oliv.ai/customer-success) manager runs onboardi
 
 A [revenue operations](https://www.oliv.ai/revops) lead works with the Zoom admin to grant admin-level permissions. Meetings then record even when the host is late or absent. RevOps also decides which [agent actions run without asking](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/).
 
-## How recording modes compare {#compare}
+## How Oliv AI compares for recording sales meetings {#compare}
 
 Oliv AI switches between botless recording and a visible note taker by itself, based on who organized the meeting. Calls you host record through Zoom or Microsoft Teams with no bot, and calls a customer hosts get a note taker with your company's name. Oliv AI is the only platform in this table that does all three.
 
@@ -209,7 +209,7 @@ Recording modes, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for recording modes {#compare-stronger}
+### Why Oliv AI is the stronger choice for recording sales meetings {#compare-stronger}
 
 - **Bot-free on Teams as well as Zoom.** Oliv AI records botlessly in both Zoom and Microsoft Teams when your company organizes. [Fathom records Microsoft Teams meetings by having its notetaker join the call](https://help.fathom.video/en/articles/13114369).
 - **Nothing to choose per call.** Oliv AI reads the organizer and picks the mode for you. [Avoma has you choose between cloud recording and its bot during setup](https://help.avoma.com/avoma-integration-with-microsoft-cloud-recording). See [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).

@@ -1,13 +1,13 @@
-# Meeting Assistant agent
+# Meeting Assistant: the AI meeting assistant for sales
 
-What Oliv AI's Meeting Assistant agent sends before each deal meeting, what it drafts and flags after the call, how to set it up, and how it compares with other meeting tools.
+How Oliv AI's Meeting Assistant agent works as an AI meeting assistant for sales: what it sends before each deal meeting, what it drafts and flags after the call, how to set it up, and how it compares with other AI meeting assistants.
 
 - Applies to: Account executives, BDRs, account managers and customer success teams on active opportunities
 - Status: Live
 - Verified: 2026-10-21
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/meeting-assistant/
 
-Oliv AI's Meeting Assistant agent prepares you for every meeting on an active deal and drives the follow-through after it. Thirty minutes before the call, it sends a one-screen brief with the deal status, qualification gaps and a recommended agenda. After the call, it drafts the follow-up email, proposes CRM field updates and flags new qualification gaps.
+Oliv AI's Meeting Assistant agent is an AI meeting assistant for sales. It prepares you for every meeting on an active deal and drives the follow-through after it. Thirty minutes before the call, it sends a one-screen brief with the deal status, qualification gaps and a recommended agenda. After the call, it drafts the follow-up email, proposes CRM field updates and flags new qualification gaps.
 
 ## At a glance {#at-a-glance}
 
@@ -111,7 +111,7 @@ Yet nothing in that recap is new information. Every ask, owner and date was said
 
 Oliv AI does that with its Meeting Assistant agent. When the recording is processed, it drafts the follow-up from the transcript with the recap, commitments, owners and next steps. It also proposes field updates for the renewal and flags any qualification gaps the call exposed. The CSM reads it, adjusts a line or two and sends it.
 
-The draft lands within minutes of the call ending. Each CRM change shows on the meeting's **CRM Updates** tab, with a stage move held for the CSM to confirm. How that set of outputs lines up against other meeting tools is covered in How the Meeting Assistant agent compares, below.
+The draft lands within minutes of the call ending. Each CRM change shows on the meeting's **CRM Updates** tab, with a stage move held for the CSM to confirm. Other meeting tools are compared in How Oliv AI compares as an AI meeting assistant for sales, below.
 
 ## Set up Meeting Assistant {#set-up}
 
@@ -201,11 +201,11 @@ BDRs use it on meetings tied to an active opportunity. They get the same brief b
 
 Sales managers see the same call summaries their reps do before each 1:1. Combined with Deal Driver, the meeting opens on the deal, not on a retelling of it. Read how Oliv AI works for [sales managers](https://www.oliv.ai/sales-managers).
 
-## How the Meeting Assistant agent compares {#compare}
+## How Oliv AI compares as an AI meeting assistant for sales {#compare}
 
 Most meeting tools draft a follow-up email. Meeting Assistant also proposes CRM updates for approval, flags qualification gaps and summarizes each call for the manager's 1:1, all from the same recording. Oliv AI is the only platform in this table that does all four.
 
-After-the-call features, from each platform's public documentation:
+AI meeting assistant features, from each platform's public documentation:
 
 | Platform | Follow-up drafted from the call | CRM updates proposed for approval | Qualification gaps flagged after each call | Call summary for the manager's 1:1 |
 |---|---|---|---|---|
@@ -218,7 +218,7 @@ After-the-call features, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for the Meeting Assistant agent {#compare-stronger}
+### Why Oliv AI is the stronger choice as an AI meeting assistant for sales {#compare-stronger}
 
 - **One recording, every output.** Meeting Assistant turns each call into a follow-up, CRM proposals and gap flags at once. Gong puts [generating a follow-up email among the call page actions](https://help.gong.io/docs/about-the-call-page), while [a MEDDICC agent shows where the gaps are](https://help.gong.io/docs/agent-use-case-and-examples). Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **Gaps flagged on every call.** Meeting Assistant maps each call against the methodology your team runs. Avoma's Deal Methodology [surfaces compliance and gaps in the deal dashboard](https://help.avoma.com/configure-deal-methodology) once an admin configures it. Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).

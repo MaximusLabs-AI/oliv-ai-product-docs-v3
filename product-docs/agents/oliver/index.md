@@ -1,13 +1,13 @@
-# Oliver agent
+# Oliver: the revenue operations agent
 
-What Oliv AI's Oliver agent keeps in the process handbook, how it turns a process change into rules every agent follows, how changes are approved, and how it compares.
+How Oliv AI's Oliver agent automates revenue operations: what it keeps in the process handbook, how it turns a process change into rules every agent follows, how changes are approved, and how it compares with other revenue operations tools.
 
 - Applies to: Revenue operations managers and revenue leaders
 - Status: Live
 - Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/
 
-Oliv AI's Oliver agent owns how your revenue org operates. It keeps the company's process handbook, from your ICP and personas to your methodology and approval rules, and every other Oliv AI agent works inside those rules. When the process changes, you tell Oliver in plain language. It proposes the update, waits for your sign-off, then passes it to every agent that depends on it.
+Oliv AI's Oliver agent is its revenue operations agent: it owns how your revenue org operates. It keeps the company's process handbook, from your ICP and personas to your methodology and approval rules, and every other Oliv AI agent works inside those rules. When the process changes, you tell Oliver in plain language. It proposes the update, waits for your sign-off, then passes it to every agent that depends on it.
 
 ## At a glance {#at-a-glance}
 
@@ -99,7 +99,7 @@ A handoff rule looks like one decision, but it touches qualification fields, coa
 
 Oliv AI puts that place in its Oliver agent. The RevOps head describes the new rule in plain language. Oliver updates the handbook, reconfigures the related fields and passes the change to every agent that depends on it, from the next day forward. The proposal waits for a person to approve it.
 
-Each proposal opens in **Review changes** as a line-by-line diff of every file it touches, with its knock-on effects listed below. It waits as **Pending Review** until someone presses **Approve & merge**. That review step is covered in How the Oliver agent compares, below.
+Each proposal opens in **Review changes** as a line-by-line diff of every file it touches, with its knock-on effects listed below. It waits as **Pending Review** until someone presses **Approve & merge**. That review step is covered in How Oliv AI compares for revenue operations automation, below.
 
 ## Set up the Oliver agent {#set-up}
 
@@ -215,11 +215,11 @@ Oliver enforces your health standards across every account and carries each rene
 
 Enablement sees the effect through coaching. Coach coaches every rep against the methodology Oliver keeps current, so the standard reps are trained on matches the one agents enforce. The guide to [sales methodology automation](https://www.oliv.ai/blog/sales-methodology-automation-auto-score-meddic-bant-spiced-from-calls) covers scoring calls against a framework.
 
-## How the Oliver agent compares {#compare}
+## How Oliv AI compares for revenue operations automation {#compare}
 
 Many platforms let an admin set up a sales methodology in settings. Oliver takes a process change in a chat, applies one change to every agent that depends on it, and drafts the next update from patterns across your deals. Oliv AI is the only platform in this table that does all three.
 
-Process and playbook features, from each platform's public documentation:
+Revenue operations features, from each platform's public documentation:
 
 | Platform | Methodology rules applied by AI | Process changed through a chat | Process updates drafted from deal patterns |
 |---|---|---|---|
@@ -232,7 +232,7 @@ Process and playbook features, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for the Oliver agent {#compare-stronger}
+### Why Oliv AI is the stronger choice for revenue operations automation {#compare-stronger}
 
 - **Tell it, don't configure it.** RevOps describes a process change to Oliver in plain language. Gong's playbooks are [built in AI Deal Reviewer settings, with up to 20 elements per playbook](https://help.gong.io/docs/how-to-create-and-manage-playbooks). Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **Your methodology, not a preset.** Oliver captures MEDDPICC, BANT, SPICED or a proprietary framework. Avoma provides [three default, non-editable methodologies](https://help.avoma.com/configure-deal-methodology) to start from. Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).

@@ -97,7 +97,7 @@ The method is a sequence, so the agent's work should read as one. If its steps a
 
 Oliv AI writes each agent's method out on its **Instructions** tab. **Objective** states the aim, **Process** lists the numbered steps, and **Output** names what the agent produces. The sales director reads **Process** step by step against her method. Where a step relies on a tool, she presses its chip and checks how freely it acts.
 
-The steps are on the tab for anyone to read. Each one has a title and a description, and the tools it uses appear as chips inside the text. How other platforms describe what an agent does is covered in How agent instructions compare, below.
+The steps are on the tab for anyone to read. Each one has a title and a description, and the tools it uses appear as chips inside the text. How other platforms describe what an agent does is covered in How Oliv AI compares for AI agent instructions, below.
 
 ## Read an agent's instructions {#read-instructions}
 
@@ -178,7 +178,7 @@ An enablement lead uses **Objective**, **Process** and **Output** as a ready-mad
 
 A [customer success team](https://www.oliv.ai/customer-success) reads the instructions of agents that work its accounts. It checks the steps before a renewal, so nobody is surprised by what the agent sends.
 
-## How agent instructions compare {#compare}
+## How Oliv AI compares for AI agent instructions {#compare}
 
 Oliv AI writes each agent's method out in three parts: what it aims for, the numbered steps it takes and what it produces. Each step names the tools it uses, and each tool links to its approval setting. Oliv AI is the only platform in this table that does all three.
 
@@ -194,7 +194,7 @@ Agent instructions, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for agent instructions {#compare-stronger}
+### Why Oliv AI is the stronger choice for AI agent instructions {#compare-stronger}
 
 - **A method you can read in order.** Oliv AI shows each agent's **Process** as numbered steps, each with a title and a description. [Gong's agent builder asks for a prompt describing what you want the agent to do](https://help.gong.io/docs/create-an-on-demand-agent). See [Oliv AI as a Gong alternative](https://www.oliv.ai/blog/gong-vs-oliv).
 - **Steps tied to the tools they use.** Oliv AI draws each tool as a chip inside the step that uses it. [Outreach's Deal Agent starts MEDDPICC users on pre-defined fields and prompts](https://support.outreach.io/support/solutions/articles/159000425187-deal-agent-overview). See [how Gong and Outreach compare](https://www.oliv.ai/blog/gong-vs-outreach).

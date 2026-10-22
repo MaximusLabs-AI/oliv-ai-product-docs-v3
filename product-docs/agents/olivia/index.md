@@ -1,13 +1,13 @@
-# Olivia agent
+# Olivia: the AI sales assistant
 
-What Oliv AI's Olivia agent does, how to ask her questions and hand her work, what she needs connected, and how she compares with other revenue assistants.
+How Oliv AI's Olivia agent works as an AI sales assistant: how to ask her questions and hand her work, what she needs connected, and how she compares with other AI sales assistants.
 
 - Applies to: All revenue teams
 - Status: Live
 - Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/
 
-Oliv AI's Olivia agent is the agent you talk to rather than configure. You ask in plain language about deals, meeting prep, pipeline or next steps, and she either answers or hands the work to a specialist agent and reports back. She also monitors your conversations in the background and takes care of things before you ask.
+Oliv AI's Olivia agent is an AI sales assistant: the agent you talk to rather than configure. You ask in plain language about deals, meeting prep, pipeline or next steps, and she either answers or hands the work to a specialist agent and reports back. She also monitors your conversations in the background and takes care of things before you ask.
 
 ## At a glance {#at-a-glance}
 
@@ -73,7 +73,7 @@ None of this information is new. It already sits in the calls, the CRM and the i
 
 Oliv AI puts that assembly in a chat beside the work. The CSM presses the suggestion for a renewal call at 4pm. Oliv AI's Olivia agent returns the deal at a glance, who is joining, the risks to watch and talking points. She can call on Oliv AI's Portfolio Manager agent for account health and its Gold Digger agent for expansion signals.
 
-The autonomy dropdown under the message box opens on **Ask before acting**, so Olivia aligns on her approach before she takes any action. That setting is one of the points covered in How the Olivia agent compares, below.
+The autonomy dropdown under the message box opens on **Ask before acting**, so Olivia aligns on her approach before she takes any action. That setting is one of the points covered in How Oliv AI compares as an AI sales assistant, below.
 
 ## Ask Olivia a question {#ask-olivia}
 
@@ -218,11 +218,11 @@ An account manager gets the full account history before every call. Olivia surfa
 
 Expansion signals from customer calls reach sales the same day, without anyone asking. At-risk accounts surface before the renewal window closes, and every call updates portfolio health. More on Oliv AI for [customer success teams](https://www.oliv.ai/customer-success).
 
-## How the Olivia agent compares {#compare}
+## How Oliv AI compares as an AI sales assistant {#compare}
 
 Many revenue tools now answer plain-language questions about deals. Oliv AI's Olivia agent also hands the work to specialist agents, raises deal risk on her own, and lets you choose per conversation whether she asks before she acts. Oliv AI is the only platform in this table that does all four.
 
-Revenue assistant features, from each platform's public documentation:
+AI sales assistant features, from each platform's public documentation:
 
 | Platform | Plain-language questions on deals and pipeline | Hands tasks to specialist agents | Deal risk raised automatically | Ask-before-acting setting per conversation |
 |---|---|---|---|---|
@@ -235,7 +235,7 @@ Revenue assistant features, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for the Olivia agent {#compare-stronger}
+### Why Oliv AI is the stronger choice as an AI sales assistant {#compare-stronger}
 
 - **Work handed off, not just answered.** Olivia dispatches the right specialist agent for each task and reports back. Gong's help centre describes [agents as personal assets that each team member creates for their own use](https://help.gong.io/docs/about-agents). Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **Answers that lead to action.** Olivia drafts the follow-up and surfaces CRM updates for review after a call. Avoma describes [Global Ask Avoma as an assistant for asking questions about your organization's data](https://help.avoma.com/global-ask-avoma). Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).

@@ -190,7 +190,7 @@ Everything the recap needs was said on the call. Who asked about pricing, what w
 
 Oliv AI does that job with its Meeting Assistant agent. Within minutes of the demo ending, the draft is written from the transcript, with the recap, commitments, owners and next steps. Proposed CRM updates and qualification gap flags come back alongside it for the AE to approve. The AE reads it on the way to the next call.
 
-The draft is never a template, and nothing reaches the buyer until the AE has read it and pressed send. How other platforms handle the draft and the CRM after a call is covered in How post-call follow-up compares, below.
+The draft is never a template, and nothing reaches the buyer until the AE has read it and pressed send. How other platforms handle the draft and the CRM after a call is covered in How Oliv AI compares for post-call follow-up, below.
 
 ## How post-call follow-up works with other features {#works-with}
 
@@ -234,7 +234,7 @@ An [account manager](https://www.oliv.ai/account-management) closes a renewal ca
 
 A [sales manager](https://www.oliv.ai/sales-managers) reads the qualification gap flags across the team's calls. Gaps on late-stage deals become the agenda for that week's 1:1s.
 
-## How post-call follow-up compares {#compare}
+## How Oliv AI compares for post-call follow-up {#compare}
 
 Oliv AI's follow-up is drafted from the transcript within minutes, without anyone clicking a button. The proposed CRM updates and qualification gaps come back in the same pass, ready to approve. Oliv AI is the only platform in this table that does all three.
 

@@ -80,7 +80,7 @@ The details already exist on the recording. What the CSM needs is the champion's
 
 Oliv AI turns the handover call into a record the CSM can scan. The takeaways sit on the first tab, each with a timestamp into the recording. The **Attendees** tab shows where the champion stands. Then the CSM shares the right transcript segment with the onboarding lead, starting at the right minute.
 
-The same summary and full call transcript also land on the opportunity record in the CRM. The CSM can find them there without opening Oliv AI. That CRM record is one of the points covered in How meeting details compares, below.
+The same summary and full call transcript also land on the opportunity record in the CRM. The CSM can find them there without opening Oliv AI. That CRM record is one of the points covered in How Oliv AI compares for AI meeting summaries, below.
 
 ## Read a meeting {#read-a-meeting}
 
@@ -253,11 +253,11 @@ An AE works the **Action Items** tab before sending the follow-up, so every agre
 
 A manager reads **Meeting insights** and **Coaching** before a 1:1. An enablement lead clips a strong objection handle for onboarding. Read about [sales enablement software](https://www.oliv.ai/blog/sales-enablement-software).
 
-## How meeting details compares {#compare}
+## How Oliv AI compares for AI meeting summaries {#compare}
 
 Most meeting tools write an AI summary and send notes to the CRM. Oliv AI also turns a plain-language description of a moment into clips that are cut, filed and shared for you. Oliv AI is the only platform in this table that does all three.
 
-Meeting record features, from each platform's public documentation:
+AI meeting summary features, from each platform's public documentation:
 
 | Platform | AI summary with next steps | Clips cut from a description you write | Meeting notes written to the CRM record |
 |---|---|---|---|
@@ -269,7 +269,7 @@ Meeting record features, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for meeting details {#compare-stronger}
+### Why Oliv AI is the stronger choice for AI meeting summaries {#compare-stronger}
 
 - **Moments become clips, filed and posted.** Content Curator cuts each match into a clip, files it in a library and posts it to a chat channel. Gong's tracker results appear as [timestamps in the Points of interest tab](https://help.gong.io/docs/find-and-review-tracker-results). Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **You describe the moment, not the category.** You tell Content Curator what belongs in plain language, with no keyword lists. Avoma lets you [create custom categories](https://help.avoma.com/ai-generated-notes) to organize meeting notes. Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).

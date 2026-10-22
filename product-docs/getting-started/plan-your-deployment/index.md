@@ -218,7 +218,7 @@ Nothing about the agents needs a finished playbook before reps can start. A brie
 
 Oliv AI runs both tracks for her. Reps get their first brief before their next meeting, while Oliv AI's onboarding team turns her deck into Oliver's handbook in one to two weeks. If she picks We Run It, Oliv AI's operators maintain the playbooks on her behalf.
 
-The proof of value adds one more piece: a tailored version of Oliv AI is live within 1 day of kickoff. How other platforms handle setup and tailoring is covered in How deployment compares, below.
+The proof of value adds one more piece: a tailored version of Oliv AI is live within 1 day of kickoff. How other platforms handle setup and tailoring is covered in How Oliv AI compares for rolling out revenue AI, below.
 
 ## How the deployment plan works with other features {#works-with}
 
@@ -258,7 +258,7 @@ A head of customer success brings the CSMs on in week one for briefs and follow-
 
 An enablement manager picks Coach's starting scorecards and reads the first monthly review. It's a quick way to see where new hires need help, as covered in [cutting new-hire ramp time](https://www.oliv.ai/blog/sales-new-hire-ramp-time-coaching-onboarding).
 
-## How deployment compares {#compare}
+## How Oliv AI compares for rolling out revenue AI {#compare}
 
 Oliv AI's onboarding team builds your process handbook with your revenue operations lead, and you can hand ongoing upkeep to Oliv AI's operators. Signal models are tailored to your company within a day of the proof of value kickoff. Oliv AI is the only platform in this table that does all three.
 
@@ -274,7 +274,7 @@ Setup and onboarding, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for deployment {#compare-stronger}
+### Why Oliv AI is the stronger choice for rolling out revenue AI {#compare-stronger}
 
 - **Your process, built with you.** Oliv AI's onboarding team turns your playbooks and methodology into Oliver's handbook in one to two weeks. [Gong documents working with an onboarding consultant to bring in historical CRM data](https://help.gong.io/docs/explainer-aligning-analytics-reports-with-historical-data). See [Gong vs Oliv AI](https://www.oliv.ai/blog/gong-vs-oliv).
 - **Upkeep you can hand off.** On the We Run It path, Oliv AI's operators maintain the playbooks for you. [Outreach describes its professional services as billable projects](https://support.outreach.io/support/solutions/articles/159000425834-outreach-glossary). See [Gong vs Outreach, and where Oliv AI fits](https://www.oliv.ai/blog/gong-vs-outreach).

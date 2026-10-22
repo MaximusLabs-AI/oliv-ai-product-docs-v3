@@ -1,4 +1,4 @@
-# Forecaster agent
+# Forecaster: the AI sales forecasting agent
 
 How Oliv AI's Forecaster agent drafts each rep's forecast, suggests category moves with a reason on each deal, rolls the number up through every manager, and how it compares with other sales forecasting software.
 
@@ -7,7 +7,7 @@ How Oliv AI's Forecaster agent drafts each rep's forecast, suggests category mov
 - Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/forecaster/
 
-Oliv AI's Forecaster agent automates the forecasting process, from collecting deal data to analyzing each deal to the manager's sign-off. It reads your pipeline and builds the forecast before anyone logs in, so reps review and submit instead of typing. It gets more accurate over time by learning from how deals actually close at your company.
+Oliv AI's Forecaster agent is its AI sales forecasting agent. It automates the forecasting process, from collecting deal data to analyzing each deal to the manager's sign-off. It reads your pipeline and builds the forecast before anyone logs in, so reps review and submit instead of typing. It gets more accurate over time by learning from how deals actually close at your company.
 
 ## At a glance {#at-a-glance}
 
@@ -92,7 +92,7 @@ Yet most of what the commit needs already sits in the pipeline and the calls. Cl
 
 Oliv AI does that reading with its Forecaster agent. It drafts each rep's forecast before anyone logs in and checks it before the call starts. It flags risky commits, surfaces sandbagged upside and removes dead deals. Managers review only what changed, and the VP gets one rolled-up view with the risk already called out.
 
-Each board keeps weekly snapshots and an end-of-quarter snapshot, so any commit can be reopened as it stood and checked against what actually closed. How that learning loop lines up against other forecasting tools is covered in How the Forecaster agent compares, below.
+Each board keeps weekly snapshots and an end-of-quarter snapshot, so any commit can be reopened as it stood and checked against what actually closed. How that learning loop lines up against other forecasting tools is covered in How Oliv AI compares for AI sales forecasting, below.
 
 ## Set up Forecaster {#set-up}
 
@@ -230,11 +230,11 @@ RevOps configures cadences, targets and metrics during onboarding and watches fo
 
 Reps open a pre-filled forecast, adjust a deal or two and submit in minutes. The rest of their week is in [Run deals as an account executive](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/).
 
-## How the Forecaster agent compares {#compare}
+## How Oliv AI compares for AI sales forecasting {#compare}
 
 Most forecasting tools give reps a board to fill in. Forecaster drafts the rep's forecast, suggests category moves with a reason on each deal, and learns from every closed deal, across monthly and quarterly forecasts at once. Oliv AI is the only platform in this table that does all four.
 
-Forecasting features, from each platform's public documentation:
+AI sales forecasting features, from each platform's public documentation:
 
 | Platform | Rep's forecast pre-drafted | Suggested category moves, with reasons | Learns from your closed deals | Monthly and quarterly in parallel |
 |---|---|---|---|---|
@@ -246,7 +246,7 @@ Forecasting features, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for the Forecaster agent {#compare-stronger}
+### Why Oliv AI is the stronger choice for AI sales forecasting {#compare-stronger}
 
 - **The forecast is built before anyone logs in.** Forecaster pre-drafts each rep's forecast, so reps review and submit in minutes. In Gong, a panel opens where [you submit your number for the selected category](https://help.gong.io/docs/forecast-update-your-forecast). Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **Every suggested move is a decision you control.** Each suggested category move names the risk behind it, and the manager accepts it in one click or dismisses it. Avoma sends [forecast risk alerts to Slack with its Revenue Intelligence add-on](https://help.avoma.com/slack-integration-setup-guide). Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).

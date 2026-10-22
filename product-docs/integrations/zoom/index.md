@@ -78,7 +78,7 @@ Nothing about the call itself has changed. It is still a Zoom meeting on a calen
 
 Oliv AI does this through Zoom. It records calls your company organizes botlessly through Zoom, and joins calls others organize as a visible note taker under your company's name. Once a Zoom admin grants shared access, Oliv records even when the host isn't present. The recording then feeds the agents that brief the account executive.
 
-You can see what each Zoom app is allowed to do. Every permission it asks Zoom for is listed in plain words in Permissions Zoom asks for. The features they enable are covered in How the Zoom integration compares, below.
+You can see what each Zoom app is allowed to do. Every permission it asks Zoom for is listed in plain words in Permissions Zoom asks for. The features they enable are covered in How Oliv AI compares for Zoom meeting recording for sales, below.
 
 ## Set up the Zoom integration {#set-up}
 
@@ -199,7 +199,7 @@ CSMs record renewal and check-in calls the same way. Those recordings feed the a
 
 A Zoom admin grants the shared access that lets Oliv record when the host is absent. RevOps can review what each app may do in the permissions table above. See Oliv AI for [revenue operations](https://www.oliv.ai/revops).
 
-## How the Zoom integration compares {#compare}
+## How Oliv AI compares for Zoom meeting recording for sales {#compare}
 
 Oliv AI records Zoom calls your company hosts without a bot, and keeps recording when the host is absent once a Zoom admin grants access. Its in-meeting app also lets you edit CRM fields without leaving Zoom. Oliv AI is the only platform in this table that does all three.
 
@@ -215,7 +215,7 @@ Zoom recording features, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for the Zoom integration {#compare-stronger}
+### Why Oliv AI is the stronger choice for Zoom meeting recording for sales {#compare-stronger}
 
 - **CRM fields, not just notes, inside Zoom.** The Oliv.ai Zoom app shows Oliv in the meeting so you can edit CRM fields directly. Gong's app for Zoom is for [taking notes, marking important moments and following the conversation](https://help.gong.io/docs/use-the-gong-app-for-zoom). Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **Recording that doesn't wait for a person.** After a Zoom admin grants shared access, Oliv records even when the host is not present. Avoma Assistant [joins on behalf of someone from your organization who is in the meeting](https://help.avoma.com/connect-zoom-for-recording). Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).

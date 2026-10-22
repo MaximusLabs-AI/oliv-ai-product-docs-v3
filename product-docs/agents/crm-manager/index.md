@@ -1,13 +1,13 @@
-# CRM Manager agent
+# CRM Manager: the CRM automation agent
 
-What Oliv AI's CRM Manager agent writes to your CRM after every activity, how reps review its updates, when to switch to Auto-Pilot, and how it compares.
+How Oliv AI's CRM Manager agent automates CRM updates: what it writes after every activity, how reps review its updates, when to switch to Auto-Pilot, and how it compares with other CRM automation tools.
 
 - Applies to: Account executives, revenue operations, sales managers and customer success teams
 - Status: Live
 - Verified: 2026-10-21
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/
 
-Oliv AI's CRM Manager agent keeps every record in your CRM accurate and current, without anyone updating it by hand. After every meeting, call and email, it works out what changed and writes it to Salesforce, HubSpot or Zoho. Each suggested change waits on the deal's **CRM Updates** tab beside the field's current value, so reps can accept or reject it. Once the team trusts the results, you can switch it to fully automatic updates.
+Oliv AI's CRM Manager agent is its CRM automation agent: it keeps every record in your CRM accurate and current, without anyone updating it by hand. After every meeting, call and email, it works out what changed and writes it to Salesforce, HubSpot or Zoho. Each suggested change waits on the deal's **CRM Updates** tab beside the field's current value, so reps can accept or reject it. Once the team trusts the results, you can switch it to fully automatic updates.
 
 ## At a glance {#at-a-glance}
 
@@ -107,7 +107,7 @@ Every one of those calls already happened on a recorded line, so the facts exist
 
 Oliv AI gives that step to its CRM Manager agent. After every meeting, call and email, it proposes values for standard, methodology and custom fields. Each one appears on the deal's **CRM Updates** tab with the suggested value above the current one. The AE accepts or rejects each field.
 
-Teams on the weekly cadence get pending suggestions on Friday morning, and anything left unreviewed is accepted automatically on Sunday night. RevOps then receives a summary that includes how often each rep accepted the suggestions. How that digest stacks up is covered in How the CRM Manager agent compares, below.
+Teams on the weekly cadence get pending suggestions on Friday morning, and anything left unreviewed is accepted automatically on Sunday night. RevOps then receives a summary that includes how often each rep accepted the suggestions. How that digest stacks up is covered in How Oliv AI compares for CRM automation, below.
 
 ## Set up CRM Manager {#set-up}
 
@@ -205,11 +205,11 @@ Managers check the **AI Suggestions** count on each deal's **CRM Updates** tab, 
 
 CRM Manager covers the full revenue lifecycle, including onboarding, QBRs and renewals. When a champion mentions a reorg in passing, the stakeholder map changes and the champion is flagged at risk. Learn more about Oliv AI for [customer success](https://www.oliv.ai/customer-success).
 
-## How the CRM Manager agent compares {#compare}
+## How Oliv AI compares for CRM automation {#compare}
 
 Several tools in this table write fields from calls. CRM Manager also resolves duplicate accounts as activity touches them and sends RevOps a weekly digest with each rep's acceptance rate. Oliv AI is the only platform in this table that does all three.
 
-CRM update features, from each platform's public documentation:
+CRM automation features, from each platform's public documentation:
 
 | Platform | CRM fields updated from calls | Duplicates resolved as it goes | Weekly digest with acceptance rate by rep |
 |---|---|---|---|
@@ -222,7 +222,7 @@ CRM update features, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for the CRM Manager agent {#compare-stronger}
+### Why Oliv AI is the stronger choice for CRM automation {#compare-stronger}
 
 - **One value per field, beside the old one.** CRM Manager shows each suggested value above the current value and waits for **Accept** or **Reject**. Gong notes that when [several Data Extractors map to one field, they all update it and overwrite the existing value](https://help.gong.io/docs/ai-data-extractor). Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **Duplicates handled for you.** CRM Manager resolves duplicates in real time and in batch jobs. Outreach documents [deduping criteria that Outreach Admins customize per field mapping](https://support.outreach.io/support/solutions/articles/159000425299-custom-record-deduping-in-outreach). Read [how Gong and Outreach compare](https://www.oliv.ai/blog/gong-vs-outreach).

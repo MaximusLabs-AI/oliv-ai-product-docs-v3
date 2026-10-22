@@ -182,7 +182,7 @@ Most of that time is lookup, not judgment. Which deals went quiet, which close d
 
 Oliv AI's Deal Driver agent does the lookup before Thursday. Each rep's prep report lands before the manager's first meeting, with deal health, activity and flagged items. Alerts through the week mark the deals that changed. After the review, nudges keep the agreed next steps from slipping. The manager spends the fifteen minutes per rep on the two or three deals that need a decision, and the healthy ones get a nod.
 
-Every alert includes the deal, the signal, relevant context and a suggested action for the manager. How other platforms support a weekly pipeline review is covered in How a pipeline review with Oliv AI compares, below.
+Every alert includes the deal, the signal, relevant context and a suggested action for the manager. How other platforms support a weekly pipeline review is covered in How Oliv AI compares for pipeline reviews, below.
 
 ## How a pipeline review works with other features {#works-with}
 
@@ -226,7 +226,7 @@ A VP of Sales starts the week with the Monday Pipeline Review instead of stitchi
 
 A RevOps lead sets the inactivity windows and field completion rules with each manager, so alerts match how the team sells. Clean fields from CRM Manager keep those alerts honest. It's a practical step toward [better forecast accuracy](https://www.oliv.ai/blog/improve-sales-forecast-accuracy-with-ai).
 
-## How a pipeline review with Oliv AI compares {#compare}
+## How Oliv AI compares for pipeline reviews {#compare}
 
 Oliv AI delivers a pipeline report for each rep before the week's 1:1s and nudges reps when next steps go overdue. It also prepares a Monday pipeline summary for leadership before the first standup. Oliv AI is the only platform in this table that does all three.
 

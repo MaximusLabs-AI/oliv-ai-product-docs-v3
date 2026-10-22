@@ -75,7 +75,7 @@ If the agent reads the same files reps are taught from, the answers can line up.
 Oliv AI puts that list on each agent. The **Knowledge** tab shows **Knowledge in use**, with every file the agent works against and a **View** link beside each one. The enablement manager opens each file and checks it against her current set. The tab's upload area names the formats her material comes in, including .pptx, .pdf and docx.
 
 The upload area prints its formats: "Supported formats: .csv, json,.pdf, xlsx, xls, txt, md, docx, .pptx."
-The line beneath it reads "Max 5 files per upload". How other platforms handle the files an agent works from is covered in How agent knowledge files compare, below.
+The line beneath it reads "Max 5 files per upload". Other platforms are compared in How Oliv AI compares for grounding AI agents in your own content, below.
 
 ## Check what an agent knows {#check-knowledge}
 
@@ -168,7 +168,7 @@ A [customer success team](https://www.oliv.ai/customer-success) reads the knowle
 
 [Revenue operations](https://www.oliv.ai/revops) reviews which company documents each agent holds. It does this before an agent goes out to a wider team.
 
-## How agent knowledge files compare {#compare}
+## How Oliv AI compares for grounding AI agents in your own content {#compare}
 
 Oliv AI keeps an agent's files on the agent, in a list you can open, and names spreadsheets and slide decks among its formats. The same files show on the agent's **Overview** as pills. Oliv AI is the only platform in this table that does all three.
 
@@ -184,7 +184,7 @@ Agent knowledge, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for agent knowledge files {#compare-stronger}
+### Why Oliv AI is the stronger choice for grounding AI agents in your own content {#compare-stronger}
 
 - **Knowledge that stays on the agent.** Oliv AI lists each agent's files under **Knowledge in use** on the agent itself. [Gong Assistant takes up to 10 uploaded files per message](https://help.gong.io/docs/work-with-gong-assistant). See [Oliv AI as a Gong alternative](https://www.oliv.ai/gong-alternative).
 - **Spreadsheets and data files too.** Oliv AI's upload area names .csv, json, xlsx and xls beside .pdf, docx and .pptx. [Outreach's guidance covers knowledge documents such as product brochures, persona guides and battle cards](https://support.outreach.io/support/solutions/articles/159000430392-knowledge-documents-and-personalization-best-practices). See [how Gong and Outreach compare](https://www.oliv.ai/blog/gong-vs-outreach).

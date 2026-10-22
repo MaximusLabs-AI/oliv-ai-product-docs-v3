@@ -158,7 +158,7 @@ A first call is mostly won or lost in its opening minutes. The SDR doesn't need 
 
 Oliv AI does the reading before the SDR has to. Oliv AI's Olivia agent sends three bullets on the company and the person, plus one icebreaker to open with. Funding, market position and recent news cover the account. Career history, role and interests cover the person.
 
-The research brief lands 30 minutes before the meeting, and the full detail view stays in the platform for anyone who wants more. How other platforms prepare reps for a first meeting is covered in How meeting preparation compares, below.
+The research brief lands 30 minutes before the meeting, and the full detail view stays in the platform for anyone who wants more. How other platforms prepare reps for a first meeting is covered in How Oliv AI compares for meeting preparation, below.
 
 ## How meeting preparation works with other features {#works-with}
 
@@ -220,7 +220,7 @@ An account manager walks into a renewal or expansion call with the full account 
 
 A [sales manager](https://www.oliv.ai/sales-managers) starts the day with the Morning Brief, then opens each rep's 1:1 with their pipeline, activity and flagged deals already on the page. The conversation starts at strategy instead of status updates.
 
-## How meeting preparation compares {#compare}
+## How Oliv AI compares for meeting preparation {#compare}
 
 Oliv AI's brief arrives on its own 30 minutes before the meeting, with the deal's qualification status and a recommended agenda built in. First meetings get research on the company and the person, plus an icebreaker. Oliv AI is the only platform in this table that does all four.
 

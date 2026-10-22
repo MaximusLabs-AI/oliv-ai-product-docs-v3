@@ -83,7 +83,7 @@ Buyers have not moved to one channel, and they won't. A tool that records only v
 
 Oliv AI captures video calls, phone lines and email threads the same way, and Slack too. When your company hosts the meeting, Oliv AI [records botlessly through the meeting platform](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/recording-modes/). When someone outside hosts it, a visible note taker joins under your company's name. The head of sales can then search for the exact concern across every captured conversation.
 
-The pricing page lists each capture channel by name: botless meeting capture, phone call capture, email capture and Slack capture. Those four channels are the columns covered in How the Converse app compares, below.
+The pricing page lists each capture channel by name: botless meeting capture, phone call capture, email capture and Slack capture. Those four channels are the columns covered in How Oliv AI compares for conversation intelligence, below.
 
 ## What Converse captures {#capture-channels}
 
@@ -176,11 +176,11 @@ A CSM taking over an account can read what sales promised, in the customer's own
 
 An enablement lead clips real objection handles and talk tracks into clip libraries for onboarding and coaching. More on [sales enablement software](https://www.oliv.ai/blog/sales-enablement-software).
 
-## How the Converse app compares {#compare}
+## How Oliv AI compares for conversation intelligence {#compare}
 
 Most conversation intelligence tools record video meetings well. The Converse app also captures phone calls, email and Slack into the same record, and records botlessly when your company hosts. Oliv AI is the only platform in this table that does all four.
 
-Conversation capture channels, from each platform's public documentation:
+Conversation intelligence features, from each platform's public documentation:
 
 | Platform | Botless meeting capture | Phone call capture | Email capture | Slack capture |
 |---|---|---|---|---|
@@ -193,7 +193,7 @@ Conversation capture channels, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for conversation capture {#compare-stronger}
+### Why Oliv AI is the stronger choice for conversation intelligence {#compare-stronger}
 
 - **Slack sits in the same record as calls.** Converse captures Slack alongside meetings, phone calls and email. Gong documents [capturing emails, calendar meetings, or both](https://help.gong.io/docs/about-importing-calendar-meetings-and-emails) for each team member. Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **The recording method is chosen for you.** Oliv AI records botlessly when your company hosts and joins visibly when someone else does. Avoma's setup asks you to [choose Cloud Recording or the Avoma Assistant bot](https://help.avoma.com/admins-enable-microsoft-cloud-recording-in-avoma). Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).

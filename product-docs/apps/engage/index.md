@@ -78,7 +78,7 @@ Buyers now leave signals in many places. They show up on calls, in email threads
 
 Oliv AI ranks every account by ICP fit, engagement and call activity, and shows the reason for each rank. The list re-ranks the moment a signal changes, so the manager sees whether reps are on the right accounts. Oliv AI's Prospector agent writes the outreach, and the dialer puts a tailored call plan beside each contact.
 
-The Engage add-on names its channels on the pricing page: email, LinkedIn, the dialer, and WhatsApp, Telegram or Instagram. Those channels, with the ranked list, are the columns in How the Engage app compares, below.
+The Engage add-on names its channels on the pricing page: email, LinkedIn, the dialer, and WhatsApp, Telegram or Instagram. Those channels, with the ranked list, are the columns in How Oliv AI compares for sales engagement, below.
 
 ## What Engage does {#capabilities}
 
@@ -244,7 +244,7 @@ An AE uses the same workspace to multi-thread and follow up on deals. For expans
 
 RevOps defines the ICP and the territory structure, and Prospector runs the build from there. In Engage, that means a plain-language Target ICP and personas in each play, and a shared signal library. The account data comes from your CRM, such as [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/) or [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/).
 
-## How the Engage app compares {#compare}
+## How Oliv AI compares for sales engagement {#compare}
 
 Most sales engagement tools sort accounts from data inside their own product. Engage ranks from the whole account and shows the reason for every rank, with LinkedIn automation, a dialer and messaging channels in one workspace. Oliv AI is the only platform in this table that does all four.
 

@@ -99,7 +99,7 @@ The stage change is already the signal. The CRM records the moment a deal moves,
 
 Oliv AI starts the agent from the event. Oliv AI's Multithreader agent fires on its own when a deal's stage is set to Proposal in the connected CRM. It then judges whether the buying committee is broad enough and drafts outreach for the seller to review. The RevOps manager reads that trigger on the agent's **Triggers** tab before rolling the agent out.
 
-Each trigger is written out on the tab. Every card shows the source system's icon, the event in one line and a sentence on when the agent fires. Runs it starts appear in the run history as **Auto-triggered**. How other platforms start agents on their own is covered in How agent triggers compare, below.
+Each trigger is written out on the tab. Every card shows the source system's icon, the event in one line and a sentence on when the agent fires. Runs it starts appear in the run history as **Auto-triggered**. How other platforms start agents on their own is covered in How Oliv AI compares for event-triggered AI agents, below.
 
 ## Read an agent's triggers {#read-triggers}
 
@@ -200,7 +200,7 @@ A [customer success team](https://www.oliv.ai/customer-success) reads the **Sche
 
 An enablement lead uses the one-sentence descriptions on trigger cards to brief new reps. Reps learn which deal events will start an agent on their opportunities, before the first draft arrives.
 
-## How agent triggers compare {#compare}
+## How Oliv AI compares for event-triggered AI agents {#compare}
 
 Oliv AI lets one agent carry several event triggers, such as a deal reaching a stage in the CRM, and fixed-time schedules on the same tab. Runs that start on their own are labeled in the agent's run history. Oliv AI is the only platform in this table that does all four.
 
@@ -216,7 +216,7 @@ Agent start rules, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for agent triggers {#compare-stronger}
+### Why Oliv AI is the stronger choice for event-triggered AI agents {#compare-stronger}
 
 - **Several triggers on one agent.** Oliv AI agents carry between 1 and 5 triggers each. [Gong's help center says each automated agent uses one trigger](https://help.gong.io/docs/create-an-automated-agent). See [Oliv AI as a Gong alternative](https://www.oliv.ai/blog/gong-vs-oliv).
 - **Events and schedules in one place.** Oliv AI lists an agent's event triggers and its schedules on one **Triggers** tab. [Outreach documents scheduled Research Agent runs as their own scheduled workflows](https://support.outreach.io/support/solutions/articles/159000425162-schedule-workflows-for-research-agent). See [how Gong and Outreach compare](https://www.oliv.ai/blog/gong-vs-outreach).

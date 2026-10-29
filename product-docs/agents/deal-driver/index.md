@@ -393,4 +393,4 @@ No. Deal Driver doesn't write to the CRM, so stage probabilities and forecast ca
 - [Run deals as an account executive](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/): the rep's side of the same deals.
 - [Oliv AI product documentation](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/): every documented agent and feature.
 
-*Updated 29 October 2026: added how revenue intelligence platforms find deal risk, 2026 research on pipeline risk, how to measure pipeline health, the manual method with a worked example, five more questions and further reading.*
+*Updated 29 October 2026: added how revenue intelligence platforms find deal risk, 2026 research on pipeline risk, how to measure pipeline health, the manual method with a worked example, four more questions and further reading.*

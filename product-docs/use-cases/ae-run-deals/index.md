@@ -1,11 +1,13 @@
-# Run deals as an account executive
+# How account executives use AI to prepare for calls, follow up and catch stalled deals
 
-How an account executive uses Oliv AI's agents to prepare for deal meetings, follow up after calls, keep the CRM current and catch stalled deals, and how that compares with other deal tools.
+How account executives use AI for account executives' admin: how a rep uses Oliv AI's agents to prepare for deal meetings, follow up after calls, keep the CRM current and catch stalled deals, and how that compares with other deal tools.
 
 - Applies to: Account executives
 - Status: Live
-- Verified: 2026-10-22
+- Verified: 2026-11-02
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/
+
+How do account executives use AI? Most reps use AI for account executives in four places around each deal: prep before a meeting, the follow-up after it, CRM upkeep in between and spotting deals that have gone quiet, while you still decide what reaches the buyer and the record.
 
 Oliv AI gives an account executive [a set of agents](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/) that handle the work around each deal: [the prep before a meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/), [the follow-up after it](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/record-and-follow-up/) and [the CRM upkeep](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/) in between. You walk into calls prepared, review drafted emails and proposed field updates instead of writing them, and get a nudge when a deal starts to stall. This page shows how those pieces fit together across a deal.
 
@@ -47,7 +49,7 @@ Each call can cost 15 to 20 minutes of digging for context beforehand and about 
 
 ### Why they care {#why-buyers-care}
 
-The account executive is the champion, because the time savings show up before and after every call. VPs of Sales and [sales managers](https://www.oliv.ai/sales-managers) usually make the purchase. It matters most for reps with a full calendar of meetings on open deals.
+The account executive is the champion, because the time savings show up before and after every call. VPs of Sales and [sales managers](https://www.oliv.ai/sales-managers) usually make the purchase. It matters most for reps with a full calendar of meetings on open deals. For the wider picture of [AI agents for account executives](https://www.oliv.ai/account-executives), start there.
 
 ## The Oliv AI approach to running deals {#approach}
 
@@ -61,7 +63,7 @@ Everything the rep needs is already on record: the recordings, the CRM history a
 
 Oliv AI moves that work to the right moment. [Oliv AI's Meeting Assistant agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/meeting-assistant/) sends a brief before each meeting on an active deal and drafts the follow-up after it. [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) turns what was said into field updates for the rep to approve.
 
-The brief is built to fit on one screen and take about 60 seconds to read, as described under Before a meeting. How this setup lines up against other deal tools is covered in How Oliv AI compares for account executives, below.
+The brief is built to fit on one screen and take about 60 seconds to read, as described under Before a meeting. How this setup lines up against other deal tools is covered in How Oliv AI compares as AI for account executives, below.
 
 ## Before a meeting {#before-a-meeting}
 
@@ -137,12 +139,74 @@ On the deal's **Action Plan** tab, the **Next follow-up** card shows how many da
 
 ![The Action Plan tab of a deal drawer. Three cards show the Next Meeting marked Accepted, the Next Action with a date, and the Next follow-up marked Overdue by 3 days. Below, the Our Tasks table lists milestones with an assignee and due date, three of six completed.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/records-deals/oliv-ai_223_records-deals_deal-detail-drawer_action-plan-tab_next-meeting-accepted-next-action-follow-up-overdue-our-tasks-3-of-6.webp)
 
-<figcaption>A slipping follow-up shows on the deal itself, in days overdue, so you can catch the stall before the nudge or the pipeline review does.</figcaption>
+<figcaption>A slipping follow-up shows on the deal itself, in days overdue, so you can catch the stall before the nudge or the pipeline review does. The dates and task counts here come from a demo account.</figcaption>
 </figure>
 
 To work a stuck deal, tell Oliv AI's Olivia agent something like "This deal has been stuck for three weeks." She engages Oliv AI's Re-Activator agent and surfaces a re-engagement strategy, as covered in [the things you can hand Olivia](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/#things-to-ask). For how deals slip in the first place, read [why deal views miss half the picture](https://www.oliv.ai/blog/deal-intelligence-cross-channel-sales-leader-pipeline-visibility).
 
-## How Oliv AI compares for account executives {#compare}
+## How to spot a deal going quiet {#methods}
+
+A deal rarely announces that it has stalled. The buyer stops replying, the next step date passes and the stage stays put. There are three ways to catch it, and each one sees a different part of the problem.
+
+### Time in stage {#time-in-stage}
+
+Compare how long a deal has sat in its stage with how long your won deals usually took. HubSpot, for example, marks a deal [stalled once its time in stage runs 20% longer](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties) than the owner's closed-won average for that stage. This catches slow deals. It misses deals that look on pace while the buyer has gone cold, and Gartner notes that buyers [repeat buying steps in parallel](https://www.gartner.com/en/newsroom/press-releases/2019-11-13-gartner-says-the-traditional-linear-sales-process-no-) rather than moving through stages in order.
+
+### Activity dates {#activity-dates}
+
+Check the last and next activity on each deal. A HubSpot deal record carries a [last activity date and a next activity date](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties), set from logged calls, emails and meetings. A deal with no next activity booked is the plainest warning you get. This method misses anything that never got logged, so it is only as good as your CRM entry.
+
+### Overdue next steps {#overdue-next-steps}
+
+Track the next step agreed on the last call and its due date. When that date passes with nothing done, the deal is drifting, whatever its stage says. This catches a stall earliest, but only if someone wrote the next step down with a date.
+
+### Which of these Oliv AI watches {#what-oliv-watches}
+
+Oliv AI's Deal Driver agent nudges you when a next step goes overdue or activity drops. The deal's **Action Plan** tab counts the days a follow-up is overdue. CRM Manager creates the dated tasks from each call's next steps, so the overdue check always has something to work from.
+
+## How to measure your deal admin {#measure-admin}
+
+Two measures tell you whether the admin around your deals is under control. The first is minutes of admin per customer call: prep before it, plus follow-up and CRM entry after it. The second is the lag between a call and the CRM showing what was said.
+
+Both have weak spots. Minutes per call hides the calls you skipped prepping for. Lag is hard to see unless the CRM keeps a record of when each field changed.
+
+### Where Oliv AI shows them {#where-oliv-shows-it}
+
+The deal's **CRM Updates** tab keeps an **Updates History**, so you can see when each field moved after a call. CRM Manager also sends the RevOps owner a weekly digest with an estimated time saved on manual CRM work. Ask your RevOps lead for it if you want the team view.
+
+## How to run a week of deal admin by hand {#by-hand}
+
+Without AI help, this is the routine that keeps deals moving. Run it in this order each week.
+
+1. Before each call, open the CRM record, the last call notes and the email thread. Write down the stage, the open qualification gaps and two or three agenda points.
+2. Within the hour after each call, write the follow-up: what was discussed, what was agreed and the next steps with dates.
+3. The same day, update stage, amount, close date, next step and qualification fields in the CRM. Add any new contacts from the call.
+4. Turn each agreed next step into a task with an owner and a due date.
+5. Once a week, sort your open deals by next activity date. Any deal with no next activity, or an overdue task, gets an email or call that day.
+
+Step 3 is the one that slips first. If it waits until Friday, step 5 sorts your deals on stale dates.
+
+### The same week with Oliv AI {#same-week-oliv}
+
+Step 1 becomes reading the one-screen brief that Meeting Assistant sends about 30 minutes before each deal meeting. Step 2 becomes reviewing and sending its drafted follow-up. Steps 3 and 4 become accepting or rejecting the field updates CRM Manager proposes, while it creates the tasks from the call. Step 5 runs on its own, because Deal Driver nudges you when a next step goes overdue or activity drops.
+
+What stays with you is judgment: what to change in the draft, which updates to reject and what to do about a quiet deal.
+
+### Worked example: a week of admin for one account executive {#worked-example}
+
+This is an illustrative calculation with sample figures, not an Oliv AI output. Take a rep with 12 customer calls on open deals in one week and 20 open deals to check. Prep and follow-up use 15 minutes each per call, the low end of the manual times in Oliv AI's own materials. CRM entry and the weekly stalled-deal check use round sample figures.
+
+| Admin task | Sample basis | Minutes in the week |
+|---|---|---|
+| Prep before each call | 12 calls × 15 min | 180 |
+| Follow-up email after each call | 12 calls × 15 min | 180 |
+| CRM entry after each call | 12 calls × 10 min | 120 |
+| Stalled-deal check | 20 deals × 1.5 min | 30 |
+| **Total** | 180 + 180 + 120 + 30 | **510 (8.5 hours)** |
+
+On these sample figures, prep and follow-up make up 360 of the 510 minutes, about 71% of the week's admin. Those are the two steps to hand off first. Run the same sums with your own call count before you decide.
+
+## How Oliv AI compares as AI for account executives {#compare}
 
 Several deal tools now prepare reps for meetings. Oliv AI also proposes the CRM updates from each call for you to review, and nudges you directly when a next step goes overdue. Oliv AI is the only platform in this table that does all three.
 
@@ -159,7 +223,7 @@ Deal workflow features for account executives, from each platform's public docum
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for account executives {#compare-stronger}
+### Why Oliv AI is the stronger choice as AI for account executives {#compare-stronger}
 
 - **Every core deal field, proposed after each call.** Oliv AI proposes stage, amount, close date, qualification fields and next steps from the conversation. Gong's [deal boards fill one text-only CRM field with AI-suggested updates](https://help.gong.io/docs/how-to-create-and-manage-deal-boards). Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **A brief built around the deal.** Oliv AI's brief shows qualification status against your methodology and a recommended agenda. Avoma documents [templates that standardize meeting prep by meeting purpose](https://help.avoma.com/how-to-create-templates). Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).
@@ -217,6 +281,23 @@ Yes. Deal Driver nudges you when deals stall, next steps go overdue or activity 
 
 Connect your calendar, your call recording tool or Oliv's native recorder, and your CRM. Most teams are connected within a week.
 
+#### Which parts of an account executive's job can AI take over? {#faq-which-parts}
+
+The repeatable admin around each deal: the pre-call brief, the follow-up draft, proposed CRM field updates, tasks from next steps and flags on overdue ones. The conversations, the edits to each draft and the call on a quiet deal stay with you.
+
+#### What should I do when a deal goes quiet? {#faq-deal-quiet}
+
+Check the last agreed next step and whether its date has passed, then reach the buyer that day. In Oliv AI, tell Olivia the deal is stuck, and she engages the Re-Activator agent for a re-engagement strategy.
+
+#### How can an account executive spend less time on admin? {#faq-less-admin}
+
+Time your admin by task for one week, then hand off the biggest pieces first. In the worked example above, that is prep and follow-up, which Meeting Assistant drafts around each deal meeting.
+
+## Further reading {#further-reading}
+
+- [HubSpot's default deal properties](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties): what the last activity date, next activity date and stalled timestamp mean on a deal.
+- [Gartner on the nonlinear sales process](https://www.gartner.com/en/newsroom/press-releases/2019-11-13-gartner-says-the-traditional-linear-sales-process-no-): why stage alone is a weak signal that a deal has stalled.
+
 ## Related {#related}
 
 - [The Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/): the agent you ask for prep, follow-ups and next steps.
@@ -227,3 +308,5 @@ Connect your calendar, your call recording tool or Oliv's native recorder, and y
 - [Oliv AI integrations](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/): the CRM, calendar and recording tools Oliv AI connects to.
 - [Oliv AI pricing](https://www.oliv.ai/pricing): plans and what each includes.
 - [Oliv AI product documentation](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/): every documented agent and feature.
+
+*Updated 2 November 2026: added how to spot a deal going quiet, how to measure deal admin, a manual weekly routine and a worked example.*

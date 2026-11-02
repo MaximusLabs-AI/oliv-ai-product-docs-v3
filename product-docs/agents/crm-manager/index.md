@@ -1,13 +1,13 @@
-# CRM Manager: the CRM automation agent
+# CRM automation for sales teams: how Oliv AI's CRM Manager updates every record
 
-How Oliv AI's CRM Manager agent automates CRM updates: what it writes after every activity, how reps review its updates, when to switch to Auto-Pilot, and how it compares with other CRM automation tools.
+CRM automation with Oliv AI's CRM Manager agent: what it writes after every activity, how reps review its updates, when to switch to Auto-Pilot, and how it compares with other CRM automation tools.
 
 - Applies to: Account executives, revenue operations, sales managers and customer success teams
 - Status: Live
-- Verified: 2026-10-22
+- Verified: 2026-11-02
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/
 
-Oliv AI's CRM Manager agent is its CRM automation agent: it keeps every record in your CRM accurate and current, without anyone updating it by hand. After every meeting, call and email, it works out what changed and writes it to Salesforce, HubSpot or Zoho. Each suggested change waits on the deal's **CRM Updates** tab beside the field's current value, so reps can accept or reject it. Once the team trusts the results, you can switch it to fully automatic updates.
+CRM automation should keep every record accurate after each call, email and meeting, without your reps typing a thing. Oliv AI answers that with its CRM Manager agent, a layer on top of your CRM: after every activity, it works out what changed and writes it to Salesforce, HubSpot or Zoho. Each suggested change waits on the deal's **CRM Updates** tab beside the field's current value, so reps can accept or reject it. Once the team trusts the results, you can switch it to fully automatic updates.
 
 ## At a glance {#at-a-glance}
 
@@ -32,7 +32,7 @@ It runs as a result of every activity rather than when someone asks. Oliv AI's D
 
 ![Home's Agent Feed with Team set to RevOps and the Agents list showing Oliver, CRM Manager and Forecaster ticked. Under TODAY, a CRM Manager row at 4:30 PM reports fields updated across deals from today's calls, some auto-applied and some waiting for review.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_027_home_agent-feed_team-revops_filters-and-today-timeline_oliver-q3-revenue-review-crm-manager-field-updates-forecaster-category-shifts.webp)
 
-<figcaption>CRM Manager reports its day in the Agent Feed beside Oliver and Forecaster. One row says how many fields it changed, which applied straight away and which still need a person.</figcaption>
+<figcaption>CRM Manager reports its day in the Agent Feed beside Oliver and Forecaster. One row says how many fields it changed, which applied straight away and which still need a person. The counts are demo data.</figcaption>
 </figure>
 
 ### What it keeps current {#keeps-current}
@@ -64,14 +64,14 @@ On a deal, the **Details** tab groups these fields into sections such as **Overv
 
 ![A deal's Details tab with a section index of Overview, Next Steps, Opportunity and Risks, Adoption, Success Plan and Marketing Opportunity. The Overview section shows Deal Name, Close Date, Amount, Stage, Pipeline, Deal Owner, Priority and Forecast Category, with Next Step below.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/records-deals/oliv-ai_219_records-deals_deal-detail-drawer_details-tab_overview-fields-next-step-section-index-dunder-mifflin-scranton.webp)
 
-<figcaption>These are the standard fields CRM Manager keeps current, such as close date, amount, stage and next step, grouped the way a rep reads a deal.</figcaption>
+<figcaption>These are the standard fields CRM Manager keeps current, such as close date, amount, stage and next step, grouped the way a rep reads a deal. The deal and its amount are made up for the demo.</figcaption>
 </figure>
 
 <figure>
 
 ![Settings, Qualification Framework, with tabs MEDDPICC marked Active, MEDDIC selected for preview, SPICED, BANT and DRIVE, and an Activate button. The criteria table shows each criterion's description, a 0-6 scoring range and a count of supporting fields.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/settings/oliv-ai_261_settings_qualification-framework_meddic-tab-selected-meddpicc-active_criteria-table-with-0-6-scoring-and-supporting-fields.webp)
 
-<figcaption>Methodology fields follow the framework marked Active here. The supporting fields count on each criterion shows how many CRM fields CRM Manager fills to back it.</figcaption>
+<figcaption>Methodology fields follow the framework marked Active here. The supporting fields count on each criterion shows how many CRM fields CRM Manager fills to back it. Scores and counts here are sample values.</figcaption>
 </figure>
 
 ## Why the CRM Manager agent matters {#why-it-matters}
@@ -119,6 +119,32 @@ Teams on the weekly cadence get pending suggestions on Friday morning, and anyth
 
 Adding email and phone integrations widens what it sees beyond meetings. The [integrations directory](https://www.oliv.ai/integrations) lists what you can connect.
 
+## How CRM records get updated {#methods}
+
+There are four common ways a field gets its value after a call. Most teams run two or three at once, and each one fails in a different place.
+
+### Reps type it in {#manual-entry}
+
+The rep who ran the call updates stage, close date and next steps by hand. This catches judgment that only the rep holds. It misses whatever the rep has no time to type, and quality drops in the busiest weeks.
+
+### Rules and workflows {#rules}
+
+The CRM sets some values from events. HubSpot, for example, sets the [last activity date automatically from the most recent logged activity](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties). Rules like this catch timestamps and counts well. They miss what was said, so a stage or a close date that changed on the call stays where it was.
+
+A stale stage spreads further than one field. In HubSpot, [stage probability sets the weighted amount shown in board view](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines), so a deal left in the wrong stage skews the pipeline total too.
+
+### Extraction from calls, reviewed first {#extract-and-review}
+
+A tool reads the conversation and proposes values, and a person approves each one. This catches what was actually said and keeps a human check on every write. It costs a few clicks per call, and a backlog builds if reps ignore it.
+
+### Extraction from calls, written straight away {#extract-and-write}
+
+The same proposals go into the CRM with no review. Records stay current with no rep effort. A wrong value lands in reports until someone spots it, so this mode needs a track record first.
+
+### Which of these CRM Manager does {#what-crm-manager-does}
+
+Oliv AI's CRM Manager agent does the last two. It starts in **Ask First**, where each value waits for **Accept** or **Reject**, and RevOps confirms the switch to **Auto-Pilot** once accuracy thresholds are met. It works alongside your CRM's own rules rather than replacing them. The [CRM automation guide for RevOps leaders](https://www.oliv.ai/blog/ai-crm-automation) compares these approaches in more depth.
+
 ## Review updates, then switch to Auto-Pilot {#review-and-auto}
 
 CRM Manager runs in one of two control modes:
@@ -136,7 +162,7 @@ Open the deal from **Records › Deals** and pick the **CRM Updates** tab. Its i
 
 ![A deal's CRM Updates tab with the index showing AI Suggestions with a count of 4, AI Updates and Updates History. Suggestion cards for Use Case and Primary Contact each show a suggested value, a Current Value line, and green Accept and outlined Reject buttons, with a sparkle button at the top right.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/records-deals/oliv-ai_225_records-deals_deal-detail-drawer_crm-updates-tab_ai-suggestions-4-accept-reject-use-case-primary-contact-competitor-notes.webp)
 
-<figcaption>This is the review step in Ask First. Every suggestion sits beside the value it would replace, and nothing changes until a rep presses Accept.</figcaption>
+<figcaption>This is the review step in Ask First. Every suggestion sits beside the value it would replace, and nothing changes until a rep presses Accept. The suggestion count is illustrative, from a demo account.</figcaption>
 </figure>
 
 The count beside **AI Suggestions** shows managers what is waiting on each deal. **Updates History** keeps the record of how each field changed.
@@ -162,6 +188,48 @@ These batch jobs replace the rule-heavy clean-up work that older tools need, wit
 - **A governance summary.** Suggestions made, fields updated, reverts, time saved, acceptance rate by rep and flags that need review.
 - **Stale data flags.** CRM objects with missing or stale data.
 - **A usage and ROI tab.** Visible in the product, alongside an estimate of time saved on manual CRM work.
+
+## How to measure CRM field accuracy {#measure-accuracy}
+
+Before you trust automatic updates, you need a number that says how often the suggested values are right. Two measures matter for this job.
+
+1. **Acceptance rate.** Accepted suggestions divided by all suggestions in a period. Track it per rep and per field type, because standard fields and custom fields rarely score the same.
+2. **Revert rate.** Accepted or applied changes that someone later changed back, divided by all applied changes. It catches errors that slipped past review.
+
+Both have weak spots. A rep who accepts everything without reading inflates the acceptance rate. Updates accepted automatically at the end of a review window aren't a rep's judgment, so leave them out of the count. A CRM's own change stamp won't help here: HubSpot's [last modified date moves when any property changes, whatever the source](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties), so it shows activity, not accuracy.
+
+### Where CRM Manager shows these numbers {#crm-manager-measures}
+
+The weekly governance summary for RevOps lists suggestions made, fields updated, reverts and acceptance rate by rep. On each deal, the **AI Suggestions** count shows what is still waiting, and **Updates History** shows how each field changed. Start with the rep whose acceptance rate is lowest, then open their deals' history to see which fields they reject.
+
+## How to check CRM automation before you trust it {#check-by-hand}
+
+You can run this check by hand on any CRM automation tool. It takes four weeks of normal selling.
+
+1. Pick two or three reps with a steady call volume.
+2. Keep every suggested update in review mode, so nothing writes without a person.
+3. Each week, count the suggestions, the ones accepted and the ones rejected. Leave out any accepted automatically.
+4. Split the rejects by field type: standard, methodology and custom.
+5. Write down the acceptance rate you need before you switch on automatic writes, and agree it with sales leadership.
+6. Switch on automatic writes only for the field types that clear that rate, and keep checking reverts.
+
+### The same check with CRM Manager {#same-check-crm-manager}
+
+With CRM Manager, steps 2 and 3 are already done. **Ask First** holds every update for review, and the weekly governance summary counts suggestions, reverts and acceptance rate by rep. You set the bar, read the summary each week, and RevOps confirms the switch to **Auto-Pilot** when the numbers hold.
+
+### Worked example: four weeks of suggested updates {#worked-example}
+
+This is an illustrative calculation with sample figures, not an Oliv AI output. A pilot team of three reps keeps every update in review for four weeks. The team chose a 90% acceptance bar before it started.
+
+| Week | Suggestions | Accepted | Rejected | Acceptance rate |
+|---|---|---|---|---|
+| 1 | 200 | 150 | 50 | 150 ÷ 200 = 75% |
+| 2 | 200 | 164 | 36 | 164 ÷ 200 = 82% |
+| 3 | 200 | 178 | 22 | 178 ÷ 200 = 89% |
+| 4 | 200 | 186 | 14 | 186 ÷ 200 = 93% |
+| **Total** | **800** | **678** | **122** | **678 ÷ 800 = 84.75%** |
+
+The four-week average is under the bar, but the trend is what matters. Week 4 clears 90% for the first time, so the team waits one more week. If week 5 holds above 90%, RevOps switches to automatic updates and keeps watching the revert rate.
 
 ## How CRM Manager works with other agents {#works-with}
 
@@ -281,6 +349,24 @@ Yes. When a new person joins a meeting, call or email thread, CRM Manager create
 
 Yes. Each deal's **CRM Updates** tab has an **Updates History** list of the changes made.
 
+#### Should AI update the CRM without approval? {#faq-without-approval}
+
+Only after it has earned it. CRM Manager starts in **Ask First**, where every value waits for a rep. RevOps confirms the switch to **Auto-Pilot** once accuracy thresholds are met.
+
+#### How do you test CRM automation before trusting it? {#faq-test-first}
+
+Keep every update in review for a few weeks and track the acceptance rate per rep and per field type. The weekly governance summary gives you those counts, along with reverts.
+
+#### Which CRM fields can it update automatically? {#faq-which-fields}
+
+Standard fields such as stage, close date, amount and next steps, the criteria of your active methodology, and custom fields that Oliv AI's team maps during onboarding.
+
+## Further reading {#further-reading}
+
+- [HubSpot's default deal properties](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties): which deal fields HubSpot sets by itself, and which ones a rep still has to keep current.
+
+- [Set up and manage object pipelines](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines): how stages and stage probabilities drive the weighted pipeline amount.
+
 ## Related {#related}
 
 - [CRM Manager on oliv.ai](https://www.oliv.ai/agents/crm-manager): the agent's own page, with a week in the life of RevOps.
@@ -291,3 +377,5 @@ Yes. Each deal's **CRM Updates** tab has an **Updates History** list of the chan
 - [Salesforce automation explained](https://www.oliv.ai/blog/salesforce-automation): sales force automation tools versus Salesforce Flow.
 - [How CRM sync enriches your records](https://www.oliv.ai/blog/bi-directional-crm-sync-ai): two-way sync without replacing the CRM.
 - [Oliv AI product documentation](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/): every documented agent and feature.
+
+*Updated 2 November 2026: added how CRM records get updated, how to measure field accuracy, a four-week worked example, a manual check and three new questions.*

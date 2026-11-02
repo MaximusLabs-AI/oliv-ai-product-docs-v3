@@ -1,13 +1,13 @@
-# How to keep your CRM updated after every call and email: set up, review, then automate
+# CRM hygiene in five steps: how to keep your CRM updated after every call and email
 
-How to keep your CRM updated as part of CRM hygiene: how Oliv AI keeps Salesforce, HubSpot or Zoho current from every meeting, call and email, how to review proposed updates before they're written, and how to run a monthly CRM hygiene check.
+CRM hygiene in five steps: how Oliv AI keeps Salesforce, HubSpot or Zoho current from every meeting, call and email, how to review proposed updates before they're written, and how to run a monthly CRM hygiene check.
 
 - Applies to: Workspaces with a connected CRM
 - Status: Live
 - Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/
 
-You want your CRM updated after every call and email, without chasing reps to type it in. That is the heart of CRM hygiene, and Oliv AI does it from the work your team already does. [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) reads every meeting, call and email, then updates accounts, contacts, opportunities, activities and tasks in [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/), [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/) or Zoho. You review each proposed change before it's written, then switch to auto mode once you trust it. This guide covers setting it up, reviewing what it writes and running a monthly check.
+CRM hygiene comes down to one job: your CRM is updated after every call and email, without chasing reps to type it in. Oliv AI does that job from the work your team already does. [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) reads every meeting, call and email, then updates accounts, contacts, opportunities, activities and tasks in [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/), [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/) or Zoho. You review each proposed change before it's written, then switch to auto mode once you trust it. This guide covers setting it up, reviewing what it writes and running a monthly check.
 
 ## At a glance {#at-a-glance}
 
@@ -235,7 +235,7 @@ An agent reads the meeting, call or email and proposes the field values it heard
 
 Oliv AI's CRM Manager agent works from the conversation. It proposes updates for review, then applies them automatically once RevOps switches to auto mode. It writes into your existing CRM, so the CRM's own rules keep running alongside it.
 
-## How to measure whether your CRM is up to date {#measure-crm}
+## How to measure CRM data quality {#measure-crm}
 
 Two measures tell you whether keeping the CRM updated is working. Check both on open deals only.
 

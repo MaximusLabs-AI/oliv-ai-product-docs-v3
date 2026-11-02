@@ -1,4 +1,4 @@
-# Deal intelligence for sales managers: how Oliv AI's Deal Driver flags deal risk
+# Deal intelligence agent for sales managers: how Oliv AI's Deal Driver flags deal risk
 
 How Oliv AI's Deal Driver agent gives sales managers deal intelligence: what it sends each day and week, which deal risks trigger an alert, how to set it up, and how it compares with other deal intelligence tools.
 
@@ -7,7 +7,7 @@ How Oliv AI's Deal Driver agent gives sales managers deal intelligence: what it 
 - Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/
 
-Deal intelligence should tell a sales manager which deals need attention before the forecast call, not after a rep escalates. Oliv AI's Deal Driver agent does that: it keeps sales managers ahead of their team's pipeline without daily standups, manual rep check-ins or digging through CRM reports. Every weekday it sends a **Morning Brief**, fires alerts when something important happens, and closes the day with a **Sunset Summary**. It also prepares a **One-on-One Prep** report for each rep and a **Pipeline Review** every Monday.
+A deal intelligence agent should tell a sales manager which deals need attention before the forecast call, not after a rep escalates. Oliv AI's Deal Driver agent does that: it keeps sales managers ahead of their team's pipeline without daily standups, manual rep check-ins or digging through CRM reports. Every weekday it sends a **Morning Brief**, fires alerts when something important happens, and closes the day with a **Sunset Summary**. It also prepares a **One-on-One Prep** report for each rep and a **Pipeline Review** every Monday.
 
 ## At a glance {#at-a-glance}
 
@@ -114,6 +114,16 @@ Oliv AI handles this with its Deal Driver agent. It monitors all activity on the
 
 Managers choose what counts as risk. Inactivity windows, field completion requirements and deal value thresholds can all be set per manager or per team, as listed in the set-up steps. How that rhythm lines up against other pipeline tools is covered in How Oliv AI compares for deal intelligence, below.
 
+## Set up Deal Driver {#set-up}
+
+1. **Connect your CRM.** Deal Driver reads Deal Insights data: stage, amount, close date and next steps.
+2. **Connect your team's calendar.** Meeting and activity data from Oliv feed the Morning Brief and the alerts.
+3. **Confirm the team roster and manager hierarchy.** Deal Driver needs both to know whose deals roll up to whom.
+4. **Set your alert thresholds.** Choose inactivity windows, field completion requirements and deal value thresholds, per manager or per team.
+5. **Adjust the brief format if you want to.** Managers can customize alert sensitivity and brief format.
+
+Most managers are live within a week. Reps don't need to change anything. Deal Driver works in the background and shows up for them as follow-up prompts and next-step reminders.
+
 ## How a deal at risk gets spotted {#methods}
 
 Most pipeline tools can tell you where a deal sits. Spotting risk means noticing that a deal has stopped moving while it still looks healthy on paper. Three common ways of reading a pipeline catch that at very different times.
@@ -209,16 +219,6 @@ This is an illustrative calculation with sample figures, not an Oliv AI output. 
 | Pipeline slippage rate | 300,000 ÷ 800,000 | 37.5% |
 
 The weighted pipeline promised 344,000 USD, and 130,000 USD of it sat in the three deals that later slipped. In this example, each of those deals had gone quiet weeks before its close date moved. An alert on the silence reaches the manager when the deal stops moving, not when the date changes at quarter end.
-
-## Set up Deal Driver {#set-up}
-
-1. **Connect your CRM.** Deal Driver reads Deal Insights data: stage, amount, close date and next steps.
-2. **Connect your team's calendar.** Meeting and activity data from Oliv feed the Morning Brief and the alerts.
-3. **Confirm the team roster and manager hierarchy.** Deal Driver needs both to know whose deals roll up to whom.
-4. **Set your alert thresholds.** Choose inactivity windows, field completion requirements and deal value thresholds, per manager or per team.
-5. **Adjust the brief format if you want to.** Managers can customize alert sensitivity and brief format.
-
-Most managers are live within a week. Reps don't need to change anything. Deal Driver works in the background and shows up for them as follow-up prompts and next-step reminders.
 
 ## How Deal Driver works with other agents {#works-with}
 

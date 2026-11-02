@@ -1,13 +1,13 @@
-# Revenue intelligence platform for sales managers: Oliv AI's Deal Driver agent
+# Deal intelligence for sales managers: how Oliv AI's Deal Driver flags deal risk
 
-How Oliv AI's Deal Driver agent works as a revenue intelligence platform for sales managers: what it sends each day and week, which deal risks trigger an alert, how to set it up, and how it compares with other deal intelligence tools.
+How Oliv AI's Deal Driver agent gives sales managers deal intelligence: what it sends each day and week, which deal risks trigger an alert, how to set it up, and how it compares with other deal intelligence tools.
 
 - Applies to: Sales managers, BDR leads and sales leadership
 - Status: Live
 - Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/
 
-A revenue intelligence platform should tell a sales manager which deals need attention before the forecast call, not after a rep escalates. Oliv AI does that job with its Deal Driver agent, a deal intelligence agent that keeps sales managers ahead of their team's pipeline without daily standups, manual rep check-ins or digging through CRM reports. Every weekday it sends a **Morning Brief**, fires alerts when something important happens, and closes the day with a **Sunset Summary**. It also prepares a **One-on-One Prep** report for each rep and a **Pipeline Review** every Monday.
+Deal intelligence should tell a sales manager which deals need attention before the forecast call, not after a rep escalates. Oliv AI's Deal Driver agent does that: it keeps sales managers ahead of their team's pipeline without daily standups, manual rep check-ins or digging through CRM reports. Every weekday it sends a **Morning Brief**, fires alerts when something important happens, and closes the day with a **Sunset Summary**. It also prepares a **One-on-One Prep** report for each rep and a **Pipeline Review** every Monday.
 
 ## At a glance {#at-a-glance}
 
@@ -30,7 +30,7 @@ Deal Driver is also a bundle. It includes the capabilities of [Oliv AI's Meeting
 
 ![Pipeline Review open in Reports, My Reports. The left list shows the Deal Driver card with Pipeline Review (Every Monday), One-on-One Prep with two reps on Every Thursday and Every Friday, and Morning Brief (Weekdays). The report shows status navigation and an Overview with Pipeline Overview, Key Opportunities, Customer Updates and Next Steps.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/reports/oliv-ai_198_reports_my-reports_deal-driver-pipeline-review-report-open-overview-closed-closing-soon-deals-at-risk-quick-wins-stalled-navigation.webp)
 
-<figcaption>Deal Driver's reports sit together under one card in My Reports, each with its schedule. Pipeline Review is the Monday view of every deal, grouped by status, for leadership updates. Shown with sample data from a demo workspace.</figcaption>
+<figcaption>Deal Driver's reports sit together under one card in My Reports, each with its schedule. Pipeline Review is the Monday view of every deal, grouped by status, for leadership updates. The deals and figures here are sample data.</figcaption>
 </figure>
 
 ### Where the reports live {#where-reports-live}
@@ -51,7 +51,7 @@ Each Morning Brief meeting card shows a type tag, such as **Expansion** or **New
 
 ![The Morning Brief open in My Reports, dated in the date picker. Inner navigation lists Overview, Important Meetings with three accounts, and a meetings section for each of two reps. The Overview shows Meetings Overview, Key Highlights and Customer Engagement, above the first Important Meetings card tagged Expansion.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/reports/oliv-ai_202_reports_my-reports_deal-driver-morning-brief-report-open-meetings-overview-ten-meetings-three-important-key-highlights-and-important-meetings.webp)
 
-<figcaption>The Morning Brief opens with the day's meetings, flags the important ones and groups the rest by rep. It's where a manager decides which calls to join before the day starts. Shown with sample data from a demo workspace.</figcaption>
+<figcaption>The Morning Brief opens with the day's meetings, flags the important ones and groups the rest by rep. It's where a manager decides which calls to join before the day starts. This brief shows a demo team's sample meetings.</figcaption>
 </figure>
 
 The Sunset Summary's meetings line also says whether the notetaker recorded the day's meetings. Its sections then walk through **Closed Won**, **Closed Lost**, **Closing Soon**, **Quick Wins**, **Deals at Risk**, **Existing Customers** and **Needs Follow up**.
@@ -60,7 +60,7 @@ The Sunset Summary's meetings line also says whether the notetaker recorded the 
 
 ![The Sunset Summary open in My Reports. Inner navigation lists Overview, Closed Won with one deal, Closed Lost, Closing Soon, Quick Wins, Deals at Risk, Existing Customers, Needs Follow up and one rep's meetings. The Overview shows Meetings Overview, Deal Progress, Notable Updates and Customer Engagement.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/reports/oliv-ai_204_reports_my-reports_deal-driver-sunset-summary-report-open-ten-meetings-recorded-deal-progress-notable-updates-and-customer-engagement.webp)
 
-<figcaption>The Sunset Summary closes the day by status, from deals won and lost to deals that need follow-up. Its meetings line also confirms how many of the day's calls were recorded. Shown with sample data from a demo workspace.</figcaption>
+<figcaption>The Sunset Summary closes the day by status, from deals won and lost to deals that need follow-up. Its meetings line also confirms how many of the day's calls were recorded. The deals listed come from a demo workspace.</figcaption>
 </figure>
 
 ### The weekly rhythm {#weekly-rhythm}
@@ -74,7 +74,7 @@ A One-on-One Prep report opens with the rep's total pipeline value and deal coun
 
 ![One-on-One Prep open in My Reports for one rep, whose row under One-on-One Prep is highlighted with an Every Thursday tag. The report shows a total pipeline value chip and a deal count chip, a Pipeline Summary with Pipeline Health, Deal Momentum and Areas for Improvement, and the start of Closed Won.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/reports/oliv-ai_200_reports_my-reports_deal-driver-one-on-one-prep-report-open-derek-evans-875000-pipeline-10-deals-pipeline-summary-and-closed-won.webp)
 
-<figcaption>One-on-One Prep gives the manager one rep's whole pipeline, status by status, before the meeting. Each rep's report runs on its own day, so 1:1s can start at strategy. Shown with sample data from a demo workspace.</figcaption>
+<figcaption>One-on-One Prep gives the manager one rep's whole pipeline, status by status, before the meeting. Each rep's report runs on its own day, so 1:1s can start at strategy. The rep and pipeline figures are sample data.</figcaption>
 </figure>
 
 Pipeline Review opens with an Overview of **Pipeline Overview**, **Key Opportunities**, **Customer Updates** and **Next Steps**. Its sections run from **Closed** through **Closing Soon**, **Deals at Risk**, **Quick Wins**, **Stalled Deals**, **On Track Deals** and **Existing Customer** to **Needs Follow Up**. Each deal card holds a **Deal Summary**, a **Next Step** and **Review Deal**.
@@ -112,31 +112,27 @@ The raw signals already exist as the team works. Meetings get held, next steps g
 
 Oliv AI handles this with its Deal Driver agent. It monitors all activity on the team's deals and alerts the leader when a deal enters a risk state. Each alert carries the signal, the context and a suggested action. Before the first Monday standup, the Pipeline Review is already prepared.
 
-Managers choose what counts as risk. Inactivity windows, field completion requirements and deal value thresholds can all be set per manager or per team, as listed in the set-up steps. How that rhythm lines up against other pipeline tools is covered in How Oliv AI compares as a revenue intelligence platform, below.
+Managers choose what counts as risk. Inactivity windows, field completion requirements and deal value thresholds can all be set per manager or per team, as listed in the set-up steps. How that rhythm lines up against other pipeline tools is covered in How Oliv AI compares for deal intelligence, below.
 
-## How revenue intelligence platforms find deal risk {#methods}
+## How a deal at risk gets spotted {#methods}
 
-Revenue intelligence platforms read the same pipeline in different ways. Most combine two or three of the methods below, and it helps to know which one is behind a warning before you act on it.
+Most pipeline tools can tell you where a deal sits. Spotting risk means noticing that a deal has stopped moving while it still looks healthy on paper. Three common ways of reading a pipeline catch that at very different times.
 
-### Stage probability and weighted pipeline {#stage-probability}
+### Stage probability: where the deal sits {#stage-probability}
 
-The oldest method gives each pipeline stage a fixed chance of closing. In HubSpot, the weighted amount in board view is [calculated by multiplying the total amount in each stage by the stage probability](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines). A deal worth 100,000 USD in a stage set to 40% counts as 40,000 USD of weighted pipeline. The method is simple and consistent, but it only knows where a deal sits, not whether anyone is working it.
+Each pipeline stage gets a fixed chance of closing. In HubSpot, the weighted amount in board view is [calculated by multiplying the total amount in each stage by the stage probability](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines). A deal worth 100,000 USD in a stage set to 40% counts as 40,000 USD of weighted pipeline, and it keeps counting that way after the buyer stops replying.
 
-### Forecast categories {#forecast-categories}
+### Forecast categories: what the rep believes {#forecast-categories}
 
-Forecast categories add the rep's judgement. HubSpot's default deal properties [sort deals into Not forecasted, Pipeline, Best case, Commit or Closed won](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties). A category is quick to read on a forecast call. It's also only as current as the rep's last update, which is why managers end up asking for check-ins.
+HubSpot's default deal properties [sort deals into Not forecasted, Pipeline, Best case, Commit or Closed won](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties). A category is quick to read on a forecast call, but it only changes when the rep changes it. A deal that has gone quiet stays in Commit until someone moves it.
 
-### Activity and engagement signals {#activity-signals}
+### Activity signals: what is happening on the deal {#activity-signals}
 
-Activity signals look at what is happening on the deal: meetings held, emails answered, next steps set and close dates moved. A late-stage deal with no meeting for three weeks reads very differently from one with a call booked for Tuesday. This method catches a quiet deal early, because the silence shows up before the stage or the category changes.
+Activity signals look at meetings held, emails answered, next steps set and close dates moved. A late-stage deal with no meeting for three weeks reads very differently from one with a call booked for Tuesday. This reading catches a quiet deal early, because the silence shows up before the stage or the category changes.
 
-### Buyer progress scoring {#buyer-progress}
+### Which of these Deal Driver uses {#what-deal-driver-watches}
 
-Gartner argued in a 2019 press release that judging a deal's chance to close from [sales stage completion no longer works](https://www.gartner.com/en/newsroom/press-releases/2019-11-13-gartner-says-the-traditional-linear-sales-process-no-), because B2B buyers repeat buying steps out of order. It recommended measuring deal progress with customer verifiers instead: evidence of what the buyer has done, rather than the stage a rep has selected.
-
-### What Deal Driver is confirmed to watch {#what-deal-driver-watches}
-
-Deal Driver works from activity and data signals. Its documented triggers are a deal with no activity for a set number of days, a close date approaching without progress, Core 4 Fields left empty after a meeting, a stage moving backward or stalling mid-stage, a high-value opportunity going quiet, and a rep pattern such as repeatedly missing next steps. It doesn't write to the CRM, so stage probabilities and forecast categories stay as your team set them. [Forecaster](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/forecaster/) rolls Deal Driver's signals into the number.
+Deal Driver reads activity and data signals, and the next section lists what triggers an alert. It doesn't write to the CRM, so stage probabilities and forecast categories stay as your team set them. [Forecaster](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/forecaster/) rolls Deal Driver's signals into the number.
 
 ## Deal risk alerts and next steps {#deal-risk}
 
@@ -161,35 +157,19 @@ The Deal Driver bundle includes meeting-level support for individual reps.
 - **Before the meeting.** About 30 minutes before every meeting on an active opportunity, the rep gets a deal summary, qualification status against the methodology, stakeholder context and a recommended agenda. Qualification follows the framework marked **Active** in **Settings › Qualification Framework**, which lists MEDDPICC, MEDDIC, SPICED, BANT and DRIVE.
 - **After the meeting.** Once the recording is processed, the follow-up email is drafted, CRM field updates are proposed and qualification gaps are flagged, all within five minutes of the call ending.
 
-## Pipeline risk in 2026: what sales teams report {#pipeline-risk-2026}
+## How to measure deal slippage {#measure-slippage}
 
-Two pieces of recent research explain why managers are moving from weekly check-ins to daily signals.
+Deal slippage is the share of your pipeline whose close date moves out of the period. It's the measure closest to Deal Driver's job. Gartner's research note of 3 June 2026 [names pipeline slippage rate as one of three measures of pipeline health](https://www.gartner.com/en/documents/7952073), alongside initial pipeline value and pipeline conversion rate. Gartner's public abstract doesn't publish a formula. The common working one is the value of deals whose close date moved past the period end, divided by the pipeline value at the start of the period.
 
-Gartner's research note of 3 June 2026, [Focus on 3 Pipeline Metrics to Improve Your Sales Forecast](https://www.gartner.com/en/documents/7952073), says the B2B selling environment has made accurate sales forecasts increasingly difficult. Instead of asking sellers for more input, it points sales leaders to three measures of pipeline health: initial pipeline value, pipeline conversion rate and pipeline slippage rate. Only the abstract is public, and the full method sits behind Gartner's paywall.
+Its weak spot is timing. Slippage only shows once the date has changed, and by then the deal may have been quiet for weeks. The early signs are no activity, a close date near with no progress, and missing next steps. Those are the signals Deal Driver watches.
 
-Salesforce's [State of Sales announcement for 2026](https://www.salesforce.com/news/stories/state-of-sales-report-announcement-2026/) found that the average seller spends 40% of their time selling, and Gen Z reps only 35%. Those reps lose about two hours a week to manual data entry. The same survey found that 54% of sellers have used AI agents and nearly 9 in 10 plan to by 2027. The figures come from a double-anonymous survey of 4,050 sales professionals, run in August and September 2025. Salesforce sells AI agents itself, so read the adoption figures as a vendor's survey rather than a count of the market.
+### Reading slippage against Deal Driver's reports {#deal-driver-measures}
 
-For a sales manager, the practical point is that data entry is the work reps skip first, and empty fields are exactly what hides deal risk. That's why Deal Driver flags Core 4 Fields left empty after a meeting, and why CRM Manager fills them.
-
-## How to measure pipeline health {#measure-pipeline-health}
-
-Gartner's three measures make a good frame, because each one answers a different question. The definitions below are the common working ones. Gartner's public abstract names the measures but doesn't publish formulas.
-
-| Measure | What it tells you | How it's usually worked out | Where it misleads |
-|---|---|---|---|
-| **Initial pipeline value** | Whether there's enough pipeline to reach the number | The total amount of open deals expected to close in the period, taken at the start of the period | It counts deals that nobody is working |
-| **Pipeline conversion rate** | How much of that pipeline turns into revenue | Value won in the period, divided by initial pipeline value | It arrives at the end of the period, too late to act on |
-| **Pipeline slippage rate** | How much pipeline moves out of the period | Value of deals whose close date moved past the period end, divided by initial pipeline value | It only shows once the date has changed |
-
-Weighted pipeline sits beside these as a quick read of expected value, with the stage-probability limits described above. All three of Gartner's measures describe the period after the fact. Mid-quarter, a manager needs the early signs of slippage instead: no activity, a close date near with no progress, and missing next steps. Those are the signals Deal Driver watches.
-
-### What Deal Driver's reports show {#deal-driver-measures}
-
-The One-on-One Prep opens with a rep's total pipeline value and deal count, then a Pipeline Summary of **Pipeline Health**, **Deal Momentum** and **Areas for Improvement**. The Monday Pipeline Review groups every deal into **Closed**, **Closing Soon**, **Deals at Risk**, **Quick Wins**, **Stalled Deals**, **On Track Deals**, **Existing Customer** and **Needs Follow Up**. Read Stalled Deals and Deals at Risk against your slippage rate, because they're the deals most likely to slip next.
+The Monday Pipeline Review groups every deal into **Closed**, **Closing Soon**, **Deals at Risk**, **Quick Wins**, **Stalled Deals**, **On Track Deals**, **Existing Customer** and **Needs Follow Up**. Check **Stalled Deals** and **Deals at Risk** first, because that's where you can act before a date moves. The One-on-One Prep shows the same picture for one rep, with total pipeline value, deal count and a Pipeline Summary of **Pipeline Health**, **Deal Momentum** and **Areas for Improvement**.
 
 ## How to find deal risk in a pipeline by hand {#find-deal-risk-by-hand}
 
-Without a revenue intelligence platform, finding risk means pulling the signals together yourself. Most managers do it on a Friday, before the Monday forecast call.
+Without a deal intelligence tool, finding risk means pulling the signals together yourself. Most managers do it on a Friday, before the Monday forecast call.
 
 1. Export the open deals expected to close this period from the CRM, with amount, stage, close date, last activity date and next step.
 2. Work out each deal's weighted amount (amount times stage probability) and add them up.
@@ -227,8 +207,6 @@ This is an illustrative calculation with sample figures, not an Oliv AI output. 
 | Weighted pipeline | Sum of the weighted amounts | 344,000 |
 | Slipped value | B + D + G = 150,000 + 100,000 + 50,000 | 300,000 |
 | Pipeline slippage rate | 300,000 ÷ 800,000 | 37.5% |
-| Won value | C + E + H = 120,000 + 80,000 + 30,000 | 230,000 |
-| Pipeline conversion rate | 230,000 ÷ 800,000 | 28.75% |
 
 The weighted pipeline promised 344,000 USD, and 130,000 USD of it sat in the three deals that later slipped. In this example, each of those deals had gone quiet weeks before its close date moved. An alert on the silence reaches the manager when the deal stops moving, not when the date changes at quarter end.
 
@@ -282,7 +260,7 @@ Leaders get the Pipeline Review every Monday, ready before the first standup of 
 
 RevOps sets the alert thresholds and keeps the CRM data behind them accurate. More on how Oliv AI works for [revenue operations](https://www.oliv.ai/revops).
 
-## How Oliv AI compares as a revenue intelligence platform {#compare}
+## How Oliv AI compares for deal intelligence {#compare}
 
 Most deal intelligence tools give managers somewhere to look. Deal Driver tells them when to look, sends a 1:1 report for every rep each week, and wraps each weekday in a Sunset Summary. Oliv AI is the only platform in this table that does all three.
 
@@ -299,7 +277,7 @@ Deal intelligence features, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger revenue intelligence platform for sales managers {#compare-stronger}
+### Why Oliv AI is the stronger choice for deal intelligence {#compare-stronger}
 
 - **The 1:1 report comes to you.** Deal Driver compiles each rep's pipeline on that rep's own schedule and files it in the manager's My Reports. Gong [recommends checking a deal board weekly, particularly before 1:1s and pipeline reviews](https://help.gong.io/docs/recipe-focus-on-deals-that-need-your-attention). Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **An alert with a next move.** Each Deal Driver alert carries the deal, the signal, the context and a suggested action. Avoma's Deal Health [produces a 0 to 100 risk score with a Low, Medium or High classification](https://help.avoma.com/deal-health). Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).
@@ -357,13 +335,9 @@ Connect your CRM and your team's calendar, then set your alert thresholds. Most 
 
 No. Deal Driver works in the background and shows up for reps as follow-up prompts and next-step reminders.
 
-#### What is a revenue intelligence platform? {#faq-revenue-intelligence-platform}
+#### What is deal intelligence? {#faq-deal-intelligence}
 
-A revenue intelligence platform reads sales activity, such as meetings, emails and CRM changes, and turns it into signals about deals, reps and the forecast. Oliv AI does this with agents: Deal Driver for deal risk, Forecaster for the number and Coach for rep development.
-
-#### How is revenue intelligence different from deal intelligence? {#faq-deal-intelligence}
-
-Deal intelligence is the part of revenue intelligence that looks at single deals: their risk, momentum and next steps. Revenue intelligence also covers the forecast and rep performance. Deal Driver is Oliv AI's deal intelligence agent.
+Deal intelligence reads what is happening on individual deals, such as meetings, emails and field changes, and turns it into signals about risk, momentum and next steps. Deal Driver is Oliv AI's deal intelligence agent, and it sends those signals to the sales manager.
 
 #### Which pipeline metrics show deal risk early? {#faq-pipeline-metrics}
 
@@ -377,8 +351,6 @@ No. Deal Driver doesn't write to the CRM, so stage probabilities and forecast ca
 
 - [Focus on 3 Pipeline Metrics to Improve Your Sales Forecast](https://www.gartner.com/en/documents/7952073) (Gartner, 3 June 2026): the three measures of pipeline health Gartner recommends tracking.
 - [Gartner says the traditional linear sales process no longer exists](https://www.gartner.com/en/newsroom/press-releases/2019-11-13-gartner-says-the-traditional-linear-sales-process-no-) (Gartner, 13 November 2019): why stage-based close probability misreads how B2B buyers move.
-- [State of Sales 2026 announcement](https://www.salesforce.com/news/stories/state-of-sales-report-announcement-2026/) (Salesforce): time spent selling, AI agent adoption and how the survey was run.
-- [State of Sales report](https://www.salesforce.com/sales/state-of-sales/) (Salesforce): the report's headline findings on agents and growth.
 - [Set up and customize pipelines](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines) (HubSpot Knowledge Base): how stage probability produces the weighted amount.
 - [HubSpot's default deal properties](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties) (HubSpot Knowledge Base): deal probability, forecast category and forecast amount defined.
 
@@ -393,4 +365,4 @@ No. Deal Driver doesn't write to the CRM, so stage probabilities and forecast ca
 - [Run deals as an account executive](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/): the rep's side of the same deals.
 - [Oliv AI product documentation](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/): every documented agent and feature.
 
-*Updated 29 October 2026: added how revenue intelligence platforms find deal risk, 2026 research on pipeline risk, how to measure pipeline health, the manual method with a worked example, four more questions and further reading.*
+*Updated 2 November 2026: added how a deal at risk gets spotted, how to measure deal slippage, the manual method with a worked example, three more questions and further reading.*

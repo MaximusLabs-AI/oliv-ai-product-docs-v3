@@ -1,13 +1,13 @@
-# Agent tools and run modes
+# Human in the loop AI: set each agent tool to Auto Run, Requires Approval or Agent Decides
 
-What an Oliv AI agent's tools are, how to set each tool's run mode to Auto Run, Requires Approval or Agent Decides, and which systems the tool catalog draws on.
+Choose which actions an Oliv AI agent runs alone and which wait for a person: human-in-the-loop AI set tool by tool, with Auto Run, Requires Approval or Agent Decides.
 
 - Applies to: Every agent with a detail page
 - Status: Live
-- Verified: 2026-10-22
+- Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/
 
-A tool is one action an agent is allowed to take, such as looking up a record, drafting an email or posting to a channel. Every agent in the [Oliv AI agent marketplace](https://www.oliv.ai/agents-marketplace) with a detail page lists its tools on a **Tools** tab. Each tool carries a run mode that decides how much freedom the agent has with it: **Auto Run**, **Requires Approval** or **Agent Decides**.
+Human-in-the-loop AI starts with one decision: which of an agent's actions run on their own, and which wait for a person's approval. Oliv AI lets you make that decision one action at a time, by setting each tool on an agent's **Tools** tab to **Auto Run**, **Requires Approval** or **Agent Decides**. Every agent in the [Oliv AI agent marketplace](https://www.oliv.ai/agents-marketplace) with a detail page has this tab, so check it before the agent goes live.
 
 <figure>
 
@@ -20,6 +20,7 @@ A tool is one action an agent is allowed to take, such as looking up a record, d
 
 | | |
 |---|---|
+| **What to hold back first** | Actions that change shared records or reach customers |
 | **What a tool is** | One action an agent is allowed to take |
 | **Where tools live** | **Agents › [agent] › Tools**, on every agent with a detail page |
 | **Run modes** | **Auto Run**, **Requires Approval**, **Agent Decides** |
@@ -30,9 +31,9 @@ A tool is one action an agent is allowed to take, such as looking up a record, d
 
 ## What agent tools and run modes are {#what-it-is}
 
-Tools are what turn an agent from something that reads into something that acts. Each tool has a name, an icon and a one-sentence summary of what it does, and agents hold between 2 and 6 tools each. The actions cover reading records, creating and updating them, logging calls, meetings and emails, sending and drafting email, managing calendar events and posting to channels.
+Open an agent's **Tools** tab and read it before you let that agent near live records. Each card names one action, with an icon and a one-sentence summary of what it does, and agents hold between 2 and 6 tools each. The actions cover reading records, creating and updating them, logging calls, meetings and emails, sending and drafting email, managing calendar events and posting to channels.
 
-The run mode is the second half. It sits on each tool card as a dropdown, and it applies to that one tool on that one agent. Changing it on one tool changes nothing else.
+Then look at the right of each card. The run mode sits there as a dropdown, and it applies to that one tool on that one agent. Changing it on one tool changes nothing else.
 
 | Run mode | Icon | What the agent does with the tool |
 |---|---|---|
@@ -67,22 +68,22 @@ The tool catalog groups actions by the system they come from. These are the same
 
 ### What it's for {#what-its-for}
 
-Tools decide what an agent may do in your systems, and run modes decide how freely it does it. Together they're where you read and set an agent's permission to act. You make that call one action at a time, not once for the whole agent.
+Use run modes at the point a rollout stops being a test: the day an agent can change live records or send mail. Human-in-the-loop AI only works if you've decided by then which actions run automatically and which wait for a person. Make that call tool by tool, in this order.
 
 ### How it helps {#how-it-helps}
 
-- **Every action sits in one list.** Each card names the action and says in a sentence what it does, so nothing an agent can do is hidden.
-- **Risk is set where it lives.** A record lookup and a stage update on the same agent can run under different modes.
-- **Writes can wait for a person.** **Requires Approval** holds an action until someone confirms it.
-- **Routine reads stay quick.** **Auto Run** lets low-risk actions happen without a prompt.
+- **Hold back updates first.** Put tools that change shared records on **Requires Approval**, so a person sees each change before your reports do.
+- **Hold back anything a customer will see.** Keep sends and replies from Gmail and Outlook on **Requires Approval**.
+- **Check for deletes.** Gmail and Outlook both offer a delete tool. If an agent holds one, treat it like an update.
+- **Leave reads on Auto Run.** Searching records or reading a public LinkedIn profile changes nothing, and a prompt there only gives people more to click through.
 
 ### What happens without it {#without-it}
 
-Without a per-action setting, an agent's freedom is all or nothing. Either it writes to your CRM, mailbox and channels unchecked, or it only reads and every update still falls to a person. The first puts the records your forecast depends on at risk. The second loses most of the time the agent was meant to save.
+Skip this step and every tool with no stored mode stays on **Auto Run**. The agent can then write to your CRM, mailbox and channels without asking. A wrong update reaches the records your forecast depends on, and a wrong email reaches a buyer.
 
 ### Why buyers care {#why-buyers-care}
 
-This matters most to the people who own the systems agents write to: [revenue operations teams](https://www.oliv.ai/revops) and CRM admins. It matters at rollout, when a team first lets an agent change records or send mail. It matters again each time an agent gains a new tool, because a tool that stores no mode starts on **Auto Run**.
+If you own the systems agents write to, as [revenue operations teams](https://www.oliv.ai/revops) and CRM admins do, this decision is yours. Make it at rollout, then again each time an agent gains a new tool, because a tool that stores no mode starts on **Auto Run**. If you lead the sales team, ask to see the rule before reps rely on the agent.
 
 ## The Oliv AI approach to agent tools and run modes {#approach}
 
@@ -96,7 +97,7 @@ The risk isn't spread evenly across the agent. It sits in the handful of actions
 
 Oliv AI puts the control on each tool instead of on the agent. Every card on an agent's **Tools** tab carries its own run mode. The RevOps lead leaves lookups on **Auto Run** and sets stage and close date updates to **Requires Approval**. Call logging goes on **Agent Decides** while the team watches how the agent behaves.
 
-You can see the setting on the tab itself. The three modes always appear in the same order, and each keeps one icon and color on the button and in the menu. How other platforms handle an agent's freedom to act is covered in How Oliv AI compares for AI agent permissions, below.
+You can see the setting on the tab itself. The three modes always appear in the same order, and each keeps one icon and color on the button and in the menu. How other platforms handle an agent's freedom to act is covered in How Oliv AI compares for human-in-the-loop AI, below.
 
 ## Open an agent's tools {#open-tools}
 
@@ -141,6 +142,84 @@ The tab has two columns. A sidebar down the left holds **Add Tool** above the li
 
 If you're weighing [how much an AI agent should do alone](https://www.oliv.ai/blog/ai-crm-trust-governance-risk-revops-evaluation), start writes on **Requires Approval** and widen them once you trust the output.
 
+### What to check before the agent goes live {#check-before-live}
+
+The usual mistake is a send or update tool left on **Auto Run** because nobody touched its card. A card on the default looks the same as one somebody chose, so run these checks on every tool:
+
+- **Read the cards you didn't change.** **Auto Run** is the most permissive of the three modes, and it's what a tool with no stored mode shows.
+- **Come back and read the tab again.** Leave the **Tools** tab, reopen it and confirm each card still shows the mode you set.
+- **Use the Tools tab as your answer.** If another screen seems to say something different, go by the card's dropdown.
+- **Repeat when an agent gains a tool.** The new card starts on **Auto Run** unless it stores a mode.
+
+## How teams decide which agent actions wait for a person {#methods}
+
+You have four ways to draw this line. Each one catches something and misses something, so choose by what a mistake would cost your team.
+
+### Approve every action {#approve-every-action}
+
+The agent waits for a person's yes on every action. That catches every bad update and every wrong email before it lands. It also has people confirming lookups all day, and it misses the problem that creates. [NN/G's guidance on confirmation dialogs warns that people stop paying attention when routine actions ask for confirmation](https://www.nngroup.com/articles/confirmation-dialog/). Once approvers click through without reading, you've lost the protection and kept the delay.
+
+### Approve by what the action touches {#approve-by-what-it-touches}
+
+Reads run alone. Updates to shared records, and anything that reaches a customer, wait for a person. This matches [NN/G's advice to save confirmation for serious or irreversible outcomes, after weighing how severe each outcome is and how often the action happens](https://www.nngroup.com/articles/confirmation-dialog/). It catches the mistakes that land in a forecast or a buyer's inbox. It can miss a wrong lookup that feeds a later step, so whoever approves the draft should check the facts in it too.
+
+### Review after the action runs {#review-after-it-runs}
+
+The agent acts, and someone checks the results on a schedule. This catches patterns, such as close dates that keep moving the wrong way. It misses the single mistake, because a sent email is already with the buyer by the time you see it. On Salesforce, [choose which fields to track before you rely on this](https://help.salesforce.com/s/articleView?id=sf.tracking_field_history.htm&type=5). Salesforce keeps that history for up to 18 months when Field Audit Trail is off.
+
+### Let the agent judge {#let-the-agent-judge}
+
+The agent chooses when to ask. You maintain fewer rules, but you also hand over the line itself, so you can't list in advance which actions will reach a person. Try this on a low-stakes tool first, and read what the agent produced before you use it on anything that writes.
+
+### Which of these Oliv AI's run modes cover {#which-modes-cover}
+
+Oliv AI's run modes cover all four, because you set them tool by tool. **Requires Approval** on the tools that update or send gives you approval by what the action touches. The same mode on every card gives you approval of every action. **Auto Run** with a regular read of the agent's run records gives you review afterward, and **Agent Decides** hands the call to the agent.
+
+## How to measure what a person still checks {#measure-approval-coverage}
+
+Two counts tell you whether your rule made it onto the tabs. Work them out per agent, then across the whole rollout.
+
+- **Write coverage:** tools that update or send and sit on **Requires Approval**, divided by all tools that update or send. If your rule says those actions wait for a person, this should read 100%. Anything lower means a write still runs alone.
+- **Approval share:** tools on **Requires Approval**, divided by all tools. This shows how much you're asking of the people who approve. A higher number isn't automatically safer, because approvers who see too many requests stop reading them.
+
+Both counts have the same weak spots. They count tools, not runs, so one send tool that fires all day weighs the same as a lookup that rarely runs. They also can't tell you whether an approver really read the request, or whether the agent's work was any good.
+
+### Where to read these in Oliv AI {#coverage-in-oliv-ai}
+
+Each card on the **Tools** tab shows that tool's mode, so walk the tab and tally the modes per agent in a sheet. Then compare the tally with what happened. Run records show emails sent automatically and emails drafted and left for a person to send. If a send tool sits on **Requires Approval** and its emails still show as sent automatically, stop and raise it with your Oliv AI contact.
+
+## How to choose which agent actions wait for approval {#choose-by-hand}
+
+Do this in a sheet before you touch a dropdown. It takes the argument out of the rollout, because the team agrees the rule once and each card just follows it.
+
+1. List every action each agent can take, with one row per action.
+2. Tag each row as read, update or send. Count a delete with the updates.
+3. Write your rule in one line, such as "updates and sends wait for a person."
+4. Give each row a mode by applying the rule, and don't argue row by row.
+5. Ask whoever owns the records, often the CRM admin, to read the sheet and challenge the tags.
+6. Apply the sheet to each agent, then read the screen back against every row.
+
+Two things tend to go wrong. People tag by the tool's name instead of what it does, so a harmless-sounding label hides a write. The sheet also goes stale the moment an agent gains a tool, so give it an owner.
+
+### The same job in Oliv AI {#same-job-oliv-ai}
+
+Oliv AI does most of step 1 for you and gives you what step 2 needs. The **Tools** tab lists every tool the agent holds, and each card's one-line summary tells you what the action does. For step 6, the dropdown on the card takes the mode, and the icon colors let you scan the result. The rule stays yours, and so does walking each card, because each tool is set on its own. Keep the sheet as your own note of what you decided and why.
+
+### Worked example: approval settings for a 7-agent rollout {#worked-example}
+
+A RevOps lead prepares 7 agents for rollout, each with 5 tools. All the cards show **Auto Run**, because none stores a mode of its own. The team's rule is that updates and sends wait for a person, and each agent has 2 such tools. This is an illustrative calculation with sample figures, not an Oliv AI output, and it claims no saving.
+
+| Step | Calculation | Result |
+|---|---|---|
+| Tool cards in the rollout | 7 agents x 5 tools | 35 cards |
+| Cards showing **Auto Run** at the start | None stores a mode | 35 cards |
+| Cards that move to **Requires Approval** | 7 agents x 2 tools | 14 cards |
+| Cards that stay on **Auto Run** | 35 - 14 | 21 cards |
+| Separate changes to make | No bulk control, so 1 per card | 14 changes |
+| Share of cards that change | 14 / 35 | 40% |
+
+Plan for 14 separate changes, not one rule applied once. Your read-back is still 35 cards, because the 21 you left alone are the ones nobody looked at. In this example, write coverage ends at 14 of 14, or 100%, and approval share ends at 40%.
+
 ## Browse the tool catalog {#tool-catalog}
 
 Press **Add Tool** at the top of the sidebar to open the catalog, a panel headed **Add Tool**. It shows the actions an agent could be given, grouped by the system they come from. A **Search tools...** box and a **New Tool** button sit above the list of systems: HubSpot and Salesforce, then Gmail, Google Calendar, Outlook, LinkedIn and Slack.
@@ -161,21 +240,27 @@ The catalog is the same whichever agent you opened it from.
 
 ## How agent tools and run modes work with other features {#works-with}
 
-### The Overview tab {#with-overview}
+### When you start from the Overview tab {#with-overview}
 
-The **Overview** tab lists an agent's tools as pills. The **Tools** tab is where you set each tool's run mode.
+The **Overview** tab only lists an agent's tools as pills. To check or change a mode, press the pill to open the **Tools** tab, then go by the dropdown on that tool's card.
 
-### Instructions {#with-instructions}
+### When a process step looks risky {#with-instructions}
 
-The process steps on the [**Instructions** tab](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/instructions/) name the tools each step uses. Pressing a tool chip there takes you to that tool's card, which is the quickest way to check the mode of a tool a step depends on.
+Read the process steps on the [**Instructions** tab](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/instructions/), which name the tools each step uses. If a step updates a record or sends something, press its tool chip. That opens the tool's card, so you can check its mode against your rule and change it if it doesn't match.
 
-### Olivia and Oliver conversations {#with-super-agents}
+### Before a session with Olivia or Oliver {#with-super-agents}
 
-[Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) and [Oliv AI's Oliver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/) carry their own autonomy setting beneath the message box: **Ask before acting** or **Act without asking**. It covers a whole conversation, opens on **Ask before acting**, and is separate from any tool's run mode. Choosing **Act without asking** for Oliver shows a **High Risk** warning above the message box.
+Check two settings before you start a session with [Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) or [Oliv AI's Oliver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/), because they're set separately.
 
-### Drafted emails and run records {#with-run-records}
+1. Look beneath the message box. The conversation setting opens on **Ask before acting**, and it stays there unless you choose **Act without asking**.
+2. Read the run mode on the tool cards for the actions you expect the session to touch.
+3. If you want a person to check the work, choose the stricter option in both places, so you aren't relying on one alone.
 
-An agent's [run records](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/run-history/) show both outcomes of a run mode: emails sent automatically, and emails drafted and left for a person to send. That's where you see how [an agent that acts differs from a copilot that suggests](https://www.oliv.ai/blog/ai-agents-vs-ai-copilots).
+If you choose **Act without asking** for Oliver, a **High Risk** warning appears above the message box. Treat it as your cue to reread what you're about to ask for.
+
+### After an agent's first runs {#with-run-records}
+
+Open the agent's [run records](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/run-history/) before you widen any tool. They show emails sent automatically and emails drafted and left for a person to send. If an email went out that you wanted someone to see first, move that send tool to **Requires Approval**.
 
 ## Who uses agent tools and run modes, and how {#who-uses-it}
 
@@ -197,11 +282,11 @@ A [customer success team](https://www.oliv.ai/customer-success) lets an agent po
 
 An enablement lead uses the one-line summaries on each tool card to brief new reps on what each agent may do in their accounts. The colored icons make it easy to point out which actions run unattended and which wait for a person.
 
-## How Oliv AI compares for AI agent permissions {#compare}
+## How Oliv AI compares for human-in-the-loop AI {#compare}
 
 Oliv AI sets an agent's freedom to act on each tool, with a choice of three modes. One of them lets the agent itself judge whether a check is needed. Its tools act in the systems revenue teams work in, from CRM records to email, calendars and Slack. Oliv AI is the only platform in this table that does all three.
 
-Agent permissions, from each platform's public documentation:
+Human-in-the-loop AI features, from each platform's public documentation:
 
 | Platform | Approval choice for each agent action | Agent judges when to ask | Agent actions in connected apps |
 |---|---|---|---|
@@ -213,12 +298,12 @@ Agent permissions, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for AI agent permissions {#compare-stronger}
+### Why Oliv AI is the stronger choice for human-in-the-loop AI {#compare-stronger}
 
-- **Approval set per action.** Oliv AI gives each tool its own run mode, so lookups and writes on one agent can differ. [Outreach's Omni pauses for confirmation before any change to a Prospect, Account or Opportunity record](https://support.outreach.io/support/solutions/articles/159000435308-outreach-product-release-notes-september-2026).
-- **Agents that act beyond their own app.** Oliv AI's tools update CRM records, send email and post to Slack. [Gong's help center says its agents generate outputs within Gong Assistant and do not perform actions in external systems](https://help.gong.io/docs/about-agents). See [Oliv AI as a Gong alternative](https://www.oliv.ai/gong-alternative).
-- **Writes as well as reads.** Oliv AI's catalog includes **Create / Update** tools for Salesforce and HubSpot. [Outreach's help center says only read-only tools are supported over its connectors at this time](https://support.outreach.io/support/solutions/articles/159000432173-mcp-connectors).
-- **A middle setting between asking and acting.** With **Agent Decides**, the agent judges whether to ask before it uses a tool. [Fireflies.ai documents choosing which permissions AskFred has in each connected app](https://guide.fireflies.ai/articles/7673197830-connect-a-custom-mcp-server-to-askfred).
+- **Approval set per action.** Oliv AI gives each tool its own run mode, so lookups and writes on one agent can differ. [Outreach's Omni pauses for confirmation before any change to a Prospect, Account or Opportunity record](https://support.outreach.io/support/solutions/articles/159000435308-outreach-product-release-notes-september-2026). Decide whether you need that check to differ from one action to the next.
+- **Agents that act beyond their own app.** Oliv AI's tools update CRM records, send email and post to Slack. [Gong's help center says its agents generate outputs within Gong Assistant and do not perform actions in external systems](https://help.gong.io/docs/about-agents). See [Oliv AI as a Gong alternative](https://www.oliv.ai/gong-alternative). If your rule covers CRM updates and sends, check where each vendor's agent can act at all.
+- **Writes as well as reads.** Oliv AI's catalog includes **Create / Update** tools for Salesforce and HubSpot. [Outreach's help center says only read-only tools are supported over its connectors at this time](https://support.outreach.io/support/solutions/articles/159000432173-mcp-connectors). List the writes you want an agent to make, then check each platform against that list.
+- **A middle setting between asking and acting.** With **Agent Decides**, the agent judges whether to ask before it uses a tool. [Fireflies.ai documents choosing which permissions AskFred has in each connected app](https://guide.fireflies.ai/articles/7673197830-connect-a-custom-mcp-server-to-askfred). Decide which low-stakes tools you'd trust to an agent's judgment before you weigh this.
 
 *Competitor details checked against each vendor's public documentation on 21 October 2026. Features and plans change, so confirm with the vendor before you decide.*
 
@@ -232,6 +317,14 @@ Agent permissions, from each platform's public documentation:
 
 ## Common questions {#common-questions}
 
+#### What does human in the loop AI mean for a sales agent? {#faq-human-in-the-loop}
+
+It means a person confirms certain actions before the agent takes them, while other actions run on their own. In Oliv AI, you choose that for each agent tool with its run mode on the **Tools** tab.
+
+#### Which AI agent actions should need human approval? {#faq-which-actions}
+
+Start with actions that change shared records or reach customers, such as updating an opportunity or sending an email. Actions that only read, such as searching records, can usually stay on **Auto Run**.
+
 #### What is a tool in Oliv AI? {#faq-what-is-a-tool}
 
 A tool is one action an agent is allowed to take, such as finding a record, drafting an email or posting to a channel. Each one is listed on the agent's **Tools** tab with a one-line summary.
@@ -240,6 +333,10 @@ A tool is one action an agent is allowed to take, such as finding a record, draf
 
 **Auto Run**, unless the tool stores a different mode. That means the agent acts without asking, so set writes to **Requires Approval** if you want a person to check them.
 
+#### Why does one of my tools already show Requires Approval? {#faq-stored-mode}
+
+A tool can store its own mode, and its dropdown opens on that mode. Only a tool with no stored mode opens on **Auto Run**, so a single agent can show a mix before you change anything.
+
 #### What's the difference between Requires Approval and Agent Decides? {#faq-approval-vs-decides}
 
 With **Requires Approval**, a person confirms before the agent uses the tool. With **Agent Decides**, the agent judges for itself whether to ask first.
@@ -247,6 +344,18 @@ With **Requires Approval**, a person confirms before the agent uses the tool. Wi
 #### Can I set every tool on an agent at once? {#faq-bulk}
 
 No. Each tool is set on its own card, one at a time. There's no agent-wide or workspace-wide default.
+
+#### How many changes will a multi-agent rollout take? {#faq-how-many-changes}
+
+One for every tool whose mode has to move. Count the update and send tools on each agent and add them up. With 7 agents holding 2 such tools each, that's 14 separate changes.
+
+#### What happens if I set every tool to Requires Approval? {#faq-every-tool-approval}
+
+Every action then waits for a person, including lookups that can't change anything. Approvers who see many routine requests tend to stop reading them, so hold back the actions that update or send and leave the reads on **Auto Run**.
+
+#### How do I see what an agent did on Auto Run? {#faq-see-auto-run}
+
+Read the agent's run records. They show emails sent automatically and emails drafted and left for a person to send, so you can check the output before you widen any other tool.
 
 #### Which systems can tools come from? {#faq-systems}
 
@@ -264,6 +373,11 @@ No. **Ask before acting** covers a whole conversation with Oliv AI's Olivia or O
 
 No. Tools carry no parameters, field mappings or filters.
 
+## Further reading {#further-reading}
+
+- [Confirmation Dialogs Can Prevent User Errors (If Not Overused)](https://www.nngroup.com/articles/confirmation-dialog/): NN/G's guidelines on when asking people to confirm protects them, and when it stops working.
+- [Field History Tracking Overview](https://help.salesforce.com/s/articleView?id=sf.tracking_field_history.htm&type=5): how Salesforce tracks changes to the fields you choose, and how long it keeps that history.
+
 ## Related {#related}
 
 - [Prepare for a meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/): how agents send a brief before your calls.
@@ -275,3 +389,5 @@ No. Tools carry no parameters, field mappings or filters.
 - [Salesforce automation explained](https://www.oliv.ai/blog/salesforce-automation): how agent actions compare with flows and rules.
 - [Agentic sales automation](https://www.oliv.ai/blog/agentic-sales-automation): what changes when software acts, not just suggests.
 - [Connected apps](https://www.oliv.ai/integrations): the systems Oliv AI connects to.
+
+*Updated 3 November 2026: added the ways teams draw the approval line, approval coverage counts, the manual method, a worked example and more common questions.*

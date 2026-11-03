@@ -1,32 +1,36 @@
-# Plans overview
+# How Oliv AI billing works: seat roles, add-ons, agent actions and how each one is counted
 
-How Oliv AI's role-based plans, add-ons and agent actions fit together, which apps each seat role brings, and where to find current prices.
+How to read an Oliv AI bill: which seat role each person takes, which add-ons go on top, how agent actions are counted by usage, and where to find every current figure.
 
 - Applies to: Revenue operations, sales leaders and anyone planning an Oliv AI rollout
 - Status: Live
-- Verified: 2026-10-22
+- Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/plans/
 
-Oliv AI is billed in three parts: a seat role for each person, add-ons for the people who need them, and agent actions based on usage. Seats come in four role-based plans, Amplify, Converse, Sell and Grow, and each plan includes the one below it. This section explains how the parts fit together. Current prices are on [Oliv AI's pricing page](https://www.oliv.ai/pricing).
+You are comparing AI sales software plans, and someone has asked how the Oliv AI bill works before anyone looks at a figure. Split the question into three parts: a seat role for each person, add-ons for the people who need them, and agent actions by usage. Use the table below to pick the part you need. Take seats and add-ons to [Plans and seat roles](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/plans/plans-and-seat-roles/), and take every figure to [Oliv AI's pricing page](https://www.oliv.ai/pricing).
 
 ## The three parts of a bill {#billing-parts}
 
-| Part | What it covers | How it's counted |
-|---|---|---|
-| **Seat role** | The apps a person works in | One plan per person, matched to their work |
-| **Add-ons** | Coaching, outreach and extra capture channels | Per person, only for those who need them |
-| **Agent actions** | Tasks your agents complete | By usage, separately from app subscriptions |
+Each question about the bill belongs to one part. Find yours here and read only that part, because a seat count won't answer a question about agent usage.
 
-The [plans and seat roles](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/plans/plans-and-seat-roles/) page covers all three in detail. It also has a worked example that sorts a whole revenue org into seat roles.
+| Your question | Part of the bill | How it's counted | Where to read it |
+|---|---|---|---|
+| Which plan does each person need? | **Seat role** | One plan per person, matched to the apps they need | Plans and seat roles |
+| Who needs coaching, outreach or extra capture channels? | **Add-ons** | Per person, only for those who need them | The add-ons section of Plans and seat roles |
+| What will the agents' work add to the bill? | **Agent actions** | By usage, separately from app subscriptions | Agent actions, below, then the pricing page for the unit |
+
+Settle seats first, since add-ons sit on top of a person's seat. Plans and seat roles also has a section on assigning seat roles across your team.
 
 ## Seat roles and the apps they bring {#seat-roles}
 
-Plans are cumulative. Converse includes Amplify, Sell includes Converse, and Grow includes Sell. You can use all four in one company and give each person the plan that matches the apps they need.
+Working through a list of names? Give each person the lowest plan that holds the apps they need. Plans stack: Converse includes Amplify, Sell includes Converse, and Grow includes Sell. You can use all four in one company, so you don't have to put a whole team on one plan.
 
-- **Amplify** gives every role the super agents, Oliv AI's [Oliver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/) and [Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/), on the **Ask** tab of **Home**. People can ask questions of customer context, review conversations, opportunities and accounts, and build custom agents. The agent builder pages, starting with [agent instructions](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/instructions/), show what a custom agent is made of.
-- **Converse** adds conversation capture: online meetings, email, in-person meetings and phone calls. It is the conversation intelligence plan, and you can buy it on its own. The [Converse app](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/) docs cover what it captures, and [bot and botless recording](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/recording-modes/) explains how meetings are recorded.
-- **Sell** adds the Forecast app, with sales methodologies and deal risks, for account executives, sales engineering and partnerships. The [Forecast app](https://www.oliv.ai/oliv-forecast) page shows its views, and [sales methodology tracking](https://www.oliv.ai/sales-methodology) lists the frameworks.
-- **Grow** adds the Retain app, with customer health scorecards and churn risks, for customer success, account management, solution engineering and onboarding. More on Oliv AI for [customer success](https://www.oliv.ai/customer-success) and [account management](https://www.oliv.ai/account-management) teams.
+- **If they only ask questions and review work, start with Amplify.** This fits C-suite, product, operations and engineering. They get Oliv AI's [Oliver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/) and [Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) on the **Ask** tab of **Home**, and they can review conversations, opportunities and accounts. They can also build custom agents, so read [agent instructions](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/instructions/) to see what one is made of.
+- **If they run customer conversations you want captured, use Converse.** This fits BDRs, SDRs, product marketing and customer support. It captures online meetings, email, in-person meetings and phone calls, and you can buy it on its own for conversation intelligence. Read the [Converse app](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/) docs first, then check [bot and botless recording](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/recording-modes/), because bot-based capture is an add-on.
+- **If they own opportunities, use Sell.** This fits account executives, sales engineering and partnerships. It adds the Forecast app, with sales methodologies and deal risks. Check the [Forecast app](https://www.oliv.ai/oliv-forecast) views and confirm your framework is listed under [sales methodology tracking](https://www.oliv.ai/sales-methodology).
+- **If they own renewals and account health, use Grow.** This fits customer success, account management, solution engineering and onboarding. It adds the Retain app, with customer health scorecards and churn risks. Read how it works for [customer success](https://www.oliv.ai/customer-success) and [account management](https://www.oliv.ai/account-management) teams.
+
+Treat the job titles as a guide, not a rule. A customer-facing product marketer can use Converse when they need conversation capture, so sort by the apps a person needs.
 
 <figure>
 
@@ -37,21 +41,33 @@ Plans are cumulative. Converse includes Amplify, Sell includes Converse, and Gro
 
 ## Add-ons {#add-ons}
 
-Add-ons are priced separately from the four plans and added per person. Enable evaluates customer conversations against coaching scorecards to find where a rep needs help. Engage runs email and LinkedIn outreach from Oliv AI, with a dialer, messaging channels and extra mailboxes available on top. In the app, Engage has **Inbox**, **Dialer**, **Plays**, **Flows**, **Signals** and **Experiments** tabs, and Enable has **Library** (clip libraries) and **People** tabs.
+With seats settled, go down your list and mark add-ons person by person. They are priced separately from the four plans, so buying one for a whole team means paying for people who won't use it.
 
-Capture add-ons extend Converse, Sell and Grow. Bot-based meeting capture sends a meeting assistant into the call, including externally hosted meetings when permitted. Slack, WhatsApp and LinkedIn capture are listed as add-ons too. Plaud hardware for in-person recording is purchased separately. The [add-ons section](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/plans/plans-and-seat-roles/#add-ons) lists what each one includes.
+Mark Enable for anyone whose customer conversations you want evaluated against coaching scorecards, to find where a rep needs help. Mark Engage for anyone running email and LinkedIn outreach from Oliv AI, and add it to a Converse, Sell or Grow seat. Note whether each rep also needs a dialer, messaging channels or extra mailboxes, since those go on top. To check what people will work in, the [Engage app](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/engage/) has **Inbox**, **Dialer**, **Plays**, **Flows**, **Signals** and **Experiments** tabs, and Enable has **Library** (clip libraries) and **People** tabs.
+
+Capture add-ons extend Converse, Sell and Grow. Mark bot-based meeting capture if a person needs a meeting assistant in the call, including externally hosted meetings when permitted. Slack, WhatsApp and LinkedIn capture are listed as add-ons too. If you record in person with Plaud, the hardware is purchased separately. Before you finalize, check the [add-ons section](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/plans/plans-and-seat-roles/#add-ons) for what each one includes.
 
 ## Agent actions {#agent-actions}
 
-An agent action is a task an agent completes, such as researching an account or updating a CRM record. Agent actions are billed separately from app subscriptions, on every plan, and your total depends on agent usage. During a proof of concept, Oliv AI estimates agent spend at your expected volume and measures the value before rollout.
+A finished seat list still won't give you a total, because agent actions sit outside it. An agent action is a task an agent completes, such as researching an account or updating a CRM record. Agent actions are billed separately from app subscriptions, on every plan, and your total depends on agent usage. The unit and its rate are on the pricing page, linked under Where prices live, below.
 
-The pricing page gives example actions for several agents. Oliv AI's [CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) creates records, updates fields and syncs next steps. Oliv AI's [Deal Driver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/) reviews pipeline, drafts follow-ups and flags risks. Oliv AI's [Forecaster agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/forecaster/) prepares the forecast and updates forecast categories. To see what an agent did on each run, open its [run history](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/run-history/). Each tool's run mode decides whether an action needs a person's approval first, as [agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/) explains.
+So don't guess usage from headcount. Pick the agent work you want first, then use a proof of concept to size it. During one, Oliv AI estimates agent spend at your expected volume and measures the value before rollout. Choose **Plan a POC** on the pricing page, and go in with one agent use case to scope.
+
+To list the work you expect, start with the example actions on the pricing page. Oliv AI's [CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) creates records, updates fields and syncs next steps. Oliv AI's [Deal Driver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/) reviews pipeline, drafts follow-ups and flags risks. Oliv AI's [Forecaster agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/forecaster/) prepares the forecast and updates forecast categories.
+
+Once an agent is running, open its [run history](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/run-history/) to see what it did on each run. If you want a person to approve an action first, set that in [agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/).
 
 ## Choosing seats for your team {#choosing-seats}
 
-Assign seat roles by the apps a person needs, not by job title alone. Ask four questions for each person. Do they run customer conversations that should be captured? Do they own or forecast opportunities? Do they own renewals, health or expansion for live customers? Or do they only read context, ask questions and build agents?
+Sort your team in this order, because each step depends on the one before it:
 
-Inside the product, the **Agent Feed** on Home can be filtered by **Team** (**Sales**, **Sales Development**, **Customer Success** or **RevOps**) and **Role** (**Contributor** or **Manager**). Each view shows the agents that team and role use. Those filters are views, not seat roles, but they show which agents each group works with.
+1. List every person once, in the group that fits their work. Counting someone twice inflates your seat numbers.
+2. Give each person a plan by asking what they do. Do they run customer conversations that should be captured? Do they own or forecast opportunities? Do they own renewals, health or expansion for live customers? Or do they only read context, ask questions and build agents?
+3. Mark add-ons for the people who need them, and no one else.
+4. Scope agent usage separately, starting with one use case.
+5. Take your seat counts to the pricing page.
+
+To see which agents a group works with, open **Agent Feed** on **Home** and filter by **Team** (**Sales**, **Sales Development**, **Customer Success** or **RevOps**) and **Role** (**Contributor** or **Manager**). Each view shows the agents that team and role use. Those filters are views, not seat roles, so don't copy them straight into your seat list.
 
 <figure>
 
@@ -60,8 +76,12 @@ Inside the product, the **Agent Feed** on Home can be filtered by **Team** (**Sa
 <figcaption>The same product, seen by a customer success manager: the feed shows the agents that work for that team and role, which is a useful check when you decide who needs a Grow seat.</figcaption>
 </figure>
 
-For an account executive's day on the Sell plan's agents, read [running deals as an account executive](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/). A sales manager's week is in the [pipeline review guide](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/run-a-pipeline-review/). Oliv AI works with your existing CRM, so you keep [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/) or [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/) as your system of record.
+To test a seat choice against a real week, read [running deals as an account executive](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/) for the Sell plan's agents and the [pipeline review guide](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/run-a-pipeline-review/) for a sales manager. Oliv AI works as a layer on top of your existing CRM, so you keep [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/) or [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/) as your system of record. When seats are settled, move on to the [30-day rollout plan](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/getting-started/plan-your-deployment/).
 
 ## Where prices live {#where-prices-live}
 
-These docs describe plans, roles and how billing works, and leave every figure to the pricing page. To see current prices for each plan and add-on, go to [Oliv AI pricing](https://www.oliv.ai/pricing). The same page has a calculator that compares Oliv AI's apps with the tools your team uses now, using your own seat counts. For the thinking behind replacing per-seat tools with agents, read [build versus buy for revenue AI](https://www.oliv.ai/build-vs-buy). To browse every pre-built agent, open the [agent marketplace](https://www.oliv.ai/agents-marketplace).
+These docs explain how the bill is counted and leave every figure to the pricing page. Once your seat list is done, open [Oliv AI pricing](https://www.oliv.ai/pricing) and read the current figure for each plan and add-on, plus the unit for agent actions.
+
+The same page has a calculator that compares Oliv AI's apps with named tools, using your seat counts. Its comparison rests on assumptions, not vendor quotes, and it excludes platform fees, so check coverage and contract terms before you quote a saving internally.
+
+If someone asks why the budget should shift from per-seat tools to agents, send them to [build versus buy for revenue AI](https://www.oliv.ai/build-vs-buy). To browse every pre-built agent, open the [agent marketplace](https://www.oliv.ai/agents-marketplace).

@@ -1,13 +1,13 @@
-# Agent triggers
+# AI agent triggers: see what starts each agent, from CRM events and messages to schedules
 
-What an Oliv AI agent's triggers and schedules are, where to read them on the Triggers tab, and how the trigger picker and the schedule form are laid out.
+How event-triggered AI agents start in Oliv AI: where to read each agent's triggers and schedules, how the trigger picker and schedule form are laid out, and how to check automatic runs.
 
 - Applies to: Agents with a Triggers tab
 - Status: Live
-- Verified: 2026-10-22
+- Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/triggers/
 
-A trigger is the event that starts an Oliv AI agent without anybody pressing anything, such as a deal reaching a stage in your CRM. Each agent in the [Oliv AI agent marketplace](https://www.oliv.ai/agents-marketplace) that has a **Triggers** tab lists those events as cards. The same tab holds the agent's schedules, the fixed times it acts at.
+You want event-triggered AI agents that start at the right moment, from a CRM event, a message or a schedule, without anyone remembering to press run. Oliv AI answers that with triggers: a trigger is the event that starts an agent without anybody pressing anything, such as a deal reaching a stage in your CRM. In the [Oliv AI agent marketplace](https://www.oliv.ai/agents-marketplace), agents list those events as **Overview** pills, and those with a **Triggers** tab also show cards and schedules there.
 
 <figure>
 
@@ -21,25 +21,25 @@ A trigger is the event that starts an Oliv AI agent without anybody pressing any
 | | |
 |---|---|
 | **What a trigger is** | The event that starts an agent on its own |
+| **What can start an agent** | A CRM event, a message, a website session, a company signal, a completed meeting or a fixed time, or a person pressing **Run Agent** |
+| **Check this first** | The **Overview** tab, as trigger pills, including on agents with no **Triggers** tab |
 | **Where triggers live** | **Agents › [agent] › Triggers** |
 | **What a card shows** | The source's icon, the event in one line, when the agent fires, and a menu button |
 | **Schedules** | The **Schedule messages** section of the same tab |
 | **Schedule frequencies** | **Daily**, **Every Week**, **Monthly**, **Yearly** |
 | **How automatic runs show** | **Auto-triggered** or **Auto Trigger** in the run history, apart from **Manually run** or **Manual** |
-| **Also shown on** | The **Overview** tab, as trigger pills, including on agents with no **Triggers** tab |
 
 ## What agent triggers are {#what-it-is}
 
-The **Triggers** tab answers one question: what makes this agent start work by itself? Its own description puts it plainly: "Triggers allow your agent to work on auto-pilot." The tab has two sections, stacked in one column.
+You're about to rely on an agent, and you need to know what will start it with nobody watching. Run this check first. Write down the moment you care about in one line, such as "a deal reaches Proposal", then test the agent against it.
 
-| Section | What it lists | Button |
-|---|---|---|
-| **Triggers** | The events the agent watches for, one card each | **Add Trigger** |
-| **Schedule messages** | The fixed times the agent acts at, one card each | **Set Schedule** |
+### Read each card {#what-you-see}
 
-A trigger card has three parts: a small icon for the source the event comes from, the event as a one-line title, and a longer explanation of when the agent fires. The explanation can be one sentence or a short list. A menu button (⋮) sits at the card's right.
+Start at the pills on the **Overview** tab, then open **Triggers** if the agent has that tab. On each card, read the icon for the source system, the title for the event, and the line beneath for when the agent fires. That line can be a sentence or a short list, so read all of it. Then read the cards under **Schedule messages**, because those start the agent too.
 
-Agents carry between 1 and 5 triggers each, and they start from many kinds of event:
+### Confirm the event matches your moment {#what-starts-an-agent}
+
+Compare your line with the card, word for word. An agent carries between 1 and 5 triggers, so check every one. These are the kinds of event you'll find:
 
 | Event that starts the agent | Example |
 |---|---|
@@ -54,7 +54,7 @@ Agents carry between 1 and 5 triggers each, and they start from many kinds of ev
 
 ![Triggers tab of Oliv AI's Quick Qualifier agent: one trigger card, New website session, which fires when a tracked lead starts a new session on the website, with an Add Trigger button above and an empty Schedule messages section with Set Schedule below.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/agent-detail/oliv-ai_078_agent-detail_quick-qualifier_triggers-tab_new-website-session-trigger-add-trigger-schedule-messages-set-schedule.webp)
 
-<figcaption>A trigger can come from outside the CRM. This agent starts the moment a tracked lead begins a new website session.</figcaption>
+<figcaption>A trigger can come from outside the CRM. This agent starts when a tracked lead begins a new website session.</figcaption>
 </figure>
 
 <figure>
@@ -64,20 +64,24 @@ Agents carry between 1 and 5 triggers each, and they start from many kinds of ev
 <figcaption>A card's explanation can be a short list. Here it spells out which signals count as fresh budget before the agent wakes up.</figcaption>
 </figure>
 
-Take the Multithreader agent as an example. It has one trigger: it fires on its own when a deal's stage is set to Proposal in the connected CRM. It can also be started by hand with **Run Agent**.
+### Decide what to do if it doesn't match {#if-it-doesnt-match}
+
+- **The card is wider than your moment.** A trigger can't be narrowed to a team, a region or a deal size, so the card as written is the rule. Decide whether you can accept that before the agent runs unattended.
+- **The event you want isn't there.** Don't assume the agent will catch it. Start the run by hand where the agent shows **Run Agent**, as Oliv AI's Multithreader agent does, and raise the missing event with your Oliv AI contact.
+- **The card matches.** Move on to the agent's tools, because the trigger only decides when the agent starts.
 
 ## Why agent triggers matter {#why-it-matters}
 
 ### What it's for {#what-its-for}
 
-Triggers decide when an agent starts work on its own. They tie the agent to a moment in your systems, such as a stage change, instead of to someone remembering to run it. Schedules do the same for fixed times.
+Say a deal moved to Proposal on Tuesday, nobody spotted the stage change, and the run came late the following week. Event-triggered AI agents exist to close that gap. Use this section to decide whether this agent should start unattended, and what to review first.
 
 ### How it helps {#how-it-helps}
 
-- **Work starts when the event happens.** An agent can begin the moment a deal reaches a stage.
-- **Every start is written down.** Each card names the event and says in a sentence when the agent fires.
-- **Automatic runs are labeled.** The [run history](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/run-history/) marks them **Auto-triggered**, so they stand apart from runs a person started.
-- **Events and times sit together.** One tab lists an agent's triggers and its schedules.
+- **Let it start unattended when waiting costs you.** If the work loses its value after a few days, tie it to the event.
+- **Keep it by hand when judgment picks the deals.** A trigger has no conditions, so it won't choose for you.
+- **Review tool run modes first.** A trigger plus an **Auto Run** tool can act with no person involved.
+- **Review the runs next.** The [run history](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/run-history/) marks automatic runs **Auto-triggered**, so check that they appear when you expect them.
 
 ### What happens without it {#without-it}
 
@@ -85,7 +89,7 @@ Without a trigger, every run starts with a person. Someone has to spot the stage
 
 ### Why buyers care {#why-buyers-care}
 
-This matters most to [revenue operations teams](https://www.oliv.ai/revops), who own the stage definitions in the CRM. It matters when a team first lets agents start unattended. It matters again whenever the stage process changes, because a trigger is where an agent can begin with no person present.
+This decision usually sits with [revenue operations teams](https://www.oliv.ai/revops), who own the stage definitions in the CRM. Make it when a team first lets agents start unattended. Make it again whenever the stage process changes, and reread each card against the new stages.
 
 ## The Oliv AI approach to agent triggers {#approach}
 
@@ -128,16 +132,16 @@ The picker is the same whichever agent you opened it from.
 <figcaption>The picker lists the systems a trigger can come from. Search narrows both groups, and the most common sources sit at the top.</figcaption>
 </figure>
 
-## Set a schedule {#set-schedule}
+## Read the schedule form {#set-schedule}
 
-A schedule lets an agent act at fixed times, alongside its event triggers. The section explains itself as "Schedule allow your agent to schedule future actions."
+A schedule lets an agent act at fixed times, alongside its event triggers. The section describes itself as the place to schedule an agent's future actions. Use these steps to see what the form asks for. Any schedule the agent has shows as a card under **Schedule messages**, so check there first and last.
 
 1. Open the agent's **Triggers** tab and scroll to **Schedule messages**.
-2. Press **Set Schedule**. A form headed **Set Schedule** opens. A line at the top shows the timezone the schedule uses.
+2. Press **Set Schedule**. A form headed **Set Schedule** opens. A line at the top names a timezone.
 3. Type a name in the **Name** field, marked "Enter text...".
 4. Choose how often in the first **Schedule** dropdown: **Daily**, **Every Week**, **Monthly** or **Yearly**. It opens on **Every Week**.
 5. Fill in the dropdowns that appear to its right, such as **Select day** and **Select time**. They change with the frequency, as the table below shows.
-6. Press **Finish**.
+6. Press **Finish** to close the form, then look under **Schedule messages** again. If no card shows there, count the agent as having no schedule and raise it with your Oliv AI contact.
 
 <figure>
 
@@ -155,19 +159,99 @@ A schedule lets an agent act at fixed times, alongside its event triggers. The s
 
 A fixed time can also show as a trigger. Oliv AI's Comms Manager agent lists "Morning inbox sweep, weekdays 7:30 AM" among its trigger pills.
 
+## How an AI agent gets started {#methods}
+
+When you map agents to moments in your sales process, you are choosing among four kinds of start. Each one catches some moments and misses others, so check the fit before you rely on it. This is one early decision in wider [agentic sales automation](https://www.oliv.ai/blog/agentic-sales-automation), and a wrong fit shows up as work that arrives late or never.
+
+### By hand: someone presses run {#start-by-hand-way}
+
+A person decides the moment is right and starts the run. This catches judgment calls that no rule would spot, such as a deal that feels wrong after a tense call. It misses anything nobody notices, and it slips first when the team is busy.
+
+### Event triggers: something happens {#start-on-event}
+
+The start is tied to an occurrence, such as a stage change, a new email or a completed meeting. This catches work on time, because the event itself is the cue. It misses silence. HubSpot's help page on its own workflows says events are based on an occurrence, so [you can't determine that an event did not occur](https://knowledge.hubspot.com/workflows/set-your-workflow-enrollment-triggers). The same logic applies to any event trigger: a buyer who stops replying fires nothing.
+
+### Filter conditions: a record matches {#start-on-filter}
+
+The start is tied to a record meeting set criteria, such as deals in one region. This catches a narrower group, and it misses every record outside the filter. HubSpot's filter-based workflow triggers work this way and enroll a record the first time it meets the criteria by default, so a second pass needs its own rule.
+
+### Schedules: a fixed time comes round {#start-on-schedule}
+
+The start is tied to the clock. This catches work that should happen whatever the events, such as a morning sweep of an inbox, and it can pick up what has gone quiet. It misses timing, because something that happens just after a run waits for the next one.
+
+### Which of these Oliv AI agents use {#which-oliv-uses}
+
+Oliv AI's agents show three of the four. Event triggers appear as cards on the **Triggers** tab or as pills on the **Overview** tab, and schedules sit under **Schedule messages**. **Run Agent** starts a run by hand, as on Oliv AI's Multithreader agent.
+
+Filter conditions aren't among them, because a trigger carries a title, a description and nothing you can configure. So treat a card's words as the whole rule. To see how silence can be covered, read the Comms Manager agent's pills, which include "Backstop: customer message unanswered for 24 hours".
+
+## How to measure whether triggers fire as expected {#measure-trigger-runs}
+
+Once an agent starts unattended, nobody watches each start. Two measures tell you whether the starts you planned actually happened. Work them out per agent each week during a rollout.
+
+| Measure | How to work it out | Where it's weak |
+|---|---|---|
+| **Trigger coverage** | Automatic runs divided by the runs you expected | The expected figure is your estimate until you check it against the CRM. A deal that re-enters a stage can count twice, so set one counting rule and keep it. |
+| **Start delay** | The time on the run minus the time the event was recorded | Run history times end in GMT, so convert your CRM's time before you compare. One slow start tells you little, so read the typical gap. |
+
+### Where Oliv AI shows these numbers {#where-runs-show}
+
+- **The weekly run count.** The **Runs** section of the **Overview** tab shows a weekly total, with a line beneath splitting it into automated and manual. It's the only place runs are counted.
+- **Each run's label and time.** The **Runs** tab lists a **Time** and a **Type** for every run. Use the **Type** column to separate automatic runs from manual ones.
+- **Coverage per agent, not per trigger.** A run doesn't name its trigger, and a card has no firing count. On an agent with several triggers, you can only work out coverage for the agent as a whole.
+
+## How to start agent work on a stage change by hand {#start-work-by-hand}
+
+Here's the job a stage trigger takes over, as a team would run it without one. Walking through it also shows you what to check once a trigger takes over.
+
+1. Build a saved CRM report of deals that entered the stage since your last check. In HubSpot, use the [date-entered property for that stage](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties), which holds the date and time. In Salesforce, [turn on field history tracking](https://help.salesforce.com/s/articleView?id=sf.tracking_field_history_for_standard_objects.htm&type=5) for the stage field, so changes reach the History related list.
+2. Set a recurring reminder to check the report, such as every Monday.
+3. Open each new deal and start the agent by hand.
+4. Mark the deals you've run, so nobody runs one twice.
+5. Name a backup for when the owner is away. This is where the routine usually breaks.
+
+Keep your history window in mind when you look back. Salesforce [retains field history for up to 18 months](https://help.salesforce.com/s/articleView?id=sf.tracking_field_history.htm&type=5) when Field Audit Trail is off.
+
+### The same job with a trigger {#same-job-trigger}
+
+1. Open the agent's **Overview** tab and read its trigger pills. Press a pill to open the **Triggers** tab, where the agent has one.
+2. Read the card and confirm it names the event you care about. There's nothing to narrow, so the card has to fit as written.
+3. Check each tool's run mode before the first unattended run, using [agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/).
+4. Write down how many automatic runs you expect in a week.
+5. Each week, compare that number with the agent's weekly run count and its **Auto-triggered** rows.
+
+### Worked example: expected runs against the weekly count {#worked-example}
+
+Say a RevOps lead is setting expectations for an agent before a wider rollout. Its **Triggers** tab shows one trigger, a deal's stage being set to Proposal, and one **Daily** schedule. The lead expects 30 stage moves in a week.
+
+| Line | Arithmetic | Runs in the week |
+|---|---|---:|
+| Stage moves to Proposal | Expected by the lead | 30 |
+| **Daily** schedule | 1 a day for 7 days | 7 |
+| Expected **Auto-triggered** runs | 30 + 7 | 37 |
+| Automated runs in the weekly count | Read from the **Overview** tab | 31 |
+| Gap | 37 minus 31 | 6 |
+| Gap as a share of expected | 6 divided by 37 | 16% |
+
+*This is an illustrative calculation with sample figures, not an Oliv AI output, and it claims no saving.*
+
+The count is 6 runs short, about 16% of what the lead expected. The weekly count can't say which source fell short, because a run doesn't name its trigger. So the lead pulls the deals that moved to Proposal that week from the CRM, then compares them with the run records on the **Runs** tab, using **Time** and **View**.
+
+Start with the real number of moves. If the CRM shows 24 moves rather than 30, then 24 + 7 = 31 and the gap is in the estimate, not the runs. If it shows 30, any deal with no matching run is a gap to raise with your Oliv AI contact.
+
 ## How agent triggers work with other features {#works-with}
 
 ### Tools and run modes {#with-tools}
 
-A trigger decides when an agent starts. How freely it then acts is set by each tool's run mode, covered in [agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/). An agent with a trigger and an **Auto Run** tool can act with no person involved at any point.
+Before the first unattended run, check each tool's run mode. The trigger decides when the agent starts, and the run mode decides how freely it then acts. If a tool shows **Auto Run**, the agent can act with no person involved at any point. If that isn't acceptable for that tool, don't rely on the trigger yet.
 
 ### Run history {#with-run-history}
 
-The run history on the agent's **Runs** tab records each run's type: **Auto-triggered** or **Auto Trigger** for runs that started on their own, **Manually run** or **Manual** for the rest. That's where you see a trigger at work, as the [run history guide](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/run-history/) in this documentation explains.
+After the first unattended run, open the agent's **Runs** tab and read the **Type** column. **Auto-triggered** or **Auto Trigger** means the run started on its own. **Manually run** or **Manual** means a person started it. If an event happened and no automatic run shows, check the event in your CRM against the card's wording, then follow the [run history guide](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/run-history/).
 
 ### The Overview tab {#with-overview}
 
-The **Overview** tab lists the agent's triggers as pills under a **Triggers** heading. Pressing a pill opens the **Triggers** tab, so it's a quick way to check what starts an agent you're about to rely on. Agents with no **Triggers** tab still list their triggers here, each pill with its own icon.
+When an agent has no **Triggers** tab, read its pills on the **Overview** tab, because that's where its triggers show. When it has the tab, press a pill to go straight there. Do this whenever someone asks what starts an agent you're about to rely on.
 
 <figure>
 
@@ -178,7 +262,7 @@ The **Overview** tab lists the agent's triggers as pills under a **Triggers** he
 
 ### Deal work that starts from a stage {#with-deal-work}
 
-A stage-based trigger fits the deal work agents already do between calls. It sits alongside the [day-to-day deal flow for account executives](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/) and the brief an agent sends when you [prepare for a meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/).
+When a seller asks why outreach drafts appeared after a deal reached Proposal, open the agent's **Runs** tab and look for an **Auto-triggered** row. Then read the trigger card with them. Oliv AI's Multithreader agent, for example, leaves its drafts for the seller to review, so the next step is the seller's.
 
 ## Who uses agent triggers, and how {#who-uses-it}
 
@@ -194,11 +278,11 @@ When an agent's draft lands on a deal, an [account executive](https://www.oliv.a
 
 ### Customer success and account management {#customer-success}
 
-A [customer success team](https://www.oliv.ai/customer-success) reads the **Schedule messages** section to see when an agent acts at a fixed time, such as every week on a set day. That sits next to the event triggers on the same tab, so the whole picture is in one place.
+When a [customer success team](https://www.oliv.ai/customer-success) is about to count on an agent acting at a fixed time, read its **Schedule messages** cards first. If there's no card, plan as if the agent has no schedule. If there is one, read what the card says and the event triggers above it, since either can start the agent.
 
 ### Enablement {#enablement}
 
-An enablement lead uses the one-sentence descriptions on trigger cards to brief new reps. Reps learn which deal events will start an agent on their opportunities, before the first draft arrives.
+Before new reps get their first opportunities, an enablement lead reads the trigger cards for each agent they'll work with. Add each deal event to the rep's onboarding brief. Then show reps the **Type** column, so they can check whether a draft came from an automatic run.
 
 ## How Oliv AI compares for event-triggered AI agents {#compare}
 
@@ -218,10 +302,10 @@ Agent start rules, from each platform's public documentation:
 
 ### Why Oliv AI is the stronger choice for event-triggered AI agents {#compare-stronger}
 
-- **Several triggers on one agent.** Oliv AI agents carry between 1 and 5 triggers each. [Gong's help center says each automated agent uses one trigger](https://help.gong.io/docs/create-an-automated-agent). See [Oliv AI as a Gong alternative](https://www.oliv.ai/blog/gong-vs-oliv).
-- **Events and schedules in one place.** Oliv AI lists an agent's event triggers and its schedules on one **Triggers** tab. [Outreach documents scheduled Research Agent runs as their own scheduled workflows](https://support.outreach.io/support/solutions/articles/159000425162-schedule-workflows-for-research-agent). See [how Gong and Outreach compare](https://www.oliv.ai/blog/gong-vs-outreach).
-- **Started by a deal event, not only the clock.** Oliv AI's Multithreader agent fires when a deal's stage is set to Proposal. [Avoma's scheduled prompts run a question on a recurring basis](https://help.avoma.com/scheduled-prompts-in-ask-avoma). See [Avoma vs Oliv AI](https://www.oliv.ai/blog/avoma-vs-oliv-ai).
-- **Automatic runs you can pick out.** Oliv AI's run history marks each run **Auto-triggered** or **Manually run**. [Fireflies.ai documents skills that run after every meeting or on a schedule](https://guide.fireflies.ai/articles/8965294647-setting-up-multi-meeting-ai-apps).
+- **Several triggers on one agent.** Oliv AI agents carry between 1 and 5 triggers each. [Gong's help center says each automated agent uses one trigger](https://help.gong.io/docs/create-an-automated-agent). See [Oliv AI as a Gong alternative](https://www.oliv.ai/blog/gong-vs-oliv). Count the events one agent has to answer to before you decide.
+- **Events and schedules in one place.** Oliv AI lists an agent's event triggers and its schedules on one **Triggers** tab. [Outreach documents scheduled Research Agent runs as their own scheduled workflows](https://support.outreach.io/support/solutions/articles/159000425162-schedule-workflows-for-research-agent). See [how Gong and Outreach compare](https://www.oliv.ai/blog/gong-vs-outreach). Decide whether you need to read both in one place when you audit an agent.
+- **Started by a deal event, not only the clock.** Oliv AI's Multithreader agent fires when a deal's stage is set to Proposal. [Avoma's scheduled prompts run a question on a recurring basis](https://help.avoma.com/scheduled-prompts-in-ask-avoma). See [Avoma vs Oliv AI](https://www.oliv.ai/blog/avoma-vs-oliv-ai). Check whether your job starts from a deal event or a fixed time.
+- **Automatic runs you can pick out.** Oliv AI's run history marks each run **Auto-triggered** or **Manually run**. [Fireflies.ai documents skills that run after every meeting or on a schedule](https://guide.fireflies.ai/articles/8965294647-setting-up-multi-meeting-ai-apps). Check that your team can tell automatic runs from manual ones before an agent runs unattended.
 
 *Competitor details checked against each vendor's public documentation on 21 October 2026. Features and plans change, so confirm with the vendor before you decide.*
 
@@ -247,6 +331,10 @@ Open the agent and select **Triggers**. Each card names the event and explains w
 
 Yes. Oliv AI's Multithreader agent, for example, fires on its own when a deal's stage is set to Proposal in the connected CRM.
 
+#### Can a trigger come from outside the CRM? {#faq-outside-crm}
+
+Yes. Oliv AI's agents show triggers from new website sessions, funding signals, customer emails, shared channel messages and completed meetings, as well as CRM stage changes. The agent's card or pill names the source.
+
 #### Can one agent have more than one trigger? {#faq-several-triggers}
 
 Yes. Agents carry between 1 and 5 triggers each. One agent starts on new customer messages, deadlines, a 24-hour backstop and a weekday morning sweep.
@@ -255,9 +343,25 @@ Yes. Agents carry between 1 and 5 triggers each. One agent starts on new custome
 
 A trigger starts the agent when an event happens. A schedule starts it at a fixed time, set as **Daily**, **Every Week**, **Monthly** or **Yearly**. Both sit on the **Triggers** tab.
 
+#### How can I tell whether an agent has a schedule? {#faq-has-schedule}
+
+Look under **Schedule messages** on the agent's **Triggers** tab. A schedule the agent has shows there as a card. If there's no card, count the agent as having no schedule, even if someone has been through the form.
+
 #### How do I tell whether a trigger fired? {#faq-did-it-fire}
 
 Open the agent's run history. Runs that started on their own are marked **Auto-triggered**. The run doesn't say which trigger was responsible.
+
+#### Why is my weekly run count lower than I expected? {#faq-count-low}
+
+Check your estimate first. Pull the deals that really moved from your CRM and recount. If the count is still short, compare those deals with the agent's run records. A run doesn't name its trigger, so the weekly count alone can't show which source fell short.
+
+#### Can I still run a triggered agent by hand? {#faq-run-by-hand}
+
+Yes, on agents that show the button. Oliv AI's Multithreader agent starts by hand with **Run Agent**. The run history then marks that run **Manually run**, so it stays apart from automatic runs.
+
+#### Does a triggered agent act with nobody reviewing? {#faq-unattended}
+
+It can. The trigger only decides when the agent starts. Each tool's run mode decides how freely it acts, and a trigger plus an **Auto Run** tool can act with no person involved. Check the run modes before you rely on the trigger.
 
 #### Can I pause or remove a trigger? {#faq-pause}
 
@@ -270,6 +374,13 @@ No. A trigger carries a title and a description and nothing you can configure, s
 #### Why does this agent have no Triggers tab? {#faq-no-tab}
 
 Only some agents offer one. Their triggers still show as pills on the **Overview** tab.
+
+## Further reading {#further-reading}
+
+- [Set your workflow enrollment triggers (HubSpot)](https://knowledge.hubspot.com/workflows/set-your-workflow-enrollment-triggers): how event-based, filter-based and scheduled starts differ in HubSpot's own workflows.
+- [HubSpot's default deal properties](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties): which properties record when a deal entered a stage, for your expected-run count.
+- [Track Object Field History (Salesforce Help)](https://help.salesforce.com/s/articleView?id=sf.tracking_field_history_for_standard_objects.htm&type=5): how to turn on tracking so stage changes reach the History related list.
+- [Field History Tracking Overview (Salesforce Help)](https://help.salesforce.com/s/articleView?id=sf.tracking_field_history.htm&type=5): how long Salesforce keeps field history, which sets how far back you can check.
 
 ## Related {#related}
 
@@ -284,3 +395,5 @@ Only some agents offer one. Their triggers still show as pills on the **Overview
 - [Why deals slip without warning](https://www.oliv.ai/blog/deal-slippage-prevention-vp-sales): the pipeline gaps stage triggers address.
 - [Oliv AI implementation guide for RevOps](https://www.oliv.ai/blog/oliv-ai-revops-implementation-admin-guide): set-up and admin for revops teams.
 - [Connected apps](https://www.oliv.ai/integrations): the systems Oliv AI connects to.
+
+*Updated 3 November 2026: added how agents get started, how to measure trigger coverage, the manual method, a worked example and more common questions.*

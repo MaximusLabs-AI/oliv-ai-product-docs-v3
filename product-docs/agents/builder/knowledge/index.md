@@ -1,13 +1,13 @@
-# Agent knowledge files
+# AI agent knowledge base: how to check which files an agent has and add your own to it
 
-What an Oliv AI agent's knowledge files are, how to check and open them on the Knowledge tab, and which file formats the tab's upload area names.
+How to run an AI agent knowledge base in Oliv AI: check and open each agent's files on the Knowledge tab, add your own in the formats it names, and plan around what the tab can't do.
 
 - Applies to: Agents with a Knowledge tab
 - Status: Live
-- Verified: 2026-10-22
+- Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/knowledge/
 
-Knowledge is the background reading an Oliv AI agent does its work against, such as a buying-committee profile, an ideal-customer document or a solution deck. Each agent with a **Knowledge** tab lists the files it is using, and you can open any of them from there. The tab also carries an upload area that names the file formats it takes, and buttons to bring files in from other tools.
+You want an AI agent knowledge base that lets you give agents your playbooks and other company material, then check which files each one has. Oliv AI keeps that list on the agent itself: background reading such as a buying-committee profile, an ideal-customer document or a solution deck. Each agent with a **Knowledge** tab lists the files it is using, and you can open any of them from there. The tab also carries an upload area that names the file formats it takes, and buttons to bring files in from other tools.
 
 <figure>
 
@@ -75,7 +75,7 @@ If the agent reads the same files reps are taught from, the answers can line up.
 Oliv AI puts that list on each agent. The **Knowledge** tab shows **Knowledge in use**, with every file the agent works against and a **View** link beside each one. The enablement manager opens each file and checks it against her current set. The tab's upload area names the formats her material comes in, including .pptx, .pdf and docx.
 
 The upload area prints its formats: "Supported formats: .csv, json,.pdf, xlsx, xls, txt, md, docx, .pptx."
-The line beneath it reads "Max 5 files per upload". Other platforms are compared in How Oliv AI compares for grounding AI agents in your own content, below.
+The line beneath it reads "Max 5 files per upload". Other platforms are compared in How Oliv AI compares for an AI agent knowledge base, below.
 
 ## Check what an agent knows {#check-knowledge}
 
@@ -96,7 +96,7 @@ You can also press a knowledge pill on the **Overview** tab. Unlike the tools an
 
 ## Add files to an agent {#add-files}
 
-The second section, **What should your agent know?**, holds the upload area.
+The second section, **What should your agent know?**, holds the upload area. Prune your list before you start, because a file can't be removed once it's in.
 
 1. Scroll down to **What should your agent know?** on the **Knowledge** tab.
 2. Drag files onto the dashed area marked "Drag & drop or choose files to upload."
@@ -122,6 +122,78 @@ Drag-and-drop needs a mouse or trackpad. The **choose files** link works without
 | Spreadsheets and data | .csv, xlsx, xls, json |
 
 That's nine extensions in all, as the upload area lists them.
+
+### What to settle before you upload {#before-you-upload}
+
+Treat every upload as permanent. There's no delete control on any row, so a file you add by mistake stays on the agent's list. Settle three things first.
+
+- **Which version.** Add the current battlecard, not the copy you found in a shared folder.
+- **Which format.** Check each file against the nine extensions above. Save anything else in a listed format, or leave it out.
+- **Which agent.** Knowledge sits on each agent, so add only what this agent's job needs.
+
+After each upload, read **Knowledge in use** again and look for each file's name. Press **View** on it to confirm you added the right copy.
+
+## How company material reaches an AI agent {#methods}
+
+There are three common ways to put your material in front of an AI agent. Each one catches something and misses something. Your choice decides what you can check later.
+
+### Pasted into each request {#paste-per-request}
+
+You copy the lines you want into a request, or attach a file to one chat. This catches the exact wording you care about today. It usually misses everything after that, because the next request starts without it. Nobody else can see what you pasted, so a team ends up with private versions.
+
+### A shared library that syncs {#synced-library}
+
+You connect one library, and the agent draws on it. HubSpot's customer agent, for example, [re-syncs when a synced knowledge base article changes and re-syncs other sources weekly](https://knowledge.hubspot.com/customer-agent/manage-the-customer-agents-content-sources). This catches updates without anyone uploading again. It can miss the question a rollout raises, which is what one particular agent holds. An old page in the library also travels as easily as a new one.
+
+### Files kept on each agent {#files-on-agent}
+
+You pick the files for one agent, and they sit on that agent's own list. This catches the rollout question directly, because you can read the list and open each file. Its weak spot is upkeep. Someone has to compare each list with your current material, agent by agent.
+
+### Which of these Oliv AI does {#which-oliv-does}
+
+Oliv AI's **Knowledge** tab is the third way. Each agent carries its own list under **Knowledge in use**. The tab also shows buttons for cloud drives, enablement libraries and web pages. Plan your upkeep around lists you check by hand. A playbook can also shape how an agent works, and the page on [your playbook written for agents](https://www.oliv.ai/process-graph) covers that side.
+
+## How to measure whether an agent's knowledge is current {#measure-knowledge}
+
+Two counts tell you whether an agent's reading list is in shape. You take both from your own list of approved material, one agent at a time.
+
+### Coverage: what's missing {#coverage}
+
+Coverage is the share of the files this agent's job needs that appear under **Knowledge in use**. If the job needs 10 files and 8 are listed, coverage is 80%. These are sample figures. The weak spot is that a matching name doesn't prove matching content, so open the file before you count it.
+
+### Stale files: what's out of date {#stale-files}
+
+Count the listed files that no longer match your current set. Don't judge by the file name, because no row shows an upload date or a version. Press **View** and compare the content. A stale file can't be taken off the list, so record it where whoever reviews the agent's work will see it.
+
+### Where Oliv AI shows these counts {#where-counts-show}
+
+**Knowledge in use** gives you the names, **View** gives you the content, and the **Overview** pills give you a quick look. You work out both counts yourself. Neither one tells you whether a run drew on a file, so read the agent's drafts against your current material as well.
+
+## How to build an AI agent's reading list by hand {#build-list-by-hand}
+
+Do this outside the product first, in a spreadsheet. It's quicker to fix a row than to live with a file you can't take back.
+
+1. List every candidate file. Nielsen Norman Group calls this a [content inventory, a list of every piece of content you have](https://www.nngroup.com/articles/content-audits/). Note each file's name, owner and format.
+2. Give each file a status. The same guide suggests recording keep, update or remove for each piece. Name who fixes each file marked update.
+3. Match files to agents. For each agent, mark only the files its job needs.
+4. Check formats. Mark any file whose format the upload area doesn't list.
+5. Name an owner for the list. Nielsen Norman Group warns that [inventories and audits go out of date quickly without care](https://www.nngroup.com/articles/content-audits/). Set a date for the next check.
+
+### The same job in Oliv AI {#same-job-oliv}
+
+Your spreadsheet stays the plan, and the **Knowledge** tab is where you check it. Open the agent, compare **Knowledge in use** with your rows, and press **View** on anything you doubt. Then add the files marked keep, five at a time. The list can't be searched or sorted, so keep your filtering in the spreadsheet.
+
+### Worked example: pruning 23 files into uploads {#worked-example}
+
+An enablement manager gathers 23 files for one agent before a rollout. Three are in formats the upload area doesn't list, so the manager sets them aside. This is an illustrative calculation with sample figures, not an Oliv AI output or a claimed saving.
+
+| Step | Arithmetic | Result |
+|---|---|---|
+| Files gathered | Starting list | 23 files |
+| Set aside: formats the area doesn't list | 23 - 3 | 20 files |
+| Uploads needed at five per upload | 20 / 5 | 4 uploads |
+
+The manager prunes before the first of those 4 uploads, not after it. A file can't be removed once it's in, so the spreadsheet is the last place a mistake is cheap. The 3 files set aside go back through the same check once they're saved in a listed format.
 
 ## How agent knowledge files work with other features {#works-with}
 
@@ -168,7 +240,7 @@ A [customer success team](https://www.oliv.ai/customer-success) reads the knowle
 
 [Revenue operations](https://www.oliv.ai/revops) reviews which company documents each agent holds. It does this before an agent goes out to a wider team.
 
-## How Oliv AI compares for grounding AI agents in your own content {#compare}
+## How Oliv AI compares for an AI agent knowledge base {#compare}
 
 Oliv AI keeps an agent's files on the agent, in a list you can open, and names spreadsheets and slide decks among its formats. The same files show on the agent's **Overview** as pills. Oliv AI is the only platform in this table that does all three.
 
@@ -184,7 +256,7 @@ Agent knowledge, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for grounding AI agents in your own content {#compare-stronger}
+### Why Oliv AI is the stronger choice for an AI agent knowledge base {#compare-stronger}
 
 - **Knowledge that stays on the agent.** Oliv AI lists each agent's files under **Knowledge in use** on the agent itself. [Gong Assistant takes up to 10 uploaded files per message](https://help.gong.io/docs/work-with-gong-assistant). See [Oliv AI as a Gong alternative](https://www.oliv.ai/gong-alternative).
 - **Spreadsheets and data files too.** Oliv AI's upload area names .csv, json, xlsx and xls beside .pdf, docx and .pptx. [Outreach's guidance covers knowledge documents such as product brochures, persona guides and battle cards](https://support.outreach.io/support/solutions/articles/159000430392-knowledge-documents-and-personalization-best-practices). See [how Gong and Outreach compare](https://www.oliv.ai/blog/gong-vs-outreach).
@@ -233,6 +305,31 @@ You can't tell from the tab. No file shows a processed state, and no [run record
 
 Only some agents offer one.
 
+#### What is an AI agent knowledge base? {#faq-what-is-kb}
+
+It's the company material an AI agent works from, such as playbooks, FAQs and solution decks. In Oliv AI, each agent with a **Knowledge** tab keeps its own list of files, and you can open each one from there.
+
+#### How do I add files to an AI agent? {#faq-add-files}
+
+Open the agent's **Knowledge** tab and go to **What should your agent know?**. Drag files onto the dashed area or press **choose files**, keeping to five files at a time.
+
+#### How do I upload more than five files? {#faq-more-than-five}
+
+Split them into batches, because the upload area states "Max 5 files per upload". At that limit, 20 files take four uploads. Prune the list first, since a file can't be removed later.
+
+#### What do I do with a file in a format the tab doesn't list? {#faq-unlisted-format}
+
+Save it in a listed format, such as .pdf or .pptx, and check the new copy before you upload it. The upload area names .csv, json, .pdf, xlsx, xls, txt, md, docx and .pptx.
+
+#### Will an agent's output match how my team sells once the files are in? {#faq-match}
+
+Don't assume it. The **Knowledge** tab shows which files an agent has, not whether a run drew on one. Read the agent's drafts against your current material before you roll it out.
+
+## Further reading {#further-reading}
+
+- [Content Audits, Nielsen Norman Group](https://www.nngroup.com/articles/content-audits/): how to inventory your content, rate it and decide what to keep, update or remove.
+- [Manage customer agent knowledge sources, HubSpot](https://knowledge.hubspot.com/customer-agent/manage-the-customer-agents-content-sources): how one synced knowledge library is set up and kept fresh in HubSpot's own product.
+
 ## Related {#related}
 
 - [Agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/): set what an agent may do with what it knows.
@@ -246,3 +343,5 @@ Only some agents offer one.
 - [Oliv AI's Content Curator agent](https://www.oliv.ai/agents/content-curator): another agent in the Oliv AI marketplace.
 - [How the agents are built](https://www.oliv.ai/oliv-tech): the platform layer agents run on.
 - [Connected apps](https://www.oliv.ai/integrations): the systems Oliv AI connects to.
+
+*Updated 3 November 2026: added how material reaches an agent, how to measure an agent's knowledge, the manual method, a worked example and more common questions.*

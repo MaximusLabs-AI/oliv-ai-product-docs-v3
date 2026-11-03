@@ -1,13 +1,13 @@
-# Oliver: the revenue operations agent
+# Revenue operations software: how Oliv AI's Oliver keeps every agent on one sales process
 
-How Oliv AI's Oliver agent automates revenue operations: what it keeps in the process handbook, how it turns a process change into rules every agent follows, how changes are approved, and how it compares with other revenue operations tools.
+How revenue operations software keeps one sales process across your tools: what Oliv AI's Oliver agent holds in the process handbook, how a change gets approved and how every agent then follows it.
 
 - Applies to: Revenue operations managers and revenue leaders
 - Status: Live
-- Verified: 2026-10-22
+- Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/
 
-Oliv AI's Oliver agent is its revenue operations agent: it owns how your revenue org operates. It keeps the company's process handbook, from your ICP and personas to your methodology and approval rules, and every other Oliv AI agent works inside those rules. When the process changes, you tell Oliver in plain language. It proposes the update, waits for your sign-off, then passes it to every agent that depends on it.
+You want your sales process, qualification rules and handoffs consistent without rebuilding them in every tool, and that's the job of revenue operations software. Oliv AI's Oliver agent does that job by keeping one process handbook, from your ICP and personas to your methodology and approval rules. Every other Oliv AI agent works inside those rules. When the process changes, you tell Oliver in plain language. It proposes the update, waits for your sign-off, then passes it to every agent that depends on it.
 
 ## At a glance {#at-a-glance}
 
@@ -99,7 +99,7 @@ A handoff rule looks like one decision, but it touches qualification fields, coa
 
 Oliv AI puts that place in its Oliver agent. The RevOps head describes the new rule in plain language. Oliver updates the handbook, reconfigures the related fields and passes the change to every agent that depends on it, from the next day forward. The proposal waits for a person to approve it.
 
-Each proposal opens in **Review changes** as a line-by-line diff of every file it touches, with its knock-on effects listed below. It waits as **Pending Review** until someone presses **Approve & merge**. That review step is covered in How Oliv AI compares for revenue operations automation, below.
+Each proposal opens in **Review changes** as a line-by-line diff of every file it touches, with its knock-on effects listed below. It waits as **Pending Review** until someone presses **Approve & merge**. That review step is covered in How Oliv AI compares for revenue operations software, below.
 
 ## Set up the Oliver agent {#set-up}
 
@@ -115,6 +115,30 @@ Each proposal opens in **Review changes** as a line-by-line diff of every file i
 - **We Run It.** Oliv AI's operators keep your playbooks, scorecards and agent context current for you. You're live in 2 weeks, with no prompts to write.
 
 The [RevOps implementation guide](https://www.oliv.ai/blog/oliv-ai-revops-implementation-admin-guide) walks through the first weeks in more detail.
+
+## How a sales process change reaches every tool {#methods}
+
+Say you tighten the exit rule on one stage. There are three usual ways to get that rule into the tools your team works in, and many rollouts mix them. Each one catches something and misses something, so it helps to know what you're relying on.
+
+### Announce it: a slide, a Slack post, a training session {#announce-it}
+
+You explain the new rule and why it changed, and reps hear it from a person. This catches understanding, which no field setting can do. It misses everything after the meeting: nothing stops a deal moving on the old rule, and nothing shows you who is still using it.
+
+### Enforce it in the CRM: required fields at the stage {#enforce-in-crm}
+
+You make the rule hard to skip at the moment a deal moves. In HubSpot, for example, [a required stage property stops users creating or updating the record](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines) until it has a value. This catches a blank field. It misses a field filled in carelessly, and it doesn't reach your scorecards, checklists or decks.
+
+Watch for copies here. HubSpot sets this logic stage by stage inside each pipeline, and [cloning a pipeline copies its conditional stage properties](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines). One rule can end up in several pipelines, and each of them needs changing later.
+
+### Keep one source every tool reads from {#one-source}
+
+You write the rule once, and whatever enforces it reads that copy. This catches stale copies, because there is only one to change. It misses anything that doesn't read from the source, such as a deck or a recorded training. It also spreads a bad change as fast as a good one, so the approval step carries real weight.
+
+### Which of these Oliver uses {#what-oliver-uses}
+
+Oliv AI's Oliver agent works the third way. The handbook is the source, the specialist agents read from it, and a process proposal waits for a person in **Review changes**. Where a change needs new fields or mappings, the agent writes to the CRM schema through CRM Manager, which covers part of the second way.
+
+The first way stays with you, because telling the team remains a RevOps job. If you're still weighing the wider category, the [guide to revenue operations software](https://www.oliv.ai/blog/revops-software) covers it.
 
 ## Change your process with Oliver {#change-process}
 
@@ -170,8 +194,64 @@ Oliver watches what's winning in the field and drafts the next process update fo
 
 ![The Agent Feed filtered to Team RevOps, with Oliver, CRM Manager and Forecaster ticked. Oliver's 7:00 AM row says a Q3 revenue review is ready with three revenue leaks and six playbook and agent changes to review, above CRM Manager and Forecaster rows.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_027_home_agent-feed_team-revops_filters-and-today-timeline_oliver-q3-revenue-review-crm-manager-field-updates-forecaster-category-shifts.webp)
 
-<figcaption>In the RevOps view of the feed, Oliv AI's Oliver agent flags proposed playbook and agent changes waiting for you. The figures are sample values.</figcaption>
+<figcaption>In the RevOps view of the feed, Oliv AI's Oliver agent flags proposed playbook and agent changes waiting for you. The revenue amounts in this view are demo data.</figcaption>
 </figure>
+
+## How to measure rollout lag after a process change {#measure-lag}
+
+A process change isn't finished when it's approved. It's finished when the old rule has gone from the last place it lived. Two measures tell you how close you are, and both count days from the approval date.
+
+- **Average lag.** Add the days each place took to catch up, then divide by the number of places.
+- **Longest lag.** Count the days until the last place catches up. Until then, two versions of your rule are live.
+
+Both have weak spots. A place you forgot to list never appears, so the numbers look better than they are. Both also count when a copy changed, not whether reps follow it, so spot-check recent deals as well. Read longest lag first, because an average can hide one straggler.
+
+### Reading lag against the History tab {#lag-in-history}
+
+Oliv AI's Oliver agent gives you the start of the clock. Use the date on a **Merged** card in **History** as day 0. Before you approve, **Review changes** lists the files a change touches and its knock-on effects, which gives you the Oliv AI side of your list. Keep the count for tools outside Oliv AI in your own sheet, with one row per place.
+
+## How to roll out a sales process change by hand {#roll-out-by-hand}
+
+This is the manual method, in the order that causes the least rework. It works with any CRM, and you can run it from a shared sheet.
+
+1. **Write the rule as one sentence.** Say what must be true before a deal leaves the stage. Gartner's 2019 advice was to [measure deal progress by customer verifiers](https://www.gartner.com/en/newsroom/press-releases/2019-11-13-gartner-says-the-traditional-linear-sales-process-no-), so prefer something the buyer did over something the rep ticked.
+2. **List every place the old rule lives.** Check CRM stage settings, required fields, the rep playbook, coaching scorecards, deal review checklists, forecast guidance and onboarding decks.
+3. **Name one owner and a date for each place.** A place with no owner is the one that stays out of date.
+4. **Get sign-off and record day 0.** Approve first, because a rule changed before sign-off may have to be changed back everywhere.
+5. **Change the CRM first.** That's where a rep meets the rule, so set the required field in every pipeline that has the stage.
+6. **Update everything that depends on the stage.** Work through scorecards, checklists and guidance. If the stage's meaning changed, recheck its win probability, because [HubSpot updates deal probability from that setting](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties) when a deal moves stage.
+7. **Tell the team what changes for them.** Say which deals the rule applies to, including deals already in the stage.
+8. **Spot-check deals that crossed the stage since day 0.** Any deal that misses the new rule points you to a place still on the old version.
+9. **Log the change.** Record the date, the approver and the reason, so the next person knows which version is current.
+
+Step 2 is where this usually goes wrong. A deck nobody listed keeps teaching the old rule to every new hire, and nobody notices because nothing fails. The other trap sits between steps 5 and 6, when the CRM enforces the new rule while a manager still coaches against the old one. Reps then get two answers.
+
+### The same job with Oliver {#same-job-oliver}
+
+Oliv AI's Oliver agent changes the middle of that list, not the start or the end. You still decide the rule and say it in plain language. The agent proposes the update, and **Review changes** shows each file as a diff, with knock-on effects such as a new CRM field or deals re-scored.
+
+Once you press **Approve & merge**, Oliver passes the change to every agent that depends on it, from the next day forward. That covers scorecards, tracking fields and agent context, without you touching individual agent settings. **History** takes the place of the log in step 9.
+
+Step 7 stays yours, and so does anything outside Oliv AI, such as a deck or a recorded training. Keep those places on your list. Oliver also surfaces deals outside your norms for human review, which gives step 8 a starting point.
+
+### Worked example: one stage rule in seven places {#worked-example}
+
+This is an illustrative calculation with sample figures, not an Oliv AI output. A RevOps lead changes the exit rule for one stage, lists the seven places that rule lives and records the day each one catches up.
+
+| Place the rule lives | Days to catch up |
+|---|---|
+| CRM stage settings | 1 |
+| Required field on the stage | 1 |
+| Rep playbook | 2 |
+| Coaching scorecard | 4 |
+| Deal review checklist | 6 |
+| Forecast guidance | 9 |
+| Onboarding deck | 14 |
+| **Total across seven places** | 1 + 1 + 2 + 4 + 6 + 9 + 14 = 37 |
+| **Average lag** | 37 / 7 = 5.3 days |
+| **Longest lag** | 14 days |
+
+An average of 5.3 days looks fine, but the old rule survives for 14 days somewhere. Five places have caught up by day 6, so the last two set the longest lag. Chase those two first, because a new hire reading the onboarding deck learns the old rule for two weeks after approval.
 
 ## How Oliver works with other agents {#works-with}
 
@@ -215,11 +295,11 @@ Oliver enforces your health standards across every account and carries each rene
 
 Enablement sees the effect through coaching. Coach coaches every rep against the methodology Oliver keeps current, so the standard reps are trained on matches the one agents enforce. The guide to [sales methodology automation](https://www.oliv.ai/blog/sales-methodology-automation-auto-score-meddic-bant-spiced-from-calls) covers scoring calls against a framework.
 
-## How Oliv AI compares for revenue operations automation {#compare}
+## How Oliv AI compares for revenue operations software {#compare}
 
 Many platforms let an admin set up a sales methodology in settings. Oliver takes a process change in a chat, applies one change to every agent that depends on it, and drafts the next update from patterns across your deals. Oliv AI is the only platform in this table that does all three.
 
-Revenue operations features, from each platform's public documentation:
+Revenue operations software features, from each platform's public documentation:
 
 | Platform | Methodology rules applied by AI | Process changed through a chat | Process updates drafted from deal patterns |
 |---|---|---|---|
@@ -232,7 +312,7 @@ Revenue operations features, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for revenue operations automation {#compare-stronger}
+### Why Oliv AI is the stronger choice for revenue operations software {#compare-stronger}
 
 - **Tell it, don't configure it.** RevOps describes a process change to Oliver in plain language. Gong's playbooks are [built in AI Deal Reviewer settings, with up to 20 elements per playbook](https://help.gong.io/docs/how-to-create-and-manage-playbooks). Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **Your methodology, not a preset.** Oliver captures MEDDPICC, BANT, SPICED or a proprietary framework. Avoma provides [three default, non-editable methodologies](https://help.avoma.com/configure-deal-methodology) to start from. Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).
@@ -251,6 +331,18 @@ Revenue operations features, from each platform's public documentation:
 - **It isn't a one-time setup.** Oliver is maintained continuously, not configured once.
 
 ## Common questions {#common-questions}
+
+#### How do you keep a sales process consistent across tools? {#faq-consistent}
+
+Keep one written source of the rules, list every place that copies them and check those places after each change. Oliv AI's Oliver agent keeps that source as the process handbook, and the other agents read from it.
+
+#### How do you roll out a sales process change? {#faq-roll-out}
+
+Write the rule in one sentence, list every place it lives, get sign-off, then update each place with a named owner. With Oliver, you describe the change and approve the proposal, and it reaches every dependent agent from the next day. You still tell the team.
+
+#### Does Oliver replace our CRM? {#faq-crm-layer}
+
+No. Oliv AI is a layer on top of your CRM, and Oliver connects to Salesforce, HubSpot or Zoho to align with your schema. The page on [Oliv AI and your CRM](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/platform/oliv-and-your-crm/) explains how the two fit together.
 
 #### Who talks to Oliver? {#faq-who-talks}
 
@@ -296,6 +388,12 @@ No. With **We Run It**, Oliv AI's operators maintain your playbooks on your beha
 
 Setting Oliver to **Act without asking** lets it change your settings without confirming first. The banner sits above the message box while that setting is on.
 
+## Further reading {#further-reading}
+
+- [Set up and manage object pipelines](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines): how HubSpot sets conditional stage properties and required fields, and what cloning a pipeline copies.
+- [HubSpot's default deal properties](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties): which deal properties HubSpot updates by itself when a deal changes stage.
+- [Gartner on the linear sales process](https://www.gartner.com/en/newsroom/press-releases/2019-11-13-gartner-says-the-traditional-linear-sales-process-no-): a 2019 press release on measuring deal progress by customer verifiers.
+
 ## Related {#related}
 
 - [Oliver on oliv.ai](https://www.oliv.ai/agents/oliver): the agent's own page, with the two set-up paths.
@@ -307,3 +405,5 @@ Setting Oliver to **Act without asking** lets it change your settings without co
 - [Sales process automation guide](https://www.oliv.ai/blog/sales-process-automation): automating each stage of the sales process.
 - [Scaling revenue operations](https://www.oliv.ai/blog/scaling-revenue-operations-growth-stage-sales-team): keeping process consistent from 25 to 200 reps.
 - [Oliv AI product documentation](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/): every documented agent and feature.
+
+*Updated 3 November 2026: added how a process change reaches every tool, how to measure rollout lag, the manual method and a worked example.*

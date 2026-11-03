@@ -74,7 +74,7 @@ The brief is built to fit on one screen and take about 60 seconds to read, as de
 - **Stakeholders.** Who is in the meeting, what roles they play and what they care about, based on prior conversations.
 - **Recommended agenda.** Tailored to the deal stage and the qualification gaps.
 
-Shortly before the call, Meeting Assistant also posts a call prep note to your Agent Feed on **Home**. For a first meeting with a new contact, Oliv AI's Researcher agent builds the brief instead. [Oliv AI's Olivia agent](https://www.oliv.ai/agents/olivia) also surfaces the right context before every meeting, such as deal status, stakeholder intel, qualification gaps and what was agreed last time. Read more on [getting the most from an AI meeting assistant](https://www.oliv.ai/blog/ai-meeting-assistant-for-sales).
+Shortly before the call, Meeting Assistant also posts a call prep note to your Agent Feed on **Home**. For a first meeting with a new contact, [Oliv AI's Olivia agent](https://www.oliv.ai/agents/olivia) does the research instead. Olivia also surfaces the right context before every meeting, such as deal status, stakeholder intel, qualification gaps and what was agreed last time. Read more on [getting the most from an AI meeting assistant](https://www.oliv.ai/blog/ai-meeting-assistant-for-sales).
 
 ## After a call {#after-a-call}
 
@@ -233,7 +233,7 @@ Deal workflow features for account executives, from each platform's public docum
 
 ## Limits and things to know {#limits}
 
-- **Active opportunities only.** Meeting Assistant works on meetings linked to an active opportunity. Researcher covers first-time contacts.
+- **Active opportunities only.** Meeting Assistant works on meetings linked to an active opportunity. Olivia's research covers first-time contacts.
 - **It needs a recording.** Meeting Assistant relies on [Oliv Notetaker recordings and transcripts](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/) and a Deal Insights subscription.
 - **Not a CRM.** CRM Manager works on top of Salesforce, HubSpot or Zoho. It doesn't replace them.
 - **Pending updates have a deadline.** If a rep doesn't complete updates within a defined window, deals can be deferred or flagged as closed-lost. Each org configures this.

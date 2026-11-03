@@ -1,13 +1,13 @@
-# Plan your deployment
+# How to roll out AI sales agents: a 30-day plan from admin access to the day-30 review
 
-A 30-day plan for rolling Oliv AI out across sales and customer success, from choosing who runs the setup and lining up admin access to the first brief, the process handbook and the day-30 review.
+A 30-day plan for an AI sales agent rollout across sales and customer success, from choosing who runs the setup and lining up admin access to the first brief, the process handbook and the day-30 review.
 
 - Applies to: Revenue operations leads planning an Oliv AI rollout
 - Status: Live
-- Verified: 2026-10-22
+- Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/getting-started/plan-your-deployment/
 
-Rolling Oliv AI out across sales and customer success takes about a month, and most of it runs in parallel. Reps get their first brief before their next meeting, while your process handbook and the manager agents come online over the following weeks. This guide gives revenue operations a week-by-week plan: who runs the setup, which admins you need, what to switch on first and what to check at day 30.
+You've bought AI sales agents or you're piloting them, and now you need a plan for the first 30 days of the AI sales agent rollout: who sets it up, what to connect, what the team sees first and how to judge success. Oliv AI, a layer on top of your CRM, answers that with a rollout of about a month, and most of it runs in parallel. Reps get their first brief before their next meeting, while your process handbook and the manager agents come online over the following weeks. This guide gives revenue operations a week-by-week plan, ending with what to check at day 30.
 
 ## At a glance {#at-a-glance}
 
@@ -21,6 +21,7 @@ Rolling Oliv AI out across sales and customer success takes about a month, and m
 | **Admins you need** | CRM, calendar or Microsoft 365, Zoom and Slack |
 | **Where you configure it** | **Settings**: stages, qualification framework, coaching scorecards, targets, measurements and forecast cadences |
 | **Rep training** | None for forecasting or deal alerts; reps keep working as they do now |
+| **Day-30 check** | The share of reps with a brief, connections live and handbook sections approved |
 
 ## Before you begin {#before-you-begin}
 
@@ -97,11 +98,11 @@ While the handbook is built, set the two definitions every deal is measured agai
 
 ![Revenue process settings on the Enterprise Sales tab, beside Mid-Market sales and Customer Success tabs, with an Import Pipeline from CRM button. A stage table from Qualification to Closed lost shows Type, Probability, Forecast Category, Outcomes and Entry Criteria for each stage.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/settings/oliv-ai_260_settings_revenue-process_enterprise-sales-tab_stage-table-with-type-probability-forecast-category-outcomes-and-import-pipeline-from-crm.webp)
 
-<figcaption>Your stages, imported from the CRM and mapped to a probability and forecast category, are what deal alerts and the forecast read from week one.</figcaption>
+<figcaption>Your stages, imported from the CRM and mapped to a probability and forecast category, are what deal alerts and the forecast read from week one. The probabilities on this screen are sample values.</figcaption>
 </figure>
 
 4. **Open Settings › Qualification Framework.** The tabs are **MEDDPICC**, **MEDDIC**, **SPICED**, **BANT** and **DRIVE**, and the one in use carries an **Active** badge.
-5. **Preview, then activate.** Click a tab to see its criteria, scoring range and supporting fields, then click **Activate** to switch your organisation to it. Agents then score meetings and deals against that framework.
+5. **Preview, then activate.** Click a tab to see its criteria, scoring range and supporting fields, then click **Activate** to switch your organization to it. Agents then score meetings and deals against that framework.
 
 <figure>
 
@@ -164,10 +165,12 @@ The Forecaster agent works from four settings. Set them in this order:
 
 ![Coaching Scorecard settings with Deals, Customers, Meetings and Phone calls tabs above a table of scorecards. The Deals group lists Enterprise, Mid-Market, SMB and Upsell Opportunity scorecards, and the Customers group lists Retention, Onboarding and Renewal Readiness, each with a description and an evaluation count.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/settings/oliv-ai_262_settings_coaching-scorecard_deals-tab_scorecard-library-with-description-and-evaluations-last-30-days.webp)
 
-<figcaption>The starting scorecards for enablement to review: one library across deals, customers, meetings and phone calls, with a usage count beside each.</figcaption>
+<figcaption>The starting scorecards for enablement to review: one library across deals, customers, meetings and phone calls, with a usage count beside each. Those counts are demo figures, not results.</figcaption>
 </figure>
 
 ## Step 7: Review at day 30 {#step-7-review}
+
+Score the rollout first, using the three counts in How to measure a rollout at day 30, below. Then work through these checks with your stakeholder.
 
 1. **Check the CRM updates.** Look at what reps accepted and rejected. Once accuracy thresholds are met, revenue operations confirms the switch to auto mode, as the [CRM upkeep guide](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/) explains.
 2. **Read the first coaching review.** Coach's monthly review shows whether the scorecards match how you want calls run.
@@ -218,7 +221,78 @@ Nothing about the agents needs a finished playbook before reps can start. A brie
 
 Oliv AI runs both tracks for her. Reps get their first brief before their next meeting, while Oliv AI's onboarding team turns her deck into Oliver's handbook in one to two weeks. If she picks We Run It, Oliv AI's operators maintain the playbooks on her behalf.
 
-The proof of value adds one more piece: a tailored version of Oliv AI is live within 1 day of kickoff. How other platforms handle setup and tailoring is covered in How Oliv AI compares for rolling out revenue AI, below.
+The proof of value adds one more piece: a tailored version of Oliv AI is live within 1 day of kickoff. How other platforms handle setup and tailoring is covered in How Oliv AI compares for AI sales agent rollouts, below.
+
+## How AI sales agent rollouts get run {#methods}
+
+Rollouts tend to follow one of four orders. Pick yours before kickoff, because each one fails in a different place and at a different team.
+
+### Everything on at once {#rollout-all-at-once}
+
+You connect every tool, switch on every agent and invite every team in the same week. This catches broken connections fast, because every gap shows up together. It misses the order of trust: managers can read alerts and forecasts before anyone has agreed the rules behind them.
+
+### One team first {#rollout-one-team}
+
+You run the whole plan with one pod or region, then widen it. This catches what only real use shows, such as a stage nobody uses or a scorecard that doesn't fit. It misses anything that needs scale, like a leader's rollup across teams. Your rules also get tested on one team's habits, and the next team may work differently.
+
+### Rules first, then people {#rollout-rules-first}
+
+You clean the CRM, write the playbook and then train everyone. This catches disagreements about process before a rep sees any output. It misses time, because nobody gets value until the rules are done.
+
+Cleaning has a blind spot too, since a filled field isn't always a person's view. In HubSpot, a deal created in an open stage with no close date [gets the last day of the month or your chosen default](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties). A tidy close date column can still hold guesses, and only use shows you which ones.
+
+### Two tracks at once {#rollout-two-tracks}
+
+Reps start on what works straight away, while the rules get built beside them. This catches problems early, because reps and your stakeholder react to real outputs from week one. It can miss rule problems for a while, because reps see outputs before the rules are final. It also depends on one named owner, or the rules track drifts while reps carry on.
+
+### Which order Oliv AI follows {#rollout-oliv-order}
+
+Oliv AI follows the two-track order, and the steps above are written for it. Oliv AI's Olivia agent delivers a first brief with no waiting period, and the handbook takes one to two weeks with the onboarding team. CRM Manager starts in **Ask First** mode, so each update waits for review in the early weeks.
+
+## How to measure a rollout at day 30 {#measure-rollout}
+
+Count three things on day 30, each as a plain share. Write down what you're counting in week one, so nobody argues about the planned totals later. The three counts follow the plan's own order: did reps get value, are the tools connected and are the rules agreed.
+
+| Count | How to work it out | Its weak spot |
+|---|---|---|
+| **Brief coverage** | Reps who have received a brief, divided by reps in the rollout | Received isn't read. A rep whose calendar isn't connected won't appear, so check that before you blame the rep. |
+| **Connections live** | Connections working, divided by connections planned | Each user connects their own calendar, so one working login says little about the rest of the team. |
+| **Handbook sections approved** | Sections your stakeholder has approved, divided by sections planned | Every section counts the same, so a short proposal section weighs as much as your ICP. |
+
+### Where Oliv AI shows these counts {#measure-where-oliv}
+
+The handbook count comes from the Playbook. Oliver's proposed changes wait as **Pending Review**, and **History** logs every change. Keep the brief and connection counts in your tracker, using confirmations from your admins and a quick question to each rep.
+
+Two other screens help you read the counts. CRM Manager's weekly digest gives acceptance rate by rep, so a low acceptance rate can point to a team that needs attention. In **Settings › Coaching Scorecard**, **Evaluations (Last 30 days)** shows which scorecards are in use.
+
+## How to run a 30-day rollout by hand {#rollout-by-hand}
+
+Without a vendor team, the rollout runs from one shared tracker. It usually goes wrong when a single admin on leave blocks three later steps, so name people and dates from the start.
+
+1. **List the reps.** Put everyone in the rollout on one sheet, with team and role. This is your planned total for brief coverage.
+2. **List the connections.** Give each one an owner and a booked date. In HubSpot, the person changing pipelines or stages needs [Edit property settings permissions](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines), so check that before the session.
+3. **List the handbook sections.** Name one approver per section, and don't start writing until each has agreed.
+4. **Copy your stage rules.** Note each stage's meaning and probability. HubSpot [asks for both Won and Lost stages](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines) so that its sales reports process deals correctly, and a missing one will skew your first reports.
+5. **Update every Friday.** Refresh the three counts and chase the oldest blocked item first.
+6. **Score on day 30.** Work out each share, rank them and give the lowest one next week's attention.
+
+### The same job in Oliv AI {#same-job-oliv}
+
+You still name the people, book the admins and make the day-30 call. Oliv AI takes on the steps in between. **Import Pipeline from CRM** pulls your existing stages into **Revenue Process**, so you check them rather than copy them. Oliv AI's onboarding team builds the handbook with your revenue operations lead, working from your existing decks.
+
+Oliv AI's Olivia agent sends briefs without anyone scheduling them. If you choose **We Run It**, its operators maintain the playbooks too. For the admin's view of the same work, read the [RevOps implementation guide](https://www.oliv.ai/blog/oliv-ai-revops-implementation-admin-guide).
+
+### Worked example: scoring a rollout at day 30 {#worked-example}
+
+This is an illustrative calculation with sample figures, not an Oliv AI output or a customer result. A revenue operations lead scores a rollout of 25 reps on the three counts.
+
+| Count | Done | Planned | Arithmetic | Share |
+|---|---|---|---|---|
+| Reps who have received a brief | 22 | 25 | 22 ÷ 25 | 88% |
+| Connections live | 6 | 7 | 6 ÷ 7 | 86% (rounded) |
+| Handbook sections approved | 9 | 12 | 9 ÷ 12 | 75% |
+
+The handbook is lowest at 75%, so it gets the next week's attention. The lead books the stakeholder to review the three open sections, because every agent works inside those rules. The three reps without a brief and the one missing connection stay on the tracker for the same week.
 
 ## How the deployment plan works with other features {#works-with}
 
@@ -258,7 +332,7 @@ A head of customer success brings the CSMs on in week one for briefs and follow-
 
 An enablement manager picks Coach's starting scorecards and reads the first monthly review. It's a quick way to see where new hires need help, as covered in [cutting new-hire ramp time](https://www.oliv.ai/blog/sales-new-hire-ramp-time-coaching-onboarding).
 
-## How Oliv AI compares for rolling out revenue AI {#compare}
+## How Oliv AI compares for AI sales agent rollouts {#compare}
 
 Oliv AI's onboarding team builds your process handbook with your revenue operations lead, and you can hand ongoing upkeep to Oliv AI's operators. Signal models are tailored to your company within a day of the proof of value kickoff. Oliv AI is the only platform in this table that does all three.
 
@@ -274,7 +348,7 @@ Setup and onboarding, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for rolling out revenue AI {#compare-stronger}
+### Why Oliv AI is the stronger choice for AI sales agent rollouts {#compare-stronger}
 
 - **Your process, built with you.** Oliv AI's onboarding team turns your playbooks and methodology into Oliver's handbook in one to two weeks. [Gong documents working with an onboarding consultant to bring in historical CRM data](https://help.gong.io/docs/explainer-aligning-analytics-reports-with-historical-data). See [Gong vs Oliv AI](https://www.oliv.ai/blog/gong-vs-oliv).
 - **Upkeep you can hand off.** On the We Run It path, Oliv AI's operators maintain the playbooks for you. [Outreach describes its professional services as billable projects](https://support.outreach.io/support/solutions/articles/159000425834-outreach-glossary). See [Gong vs Outreach, and where Oliv AI fits](https://www.oliv.ai/blog/gong-vs-outreach).
@@ -334,6 +408,23 @@ When the team trusts them. Updates start in review, and revenue operations confi
 
 Yes. Human feedback and quarterly re-research track new offerings, positioning and buyer personas as your company changes.
 
+#### Who should run an AI sales agent rollout? {#faq-who-runs}
+
+One revenue operations lead should own it, with a sales or leadership stakeholder who checks the handbook for accuracy. Reps don't run any part of it, because they work with Oliv AI's Olivia agent and not Oliver.
+
+#### How do you review an AI sales agent rollout after 30 days? {#faq-day-30-review}
+
+Work out three shares: reps who have received a brief, connections live and handbook sections approved. Give the lowest one next week's attention, then check CRM updates, the first coaching review and a pipeline review.
+
+#### What happens if Slack approval runs late? {#faq-slack-late}
+
+The rollout carries on. If the Slack app or Slack Connect can't be approved in time, onboarding continues and Oliv AI sends messages by email until Slack is connected.
+
+## Further reading {#further-reading}
+
+- [Set up and manage object pipelines](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines) (HubSpot Knowledge Base): which permission lets someone edit pipelines and why Won and Lost stages matter.
+- [HubSpot's default deal properties](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties) (HubSpot Knowledge Base): when HubSpot sets a deal's close date by itself, which is worth knowing before you trust that column.
+
 ## Related {#related}
 
 - [Oliv AI product documentation](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/): every guide, by agent and feature.
@@ -341,3 +432,5 @@ Yes. Human feedback and quarterly re-research track new offerings, positioning a
 - [Slack integration](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/): the meeting messages your team gets once Slack is connected.
 - [Customer onboarding with Oliv AI](https://www.oliv.ai/onboarding): how onboarding teams use Oliv AI agents with their own customers.
 - [Plans and pricing](https://www.oliv.ai/pricing): how Oliv AI is priced.
+
+*Updated 3 November 2026: added the rollout orders, day-30 measures, by-hand tracker, worked example, three FAQs and further reading.*

@@ -1,13 +1,13 @@
-# Salesforce
+# Salesforce AI integration: how to connect Oliv AI and control what it writes to your org
 
 How to connect Oliv AI to Salesforce, choose how CRM updates are reviewed, clean up existing data, and see what Oliv AI writes to your org.
 
 - Applies to: Revenue operations and Salesforce admins
 - Status: Live
-- Verified: 2026-10-22
+- Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/
 
-Oliv AI connects to Salesforce as a layer on top of your org, and Salesforce stays your system of record. Oliv AI pulls in your accounts, contacts and opportunities, then writes insights from meetings, calls and emails back to them. This page covers the install, the review settings and what changes in Salesforce once the connection is live.
+You're adding AI for Salesforce, so you need to install it, choose how updates are reviewed and see exactly what gets written to your org. Oliv AI connects to Salesforce as a layer on top of your org, and Salesforce stays your system of record. Oliv AI pulls in your accounts, contacts and opportunities, then writes insights from meetings, calls and emails back to them. This page covers the install, the review settings and what changes in Salesforce once the connection is live.
 
 ## At a glance {#at-a-glance}
 
@@ -68,7 +68,7 @@ The blank fields and the duplicates come from the same place. Fields stay empty 
 
 Oliv AI starts from the org as it is. Oliv AI's CRM Manager agent writes to Salesforce after every meeting, call and email, and it resolves duplicates as activity touches them. For the backlog, the admin gives it a direct job. It can find all duplicate accounts from last quarter, or backfill MEDDPICC fields across the pipeline.
 
-Before anything is written, the admin picks how updates land. **Ask First** shows each proposed update beside the current Salesforce value, while **Auto-Pilot** applies updates without review. That review step is one of the points covered in How Oliv AI compares for Salesforce automation, below.
+Before anything is written, the admin picks how updates land. **Ask First** shows each proposed update beside the current Salesforce value, while **Auto-Pilot** applies updates without review. That review step is one of the points covered in How Oliv AI compares as AI for Salesforce, below.
 
 ## Connect Salesforce {#connect-salesforce}
 
@@ -86,10 +86,18 @@ You need admin access in Salesforce to install the package. Connect a calendar a
 
 ![The Revenue process settings page on the Enterprise Sales tab, with Mid-Market sales and Customer Success tabs, a blue Import Pipeline from CRM button, and a table of seven stages with type, probability, forecast category, outcomes and entry criteria.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/settings/oliv-ai_260_settings_revenue-process_enterprise-sales-tab_stage-table-with-type-probability-forecast-category-outcomes-and-import-pipeline-from-crm.webp)
 
-<figcaption>Step 7: Import Pipeline from CRM brings your Salesforce stages into Oliv AI, so each sales motion's stages, probabilities and forecast categories match your org.</figcaption>
+<figcaption>Step 7: Import Pipeline from CRM brings your Salesforce stages into Oliv AI, so each sales motion's stages, probabilities and forecast categories match your org. The stages and percentages shown are sample data.</figcaption>
 </figure>
 
 Standard fields are mapped as soon as the connection is made. Oliv AI's team [configures your custom fields](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/field-mapping/) during onboarding as a service, so there's no mapping task for your RevOps team.
+
+### Check these before you press Install {#before-you-install}
+
+Three things are worth checking before step 2, because each one is harder to deal with after go-live.
+
+- **What All Users grants.** Salesforce prompts for [admins only, all users or specific profiles](https://help.salesforce.com/s/articleView?id=xcloud.pkg_subscriber_determine_access.htm&type=5), and its table lists read, create, edit and delete object permissions for all users. Tell whoever reviews access in your org before you select it. The installer also needs the [Download AppExchange Packages permission](https://help.salesforce.com/s/articleView?id=sf.distribution_installing_packages.htm&type=5).
+- **Whether step 4 can be undone.** Step 4 may turn on Salesforce's Shared Activities. If it does, [Salesforce says you can't disable it](https://help.salesforce.com/s/articleView?id=sf.activities_shared_considerations.htm&type=5) afterwards, so put it through your usual change process first.
+- **Field history on the fields you care about.** Salesforce [starts tracking when you turn it on](https://help.salesforce.com/s/articleView?id=sf.tracking_field_history.htm&type=5) and leaves out earlier changes. Turn it on now for stage, close date, amount and next steps, or you'll have no record of what changed in the first week.
 
 ## Choose how updates reach Salesforce {#review-updates}
 
@@ -102,9 +110,9 @@ After each activity, the rep gets a [notification in Slack](https://maximuslabs-
 
 <figure>
 
-![A deal drawer for Dunder Mifflin on the CRM Updates tab, with Sync to Salesforce in the header, an index of AI Suggestions, AI Updates and Updates History, and Use Case and Primary Contact cards with Current Value, Accept and Reject.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/records-deals/oliv-ai_225_records-deals_deal-detail-drawer_crm-updates-tab_ai-suggestions-4-accept-reject-use-case-primary-contact-competitor-notes.webp)
+![A deal drawer for a sample account on the CRM Updates tab, with Sync to Salesforce in the header, an index of AI Suggestions, AI Updates and Updates History, and Use Case and Primary Contact cards with Current Value, Accept and Reject.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/records-deals/oliv-ai_225_records-deals_deal-detail-drawer_crm-updates-tab_ai-suggestions-4-accept-reject-use-case-primary-contact-competitor-notes.webp)
 
-<figcaption>Under Ask First, this is the review step: each suggested Salesforce field change sits beside its current value, and the deal header's Sync to Salesforce button pushes the deal to the CRM.</figcaption>
+<figcaption>Under Ask First, this is the review step: each suggested Salesforce field change sits beside its current value, and the deal header's Sync to Salesforce button pushes the deal to the CRM. The deal value and contacts are sample data.</figcaption>
 </figure>
 
 Once accuracy thresholds are met, RevOps confirms the switch to auto mode. Until then, reps get end-of-day reminders for unverified deal updates, and managers can see what is waiting from the **AI Suggestions** count on each deal.
@@ -115,8 +123,20 @@ Each meeting also has a **CRM Updates** tab. It shows what was written after the
 
 ![A meeting details drawer on the CRM Updates tab: a timeline with Account Updated, Pending Update: Move to Proposal with an Update Deal button, Opportunity Updated: BANT Scorecard and two Contact Created entries, each linking to its record.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_246_activities-meetings_meeting-details-drawer_crm-updates-tab_account-deal-bant-and-contact-updates-with-pending-stage-move.webp)
 
-<figcaption>After each call you can check what reached Salesforce: completed writes carry a green check, and a stage move waits as a Pending Update for a person to confirm.</figcaption>
+<figcaption>After each call you can check what reached Salesforce: completed writes carry a green check, and a stage move waits as a Pending Update for a person to confirm. The account and dates come from a demo workspace.</figcaption>
 </figure>
+
+### Which review setup to start with {#choose-a-setup}
+
+Start with **Ask First** unless someone has already checked the writes on your own org. It's the default, and it shows you what the agent gets wrong before those values feed your reports. Enterprise teams also have a weekly cadence, which sits between the two modes.
+
+| Setup | What happens to a suggested update | Good fit when | What to watch |
+|---|---|---|---|
+| **Ask First** | A rep accepts or rejects it before it's written | You're in your first weeks, or the field feeds a forecast | Suggestions pile up if reps skip the review |
+| **Weekly review window** | Reps get pending suggestions on Friday morning, and unreviewed ones auto-accept by Sunday night | Your reps prefer to review in one sitting | An unread suggestion still lands |
+| **Auto-Pilot** | It applies without review | RevOps has confirmed that accuracy thresholds are met | You find errors afterward, in history and the digest |
+
+Agree one more thing with Oliv AI's team before go-live. If a rep doesn't complete updates within a defined window, deals can be automatically deferred or flagged as closed-lost. That behavior is configurable per org, so decide it on purpose, and tell your reps what you chose.
 
 ## Clean up existing Salesforce data {#clean-up}
 
@@ -128,6 +148,82 @@ Real-time mode cleans new data as it arrives. For history, RevOps can give Oliv 
 - "Backfill MEDDPICC fields across the pipeline."
 
 Parent and subsidiary account relationships are also maintained as org structures change. Each week the RevOps owner gets a [digest by Slack](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/) or email listing new deals, accounts and contacts, the fields updated and enriched, and the records cleaned or de-duplicated. The RevOps playbook on [autonomous CRM hygiene](https://www.oliv.ai/blog/crm-data-quality-automation-revops) covers the thinking behind this.
+
+## How activity gets matched to the right Salesforce opportunity {#methods}
+
+An update is only as good as the record it lands on. A correct next step written to the wrong opportunity looks clean in every report, so it's harder to catch than a blank field. There are three common ways to decide where a call or email belongs, and each one fails in a different place.
+
+### A rep picks the record {#match-by-rep}
+
+The rep sets the **Related To** field when logging the activity. This catches what only the rep knows, such as which of two deals a call was really about, but it misses everything nobody logs.
+
+A blank field has a side effect too. With Shared Activities on, Salesforce [bases an account's last activity date](https://help.salesforce.com/s/articleView?id=sf.activities_shared_considerations.htm&type=5) on what rolls up through **Related To**, and falls back to the primary contact's account when the field is empty. So an account can look active while no opportunity shows the call.
+
+### A rule matches by contact or domain {#match-by-rule}
+
+A rule links the activity to an account through the email address or domain, then to an open opportunity. This works when the account has one open opportunity, because there's only one place the activity can go.
+
+It breaks when the account has two or three, since the rule has to guess. It also misses a partner call, or emails from an acquired company when the opportunity lives on the parent. Someone has to update the rules every time the CRM or the business changes.
+
+### An agent reads the conversation {#match-by-context}
+
+An agent reads what was said and who was there, then places the activity the way a seller would. This catches the multi-opportunity account, the partner call and the acquisition that rules miss. It can still get a case wrong, so you need a person checking a sample and a route for cases it can't settle.
+
+### Which of these Oliv AI uses {#match-oliv}
+
+Oliv AI's CRM Manager agent uses the third way. It maps every activity to the right account and opportunity by reading full context rather than rules, including when one account has several opportunities. If it can't resolve a match, it asks the seller, so a rep's judgment stays as the fallback.
+
+## How to measure whether Salesforce updates are safe to leave unreviewed {#measure-review}
+
+Before RevOps confirms a move to **Auto-Pilot**, you want evidence from your own org. Two measures are enough, and each one covers the other's weak spot.
+
+### Acceptance rate {#acceptance-rate}
+
+Divide accepted suggestions by all the suggestions reps reviewed. This tells you how often reps agree with the agent, and a falling rate is an early warning.
+
+Its weak spot is that a rep can accept everything without reading it. Nielsen Norman Group's guidance on confirmation dialogs warns that [people stop paying attention](https://www.nngroup.com/articles/confirmation-dialog/) when they're asked to confirm too often. So treat a very high rate for one rep as a reason to check that rep's deals, not as proof of accuracy.
+
+### Correction rate on a spot-check {#correction-rate}
+
+Take a sample of updates already written, and count the ones a person would change: wrong deal, wrong value or wrong field. Divide by the number you checked. This shows real errors, including any a rep waved through.
+
+Its weak spot is the sample. If you only check accounts with one open opportunity, the rate will flatter the tool, so the worked example below shows where to look first.
+
+### Where Oliv AI shows these {#where-measures-show}
+
+The weekly governance summary gives RevOps and managers the suggestions made, fields updated, reverts, acceptance rate by rep and flags requiring review. On a deal, **Updates History** shows how each field has changed. You work out the correction rate yourself from your spot-check, using Salesforce's history as a second record that doesn't depend on Oliv AI.
+
+## How to check what an AI tool writes to Salesforce by hand {#check-by-hand}
+
+You can run this audit with Salesforce reports and field history alone. It works for any tool that writes to your org, and it gives you a baseline to compare against.
+
+1. **Turn on field history.** In Setup, open [Field History Tracking](https://help.salesforce.com/s/articleView?id=sf.tracking_field_history_for_standard_objects.htm&type=5), pick the object and select the fields you care about. Accounts can track 20 fields at most.
+2. **Count open opportunities per account.** Run a report that groups open opportunities by account. Separate the accounts with one from the accounts with two or more.
+3. **Pull last week's activities on the multi-opportunity accounts.** Read each subject, and check that **Related To** names the deal that was actually discussed.
+4. **Read the history on those deals.** The [History related list](https://help.salesforce.com/s/articleView?id=sf.tracking_field_history.htm&type=5) gives the date, the time, the change and who made it. Long text fields record only that an edit happened, so read those on the record itself.
+5. **Log each error.** Note whether it's a wrong deal, a wrong value or a wrong field, then divide by the number of records you checked.
+6. **Repeat each week and compare.** If the rate is falling, widen the check to single-opportunity accounts. If it isn't, keep updates under review.
+
+### The same job in Oliv AI {#same-job}
+
+The agent's work sits on the record, so steps 3 and 4 get shorter. Open a meeting's **CRM Updates** tab to see what was written after that call, and which stage move still waits as a **Pending Update**. Open a deal's **CRM Updates** tab for its **AI Suggestions**, **AI Updates** and **Updates History**.
+
+The weekly digest gives you the tally of suggestions and the acceptance rate by rep, and the spot-check itself stays with you. Keep Salesforce's field history on as well, because it's your org's own record of each change.
+
+### Worked example: where to spot-check first {#worked-example}
+
+A RevOps lead counts 200 accounts and sorts them by how many open opportunities each one has. This is an illustrative calculation with sample figures, not an Oliv AI output, and it claims no saving.
+
+| Open opportunities per account | Accounts | Opportunities |
+|---|---|---|
+| One | 150 | 150 × 1 = 150 |
+| Two | 40 | 40 × 2 = 80 |
+| Three | 10 | 10 × 3 = 30 |
+| **Total** | **200** | **260** |
+| **Two or three, so activity needs matching** | 40 + 10 = **50** | 80 + 30 = **110** |
+| **Share of the total** | 50 / 200 = **25%** | 110 / 260 = **42%** |
+
+So 25% of accounts and 42% of opportunities need activity matched to the right deal, and those are what the RevOps lead spot-checks first. On the other 150 accounts, an activity has only one open deal to land on, so a quick check is enough.
 
 ## How the Salesforce integration works with agents {#works-with}
 
@@ -188,13 +284,13 @@ A sales manager opens a deal's **CRM Updates** tab [before a 1:1](https://maximu
 
 ### Account executives {#account-executives}
 
-An AE reviews the proposed updates after a call, accepts most of them and edits one. New stakeholders from the call are already contacts with roles on the opportunity. The workflow for [running deals as an account executive](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/) shows where this fits in the day.
+An AE reviews the proposed updates after a call, accepts most of them and rejects one. New stakeholders from the call are already contacts with roles on the opportunity. The workflow for [running deals as an account executive](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/) shows where this fits in the day.
 
 ### Customer success {#customer-success}
 
 Renewals, QBRs and check-in calls are logged against the account like any sales call. A CSM opening the account sees this week's activity, not last month's. More on Oliv AI for [customer success teams](https://www.oliv.ai/customer-success).
 
-## How Oliv AI compares for Salesforce automation {#compare}
+## How Oliv AI compares as AI for Salesforce {#compare}
 
 Many conversation tools write call notes or fields into Salesforce. Oliv AI also lets you review each update before it's written, creates missing accounts and contacts, and resolves duplicate accounts as activity arrives. Oliv AI is the only platform in this table that does all four.
 
@@ -211,7 +307,7 @@ Salesforce sync features, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for Salesforce automation {#compare-stronger}
+### Why Oliv AI is the stronger choice as AI for Salesforce {#compare-stronger}
 
 - **It starts from the org you have.** Oliv AI's CRM Manager agent creates missing accounts and contacts and resolves duplicates as activity arrives. Gong describes [Salesforce flows for new contacts that ship inactive](https://help.gong.io/docs/built-in-flows-to-enrich-your-gong-data-in-salesforce). Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **Review first, automate later.** Ask First shows each update beside the current value, and RevOps decides when to switch to Auto-Pilot. Gong documents that [AI Data Extractor runs automatically, with no action from reps](https://help.gong.io/docs/ai-data-extractor). See [Oliv AI as a Gong alternative](https://www.oliv.ai/gong-alternative).
@@ -233,6 +329,10 @@ Salesforce sync features, from each platform's public documentation:
 #### Does Oliv AI replace Salesforce? {#faq-replace}
 
 No. Oliv AI works with your existing CRM. It brings the context together and keeps Salesforce updated, and Salesforce stays the system of record.
+
+#### How do I connect AI to Salesforce? {#faq-connect}
+
+A Salesforce admin opens Oliv AI's admin install link, installs the package for all users, shares the org's URL with Oliv AI's team and enables two Salesforce settings. A calendar connection is also needed for meeting notes.
 
 #### Who has to install it? {#faq-who-installs}
 
@@ -266,9 +366,13 @@ Yes. Activity logging applies to any activity that reaches the platform, not onl
 
 Yes. A full history of how each field has been updated is kept and visible. On a deal, **Updates History** sits on the **CRM Updates** tab next to **AI Updates**, the changes already applied.
 
+#### How can I check what Oliv AI has written to Salesforce? {#faq-check-writes}
+
+Open a meeting's **CRM Updates** tab for what was written after that call, or a deal's **CRM Updates** tab for suggestions, applied changes and history. Salesforce's own field history also records changes on any field you've chosen to track.
+
 #### How do I watch the load on our Salesforce org? {#faq-usage}
 
-Oliv AI's install guide shows how to view Salesforce's own API usage for the last 24 hours and 7 days, and usage by app with Salesforce Workbench. The 7-day report is only visible in Salesforce Classic.
+Oliv AI's install guide shows where Salesforce itself reports your org's usage for the last 24 hours and 7 days, and how to see usage by app with Salesforce Workbench. The 7-day report is only visible in Salesforce Classic.
 
 #### Does Oliv AI work with other CRMs? {#faq-other-crms}
 
@@ -277,6 +381,15 @@ Yes. Salesforce, [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs
 #### How do I disconnect Salesforce? {#faq-disconnect}
 
 Send Oliv AI a message through Intercom in the Oliv AI app, and the team removes the integration.
+
+## Further reading {#further-reading}
+
+- [Field History Tracking Overview](https://help.salesforce.com/s/articleView?id=sf.tracking_field_history.htm&type=5): what Salesforce records for each tracked field, and how long it keeps it.
+- [Track Object Field History](https://help.salesforce.com/s/articleView?id=sf.tracking_field_history_for_standard_objects.htm&type=5): where to turn tracking on, object by object, in Setup.
+- [Determine Which Users Can Access a Package](https://help.salesforce.com/s/articleView?id=xcloud.pkg_subscriber_determine_access.htm&type=5): what each install option grants, in Salesforce's own table.
+- [Install a Managed Package](https://help.salesforce.com/s/articleView?id=sf.distribution_installing_packages.htm&type=5): the permission you need and what happens during an install.
+- [Considerations for Enabling Shared Activities](https://help.salesforce.com/s/articleView?id=sf.activities_shared_considerations.htm&type=5): how multi-contact activities affect last activity dates, and why the setting stays on.
+- [Confirmation Dialogs Can Prevent User Errors](https://www.nngroup.com/articles/confirmation-dialog/): why asking people to confirm too often stops protecting them, from Nielsen Norman Group.
 
 ## Related {#related}
 
@@ -288,3 +401,5 @@ Send Oliv AI a message through Intercom in the Oliv AI app, and the team removes
 - [Prepare for a meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/): the brief that draws on the Salesforce records this sync keeps current.
 - [Sales methodology tracking](https://www.oliv.ai/sales-methodology): the qualification frameworks whose fields Oliv AI fills.
 - [Oliv AI product documentation](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/): every documented agent and feature.
+
+*Updated 3 November 2026: added install checks, review setups, activity matching, how to measure and check writes by hand, and a worked example.*

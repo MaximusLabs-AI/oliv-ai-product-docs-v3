@@ -60,7 +60,7 @@ Open the meeting from **Activities › Meetings**. Its **Overview** tab shows **
 
 ![A meeting's page open on the Overview tab, with seven tabs from Overview to CRM Updates. A Key takeaways card lists five points with blue timestamps, an AI Summary card holds longer entries, and a deal updates card shows stage, amount and close date with a Review Deal button.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_240_activities-meetings_meeting-details-drawer_overview-tab_key-takeaways-ai-summary-and-deal-updates-card.webp)
 
-<figcaption>After the call, the meeting's Overview gives you the takeaways and summary with timestamps back to the moment. The deal card beside them is one click from the deal itself, and its stage, amount and date are sample figures.</figcaption>
+<figcaption>After the call, the meeting's Overview gives you the takeaways and summary with timestamps back to the moment. The deal card beside them is one click from the deal itself. Every figure in this example meeting is sample data, including the admin-time result in the takeaways.</figcaption>
 </figure>
 
 The **Action Items** tab turns commitments into work. **Next meeting**, **Next action** and **Next follow-up** cards sit above a **Tasks** table with **Assignee** and **Due Date**. Each task links to the moment it was agreed, and **Add task** adds your own.
@@ -97,7 +97,7 @@ Reps lose 15 to 20 minutes rebuilding context before each call. Each follow-up e
 
 ### Why buyers care {#why-buyers-care}
 
-VPs of Sales and sales managers are the usual buyers. Account executives champion it, because they get time back before and after every call. The value grows with deal volume, since there's more for the gap tracking to catch.
+VPs of Sales and sales managers are the usual buyers. Account executives champion it, because they get time back before and after every deal call. The value grows with deal volume, since there's more for the gap tracking to catch.
 
 ## The Oliv AI approach to the Meeting Assistant agent {#approach}
 
@@ -124,7 +124,7 @@ The draft lands within minutes of the call ending. Each CRM change shows on the 
 
 ![Settings, Qualification Framework page with five methodology tabs: MEDDPICC with an Active badge, MEDDIC selected for preview, SPICED, BANT and DRIVE, plus an Activate button. The table lists MEDDIC criteria with descriptions, a 0-6 scoring range and a supporting fields count.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/settings/oliv-ai_261_settings_qualification-framework_meddic-tab-selected-meddpicc-active_criteria-table-with-0-6-scoring-and-supporting-fields.webp)
 
-<figcaption>The Active framework decides which criteria every call is checked against. Set it here before the first meetings, so gap flags match the way your team qualifies.</figcaption>
+<figcaption>The Active framework decides which criteria every deal call is checked against. Set it here before the first meetings, so gap flags match the way your team qualifies.</figcaption>
 </figure>
 
 
@@ -177,7 +177,7 @@ Gap flags appear after each deal meeting, so reps and managers can act before mi
 
 ![The Meeting insights tab of a meeting's page, with chips for Metrics, Economic Buyer, Decision Criteria, Decision Process, Paper Process, Identify Pain, Champion and Additional Fields. The Metrics section shows Success Metrics, Business Impact and an Investment ROI card reading No ROI, above Economic Buyer cards.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_242_activities-meetings_meeting-details-drawer_meeting-insights-tab_meddpicc-sections-metrics-and-economic-buyer.webp)
 
-<figcaption>Gaps show up as plainly as evidence. A "not discussed" card, like the missing ROI here, is the question to raise on the next call.</figcaption>
+<figcaption>Gaps show up as plainly as evidence. A "not discussed" card, like the missing ROI here, is the question to raise on the next call. The admin-time figure on this tab is a demo value.</figcaption>
 </figure>
  Your team's framework decides what counts as a gap, so it helps to agree on your [sales methodology](https://www.oliv.ai/sales-methodology) first.
 
@@ -282,7 +282,7 @@ AI meeting assistant features, from each platform's public documentation:
 ### Why Oliv AI is the stronger choice as an AI meeting assistant {#compare-stronger}
 
 - **One recording, every output.** Meeting Assistant turns each call into a follow-up, CRM proposals and gap flags at once. Gong puts [generating a follow-up email among the call page actions](https://help.gong.io/docs/about-the-call-page), while [a MEDDICC agent shows where the gaps are](https://help.gong.io/docs/agent-use-case-and-examples). Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
-- **Gaps flagged on every call.** Meeting Assistant maps each call against the methodology your team runs. Avoma's Deal Methodology [surfaces compliance and gaps in the deal dashboard](https://help.avoma.com/configure-deal-methodology) once an admin configures it. Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).
+- **Gaps flagged on every deal call.** Meeting Assistant maps each call against the methodology your team runs. Avoma's Deal Methodology [surfaces compliance and gaps in the deal dashboard](https://help.avoma.com/configure-deal-methodology) once an admin configures it. Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).
 - **The manager gets the call context without asking.** Before every 1:1, Meeting Assistant summarizes what happened on each call. Outreach's manager workflows suggest you [use pipeline summary to review a rep's opportunities](https://support.outreach.io/support/solutions/articles/159000425547-sales-manager-workflows-for-rep-coaching-and-1-1-s) and pull that context together yourself. Read [how Gong and Outreach compare](https://www.oliv.ai/blog/gong-vs-outreach).
 
 *Competitor details checked against each vendor's public documentation on 21 October 2026. Features and plans change, so confirm with the vendor before you decide.*

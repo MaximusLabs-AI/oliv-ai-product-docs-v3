@@ -1,13 +1,13 @@
-# Recording modes: bot and botless
+# AI meeting recorder: how Oliv AI records with or without a bot, and what attendees see
 
-How Oliv AI decides whether to record a meeting botlessly through Zoom or Microsoft Teams or with a visible note taker, how to prepare your meetings for recording, and how it compares with other recorders.
+How an AI meeting recorder can capture customer meetings with or without a bot: Oliv AI chooses by who organized the meeting, and this page covers what attendees see, how to prepare meetings and how it compares with other recorders.
 
 - Applies to: Anyone whose meetings Oliv AI records, plus the admins who set recording up
 - Status: Live
-- Verified: 2026-10-22
+- Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/recording-modes/
 
-Oliv AI records your meetings in one of two ways, and it picks the way for you based on who organized the meeting. When someone from your company is the organizer, Oliv AI records botlessly, through [Zoom](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/zoom/) or Microsoft Teams itself. When someone outside your company is the organizer, a visible note taker joins the call, named after your company. This page explains both modes and how to prepare your meetings so they record.
+You need to record customer meetings, with or without a visible bot, and you need to know what attendees will see. As your AI meeting recorder, Oliv AI settles both from one fact: who organized the meeting. When someone from your company is the organizer, Oliv AI records botlessly, through [Zoom](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/zoom/) or Microsoft Teams itself. When someone outside your company is the organizer, a visible note taker joins the call, named after your company.
 
 ## At a glance {#at-a-glance}
 
@@ -35,13 +35,19 @@ A recording mode is how Oliv AI captures a meeting. When native or botless recor
 
 Botless recording happens inside the meeting app, such as Zoom or Microsoft Teams. The note taker is Oliv AI's visible way of joining a call to take notes, so you can focus on the conversation.
 
+### What attendees see {#what-attendees-see}
+
+Before a sensitive call, check who sent the invite, because that tells you what the room will see. If your company sent it, attendees see the recording indication in Zoom or Microsoft Teams, and nobody extra in the participant list. If someone outside your company sent it, they see the note taker with your company's name, so they can tell who is recording.
+
+### What you see {#what-you-see}
+
 Whichever mode records it, the meeting lands in **Activities › Meetings** with its duration, type, next step and AI summary.
 
 <figure>
 
-![Meetings list on the My meetings tab with a badge of 10, showing recorded meetings in a grid with Meeting title and date, Duration, a Meeting with dropdown such as Prospect or Customer, a colour-coded Next Step and the start of an AI Summary.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_239_activities-meetings_meetings-list_my-meetings-tab_grid-with-meeting-type-next-step-and-ai-summary-columns.webp)
+![Meetings list on the My meetings tab with a badge of 10, showing recorded meetings in a grid with Meeting title and date, Duration, a Meeting with dropdown such as Prospect or Customer, a color-coded Next Step and the start of an AI Summary.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_239_activities-meetings_meetings-list_my-meetings-tab_grid-with-meeting-type-next-step-and-ai-summary-columns.webp)
 
-<figcaption>Botless or note taker, every recorded meeting ends up in the same Meetings list, so the mode changes how a call is captured but never where you find it.</figcaption>
+<figcaption>Botless or note taker, every recorded meeting ends up in the same Meetings list, so the mode changes how a call is captured but never where you find it. The meetings and durations here are sample data.</figcaption>
 </figure>
 
 ### Recording phone calls {#phone-calls}
@@ -52,7 +58,7 @@ Phone calls placed from the Power Dialer in [Engage](https://maximuslabs-ai.gith
 
 ![Power Dialer during a live call. Under the contact card, a Record call toggle is switched on and a Recording method row offers One-way or Two-way, with Two-way selected, above pause, mute and a red End Call button. The tailored call plan fills the left side.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/engage/oliv-ai_134_engage_power-dialer_in-call-controls_record-call-toggle-on-recording-method-one-way-two-way-pause-mute-and-end-call-beside-call-plan.webp)
 
-<figcaption>For dialer calls the rep sets recording on the call itself, with the Record call toggle and a choice of recording method, rather than through the meeting organizer rule.</figcaption>
+<figcaption>For dialer calls the rep sets recording on the call itself, with the Record call toggle and a choice of recording method, rather than through the meeting organizer rule. The contact and every figure in this call plan belong to a demo workspace.</figcaption>
 </figure>
 
 ## Why recording modes matter {#why-it-matters}
@@ -88,7 +94,7 @@ What the customer objects to is an extra participant, not a record of the meetin
 
 Oliv AI answers it from the invite. When the account manager organizes the meeting, Oliv AI records through Zoom or Microsoft Teams directly, with no Oliv participant on the call. When the customer organizes, the note taker joins visibly, named after the account manager's company. Nobody has to change a setting before the call.
 
-Attendees on a botless call still see the meeting app's own recording indicator, so nobody is recorded without knowing it. How that organizer rule stacks up against other recorders is covered in How Oliv AI compares for recording sales meetings, below.
+Attendees on a botless call still see the meeting app's own recording indicator, so nobody is recorded without knowing it. How that organizer rule stacks up against other recorders is covered in How Oliv AI compares as an AI meeting recorder, below.
 
 ## Prepare your meetings for recording {#prepare}
 
@@ -123,6 +129,35 @@ A Zoom admin can grant permissions so that Zoom meetings are recorded even when 
 3. Click **Allow** to enable the Shared Access Permission.
 4. Let the Oliv AI team know. They finish the setup on their side.
 
+## How a meeting gets recorded, with or without a bot {#methods}
+
+Any recorder you shortlist takes one of three routes into a call, and each route fails in its own way. If you're still comparing tools, our [meeting recorder picks](https://www.oliv.ai/blog/meeting-recorder-picks-for-productivity) cover the wider market.
+
+### A bot joins as a participant {#bot-participant}
+
+The bot needs only a way into the meeting, so this route catches calls a customer hosts. It misses when nobody admits the bot from the lobby, or when the customer objects to an extra name in the participant list.
+
+### The meeting app records the call {#app-records}
+
+No extra participant appears, and attendees see the app's own recording indicator. This route catches the customers who refuse a bot. It depends on the host's account and settings, though. [HubSpot's Zoom integration](https://knowledge.hubspot.com/integrations/use-hubspots-integration-with-zoom), for example, syncs recordings and transcripts only when cloud recording and audio transcripts are turned on in Zoom. The recording must also stay available there.
+
+### A desktop app captures your device's audio {#device-audio}
+
+Some recorders skip the call and capture your computer's audio. Nothing joins the meeting, and the meeting app has no recording of its own to flag, so telling attendees falls entirely to you. It also covers only the device running the app.
+
+### Which of these Oliv AI uses {#which-oliv-uses}
+
+The first two routes are the ones Oliv AI documents, and the organizer settles which one applies. Your company's meetings go through the meeting app, and everyone else's get the visible note taker.
+
+## Tell attendees a meeting is being recorded {#tell-attendees}
+
+The app's indicator and the named note taker show that a recording is happening. Neither one asks for permission, so handle that yourself, in this order.
+
+1. **Say it in the invite.** Add a line saying the call will be recorded. If a customer is hosting, add that a note taker with your company's name will ask to join.
+2. **Ask before you start.** Nielsen Norman Group's [script for remote sessions](https://www.nngroup.com/articles/moderated-remote-usability-test/) asks whether it's OK to begin recording, then waits for a yes. That research habit carries over well to a customer call.
+3. **Agree what happens if someone says no.** Its [guidance on research consent](https://www.nngroup.com/articles/informed-consent/) lets people take part while opting out of the recording. On a customer-hosted call, that means stopping the note taker in one of the ways listed next.
+4. **Check the rules with your legal team.** [HubSpot's article on its own calling tool](https://knowledge.hubspot.com/calling/what-are-the-call-recording-laws) puts consent on the users who record, and it says plainly that it isn't legal advice. Ask your legal team which rules cover the people on your calls.
+
 ## Stop the note taker joining a meeting {#manage-notetaker}
 
 Oliv AI joins external calls automatically, but you can manage that from Oliv AI or from your Google or Outlook calendar. There are five ways to stop the note taker joining:
@@ -132,6 +167,55 @@ Oliv AI joins external calls automatically, but you can manage that from Oliv AI
 3. The remove link in your meeting preparation summary, by email or Slack.
 4. The remove link in the Zoom chat.
 5. Removing the note taker directly in Zoom.
+
+## How to measure how many of your meetings show a bot {#measure-bot-share}
+
+Two numbers tell you whether your recording setup is doing its job. Work them out before a conversation with IT about recorders, or after a customer complains about a bot.
+
+### Bot share {#bot-share}
+
+Divide customer meetings organized outside your company by all customer meetings in the period. That gives you the share of calls where attendees see the note taker. Leave internal calls out, or they will flatter the number.
+
+Its weak spot is that it counts meetings, not objections. One strict enterprise customer can matter more than a long list of customers who never mention the bot.
+
+### Recorded share {#recorded-share}
+
+Divide recorded customer meetings by customer meetings held. A low number points to the failures on this page: a note taker left in the lobby, a missing calendar connection, or a Zoom host who didn't give permission.
+
+Its weak spot is removals. A note taker you stopped on purpose looks like a miss, so take those meetings out first.
+
+### Where to read these in Oliv AI {#read-in-oliv}
+
+Start bot share from your calendar, because the organizer sits on the invite. For recorded share, use the [Meetings list](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meetings/), which holds every recorded meeting whichever mode captured it. Its **Meeting with** column marks types such as Prospect or Customer, and **Team meetings** widens the view beyond your own calls.
+
+## How to choose bot or botless for your meetings by hand {#choose-by-hand}
+
+Run this check when a customer raises the bot question, or before a run of renewal calls. You need your team's calendars and a list of the customers who have raised a concern.
+
+1. **List the customer meetings.** Take the next two weeks from your team's calendars and leave out internal calls.
+2. **Mark the organizer.** Note whether each invite came from your company or from outside it.
+3. **Flag the sensitive accounts.** Mark customers who have asked for no bot, or whose IT team restricts meeting tools.
+4. **Move the flagged invites.** Offer to send those invites from your side. Ask the customer to cancel the original, or someone may join the old link.
+5. **Warn the host on the rest.** Tell the host that a note taker with your company's name will wait in the lobby and needs admitting.
+6. **Check the result.** After the meetings, confirm that each one recorded, and find out why for any that didn't.
+
+### The same job in Oliv AI {#same-job-oliv}
+
+Oliv AI takes over step 2 and the choice that follows it. It goes by who organized the meeting and picks the mode, so nobody sets anything per call. You keep steps 3, 4 and 5, because only your team knows which customers object and who should send the invite. Step 6 gets shorter, since every recorded meeting lands in one list.
+
+### Worked example: 40 customer meetings and the share that show a bot {#worked-example}
+
+A team tallies 40 customer meetings. Its own people organized 26, which record botlessly, and customers organized 14, which bring the note taker. This is an illustrative calculation with sample figures, not an Oliv AI output.
+
+| Step | Arithmetic | Result |
+|---|---|---|
+| Meetings in the tally | 26 + 14 | 40 |
+| Share showing a bot today | 14 / 40 | 35% |
+| Customer-organized meetings left after reps send 6 invites from their own calendars | 14 - 6 | 8 |
+| Share showing a bot afterward | 8 / 40 | 20% |
+| Share recording botlessly afterward | (26 + 6) / 40 | 80% |
+
+Six invites moved the bot share by 15 percentage points, with no change to any setting. Start with the accounts that have objected, because the average matters less than the customers who actually care.
 
 ## How recording modes work with other features {#works-with}
 
@@ -149,16 +233,16 @@ A recorded meeting opens with a **Recording** tab: the player with **Add Comment
 
 ![Meeting details drawer on the Recording tab: a video player with Add Comment, Clip and Share buttons, a Timeline grouping speakers by company with Talk time and Engagement, and a Chapters list with Meeting Purpose, Action Items, Next Steps and Feedback Request and their timestamps.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-meetings/oliv-ai_243_activities-meetings_meeting-details-drawer_recording-tab_blank-player-add-comment-clip-share-timeline-and-chapters.webp)
 
-<figcaption>This is what a recording becomes once it is processed: chapters, a transcript, comments and per-speaker talk time, ready to clip or share.</figcaption>
+<figcaption>This is what a recording becomes once it is processed: chapters, a transcript, comments and per-speaker talk time, ready to clip or share. The talk time and engagement scores come from a sample meeting.</figcaption>
 </figure>
 
 A recorded phone call gets an audio player instead, with a **Timeline** of talk time per speaker, **Chapters**, **Add Comment** and a timestamped **Transcript**.
 
 <figure>
 
-![Call details drawer on the Recording tab for an outbound call marked Connected. An audio waveform player with play, time, scrubber and volume sits above Timeline and Chapters sub-tabs, Add Comment, and two speaker rows with Talk time and Engagement, beside a speaker-labelled Transcript.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-calls/oliv-ai_250_activities-calls_call-details-drawer_recording-tab_audio-waveform-player-talk-time-timeline-and-transcript.webp)
+![Call details drawer on the Recording tab for an outbound call marked Connected. An audio waveform player with play, time, scrubber and volume sits above Timeline and Chapters sub-tabs, Add Comment, and two speaker rows with Talk time and Engagement, beside a speaker-labeled Transcript.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/activities-calls/oliv-ai_250_activities-calls_call-details-drawer_recording-tab_audio-waveform-player-talk-time-timeline-and-transcript.webp)
 
-<figcaption>A recorded phone call is replayed the same way as a meeting, with the transcript beside an audio player, so calls are as easy to review as video meetings.</figcaption>
+<figcaption>A recorded phone call is replayed the same way as a meeting, with the transcript beside an audio player, so calls are as easy to review as video meetings. This call and its numbers are made up for a demo.</figcaption>
 </figure>
 
 ### Inside Zoom {#with-zoom-app}
@@ -193,7 +277,7 @@ A [customer success](https://www.oliv.ai/customer-success) manager runs onboardi
 
 A [revenue operations](https://www.oliv.ai/revops) lead works with the Zoom admin to grant admin-level permissions. Meetings then record even when the host is late or absent. RevOps also decides which [agent actions run without asking](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/).
 
-## How Oliv AI compares for recording sales meetings {#compare}
+## How Oliv AI compares as an AI meeting recorder {#compare}
 
 Oliv AI switches between botless recording and a visible note taker by itself, based on who organized the meeting. Calls you host record through Zoom or Microsoft Teams with no bot, and calls a customer hosts get a note taker with your company's name. Oliv AI is the only platform in this table that does all three.
 
@@ -209,7 +293,7 @@ Recording modes, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for recording sales meetings {#compare-stronger}
+### Why Oliv AI is the stronger choice as an AI meeting recorder {#compare-stronger}
 
 - **Bot-free on Teams as well as Zoom.** Oliv AI records botlessly in both Zoom and Microsoft Teams when your company organizes. [Fathom records Microsoft Teams meetings by having its notetaker join the call](https://help.fathom.video/en/articles/13114369).
 - **Nothing to choose per call.** Oliv AI reads the organizer and picks the mode for you. [Avoma has you choose between cloud recording and its bot during setup](https://help.avoma.com/avoma-integration-with-microsoft-cloud-recording). See [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).
@@ -232,6 +316,10 @@ Recording modes, from each platform's public documentation:
 
 By who organized the meeting. If you or someone from your company organized it, Oliv AI records botlessly. If someone outside your company did, the note taker joins.
 
+#### How do I record a meeting without a bot? {#faq-without-bot}
+
+Organize it from your company, with botless recording enabled for your organization. Oliv AI then records through Zoom or Microsoft Teams, and no Oliv participant joins the call.
+
 #### Will attendees know the meeting is being recorded? {#faq-attendees-know}
 
 Yes. On a botless call they see the meeting app's own recording indication. On other calls they see the note taker, shown with your company's name.
@@ -243,6 +331,10 @@ Zoom and Microsoft Teams are both supported. Recording happens inside the meetin
 #### My customer doesn't want a bot. What should I do? {#faq-no-bot}
 
 Send the meeting invite from your own calendar. With your company as the organizer, Oliv AI records botlessly and no note taker joins.
+
+#### Can a meeting a customer organized record without a bot? {#faq-customer-organized}
+
+No. When someone outside your company organizes a meeting, the note taker joins as a visible participant. To avoid that, send the invite from your own calendar instead.
 
 #### Why didn't the note taker start recording? {#faq-lobby}
 
@@ -264,6 +356,10 @@ Yes, once a Zoom admin grants admin-level permissions through the Zoom meeting b
 
 Use the Chrome extension or Outlook add-in, the **Meetings** page under **Activities**, the remove link in your prep summary or the Zoom chat, or remove it in Zoom.
 
+#### How can I work out what share of my meetings will show a bot? {#faq-bot-share}
+
+Count your customer meetings for a period, then divide those organized outside your company by the total. With 14 of 40 in a sample tally, 35% would show the note taker.
+
 #### Can I record phone calls? {#faq-phone}
 
 Yes. In the Power Dialer, turn on **Record call** and pick a **Recording method** of **One-way** or **Two-way**.
@@ -272,13 +368,21 @@ Yes. In the Power Dialer, turn on **Record call** and pick a **Recording method*
 
 Yes, through Plaud, a wearable recorder that travels with your reps. The rep decides when and what to record.
 
+## Further reading {#further-reading}
+
+- [Obtaining Consent for User Research](https://www.nngroup.com/articles/informed-consent/) (Nielsen Norman Group): how to let people take part in a session while opting out of the recording.
+- [Remote Moderated Usability Tests: How to Do Them](https://www.nngroup.com/articles/moderated-remote-usability-test/) (Nielsen Norman Group): a session script that asks before recording starts.
+- [Call recording best practices](https://knowledge.hubspot.com/calling/what-are-the-call-recording-laws) (HubSpot Knowledge Base): who holds responsibility for consent in HubSpot's calling tool.
+- [Connect HubSpot and Zoom](https://knowledge.hubspot.com/integrations/use-hubspots-integration-with-zoom) (HubSpot Knowledge Base): the Zoom settings HubSpot's integration needs before cloud recordings sync.
+
 ## Related {#related}
 
 - [Oliv AI product documentation](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/): every guide, by agent and feature.
 - [Prepare for a meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/): the brief that arrives before your recorded calls.
 - [Converse](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/): every conversation, captured the same way.
 - [Oliv AI integrations](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/): calendars, video platforms and chat tools.
-- [Meeting recorder picks](https://www.oliv.ai/blog/meeting-recorder-picks-for-productivity): how meeting recorders differ.
 - [Sales call analytics software](https://www.oliv.ai/blog/sales-call-analytics): recording, transcription and coaching compared.
 - [Meeting transcription software](https://www.oliv.ai/blog/meeting-transcription-software): accuracy and speaker detection.
 - [Plans and pricing](https://www.oliv.ai/pricing): how Oliv AI is priced.
+
+*Updated 3 November 2026: added how a meeting gets recorded, how to tell attendees, how to measure bot share, the by-hand method with a worked example, three more questions and further reading.*

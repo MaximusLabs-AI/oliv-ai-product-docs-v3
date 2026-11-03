@@ -1,13 +1,13 @@
-# Olivia: the AI sales assistant
+# AI sales assistant: how Oliv AI's Olivia prepares you for calls and asks before she acts
 
 How Oliv AI's Olivia agent works as an AI sales assistant: how to ask her questions and hand her work, what she needs connected, and how she compares with other AI sales assistants.
 
 - Applies to: All revenue teams
 - Status: Live
-- Verified: 2026-10-22
+- Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/
 
-Oliv AI's Olivia agent is an AI sales assistant: the agent you talk to rather than configure. You ask in plain language about deals, meeting prep, pipeline or next steps, and she either answers or hands the work to a specialist agent and reports back. She also monitors your conversations in the background and takes care of things before you ask.
+You want an AI sales assistant that knows your deals, gets you ready for calls and drafts the follow-up, while you stay in control of what it sends. Oliv AI's Olivia agent is built for that handover: you ask in plain language about deals, meeting prep, pipeline or next steps, and she either answers or hands the work to a specialist agent and reports back. She also monitors your conversations in the background and takes care of things before you ask. A dropdown on each conversation sets whether she asks you first.
 
 ## At a glance {#at-a-glance}
 
@@ -44,7 +44,7 @@ Olivia doesn't appear in the [agent marketplace](https://www.oliv.ai/agents-mark
 
 ### What it's for {#what-its-for}
 
-Oliv AI's Olivia agent is for revenue people who need the full picture of a deal or account at the moment they act. That picture is split across the CRM, call recordings and email, and someone has to stitch it together.
+An AI sales assistant should take routine work off your hands and leave you in control of what it sends. Oliv AI's Olivia agent is for revenue people who need the full picture of a deal or account at the moment they act. That picture is split across the CRM, call recordings and email, and someone has to stitch it together.
 
 ### How it helps {#how-it-helps}
 
@@ -75,6 +75,40 @@ Oliv AI puts that assembly in a chat beside the work. The CSM presses the sugges
 
 The autonomy dropdown under the message box opens on **Ask before acting**, so Olivia aligns on her approach before she takes any action. That setting is one of the points covered in How Oliv AI compares as an AI sales assistant, below.
 
+## Set up what Olivia reads {#set-up}
+
+Oliv AI's Olivia agent works from the data you connect, and each source adds context she can use.
+
+1. **Connect a recording or transcript input.** Oliv Notetaker, or an equivalent, is the primary source of her live context.
+2. **Connect your CRM.** It gives her pipeline and deal history. Oliv AI works as a layer on top of the CRM, alongside your [other connected tools](https://www.oliv.ai/integrations).
+3. **Connect your calendar.** It's how she knows which meetings are coming up.
+4. **Add email, if you can.** Email is optional, but it adds a lot of context between meetings. LinkedIn or Sales Navigator is optional too, for contact enrichment.
+5. **Let Oliver set the playbook.** RevOps and leadership configure Oliver with your stages, ownership and handoffs, and Olivia operates inside those rules from day one.
+
+## How routine sales work gets handed to an assistant {#methods}
+
+Every call leaves you with prep before it and a follow-up after it. There are four common ways to pass that work on, and they differ in how much context they hold and who presses send. Our [ranked list of AI sales assistants](https://www.oliv.ai/blog/ai-sales-assistant) covers which products to shortlist. This section covers how the handover itself works.
+
+### Templates and sequences: the same words on a timer {#templates-sequences}
+
+A sequence sends prewritten emails and reminders on a schedule. HubSpot's help center, for example, describes [timed sales emails and follow-up tasks](https://knowledge.hubspot.com/sequences/create-and-edit-sequences) that stop for a contact who replies or books a meeting. This catches the follow-up you would otherwise forget. It misses anything said on the call, because the words were written before the call happened.
+
+### A chat assistant that only answers: you still do the work {#answers-only}
+
+You ask a question about a deal and get an answer. This catches the fact you couldn't find in time, such as what a buyer asked for last month. It misses the follow-through, because you still write the email and update the record yourself.
+
+### Drafts that wait for your approval {#drafts-approval}
+
+The assistant writes the email and holds it until you choose. This catches a wrong figure or a wrong tone before the buyer sees it. The weak spot is habit. Nielsen Norman Group warns that [people stop paying attention to confirmations they see for routine actions](https://www.nngroup.com/articles/confirmation-dialog/), and a draft you approve all day can turn into a click rather than a check.
+
+### An assistant that acts on its own {#acts-alone}
+
+The assistant takes the action without checking with you. This catches work that would otherwise sit in your queue, because nothing waits on you. It misses the mistake you would have spotted, because that mistake has already reached the buyer. The same Nielsen Norman Group guidance keeps confirmations for [actions with serious consequences, especially those that can't be undone](https://www.nngroup.com/articles/confirmation-dialog/), and you can't recall an email a customer has read.
+
+### Which of these Olivia does {#what-olivia-does}
+
+Oliv AI's Olivia agent covers the last three. She answers plain-language questions about your deals. On **Ask before acting** she aligns on her approach before she takes any action, and a drafted email waits for you to choose a send option. On **Act without asking** she takes actions without asking for permission. You make that choice in each conversation.
+
 ## Ask Olivia a question {#ask-olivia}
 
 1. Open **Home** and stay on the **Ask** tab. On another screen, press **Ask** in the header to open her in a side panel beside your work.
@@ -104,12 +138,12 @@ In the side panel, Olivia offers three suggestions about your own day and deals:
 
 ![The Forecast board with Olivia's side panel open on the right after pressing Ask in the header. The panel shows her greeting, three suggestion cards for the day, an Acme renewal call and stuck deals, and a message box set to Ask before acting.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/forecast/oliv-ai_171_forecast_boards-view_olivia-side-panel_ask-button-opened-greeting-three-suggestion-cards-ask-before-acting-beside-rep-drill-down.webp)
 
-<figcaption>Press Ask on any screen and Oliv AI's Olivia agent opens beside it with three suggestion cards. You keep your place on the board while you ask.</figcaption>
+<figcaption>Press Ask on any screen and Oliv AI's Olivia agent opens beside it with three suggestion cards. You keep your place on the board while you ask. The names and amounts on the board are demo data.</figcaption>
 </figure>
 
 ### What a call-prep answer holds {#call-prep-answer}
 
-Ask Olivia to get you ready for a call, and she starts with **Deal at a glance**: four cards for **Deal Stage**, **ARR**, **Since Economic Buyer Touch** and **Deal Health**. Below them sit **Who's Joining?**, **Three risks to watch**, numbered **Talking points** and a **Researcher brief** on a new attendee. A suggestion chip at the end offers the next step, such as drafting the pre-meeting email.
+Ask Olivia to get you ready for a call, and she starts with **Deal at a glance**: four cards for **Deal Stage**, **ARR**, **Since Economic Buyer Touch** and **Deal Health**. Below them sit **Who's Joining?**, **Three risks to watch**, numbered **Talking points** and her research on a new attendee. A suggestion chip at the end offers the next step, such as drafting the pre-meeting email.
 
 <figure>
 
@@ -128,7 +162,7 @@ Under **After this goes out, I'll**, she lists what follows. Oliv AI's CRM Manag
 
 ![Two email drafts from Olivia. Draft 1, short and value-led, has a Recommended badge and a Why this version list. Draft 2 is softer and relationship-led. Four buttons follow: Send Draft 1 now, Send Draft 1 at 3:30pm, Edit before sending and Send Draft 2 instead, then an After this goes out list.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_016_home_chat_olivia_pre-meeting-email_two-drafts-recommended-short-value-led-and-softer-send-options-after-send-actions_full-length.webp)
 
-<figcaption>Nothing goes out until you press one of the four buttons. Oliv AI's Olivia agent also says what she and Oliv AI's CRM Manager agent will do after it sends.</figcaption>
+<figcaption>Nothing goes out until you press one of the four buttons. Oliv AI's Olivia agent also says what she and Oliv AI's CRM Manager agent will do after it sends. The account and usage figure in these drafts are made up for the demo.</figcaption>
 </figure>
 
 A daily brief works the same way. It groups the work under the agent that did it, with a review button for each, such as **Review meeting plan** and **Review draft from Deal Driver**.
@@ -164,15 +198,78 @@ You can describe the work in your own words. For example:
 - "Can you prep a mutual action plan for this deal?" She engages Oliv AI's MAP Manager agent.
 - "I just met six people at an event, line up outreach for each of them." She engages [Oliv AI's Prospector agent](https://www.oliv.ai/agents/prospector).
 
-## Set up what Olivia reads {#set-up}
+## Choose per conversation whether she asks first {#choose-autonomy}
 
-Oliv AI's Olivia agent works from the data you connect, and each source adds context she can use.
+Say you want a renewal email sent to a customer whose champion has gone quiet, and you also want a list of your stuck deals. Those two requests don't carry the same risk, so they shouldn't share a setting. Oliv AI's Olivia agent takes the setting from the conversation you are in, which lets you treat them differently.
 
-1. **Connect a recording or transcript input.** Oliv Notetaker, or an equivalent, is the primary source of her live context.
-2. **Connect your CRM.** It gives her pipeline and deal history. Oliv AI works as a layer on top of the CRM, alongside your [other connected tools](https://www.oliv.ai/integrations).
-3. **Connect your calendar.** It's how she knows which meetings are coming up.
-4. **Add email, if you can.** Email is optional, but it adds a lot of context between meetings. LinkedIn or Sales Navigator is optional too, for contact enrichment.
-5. **Let Oliver set the playbook.** RevOps and leadership configure Oliver with your stages, ownership and handoffs, and Olivia operates inside those rules from day one.
+1. **Start a new chat for each kind of work.** The pencil icon opens one, so renewal emails don't sit in the same chat as pipeline questions.
+2. **Read the dropdown before your first message.** It sits beneath the message box and opens on **Ask before acting**.
+3. **Leave it there until this kind of work has earned a change.** The tally in the next section gives you a way to tell.
+4. **Switch to Act without asking only in that chat.** From then on she takes actions without asking for permission.
+5. **Check what she did.** Her work shows up as rows in the **Agent Feed**, and a brief groups each piece under the agent that did it.
+
+This is a suggested starting point. It's advice for you to adjust, not a rule the product applies.
+
+| The work | Start on | Why |
+|---|---|---|
+| Email to a buyer on a live deal or renewal | **Ask before acting** | A wrong figure or tone reaches the customer, and you can't take it back. |
+| Outreach to new contacts after an event | **Ask before acting** | These people form a first impression from that one message. |
+| Questions about your day, deals or pipeline | Either | She is answering you, so nothing reaches a customer. |
+| A kind of follow-up your tally shows you rarely change | Try **Act without asking** in one chat | You have evidence for that kind of email, and only that kind. |
+
+### What goes wrong {#autonomy-goes-wrong}
+
+The usual slip is switching a chat for one quick task and then using it for something bigger. The setting stays with that conversation, so start a new chat for the bigger job. Another is assuming the setting reaches further than it does. It isn't connected to any [tool's run mode](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/), so changing it here leaves the agents you have built as they were.
+
+## How to measure whether her drafts are ready to go out unchanged {#measure-drafts}
+
+Before you change a setting, you want evidence about the emails themselves. Two measures give you that, and you can count both from the buttons on a drafted email.
+
+### First-choice rate {#first-choice-rate}
+
+This is the share of drafted emails you send as **Draft 1** with no changes. **Send Draft 1 now** and the timed send both count. A high rate suggests the recommended version usually fits, but it has a weak spot. Nielsen Norman Group notes that [slips happen when people are on autopilot](https://www.nngroup.com/articles/slips/), so a run of quick sends may show habit rather than quality. Reread a few sent emails each week and ask whether you would still send them.
+
+### Rewrite rate {#rewrite-rate}
+
+This is the share you change with **Edit before sending**. Count every use of that button, even a one-word change, so the rule stays simple. The weak spot is mixing. One rate across all your email can hide a single kind of message that you rewrite every time, so record the kind of email beside each count.
+
+### Where the numbers come from {#where-the-numbers-come-from}
+
+Keep the tally in a simple sheet with one row per email: the kind of email and the button you pressed. **Send Draft 2 instead** gets its own column. If you miss an entry, the history panel lists your saved chats with Oliv AI's Olivia agent, so you can reopen the conversation and check.
+
+## How to prepare for a call and follow up by hand {#by-hand}
+
+You can only judge a handover if you know the job being handed over. Done by hand, it runs like this.
+
+1. Check the calendar for who is joining, and look up anyone new.
+2. Open the deal record and read its dates and next step. In HubSpot, for example, [**Last contacted**, **Next activity date** and **Next step**](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties) are default deal properties.
+3. Skim the last call's recording or notes for anything you promised.
+4. Search your inbox for what has happened since that call.
+5. Write the risks and your questions on one page.
+6. Run the call, and note each commitment as you go.
+7. Write the follow-up straight after the call, then log the touch on the deal.
+8. Set yourself a reminder to check for a reply.
+
+Steps 3 and 4 are usually the first to go when calls run back to back, and that's where a promise tends to get lost. Step 7 slips next, because the following call has already started.
+
+### The same job with Olivia {#same-job-olivia}
+
+Oliv AI's Olivia agent takes steps 1 to 5 when you ask for them, or surfaces the deal context about 30 minutes before the meeting. She returns the deal at a glance, who is joining, the risks to watch and talking points. For step 7 she drafts the follow-up from the meeting transcript and waits for your choice. After it goes out, Oliv AI's CRM Manager agent logs the touch and she watches for a reply, which covers step 8.
+
+Step 6 stays yours, and so does the choice of what goes out. The full walkthroughs are in [prepare for a meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/) and [record a meeting and follow up](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/record-and-follow-up/).
+
+### Worked example: two weeks of drafted emails {#worked-example}
+
+A customer success manager logs all 30 emails Olivia drafted over two weeks, along with the button pressed for each. This is an illustrative calculation with sample figures. It isn't an Oliv AI output or a result.
+
+| What happened to the draft | Emails | Arithmetic | Share |
+|---|---|---|---|
+| Sent as **Draft 1**, unchanged | 21 | 21 ÷ 30 | 70% |
+| Sent as **Draft 2** | 6 | 6 ÷ 30 | 20% |
+| Rewritten before sending | 3 | 3 ÷ 30 | 10% |
+| Total | 30 | 21 + 6 + 3 | 100% |
+
+The 70% alone doesn't tell her what to change. She takes the 9 emails that didn't go out as **Draft 1** (6 + 3) and sorts them by kind of email. Any kind that appears among those 9 stays on **Ask before acting**. A kind that never appears, and came up often enough to judge, is the one to try in its own chat on **Act without asking**. She rereads a few of the 21 first, in case some of those sends were habit. Two weeks from one person is a reason to look closer, not a benchmark, and the split says nothing about time saved.
 
 ## How Olivia works with other agents {#works-with}
 
@@ -180,9 +277,9 @@ Oliv AI's Olivia agent works from the data you connect, and each source adds con
 
 Oliv AI's Oliver agent sets the process and Olivia runs within it. When Oliver updates the company's methodology or approval process, her behavior updates to match. The [Process Graph](https://www.oliv.ai/process-graph) is the living playbook every Oliv agent reads before it acts.
 
-### Meeting Assistant and Researcher {#with-meeting-agents}
+### Meeting Assistant and research on new contacts {#with-meeting-agents}
 
-Before a meeting, Olivia coordinates with [Oliv AI's Meeting Assistant agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/meeting-assistant/) for active opportunities and with Oliv AI's Researcher agent for new contacts.
+Before a meeting, Olivia coordinates with [Oliv AI's Meeting Assistant agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/meeting-assistant/) for active opportunities, and she researches new contacts.
 
 ### CRM Manager {#with-crm-manager}
 
@@ -254,6 +351,14 @@ AI sales assistant features, from each platform's public documentation:
 
 ## Common questions {#common-questions}
 
+#### What can an AI sales assistant do? {#faq-what-can-do}
+
+Oliv AI's Olivia agent answers questions about deals and pipeline, prepares you for calls, drafts follow-up emails and hands larger tasks to specialist agents. She also flags deals with no activity or close dates nearing without progress.
+
+#### Can an AI sales assistant draft emails for me? {#faq-draft-emails}
+
+Yes. Oliv AI's Olivia agent writes two versions of an email and recommends one. You then send either version, send the recommended one at a set time, or edit it before sending.
+
 #### Who is Olivia? {#faq-who}
 
 Oliv AI's Olivia agent is the agent you talk to rather than configure. She introduces herself as your chief of AI staff and works through Oliv AI's specialist agents.
@@ -302,6 +407,13 @@ A recording or transcript input such as Oliv Notetaker, a CRM connection and a c
 
 No. She's the front-facing interface through which the Oliv platform is experienced. For plans, see [Oliv AI pricing](https://www.oliv.ai/pricing).
 
+## Further reading {#further-reading}
+
+- [Confirmation Dialogs Can Prevent User Errors](https://www.nngroup.com/articles/confirmation-dialog/): Nielsen Norman Group on why routine confirmations stop being read, and when one is worth keeping.
+- [Preventing User Errors: Avoiding Unconscious Slips](https://www.nngroup.com/articles/slips/): why well-practiced tasks are where autopilot errors happen.
+- [Create and edit sequences](https://knowledge.hubspot.com/sequences/create-and-edit-sequences): HubSpot's own explanation of how its sequences send timed emails and react to replies.
+- [HubSpot's default deal properties](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties): what the date and next-step fields you check by hand actually record.
+
 ## Related {#related}
 
 - [Olivia, Chief of AI Staff](https://www.oliv.ai/agents/olivia): the Olivia agent's page on oliv.ai.
@@ -312,3 +424,5 @@ No. She's the front-facing interface through which the Oliv platform is experien
 - [The Deal Driver agent docs](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/): the manager's view of the same pipeline.
 - [Run deals as an account executive](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/): how an AE uses Olivia alongside the other agents.
 - [Oliv AI product documentation](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/): every documented agent and feature.
+
+*Updated 3 November 2026: added how routine work gets handed to an assistant, how to choose per conversation whether she asks first, how to measure her drafts and a worked example.*

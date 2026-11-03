@@ -7,7 +7,7 @@ How to set up conversation intelligence in Oliv AI: what it captures across meet
 - Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/
 
-You want to know what a customer told your team, and the answer is scattered across Zoom calls, phone calls, email and Slack. Conversation intelligence software gets those conversations on record so you can find what was said. In Oliv AI, the Converse app does that job. If nothing is being captured yet, start with recording modes, and otherwise use the table below to open the page that matches your job.
+What a customer told your team is scattered across Zoom calls, phone calls, email and Slack. Conversation intelligence software gets those conversations on record so you can find what was said. In Oliv AI, the Converse app does that job. If nothing is being captured yet, start with recording modes, and otherwise use the table below to open the page that matches your job.
 
 ## At a glance {#at-a-glance}
 

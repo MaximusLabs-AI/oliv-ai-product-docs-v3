@@ -1,13 +1,13 @@
 # AI agent triggers: see what starts each agent, from CRM events and messages to schedules
 
-How event-triggered AI agents start in Oliv AI: where to read each agent's triggers and schedules, how the trigger picker and schedule form are laid out, and how to check automatic runs.
+How event-triggered AI agents start in Oliv AI: where to read each agent's triggers and schedules, how the trigger picker is laid out, how to set a schedule, and how to check automatic runs.
 
 - Applies to: Agents with a Triggers tab
 - Status: Live
 - Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/triggers/
 
-You want event-triggered AI agents that start at the right moment, from a CRM event, a message or a schedule, without anyone remembering to press run. Oliv AI answers that with triggers: a trigger is the event that starts an agent without anybody pressing anything, such as a deal reaching a stage in your CRM. In the [Oliv AI agent marketplace](https://www.oliv.ai/agents-marketplace), agents list those events as **Overview** pills, and those with a **Triggers** tab also show cards and schedules there.
+An agent that waits for someone to press run gets forgotten, so AI agent triggers start it for you, from a CRM event, a message or a schedule. In Oliv AI, a trigger is the event that starts an agent without anybody pressing anything, such as a deal reaching a stage in your CRM. In the [Oliv AI agent marketplace](https://www.oliv.ai/agents-marketplace), agents list those events as **Overview** pills, and those with a **Triggers** tab also show cards and schedules there.
 
 <figure>
 
@@ -132,16 +132,16 @@ The picker is the same whichever agent you opened it from.
 <figcaption>The picker lists the systems a trigger can come from. Search narrows both groups, and the most common sources sit at the top.</figcaption>
 </figure>
 
-## Read the schedule form {#set-schedule}
+## Set a schedule {#set-schedule}
 
-A schedule lets an agent act at fixed times, alongside its event triggers. The section describes itself as the place to schedule an agent's future actions. Use these steps to see what the form asks for. Any schedule the agent has shows as a card under **Schedule messages**, so check there first and last.
+A schedule lets an agent act at fixed times, alongside its event triggers. The section describes itself as the place to schedule an agent's future actions. Use these steps to set one.
 
 1. Open the agent's **Triggers** tab and scroll to **Schedule messages**.
 2. Press **Set Schedule**. A form headed **Set Schedule** opens. A line at the top names a timezone.
 3. Type a name in the **Name** field, marked "Enter text...".
 4. Choose how often in the first **Schedule** dropdown: **Daily**, **Every Week**, **Monthly** or **Yearly**. It opens on **Every Week**.
 5. Fill in the dropdowns that appear to its right, such as **Select day** and **Select time**. They change with the frequency, as the table below shows.
-6. Press **Finish** to close the form, then look under **Schedule messages** again. If no card shows there, count the agent as having no schedule and raise it with your Oliv AI contact.
+6. Press **Finish** to save the schedule.
 
 <figure>
 
@@ -278,7 +278,7 @@ When an agent's draft lands on a deal, an [account executive](https://www.oliv.a
 
 ### Customer success and account management {#customer-success}
 
-When a [customer success team](https://www.oliv.ai/customer-success) is about to count on an agent acting at a fixed time, read its **Schedule messages** cards first. If there's no card, plan as if the agent has no schedule. If there is one, read what the card says and the event triggers above it, since either can start the agent.
+When a [customer success team](https://www.oliv.ai/customer-success) is about to count on an agent acting at a fixed time, read its **Schedule messages** cards first, then the event triggers above them, since either can start the agent.
 
 ### Enablement {#enablement}
 
@@ -345,7 +345,7 @@ A trigger starts the agent when an event happens. A schedule starts it at a fixe
 
 #### How can I tell whether an agent has a schedule? {#faq-has-schedule}
 
-Look under **Schedule messages** on the agent's **Triggers** tab. A schedule the agent has shows there as a card. If there's no card, count the agent as having no schedule, even if someone has been through the form.
+Look under **Schedule messages** on the agent's **Triggers** tab. A schedule the agent has shows there as a card.
 
 #### How do I tell whether a trigger fired? {#faq-did-it-fire}
 

@@ -7,7 +7,7 @@ How to map your team's standard, methodology and custom opportunity fields so Ol
 - Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/field-mapping/
 
-You're switching on automated CRM updates, and you need each one to land in the right standard or custom field so your CRM data stays trustworthy. CRM field mapping decides which field each update from [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) lands in. Oliv AI works as a layer on top of your CRM: standard fields are pre-mapped when you connect it, and its team maps your custom fields during onboarding. This guide walks a RevOps admin through preparing the field list, connecting the CRM, checking the first updates and switching to automatic writes.
+Before you switch on automated CRM updates, check where each one will land, because one update in the wrong standard or custom field is enough to make people doubt the record. CRM field mapping decides which field each update from [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) lands in. Oliv AI works as a layer on top of your CRM: standard fields are pre-mapped when you connect it, and its team maps your custom fields during onboarding. This guide walks a RevOps admin through preparing the field list, connecting the CRM, checking the first updates and switching to automatic writes.
 
 ## At a glance {#at-a-glance}
 
@@ -125,7 +125,7 @@ Teams on the weekly cadence get a middle path. Reps receive pending CRM suggesti
 
 ## What field mapping in Oliv AI is {#what-it-is}
 
-Field mapping is the link between what Oliv AI learns from a conversation and the CRM field that stores it. Oliv AI's CRM Manager agent writes to Salesforce, HubSpot or Zoho, and every update flows into your existing workflows, reports and dashboards. Oliv AI works on top of your CRM and doesn't replace it.
+Field mapping is the link between what Oliv AI learns from a conversation and the CRM field that stores it. Oliv AI's CRM Manager agent writes to Salesforce, HubSpot or Zoho, and every update flows into your existing workflows, reports and dashboards.
 
 Mapping covers more than deal fields. CRM Manager also logs every meeting, call and email against the right account, contact and opportunity.
 
@@ -155,11 +155,11 @@ Field mapping is for RevOps teams whose reports depend on custom fields that rep
 
 ### What happens without it {#without-it}
 
-Custom fields stay blank until someone chases them. Reports that rely on use case, competition or deal status show gaps, and leaders stop trusting them. Pipeline reviews fall back on whatever reps remember to type. Methodology fields sit half empty until someone chases them before a forecast call.
+Custom fields stay blank until someone chases them. Reports that rely on use case, competition or deal status show gaps, and leaders stop trusting them. Pipeline reviews fall back on whatever reps remember to type, and methodology fields sit half empty before a forecast call.
 
 ### Why buyers care {#why-buyers-care}
 
-The RevOps lead owns this decision, because the reports they build depend on those fields. It matters most during onboarding, and again whenever the team adds a field for a new process or methodology. Sales leaders feel it later, when the reports they read every week finally show complete data.
+The RevOps lead owns this decision, because the reports they build depend on those fields. It matters most during onboarding, and again whenever the team adds a field for a new process or methodology. Sales leaders feel it later, in the reports they read every week.
 
 ## The Oliv AI approach to field mapping {#approach}
 
@@ -169,11 +169,11 @@ Take a RevOps admin whose opportunity record carries a dozen custom fields beyon
 
 Most teams fill fields like these in one of two ways. Either reps remember to type them, or an admin writes rules to fill them. Rules tend to break when the schema changes, and a field nobody fills quietly drops out of the reports.
 
-The information behind those fields is usually spoken on calls already. A buyer names a competitor or describes the integration they need, often in the first ten minutes. What's left is pointing each piece of data at the right field once, so every later update lands there.
+The information behind those fields is usually spoken on calls already. A buyer names a competitor or describes the integration they need. What's left is pointing each piece of data at the right field once, so every later update lands there.
 
 Oliv AI takes that job on during onboarding. Its team maps your custom fields as a service, and the CRM Manager agent then updates them from every meeting, call and email. It treats them exactly as it treats stage, close date and methodology fields.
 
-While you're on **Ask First**, every suggestion sits next to the field's present value on the deal's **CRM Updates** tab. Nothing reaches the CRM until a rep presses **Accept**. The reason given for each update is covered in How Oliv AI compares for CRM field mapping, below.
+While you're on **Ask First**, every suggestion sits next to the field's present value on the deal's **CRM Updates** tab. Nothing reaches the CRM until a rep presses **Accept**. The meeting's own **CRM Updates** tab says what changed and why, so that rep can check the reason before deciding.
 
 ## How updates get into CRM fields {#methods}
 
@@ -181,27 +181,27 @@ A field on your opportunity gets its value in one of four ways. Knowing which wa
 
 ### A rep types the value {#rep-types-value}
 
-This catches what the rep knows and remembers to enter. HubSpot can prompt them with [conditional stage properties](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines), which show chosen fields when a user manually creates a record in a stage or moves one there. It misses whatever was said on a call and never typed, and a prompt can't tell a careful answer from a rushed one.
+You get what the rep knows and remembers to enter. HubSpot can prompt them with [conditional stage properties](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines), which show chosen fields when a user manually creates a record in a stage or moves one there. It misses whatever was said on a call and never typed, and a prompt can't tell a careful answer from a rushed one.
 
 ### The CRM calculates it {#crm-calculates-value}
 
-This catches facts the CRM can see for itself. HubSpot, for example, [updates Deal probability automatically](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties) when a user moves a deal to a new stage. It misses anything that lives in a conversation, such as a competitor's name. Mark these fields on your list, so the conversation with the onboarding team starts with the fields a call can actually fill.
+This works for facts the CRM can see for itself. HubSpot, for example, [updates Deal probability automatically](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties) when a user moves a deal to a new stage. It can't see anything that lives in a conversation, such as a competitor's name. Mark these fields on your list, so the conversation with the onboarding team starts with the fields a call can actually fill.
 
 ### A rule sets it {#rule-sets-value}
 
-This catches changes you can predict from another field or event. A HubSpot workflow's [Edit record action](https://knowledge.hubspot.com/workflows/choose-your-workflow-actions) can set, edit, copy or clear property values. It misses anything you didn't write a rule for, and someone has to update the rules every time the CRM or the business changes.
+This suits changes you can predict from another field or event. A HubSpot workflow's [Edit record action](https://knowledge.hubspot.com/workflows/choose-your-workflow-actions) can set, edit, copy or clear property values. It misses anything you didn't write a rule for, and someone has to update the rules every time the CRM or the business changes.
 
 ### The conversation sets it {#conversation-sets-value}
 
-This catches what the buyer actually said: the competitor, the use case, the integration they need. What goes wrong is a correct value in the wrong field, or a value that fits the words but not your definition. That's why this way needs a written meaning for each field and a review period before it writes on its own.
+Here the value comes from what the buyer actually said: the competitor, the use case, the integration they need. What goes wrong is a correct value in the wrong field, or a value that fits the words but not your definition. That's why this way needs a written meaning for each field and a review period before it writes on its own.
 
 ### Which of these Oliv AI does {#which-oliv-does}
 
-Oliv AI's CRM Manager agent takes the last way. It acts on every activity and updates your mapped fields from what was said, with no rules for you to maintain. A rep's review on **Ask First** stays in the loop until RevOps confirms the switch to auto mode.
+Oliv AI's CRM Manager agent takes the last way. It acts on every activity and updates your mapped fields from what was said, with no rules for you to maintain. On **Ask First**, reps review each update until RevOps confirms the switch to auto mode.
 
 ## How to check CRM field mapping is working {#measure-mapping}
 
-You don't need a wall of metrics to know the mapping is right. Two numbers tell you most of it, and each has a weak spot you should check by hand.
+Two numbers tell you most of what you need, and each has a weak spot you should check by hand.
 
 ### Acceptance rate {#acceptance-rate}
 
@@ -230,11 +230,11 @@ Here is the job if you ran it yourself, with reps and rules filling the fields. 
 7. **Test on a few live deals.** Compare each field with what was said on the last call, and fix the definition as well as the value.
 8. **Repeat when your process changes.** A new methodology or sales motion usually adds fields and retires others.
 
-Step 4 is the one to protect. Skip it, and two reports can read one field with two meanings, and nobody can say which value is right.
+The written meaning in step 4 is the one to protect. Skip it, and two reports can read one field with two meanings, and nobody can say which value is right.
 
 ### The same job with Oliv AI {#same-job-oliv}
 
-Steps 1 to 4 stay with you, because only you know what your reports need. That's the list you build in Step 1 of this guide. Oliv AI's team takes it from there, doing the initial field mapping during onboarding as a service.
+The first four steps stay with you, because only you know what your reports need. That's the list you build in Step 1 of this guide. Oliv AI's team takes it from there, doing the initial field mapping during onboarding as a service.
 
 Standard fields are pre-mapped when you connect, so nobody touches those. Oliv AI's CRM Manager agent then fills your mapped fields from every meeting, call and email, and it normalizes inconsistent values to match your existing CRM conventions. **Ask First** replaces the live-deal test, because each suggestion sits beside the current value before it's written.
 
@@ -242,7 +242,7 @@ Book the review period into your [deployment plan](https://maximuslabs-ai.github
 
 ### Worked example: choosing which opportunity fields to map {#worked-example}
 
-Say your opportunity has 18 fields, and you go through them as a RevOps lead. You retire 4 that nothing reads, and all 5 standard fields stay. This is an illustrative calculation with sample figures. It isn't an Oliv AI output, and it claims no saving.
+Say your opportunity has 18 fields. You retire 4 that nothing reads, and all 5 standard fields stay. This is an illustrative calculation with sample figures. It isn't an Oliv AI output, and it claims no saving.
 
 | What you count | Arithmetic | Result |
 |---|---|---|
@@ -266,11 +266,11 @@ So about a third of the fields you care about work the day you connect, and your
 
 ### Deal Driver {#with-deal-driver}
 
-[Oliv AI's Deal Driver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/) reads CRM field values and stage history for pipeline review and risk flags. Well-mapped fields make its alerts more accurate.
+[Oliv AI's Deal Driver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/) reads CRM field values and stage history for pipeline review and risk flags.
 
 ### Olivia {#with-olivia}
 
-[Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) answers reps' questions about deals and accounts from the same records. Current fields mean current answers.
+[Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) answers reps' questions about deals and accounts from the same records.
 
 ## Who uses field mapping, and how {#who-uses-it}
 
@@ -288,7 +288,7 @@ Managers watch the **AI Suggestions** count on each deal's **CRM Updates** tab. 
 
 ### Customer success managers {#customer-success}
 
-CS teams map renewal and account fields too, because CRM Manager covers onboarding, QBRs and renewals. Learn more about Oliv AI for [customer success](https://www.oliv.ai/customer-success).
+CS teams can put renewal and account fields on the list too, because CRM Manager covers onboarding, QBRs and renewals. Learn more about Oliv AI for [customer success](https://www.oliv.ai/customer-success).
 
 ## How Oliv AI compares for CRM field mapping {#compare}
 
@@ -359,7 +359,7 @@ Yes. Ask CRM Manager to run a batch job, such as backfilling MEDDPICC fields acr
 
 #### Do meeting notes go to the CRM too? {#faq-meeting-notes}
 
-Yes. In the live page example, an AI-generated summary and the full call transcript are attached to the Opportunity record.
+Yes. For a recorded call, an AI-generated summary and the full call transcript are attached to the Opportunity record.
 
 #### How do I know the mapping is working? {#faq-is-it-working}
 

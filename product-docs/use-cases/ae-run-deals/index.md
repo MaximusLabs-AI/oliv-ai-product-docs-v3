@@ -1,15 +1,15 @@
-# How account executives use AI to prepare for calls, follow up and catch stalled deals
+# AI for account executives: prepare for calls, follow up and catch stalled deals
 
-How account executives use AI for account executives' admin: how a rep uses Oliv AI's agents to prepare for deal meetings, follow up after calls, keep the CRM current and catch stalled deals, and how that compares with other deal tools.
+AI for account executives' admin: how a rep uses Oliv AI's agents to prepare for deal meetings, follow up after calls, keep the CRM current and catch stalled deals, and how that compares with other deal tools.
 
 - Applies to: Account executives
 - Status: Live
 - Verified: 2026-11-02
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/
 
-How do account executives use AI? Most reps use AI for account executives in four places around each deal: prep before a meeting, the follow-up after it, CRM upkeep in between and spotting deals that have gone quiet, while you still decide what reaches the buyer and the record.
+Your week as an account executive fills up around the deals, not just in them. AI for account executives helps in four places: prep before a meeting, the follow-up after it, CRM upkeep in between and spotting deals that have gone quiet, while you still decide what reaches the buyer and the record.
 
-Oliv AI gives an account executive [a set of agents](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/) that handle the work around each deal: [the prep before a meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/), [the follow-up after it](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/record-and-follow-up/) and [the CRM upkeep](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/) in between. You walk into calls prepared, review drafted emails and proposed field updates instead of writing them, and get a nudge when a deal starts to stall. This page shows how those pieces fit together across a deal.
+Oliv AI gives an account executive [a set of agents](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/) that handle the work around each deal: [the prep before a meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/), [the follow-up after it](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/record-and-follow-up/) and [the CRM upkeep](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/) in between. You walk into calls prepared, review drafted emails and proposed field updates instead of writing them, and get a nudge when a deal starts to stall.
 
 ## At a glance {#at-a-glance}
 
@@ -49,7 +49,7 @@ Each call can cost 15 to 20 minutes of digging for context beforehand and about 
 
 ### Why they care {#why-buyers-care}
 
-The account executive is the champion, because the time savings show up before and after every call. VPs of Sales and [sales managers](https://www.oliv.ai/sales-managers) usually make the purchase. It matters most for reps with a full calendar of meetings on open deals. For the wider picture of [AI agents for account executives](https://www.oliv.ai/account-executives), start there.
+The account executive is the champion, because the time savings show up before and after every call. VPs of Sales and [sales managers](https://www.oliv.ai/sales-managers) usually make the purchase. It matters most for reps with a full calendar of meetings on open deals. For the wider picture, see [AI agents for account executives](https://www.oliv.ai/account-executives).
 
 ## The Oliv AI approach to running deals {#approach}
 
@@ -63,7 +63,7 @@ Everything the rep needs is already on record: the recordings, the CRM history a
 
 Oliv AI moves that work to the right moment. [Oliv AI's Meeting Assistant agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/meeting-assistant/) sends a brief before each meeting on an active deal and drafts the follow-up after it. [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) turns what was said into field updates for the rep to approve.
 
-The brief is built to fit on one screen and take about 60 seconds to read, as described under Before a meeting. How this setup lines up against other deal tools is covered in How Oliv AI compares as AI for account executives, below.
+The brief fits on one screen and takes about 60 seconds to read, so it works even when calls run back to back.
 
 ## Before a meeting {#before-a-meeting}
 
@@ -80,7 +80,7 @@ Shortly before the call, Meeting Assistant also posts a call prep note to your A
 
 Once the meeting recording is processed, Meeting Assistant prepares three things:
 
-- **A follow-up email draft.** It covers what was discussed, what was agreed and the next steps, with dates where possible. You review, adjust and send. See how a [strong sales follow-up](https://www.oliv.ai/blog/sales-follow-up) converts.
+- **A follow-up email draft.** It covers what was discussed, what was agreed and the next steps, with dates where possible. You review, adjust and send. See what makes a [strong sales follow-up](https://www.oliv.ai/blog/sales-follow-up).
 - **Proposed deal field updates.** Stage, amount, close date, qualification fields and next steps, based on what was said.
 - **Qualification gap flags.** New information, or notable absences, that change the deal's qualification status.
 
@@ -95,7 +95,7 @@ Each meeting's record in **Activities › Meetings** holds the results in seven 
 
 ### Review the proposed CRM updates {#review-updates}
 
-After every activity, you get a [Slack or preferred-channel message](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/) that says it found updates for a number of fields. The meeting's **CRM Updates** tab lists what changed after the call: completed updates, such as a refreshed account or a new contact, and pending ones with a button such as **Update Deal**.
+After every activity, you get a [Slack or preferred-channel message](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/) saying how many fields have updates. The meeting's **CRM Updates** tab lists what changed after the call: completed updates, such as a refreshed account or a new contact, and pending ones with a button such as **Update Deal**.
 
 <figure>
 
@@ -106,7 +106,7 @@ After every activity, you get a [Slack or preferred-channel message](https://max
 
 On the deal itself, the **CRM Updates** tab splits **AI Suggestions** from **AI Updates** and keeps an **Updates History**. Each suggestion shows the proposed value above the **Current Value**. Choose **Accept** or **Reject**.
 
-A full history of how each field was updated stays visible. CRM Manager applies some updates and holds others for your review, and its post in the Agent Feed says how many of each. Once accuracy thresholds are met, RevOps can confirm the switch to auto mode.
+CRM Manager applies some updates and holds others for your review, and its post in the Agent Feed says how many of each. Once accuracy thresholds are met, RevOps can confirm the switch to auto mode.
 
 ## Keep the CRM current without typing {#crm-current}
 
@@ -127,7 +127,7 @@ A meeting's **Action Items** tab shows the **Next meeting**, **Next action** and
 <figcaption>The next steps agreed on the call become owned, dated tasks, so nothing depends on the rep's notes.</figcaption>
 </figure>
 
-It works with [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/), [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/) and Zoho, as a layer on top of the CRM you already use. More on how Oliv AI handles [CRM automation](https://www.oliv.ai/blog/ai-crm-automation).
+CRM Manager works with [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/), [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/) and Zoho, as a layer on top of the CRM you already use. Read more on how Oliv AI handles [CRM automation](https://www.oliv.ai/blog/ai-crm-automation).
 
 ## When a deal goes quiet {#deal-stalls}
 
@@ -162,7 +162,7 @@ Track the next step agreed on the last call and its due date. When that date pas
 
 ### Which of these Oliv AI watches {#what-oliv-watches}
 
-Oliv AI's Deal Driver agent nudges you when a next step goes overdue or activity drops. The deal's **Action Plan** tab counts the days a follow-up is overdue. CRM Manager creates the dated tasks from each call's next steps, so the overdue check always has something to work from.
+Oliv AI's Deal Driver agent nudges you when a next step goes overdue or activity drops. The deal's **Action Plan** tab counts the days a follow-up is overdue. CRM Manager creates the dated tasks from each call's next steps, so the overdue check has something to work from.
 
 ## How to measure your deal admin {#measure-admin}
 
@@ -188,7 +188,7 @@ Step 3 is the one that slips first. If it waits until Friday, step 5 sorts your 
 
 ### The same week with Oliv AI {#same-week-oliv}
 
-Step 1 becomes reading the one-screen brief that Meeting Assistant sends about 30 minutes before each deal meeting. Step 2 becomes reviewing and sending its drafted follow-up. Steps 3 and 4 become accepting or rejecting the field updates CRM Manager proposes, while it creates the tasks from the call. Step 5 runs on its own, because Deal Driver nudges you when a next step goes overdue or activity drops.
+Step 1 becomes reading the one-screen brief that Meeting Assistant sends about 30 minutes before each deal meeting. Step 2 becomes reviewing and sending its drafted follow-up. Steps 3 and 4 become accepting or rejecting the field updates CRM Manager proposes, while it creates the tasks from the call. The check in step 5 runs on its own, because Deal Driver nudges you when a next step goes overdue or activity drops.
 
 What stays with you is judgment: what to change in the draft, which updates to reject and what to do about a quiet deal.
 
@@ -281,7 +281,7 @@ Yes. Deal Driver nudges you when deals stall, next steps go overdue or activity 
 
 Connect your calendar, your call recording tool or Oliv's native recorder, and your CRM. Most teams are connected within a week.
 
-#### Which parts of an account executive's job can AI take over? {#faq-which-parts}
+#### What can AI for account executives take over? {#faq-which-parts}
 
 The repeatable admin around each deal: the pre-call brief, the follow-up draft, proposed CRM field updates, tasks from next steps and flags on overdue ones. The conversations, the edits to each draft and the call on a quiet deal stay with you.
 

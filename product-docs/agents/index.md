@@ -7,7 +7,7 @@ Which AI sales agent to open for the job in front of you: Olivia to ask for work
 - Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/
 
-You want AI sales agents to take work off your reps, managers and RevOps, but you don't know which agent owns which job. Pick the job in front of you and open that page. Open Oliv AI's Olivia agent to ask for work and Oliv AI's Oliver agent to set the rules. For one job, such as pipeline alerts, CRM updates, meeting briefs, forecasts or coaching, open the specialist that owns it.
+AI sales agents only take work off your reps, managers and RevOps once you know which agent owns which job. Pick the job in front of you and open that page. Open Oliv AI's Olivia agent to ask for work and Oliv AI's Oliver agent to set the rules. For one job, such as pipeline alerts, CRM updates, meeting briefs, forecasts or coaching, open the specialist that owns it.
 
 To see how any agent is set up, open the builder pages. Every agent works as a layer on top of the CRM you already use and keeps it updated, so you keep your CRM and add the agents to it.
 

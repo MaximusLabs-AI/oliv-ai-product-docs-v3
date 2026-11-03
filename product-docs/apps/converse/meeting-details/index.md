@@ -7,7 +7,7 @@ AI meeting notes for one customer meeting: how to read the takeaways, tasks, qua
 - Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meeting-details/
 
-You need AI meeting notes that put the summary, tasks, qualification evidence and CRM updates from one customer meeting in one place. Oliv AI does that in a single drawer over your Meetings list, with seven tabs and timestamps back to the recording. You read the takeaways, work the tasks, check qualification against what was said, then see what reached the CRM and what still waits for you. From here you can also replay a moment, clip it, ask questions about the meeting and share it.
+AI meeting notes are worth having when the summary, tasks, qualification evidence and CRM updates from one customer meeting sit in one place. Oliv AI does that in a single drawer over your Meetings list, with seven tabs and timestamps back to the recording. You read the takeaways, work the tasks, check qualification against what was said, then see what reached the CRM and what still waits for you. From here you can also replay a moment, clip it, ask questions about the meeting and share it.
 
 ## At a glance {#at-a-glance}
 

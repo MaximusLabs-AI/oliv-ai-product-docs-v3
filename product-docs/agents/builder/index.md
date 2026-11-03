@@ -7,7 +7,7 @@ Before an agent acts on your CRM and inbox, use this no-code AI agent builder gu
 - Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/
 
-Before you let anything from a no-code AI agent builder touch your CRM and inbox, you want to know what it will do without asking. In Oliv AI, open **Agents** in the sidebar, press **View Agent** on the agent you're checking, and go to the tab that answers your question. If this is your first look at an agent, work through its tabs in the order below.
+Oliv AI is a no-code AI agent builder, so you set up agents without writing code. Before you let one touch your CRM and inbox, you want to know what it will do without asking. Open **Agents** in the sidebar, press **View Agent** on the agent you're checking, and go to the tab that answers your question. If this is your first look at an agent, work through its tabs in the order below.
 
 This page works with the agents already in your marketplace. If none of them fits the job, the section on custom agents below tells you who to ask.
 

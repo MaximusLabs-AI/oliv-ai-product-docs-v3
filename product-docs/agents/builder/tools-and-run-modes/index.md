@@ -33,7 +33,7 @@ Human-in-the-loop AI starts with one decision: which of an agent's actions run o
 
 Open an agent's **Tools** tab and read it before you let that agent near live records. Each card names one action, with an icon and a one-sentence summary of what it does, and agents hold between 2 and 6 tools each. The actions cover reading records, creating and updating them, logging calls, meetings and emails, sending and drafting email, managing calendar events and posting to channels.
 
-Then look at the right of each card. The run mode sits there as a dropdown, and it applies to that one tool on that one agent. Changing it on one tool changes nothing else.
+Then look at the right of each card. The run mode sits there as a dropdown, and it applies to that one tool on that one agent. Run mode changes are saved, and changing the mode on one tool changes nothing else.
 
 | Run mode | Icon | What the agent does with the tool |
 |---|---|---|
@@ -147,7 +147,6 @@ If you're weighing [how much an AI agent should do alone](https://www.oliv.ai/bl
 The usual mistake is a send or update tool left on **Auto Run** because nobody touched its card. A card on the default looks the same as one somebody chose, so run these checks on every tool:
 
 - **Read the cards you didn't change.** **Auto Run** is the most permissive of the three modes, and it's what a tool with no stored mode shows.
-- **Come back and read the tab again.** Leave the **Tools** tab, reopen it and confirm each card still shows the mode you set.
 - **Use the Tools tab as your answer.** If another screen seems to say something different, go by the card's dropdown.
 - **Repeat when an agent gains a tool.** The new card starts on **Auto Run** unless it stores a mode.
 

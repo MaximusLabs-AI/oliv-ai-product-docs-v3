@@ -7,7 +7,7 @@ Sales tool integrations for Oliv AI: what connects, what each connection does, w
 - Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/
 
-You're checking sales tool integrations before you buy, and you need to know whether your CRM, calendar, meeting and messaging tools connect and what each connection does. Connect them in this order: your calendar first because it's required, then your recorder and your CRM, then Slack. Oliv AI works as a layer on top of your CRM, so your CRM stays where it is. Six tools have their own setup guide, so find yours in the table and open it.
+Sales tool integrations are the first thing to check before you buy: whether your CRM, calendar, meeting and messaging tools connect, and what each connection does. Connect them in this order: your calendar first because it's required, then your recorder and your CRM, then Slack. Oliv AI works as a layer on top of your CRM, so your CRM stays where it is. Six tools have their own setup guide, so find yours in the table and open it.
 
 ## Which sales tools connect, and what to connect first {#categories}
 

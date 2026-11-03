@@ -7,7 +7,7 @@ How Oliv AI works as a layer on top of Salesforce, HubSpot or Zoho, what it read
 - Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/platform/oliv-and-your-crm/
 
-You're weighing AI agents for your CRM, and you want to know what they read, what they write and whether they replace the CRM or work with it. Oliv AI works as a layer on top of your existing CRM, and the CRM stays your system of record. Oliv AI reads your accounts, contacts and opportunities, connects every meeting, call, email and Slack thread to the right record, and writes the updates back. Your reports, dashboards and forecasts keep running where they run today.
+The first question about AI agents for your CRM is whether they replace it or work with it, and the next is what they read and write. Oliv AI works as a layer on top of your existing CRM, and the CRM stays your system of record. Oliv AI reads your accounts, contacts and opportunities, connects every meeting, call, email and Slack thread to the right record, and writes the updates back. Your reports, dashboards and forecasts keep running where they run today.
 
 ## At a glance {#at-a-glance}
 
@@ -23,7 +23,7 @@ You're weighing AI agents for your CRM, and you want to know what they read, wha
 
 ## How Oliv AI sits on your CRM {#what-it-is}
 
-Oliv AI is a layer that sits on top of an existing CRM, rather than replacing it. The sync runs both ways: Oliv AI learns from your records and updates them with new insights. Pipeline, fields, owners, close dates, stages and forecast categories all stay in step.
+The sync runs both ways: Oliv AI learns from your records and updates them with new insights. Pipeline, fields, owners, close dates, stages and forecast categories all stay in step.
 
 You don't move your pipeline anywhere. Inside Oliv AI, the deals your CRM syncs appear under **Records › Deals**, in five views: **Commit**, **Most Likely**, **Best Case**, **Pipeline** and **Closed**. Each row adds AI signals for **Forecast**, **Risks**, **Health**, **Momentum** and **Relationships**.
 
@@ -38,7 +38,7 @@ Oliv AI [keeps the CRM updated](https://maximuslabs-ai.github.io/oliv-ai-product
 
 ### One product across the revenue team {#one-product}
 
-Oliv AI gives each role the apps it needs and puts the rest of the budget toward agents that work with your team. Plans build on each other: Converse includes Amplify, Sell includes Converse, and Grow includes Sell. Sell adds the Forecast app and Grow adds the Retain app, and every one of them reads the same CRM. The [plans and seat roles](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/plans/plans-and-seat-roles/) page shows who gets what.
+Plans build on each other: Sell includes everything in Converse, and Grow includes everything in Sell. Sell adds the Forecast app and Grow adds the Retain app, and every one of them reads the same CRM. The [plans and seat roles](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/plans/plans-and-seat-roles/) page shows who gets what.
 
 ### Beyond the CRM {#beyond-the-crm}
 
@@ -71,13 +71,13 @@ A CRO or VP of Sales usually raises this first, because the board pack and the f
 
 Picture a CRO who spent two years folding three regional CRMs into one Salesforce org. Her board pack, the comp plan and every forecast now read from that org. When a vendor pitches an AI tool, her first question is where the data will live.
 
-The usual compromise is a point tool with its own database and a nightly sync. Reps then check two screens, and someone in RevOps reconciles them when the numbers disagree. That probably costs a few hours a week, and trust in the pipeline report drops each time the two drift apart.
+The usual compromise is a point tool with its own database and a nightly sync. Reps then check two screens, and someone in RevOps reconciles them when the numbers disagree. Trust in the pipeline report drops each time the two drift apart.
 
 The CRO isn't short of a database. What her org lacks is the content of the calls, emails and Slack threads that never reach a record. Those conversations happen outside the CRM, so whatever reads them has to sit beside it and write into it.
 
-Oliv AI does exactly that. It reads Salesforce and connects meeting, phone, email and Slack activity to the right accounts and opportunities. Oliv AI's CRM Manager agent then writes the updates back. Reports and the board pack keep running on the same org, and nothing asks her team to rip and replace on day one.
+Oliv AI reads Salesforce and connects meeting, phone, email and Slack activity to the right accounts and opportunities. Oliv AI's CRM Manager agent then writes the updates back. Reports and the board pack keep running on the same org, and her team has nothing to rip out.
 
-Even the match between a conversation and its record holds up on messy accounts. When one account carries several open opportunities, Oliv AI still files the conversation history against the right deal. That matching is one of the points covered in How Oliv AI compares for AI agents for your CRM, below.
+When one account carries several open opportunities, Oliv AI still files the conversation history against the right deal. To test this in a trial, pick an account with several open opportunities and check which deal each call and email lands on. The comparison further down shows how other tools handle that case.
 
 ## Connect your CRM {#connect}
 
@@ -109,7 +109,7 @@ You choose between two modes:
 - **Ask First.** You review each update before it's written.
 - **Auto-Pilot.** Unreviewed updates apply automatically, and the pipeline stays current without anyone acting.
 
-Once accuracy thresholds are met, RevOps confirms the switch to auto mode. When Oliv AI can't resolve which record an activity belongs to, it asks the seller instead of guessing.
+Once accuracy thresholds are met, RevOps confirms the switch to **Auto-Pilot**. When Oliv AI can't resolve which record an activity belongs to, it asks the seller instead of guessing.
 
 ## What Oliv AI reads and writes {#reads-and-writes}
 
@@ -188,11 +188,18 @@ On the grid, **Group**, **Fields**, **Sort** and **Filter** reshape the list, **
 
 The right rail holds **Ask**, **Comments** and **History**. **Comments** opens a dated team thread beside whichever tab you have open. Type a note or dictate it with the microphone, then send.
 
+<figure>
+
+![Comments panel open beside a deal's Assets tab, listing five dated notes from two team members about a quiet buyer and when to hold an executive call. An Add comments box with a microphone and a send arrow sits at the bottom.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/records-deals/oliv-ai_227_records-deals_deal-detail-drawer_comments-panel-open-team-thread-sarah-chen-meredith-palmer-add-comments-voice-send.webp)
+
+<figcaption>The team's discussion stays on the deal, next to the fields and templates it is about, instead of in a separate chat that never reaches the record.</figcaption>
+</figure>
+
 ## How to measure whether agent writes are working {#measure-writes}
 
 Two numbers tell you whether the write mode you chose still fits: review load and acceptance rate. Track both from the first week of a trial.
 
-**Review load** is the time your team spends on suggestions each week. Its weak spot is quality, because a fast review can also be a careless one. **Acceptance rate** is the share of suggestions your reps accept. A high rate can mean the agent is right, or that reps click **Accept** without reading. So spot check a few accepted values against what the customer actually said.
+**Review load** is the time your team spends on suggestions each week. A low number isn't automatically good, because a fast review can also be a careless one. **Acceptance rate** is the share of suggestions your reps accept. A high rate can mean the agent is right, or that reps click **Accept** without reading. So spot check a few accepted values against what the customer actually said.
 
 ### Where Oliv AI shows them {#where-oliv-shows-them}
 
@@ -239,7 +246,7 @@ At 15 minutes per rep, review under **Ask First** looks affordable, so the lead 
 
 ### CRM Manager {#with-crm-manager}
 
-Oliv AI's CRM Manager agent executes every write, so all changes reach your existing reports. Its page on oliv.ai covers [how it keeps the CRM accurate](https://www.oliv.ai/crm-manager).
+Oliv AI's CRM Manager agent writes the conversation updates back, so they reach your existing reports. Its page on oliv.ai covers [how it keeps the CRM accurate](https://www.oliv.ai/crm-manager).
 
 ### Meeting Assistant {#with-meeting-assistant}
 
@@ -261,7 +268,7 @@ Agents you set up can act in Salesforce and HubSpot through their tools. The app
 
 ### Sales leaders {#sales-leaders}
 
-A CRO keeps one system of record and still gets AI on every deal. The forecast she presents reads from the same CRM her team updates, and the [daily guide for sales managers](https://www.oliv.ai/blog/oliv-ai-sales-manager-daily-use-guide-features) shows how managers use it.
+The forecast a CRO presents reads from the same CRM her team updates, so there's no second system to reconcile. The [daily guide for sales managers](https://www.oliv.ai/blog/oliv-ai-sales-manager-daily-use-guide-features) shows how managers use it.
 
 ### Revenue operations {#revenue-operations}
 
@@ -313,7 +320,7 @@ CRM sync features, from each platform's public documentation:
 
 #### Do I need to replace Salesforce or HubSpot? {#faq-replace}
 
-No. Oliv AI works with your existing CRM. It brings the context together and keeps your systems updated, and the CRM stays the system of record.
+No. You connect the org you already have, and it stays the system of record.
 
 #### Do AI agents replace your CRM? {#faq-agents-replace-crm}
 
@@ -321,7 +328,7 @@ Not with a layer like Oliv AI. AI agents need records to read and a place to wri
 
 #### Is Oliv AI a CRM? {#faq-is-it-a-crm}
 
-No. Oliv AI is a layer on top of your CRM. Its CRM Manager agent works on top of Salesforce, HubSpot or Zoho rather than holding records itself.
+No, so you need one connected first. The deals in **Records** come from the Salesforce, HubSpot or Zoho org you connect.
 
 #### Which CRMs does Oliv AI support? {#faq-which-crms}
 
@@ -377,7 +384,7 @@ The [Oliv AI pricing page](https://www.oliv.ai/pricing) sets out the current pla
 
 - [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/): the install, review settings and objects for a Salesforce org.
 - [Keep the CRM updated](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/): the day-to-day routine for reviewing and approving updates.
-- [CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/): the agent that executes every write to your CRM.
+- [CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/): the agent that writes conversation updates back to your CRM.
 - [Why RAG fails on CRM data](https://www.oliv.ai/blog/rag-for-crm-data): why matching activity to the right object is harder than retrieval.
 - [Agentforce and specialized revenue AI](https://www.oliv.ai/blog/salesforce-agentforce-vs-revenue-ai-b2b-limitations): where a CRM's own AI fits next to a layer like Oliv AI.
 - [Oliv AI integrations](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/): every tool Oliv AI connects to alongside your CRM.

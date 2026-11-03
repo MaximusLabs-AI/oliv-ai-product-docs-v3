@@ -7,7 +7,7 @@ How a sales manager runs a sales pipeline review: how to sort deals by risk by h
 - Verified: 2026-11-02
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/run-a-pipeline-review/
 
-You want a sales pipeline review that takes less time and still finds the deals at risk. Run it as the weekly meeting where you decide which deals need help: check each open deal's last activity, close date and next step beforehand, then spend the meeting only on the deals that changed. Oliv AI does that prep for you, as a layer on top of your CRM. Oliv AI's Deal Driver agent writes a **One-on-One Prep** report for each rep before their 1:1, on that rep's own schedule, such as every Thursday. Through the week it flags deals that need attention, each with a suggested action.
+A sales pipeline review goes long when it walks every deal, and the deals at risk can still slip through. Run it as the weekly meeting where you decide which deals need help: check each open deal's last activity, close date and next step beforehand, then spend the meeting only on the deals that changed. Oliv AI does that prep for you, as a layer on top of your CRM. Oliv AI's Deal Driver agent writes a **One-on-One Prep** report for each rep before their 1:1, on that rep's own schedule, such as every Thursday. Through the week it flags deals that need attention, each with a suggested action.
 
 ## At a glance {#at-a-glance}
 
@@ -27,7 +27,7 @@ You want a sales pipeline review that takes less time and still finds the deals 
 - **Connect the CRM and the team's calendar.** Deal Driver reads meeting and activity data, plus deal stage, amount, close date and next steps.
 - **Have your team roster and hierarchy set.** Reports and alerts follow who reports to whom.
 - **Decide your thresholds.** Inactivity windows, field completion requirements and deal value thresholds can be set per manager or per team.
-- **Keep the fields current.** Deal Driver's signals are only as good as the data behind them. [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) keeps that data current from calls, emails and meetings.
+- **Keep the fields current.** Deal Driver flags risk from these fields. [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) updates them from calls, emails and meetings.
 
 ## Step 1: Set up Deal Driver {#step-1-set-up}
 
@@ -65,7 +65,7 @@ The rest of the report sorts the rep's deals into **Closed Won**, **Closed Lost*
 <figcaption>One-on-One Prep gives the manager a rep's whole pipeline, sorted by what needs attention, so the 1:1 can skip the status recap. The pipeline total and deal count are sample figures.</figcaption>
 </figure>
 
-Minutes later, [Oliv AI's Coach agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/coach/) follows with that rep's coaching goal and weekly progress. You walk into each conversation with both status and development context. For prep on the customer meetings themselves, reps get their own brief, covered in [Prepare for a meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/).
+Minutes after that report, [Oliv AI's Coach agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/coach/) follows with that rep's coaching goal and weekly progress. For prep on the customer meetings themselves, reps get their own brief, covered in [Prepare for a meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/).
 
 ## Step 4: Work deal by deal {#step-4-deal-by-deal}
 
@@ -137,7 +137,7 @@ After the review, the agents keep the agreed next steps moving:
 
 ## What a pipeline review with Oliv AI is {#what-it-is}
 
-A pipeline review with Oliv AI is your usual deal review, with the preparation done by agents. Oliv AI's Deal Driver agent keeps managers informed at every level, from individual rep to deal to the full team. It runs on a daily and a weekly rhythm:
+A pipeline review with Oliv AI is your usual deal review, with the preparation done by agents. Oliv AI's Deal Driver agent runs that preparation on a daily and a weekly rhythm:
 
 | Rhythm | What arrives | When |
 |---|---|---|
@@ -147,28 +147,28 @@ A pipeline review with Oliv AI is your usual deal review, with the preparation d
 | **One-on-One Prep** | Each rep's pipeline by status, with a summary and next step per deal | On each rep's schedule, such as every Thursday |
 | **Pipeline Review** | Every deal in the pipeline by status, for executive updates | Every Monday |
 
-Each report opens in **Reports › My Reports** with a date picker to page through past editions and **Rate this report**. The same structure works for BDR and AE teams. Cadence and field configurations differ, but the briefs, alerts and rep reports work the same way.
+Each report opens in **Reports › My Reports** with a date picker to page through past editions and **Rate this report**.
 
 ## Why a pipeline review with Oliv AI matters {#why-it-matters}
 
 ### What it's for {#what-its-for}
 
-A pipeline review is where a manager decides which deals need help this week. With the prep done ahead of time, the meeting goes on those decisions. The status part is already on the page when the meeting starts.
+A pipeline review is where a manager decides which deals need help this week. With the prep done ahead of time, the meeting goes on those decisions, because the status is already on the page.
 
 ### How it helps {#how-it-helps}
 
 - **Reports arrive before the meeting.** Each rep's pipeline view is ready before the 1:1, with nothing to pull.
-- **Risk shows up early.** Alerts fire when deals stall or stages drift, not when a rep finally mentions it.
+- **Risk shows up early.** Alerts fire when deals stall or stages drift, before a rep has to mention it.
 - **Every alert suggests a move.** The deal, the signal and a suggested action come together.
 - **Follow-through doesn't depend on memory.** Reps get nudged when next steps go overdue.
 
 ### What happens without it {#without-it}
 
-Without prep, the first twenty minutes of each 1:1 go on status updates. A deal can go quiet for two weeks or more before anyone notices. By the time the rep escalates, momentum is gone and the deal is hard to save.
+Without prep, each 1:1 opens on status updates. A deal can go quiet for two weeks or more before anyone notices. By the time the rep escalates, momentum is gone and the deal is hard to save.
 
 ### Why buyers care {#why-buyers-care}
 
-This matters to first-line sales managers and BDR leads, who run these reviews every week. It also matters to VPs of Sales and regional heads, who inherit the numbers. It counts most in the last weeks of a quarter, when a missed slip changes the forecast.
+First-line sales managers and BDR leads run these reviews every week, and VPs of Sales and regional heads inherit the numbers. The review counts most in the last weeks of a quarter, when a missed slip changes the forecast.
 
 ## The Oliv AI approach to pipeline reviews {#approach}
 
@@ -178,7 +178,7 @@ Picture a first-line sales manager with six reps and a standing Thursday review.
 
 Most managers prep by pulling a CRM report per rep and reading recent call notes. In the meeting, reps often walk through every deal, including the healthy ones. The time tends to run out before the stuck deals get real attention.
 
-Most of that time is lookup, not judgment. Which deals went quiet, which close dates moved and which fields are blank are all facts the system already holds. Hand the lookup to an agent, and the meeting can start at the problem deals.
+Most of that time goes on looking things up. Which deals went quiet, which close dates moved and which fields are blank are all facts the system already holds. Hand the lookup to an agent, and the meeting can start at the problem deals.
 
 Oliv AI's Deal Driver agent does the lookup before Thursday. Each rep's prep report lands before the manager's first meeting, with deal health, activity and flagged items. Alerts through the week mark the deals that changed. After the review, nudges keep the agreed next steps from slipping. The manager spends the fifteen minutes per rep on the two or three deals that need a decision, and the healthy ones get a nod.
 
@@ -209,7 +209,7 @@ Deal Driver flags a deal when it has had no activity for a set number of days, o
 1. **Pull each rep's open deals** for the period, with value, stage, close date, last activity and next step.
 2. **Mark the deals to rescue.** These have gone quiet past your inactivity window, or their close date has moved twice.
 3. **Mark the deals to discuss.** These close inside the next 30 days and are still active.
-4. **Skip the rest.** Healthy deals get a nod, not airtime.
+4. **Skip the rest.** Healthy deals don't need meeting time.
 5. **In the meeting, take the rescue list first,** then the discuss list. Ask about the signal on each deal, and leave with an owner and a date for the next step.
 6. **Check the rescue list again next week.** A rescued deal with no new activity goes back on the list.
 
@@ -253,7 +253,7 @@ In Oliv AI, the Monday **Pipeline Review** shows **Deals at Risk** and **Stalled
 
 ### CRM Manager {#with-crm-manager}
 
-[Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) refreshes deal fields overnight from calls, emails and meetings. Deal Driver then flags risk from what actually happened, not from stale entries. It also supplies the Core 4 Fields completion data behind the gap alerts.
+[Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) refreshes deal fields overnight from calls, emails and meetings. Deal Driver then flags risk from what actually happened. CRM Manager also supplies the Core 4 Fields completion data behind the gap alerts.
 
 ### Meeting support for reps {#with-meeting-support}
 
@@ -261,7 +261,7 @@ Before every meeting on an active opportunity, reps get a brief with the deal su
 
 ### Olivia for reps {#with-olivia}
 
-[Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) is the front-facing agent for reps, while Deal Driver is the manager's tool. Reps work with Olivia day to day, and the manager sees the outcome in the review. During the review, the **Ask** button on the Forecast board opens Olivia beside it.
+[Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) is the agent reps work with day to day, while Deal Driver is the manager's tool. During the review, the **Ask** button on the Forecast board opens Olivia beside it.
 
 ### Portfolio Manager for customer success {#with-portfolio-manager}
 
@@ -269,7 +269,7 @@ Customer success managers have an equivalent: Oliv AI's Portfolio Manager agent.
 
 ### Agent permissions {#with-tools}
 
-Agents that update records or send email do it through tools. [Agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/) explains how to make those actions wait for approval.
+The CRM updates and follow-up emails above are actions agents take through tools. [Agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/) explains how to make those actions wait for approval.
 
 ## Who runs pipeline reviews with Oliv AI, and how {#who-uses-it}
 
@@ -289,7 +289,7 @@ A VP of Sales starts the week with the Monday Pipeline Review instead of stitchi
 
 ### Revenue operations {#revenue-operations}
 
-A RevOps lead sets the inactivity windows and field completion rules with each manager, so alerts match how the team sells. Clean fields from CRM Manager keep those alerts honest. It's a practical step toward [better forecast accuracy](https://www.oliv.ai/blog/improve-sales-forecast-accuracy-with-ai).
+A RevOps lead sets the inactivity windows and field completion rules with each manager, so alerts match how the team sells. Clean fields from CRM Manager keep those alerts honest. For the wider goal, see [better forecast accuracy](https://www.oliv.ai/blog/improve-sales-forecast-accuracy-with-ai).
 
 ## How Oliv AI compares for sales pipeline reviews {#compare}
 
@@ -323,9 +323,7 @@ Sales pipeline review support, from each platform's public documentation:
 - **Deal Driver doesn't write to the CRM.** It surfaces signals for the manager to act on. Field updates belong to CRM Manager.
 - **It isn't the forecast.** Pipeline projection and accuracy belong to [Oliv AI's Forecaster agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/forecaster/).
 - **It isn't coaching.** Rep development belongs to [Oliv AI's Coach agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/coach/).
-- **Customer success uses a different agent.** CS managers use Oliv AI's Portfolio Manager agent for the renewal book.
-- **Set-up takes about a week.** Most managers are live within a week of connecting the CRM and calendar.
-- **Voice check-ins are Beta.** The evening voice check-in is part of the Voice Agent (Beta).
+- **Voice check-ins are Beta.** Don't build your review process around the evening check-in yet.
 
 ## Common questions {#common-questions}
 
@@ -335,7 +333,7 @@ On each rep's schedule, such as every Thursday, before the manager's 1:1 with th
 
 #### Will this replace my daily standup? {#faq-standup}
 
-For many teams, yes. When the morning brief surfaces what's new, the standup becomes a strategy conversation instead of a status check. Some managers drop it.
+Most managers who use Deal Driver shorten it considerably, and some drop it. Once the morning brief covers what's new, the standup can move from status updates to decisions.
 
 #### Can I change what triggers an alert? {#faq-alert-thresholds}
 
@@ -343,7 +341,7 @@ Yes. Inactivity windows, field completion requirements and deal value thresholds
 
 #### Does it work for BDR teams? {#faq-bdr}
 
-Yes. Sales managers and BDR leads use it the same way. Cadence and field configurations differ, but the structure is the same.
+Yes, for BDR and AE teams alike. Cadence and field configurations differ, but the briefs, alerts and rep reports work the same way.
 
 #### What does leadership get? {#faq-leadership}
 
@@ -383,7 +381,7 @@ With Oliv AI, nothing extra. The rep's deals are already sorted in the One-on-On
 
 #### How do you spot a deal at risk in a pipeline review? {#faq-spot-risk}
 
-Check three things on each deal: whether the close date moved, how long since the last activity, and whether a next step is booked. Deal Driver flags inactivity and close dates approaching without progress for you.
+Check three things on each deal: whether the close date moved, whether the deal has gone quiet, and whether the buyer is still moving forward. Deal Driver flags inactivity and close dates approaching without progress for you.
 
 ## Further reading {#further-reading}
 

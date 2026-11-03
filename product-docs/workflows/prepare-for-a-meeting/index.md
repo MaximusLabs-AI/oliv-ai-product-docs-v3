@@ -7,7 +7,7 @@ How Oliv AI prepares you for a sales meeting, from the deal brief that arrives 3
 - Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/
 
-You want AI meeting preparation to put the deal status, the people and an agenda in front of you before you join. Before a first meeting, you want research on the new contact, and none of it done by hand. Oliv AI sends you a brief before your sales meetings, so you walk in knowing where things stand and what to cover. For a meeting on an active deal, Oliv AI's Meeting Assistant agent sends the deal summary, qualification status, stakeholders and a recommended agenda 30 minutes before the call. For a first meeting with someone new, Oliv AI's Olivia agent researches the company and the person.
+Preparing for a deal meeting by hand means pulling the deal status, the people and an agenda together yourself, and a first meeting adds research on a new contact. AI meeting preparation puts all of that in front of you before you join. Oliv AI sends you a brief before your sales meetings, so you walk in knowing where things stand and what to cover. For a meeting on an active deal, Oliv AI's Meeting Assistant agent sends the deal summary, qualification status, stakeholders and a recommended agenda 30 minutes before the call. For a first meeting with someone new, Oliv AI's Olivia agent researches the company and the person.
 
 ## At a glance {#at-a-glance}
 
@@ -26,12 +26,12 @@ You want AI meeting preparation to put the deal status, the people and an agenda
 
 - **Connect three things.** The brief draws on your calendar, your call recording tool or [Oliv AI's own recorder](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/), and your CRM: [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/), [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/) or Zoho.
 - **Have the deal in your CRM.** Deal briefs cover meetings linked to an active opportunity. First meetings with new contacts get a research brief instead.
-- **Know your methodology.** Qualification status is shown against the framework your company runs.
+- **Check your methodology.** Qualification status is shown against the framework set as **Active** in **Settings › Qualification Framework**.
 - **Don't wait for a clean CRM.** [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) fills in missing or stale fields from call history as it goes, so the brief works from day one.
 
 ## Step 1: Connect your calendar, recorder and CRM {#step-1-connect}
 
-Connect your calendar so Oliv AI knows which meetings are coming up. Then [connect your call recorder and CRM](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/): your existing recording tool or Oliv AI's own recorder, plus Salesforce, HubSpot or Zoho. Past conversations and deal records are what the brief is built from. Most teams are connected within a week.
+Connect your calendar so Oliv AI knows which meetings are coming up. Then [connect your call recorder and CRM](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/): your existing recording tool or Oliv AI's own recorder, plus Salesforce, HubSpot or Zoho. The brief is built from past conversations and deal records. Most teams are connected within a week.
 
 ## Step 2: Let the brief arrive before the call {#step-2-brief-arrives}
 
@@ -71,7 +71,7 @@ Her answer runs in a fixed order:
 | **Talking points** | A numbered list of what to raise and in what order |
 | **Research on a new attendee** | A short profile of anyone new on the call, researched by Olivia: role, background and what they're likely to ask |
 
-A first meeting has no deal history to draw on, so the prep is research. Tell Olivia you're meeting someone for the first time and ask her to prepare you. Thirty minutes before the meeting, she sends three bullets and an icebreaker:
+A first meeting has no deal history to draw on, so the prep is research. You can tell Olivia you're meeting someone for the first time and ask her to prepare you. Otherwise, she sends three bullets and an icebreaker 30 minutes before the meeting:
 
 | Part | What it covers |
 |---|---|
@@ -96,6 +96,13 @@ Oliv AI's Olivia agent ends her prep with a suggested next step, such as **Draft
 <figcaption>The pre-meeting email is the last step of prep. You pick the draft and the send option, and Oliv AI's Olivia agent says what she'll do once it's sent, including logging the touch on the deal. The usage number and the people in the drafts are invented for the demo.</figcaption>
 </figure>
 
+<figure>
+
+![The full prep answer in the Olivia chat: the four Deal at a glance cards, a Who's Joining card with a champion and a new CFO, three risks to watch, four numbered talking points, a brief on the CFO and a chip reading Draft the pre-meeting Email.](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/images/screens/home/oliv-ai_015_home_chat_olivia_acme-renewal-prep-full-brief_who-is-joining-three-risks-talking-points-researcher-brief-on-cfo_full-length.webp)
+
+<figcaption>The whole prep fits in one answer, from the deal cards down to a brief on the attendee you haven't met. The figures and names in it are sample data.</figcaption>
+</figure>
+
 ## Step 5: Walk in with the agenda {#step-5-use-the-agenda}
 
 1. Open the recommended agenda and check it against what you planned to cover.
@@ -106,7 +113,7 @@ Oliv AI's Olivia agent ends her prep with a suggested next step, such as **Draft
 
 ## What meeting preparation in Oliv AI is {#what-it-is}
 
-Meeting preparation is the work Oliv AI does before your meetings so you don't rebuild context by hand. It comes in two forms, chosen by whether a deal exists yet.
+Oliv AI prepares you in one of two ways, depending on whether a deal exists yet.
 
 | | Deal brief | First-meeting brief |
 |---|---|---|
@@ -116,17 +123,17 @@ Meeting preparation is the work Oliv AI does before your meetings so you don't r
 | **Contains** | Deal summary, qualification status, stakeholders, agenda | Three bullets and an icebreaker |
 | **Arrives** | 30 minutes before the meeting | 30 minutes before the meeting |
 
-Oliv AI's Olivia agent sits across both. She surfaces the right context before every meeting, coordinating Meeting Assistant for active opportunities and doing the research for new contacts herself. You can also ask her for prep at any time, and she lays out the deal, the attendees, the risks and the talking points in one answer. That's the difference between [an AI meeting assistant for sales](https://www.oliv.ai/blog/ai-meeting-assistant-for-sales) and a recorder that only helps after the call.
+Oliv AI's Olivia agent sits across both. She coordinates Meeting Assistant for active opportunities and does the research for new contacts herself. You can also ask her for prep at any time, and she lays out the deal, the attendees, the risks and the talking points in one answer. That's the difference between [an AI meeting assistant for sales](https://www.oliv.ai/blog/ai-meeting-assistant-for-sales) and a recorder that only helps after the call.
 
 ## Why meeting preparation matters {#why-it-matters}
 
 ### What it's for {#what-its-for}
 
-Meeting preparation puts what you need to know in front of you before the call starts. It covers where the deal stands, who's in the room and what to raise. The first minutes then go on the buyer, not on catching up.
+A brief tells you where the deal stands, who's in the room and what to raise. The first minutes of the call then go on the buyer, not on catching up.
 
 ### How it helps {#how-it-helps}
 
-- **It arrives without asking.** The brief lands 30 minutes before the meeting, with nothing to request.
+- **You don't have to ask.** The brief lands 30 minutes before the meeting.
 - **It reads in a minute.** One screen, about 60 seconds, scannable on the way into the room.
 - **Gaps show up early.** Open qualification questions appear while you can still ask them.
 - **First calls get research too.** New contacts come with company and person context and an opening line.
@@ -137,7 +144,7 @@ Without prep, reps rebuild each deal from notes and CRM records before the call,
 
 ### Why buyers care {#why-buyers-care}
 
-This matters to [sales leaders](https://www.oliv.ai/sales) whose teams run dozens of calls a week. It matters just as much to SDR and BDR leads whose reps book first meetings back to back. It counts most when calendars fill up, because prep is usually the first thing to go.
+This matters most to [sales leaders](https://www.oliv.ai/sales) whose teams run dozens of calls a week. It matters just as much to SDR and BDR leads whose reps book first meetings back to back. On calendars like those, there's rarely time to prepare by hand.
 
 ## The Oliv AI approach to meeting preparation {#approach}
 
@@ -147,15 +154,15 @@ Take an SDR who has booked a first discovery call with a finance VP at a target 
 
 The usual prep is a quick tour of LinkedIn, the company's website and a news search, plus any notes in the CRM. Reps who do this well tend to spend 15 to 20 minutes per contact. On a full day that time often isn't there, so the research gets skimmed or skipped.
 
-A first call is mostly won or lost in its opening minutes. The SDR doesn't need everything about the account, just the few facts that make the opening specific. That's a short job if someone else has already done the reading.
+The SDR doesn't need everything about the account, just the few facts that make the opening specific. That's a short job if someone else has already done the reading.
 
 Oliv AI does the reading before the SDR has to. Oliv AI's Olivia agent sends three bullets on the company and the person, plus one icebreaker to open with. Funding, market position and recent news cover the account. Career history, role and interests cover the person.
 
-The research brief lands 30 minutes before the meeting, and the full detail view stays in the platform for anyone who wants more. How other platforms prepare reps for a first meeting is covered in How Oliv AI compares for AI meeting preparation, below.
+The research brief lands 30 minutes before the meeting, and the full detail view stays in the platform for anyone who wants more. Between calls, the SDR reads the brief and opens the 2pm call with the icebreaker, not with a question the website already answers. The comparison table further down this page shows how other platforms prepare reps for a first meeting.
 
 ## How sales meetings get prepared {#methods}
 
-Prep draws on four places, whether you do it by hand or a brief does it for you. Each one tells you something the others can't. Know what each misses before you rely on it in a meeting.
+Prep draws on four places, whether you do it by hand or a brief does it for you. Know what each misses before you rely on it in a meeting.
 
 ### The CRM record: where the deal sits {#from-crm-record}
 
@@ -177,7 +184,7 @@ The company's site, funding news and the contact's LinkedIn are all you have whe
 
 ### Which of these the briefs use {#which-oliv-uses}
 
-Oliv AI's Meeting Assistant agent builds the deal brief from your CRM and earlier conversations on the deal, then shows qualification status against your **Active** framework. A first-meeting brief draws on company research and the contact's LinkedIn. So a deal meeting and a first meeting get different inputs, chosen by whether a deal exists yet.
+Oliv AI's Meeting Assistant agent builds the deal brief from your CRM and earlier conversations on the deal, then shows qualification status against your **Active** framework. A first-meeting brief draws on company research and the contact's LinkedIn.
 
 ## How to prepare for a sales call by hand {#prepare-by-hand}
 
@@ -247,7 +254,7 @@ Work through these in order when a meeting starts in 30 minutes and you have not
 2. **Is it really a first meeting?** A new contact gets research on the company and the person, not deal status.
 3. **Are your connections in place?** The brief needs your calendar, your recorder and your CRM connected.
 4. **Do you need prep right now?** Don't wait for a scheduled brief. Open **Home**, keep the **Ask** tab on Oliv AI's Olivia agent, and type the call you're preparing for.
-5. **Does a stage or date look stale?** Check it against the CRM record and your last call. Oliv AI's CRM Manager agent fills in missing or stale fields from call history as it goes, so confirm it on the call if the record still looks off.
+5. **Does a stage or date look stale?** Check it against the CRM record and your last call. Oliv AI's CRM Manager agent fills in missing or stale fields from call history as it goes. If the record still looks off, confirm the detail on the call.
 
 ## How meeting preparation works with other features {#works-with}
 
@@ -287,7 +294,7 @@ The qualification status in each brief follows the framework your team runs, whe
 
 ### Agent tools {#with-tools}
 
-The actions agents take in your calendar, mailbox and CRM are listed on each agent's **Tools** tab. [Agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/) explains how to choose which of those actions wait for your approval.
+The actions agents take around a meeting, in your calendar, mailbox and CRM, are listed on each agent's **Tools** tab. [Agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/) explains how to choose which of those actions wait for your approval.
 
 ## Who uses meeting preparation, and how {#who-uses-it}
 
@@ -307,7 +314,7 @@ An account manager walks into a renewal or expansion call with the full account 
 
 ### Sales managers {#sales-managers}
 
-A [sales manager](https://www.oliv.ai/sales-managers) starts the day with the Morning Brief, then opens each rep's 1:1 with their pipeline, activity and flagged deals already on the page. The conversation starts at strategy instead of status updates.
+A [sales manager](https://www.oliv.ai/sales-managers) starts the day with the Morning Brief, then opens each rep's 1:1 with their pipeline, activity and flagged deals already on the page.
 
 ## How Oliv AI compares for AI meeting preparation {#compare}
 
@@ -337,7 +344,7 @@ AI meeting preparation, from each platform's public documentation:
 ## Limits and things to know {#limits}
 
 - **Deal briefs need a deal.** The deal brief covers meetings linked to an active opportunity in your CRM. Meetings with new contacts get the research brief instead.
-- **Connections come first.** No brief arrives until your calendar, recorder and CRM are connected. Most teams are connected within a week.
+- **Connections come first.** No brief arrives until your calendar, recorder and CRM are connected.
 - **The research brief is short by design.** It's three bullets and an icebreaker. The full detail view is in the platform.
 - **Emails wait for your choice.** A pre-meeting or follow-up email goes out only when you pick a send option or press send.
 

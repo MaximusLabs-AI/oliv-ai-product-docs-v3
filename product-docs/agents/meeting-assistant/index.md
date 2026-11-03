@@ -7,7 +7,7 @@ How Oliv AI's Meeting Assistant agent works as an AI meeting assistant for sales
 - Verified: 2026-11-02
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/meeting-assistant/
 
-You want to walk into each deal meeting prepared and leave with the follow-up drafted and the CRM updates ready to approve. That is the job of an AI meeting assistant, and Oliv AI's Meeting Assistant agent does it for every meeting linked to an active opportunity. Thirty minutes before the call, it sends a one-screen brief with the deal status, qualification gaps and a recommended agenda. After the call, it drafts the follow-up email, proposes CRM field updates and flags new qualification gaps.
+Back-to-back meetings on open deals leave little time to prepare or to follow up, so an AI meeting assistant has to cover both ends of the call. Oliv AI's Meeting Assistant agent does that for every meeting linked to an active opportunity. Thirty minutes before the call, it sends a one-screen brief with the deal status, qualification gaps and a recommended agenda. After the call, it drafts the follow-up email, proposes CRM field updates and flags new qualification gaps.
 
 ## At a glance {#at-a-glance}
 
@@ -76,13 +76,13 @@ The full tour of every tab is in [meeting details](https://maximuslabs-ai.github
 
 ### Across the life of a deal {#across-meetings}
 
-As meetings stack up on a deal, Meeting Assistant keeps an updated picture of the opportunity. That picture doesn't depend on a rep typing notes after every call. It's what makes [better sales follow-ups](https://www.oliv.ai/blog/sales-follow-up) possible without extra admin. For how other tools handle prep and recap, read this round-up of [AI meeting assistants for sales](https://www.oliv.ai/blog/ai-meeting-assistant-for-sales).
+As meetings stack up on a deal, Meeting Assistant keeps an updated picture of the opportunity. That picture doesn't depend on a rep typing notes after every call. For the follow-up habit itself, read [better sales follow-ups](https://www.oliv.ai/blog/sales-follow-up). For how other tools handle prep and recap, read this round-up of [AI meeting assistants for sales](https://www.oliv.ai/blog/ai-meeting-assistant-for-sales).
 
 ## Why the Meeting Assistant agent matters {#why-it-matters}
 
 ### What it's for {#what-its-for}
 
-An AI meeting assistant earns its place when you want to be prepared for each deal meeting and leave with the follow-up done. Oliv AI's Meeting Assistant agent handles the prep before each deal meeting and the paperwork after it. That leaves the time in between for thinking about the customer.
+An AI meeting assistant earns its place when you run back-to-back deal meetings and the prep or the recap keeps slipping. Oliv AI's Meeting Assistant agent takes on both, and your job becomes reading, checking and sending.
 
 ### How it helps {#how-it-helps}
 
@@ -105,13 +105,13 @@ VPs of Sales and sales managers are the usual buyers. Account executives champio
 
 Say a customer success manager has just wrapped a quarterly business review with three people from one account. The operations director wants a rollout plan. The finance lead asked for usage numbers before the renewal talk. The admin raised two open support issues, and the renewal opportunity is sitting in the CRM.
 
-Most CSMs write that recap later in the day, from memory and a page of scribbles. Pleasing three readers in one email can eat close to half an hour. Small promises tend to slip, and the renewal record often stays exactly as it was before the call.
+That recap often gets written later in the day, from memory and a page of scribbles, and it has to work for three readers. Small promises tend to slip, and the renewal record often stays exactly as it was before the call.
 
 Yet nothing in that recap is new information. Every ask, owner and date was said out loud on a recorded call. The real job is turning the transcript into an email and a few field changes while the meeting is still fresh.
 
 Oliv AI does that with its Meeting Assistant agent. When the recording is processed, it drafts the follow-up from the transcript with the recap, commitments, owners and next steps. It also proposes field updates for the renewal and flags any qualification gaps the call exposed. The CSM reads it, adjusts a line or two and sends it.
 
-The draft lands within minutes of the call ending. Each CRM change shows on the meeting's **CRM Updates** tab, with a stage move held for the CSM to confirm. Other meeting tools are compared in How Oliv AI compares as an AI meeting assistant, below.
+The draft lands within minutes of the call ending. Each CRM change shows on the meeting's **CRM Updates** tab, with a stage move held for the CSM to confirm. To compare other meeting tools, see the table further down this page.
 
 ## Set up Meeting Assistant {#set-up}
 
@@ -132,7 +132,7 @@ Most teams are connected within a week. You don't need a clean CRM to start: [Ol
 
 ## How deal meetings get prepared and followed up {#methods}
 
-There are three common ways to get ready for a deal meeting and close it out afterwards. Each catches something different, and each misses something.
+There are three common ways to get ready for a deal meeting and close it out afterwards.
 
 ### Prep from the CRM record {#prep-from-crm}
 
@@ -158,7 +158,7 @@ The follow-up is a draft, not an automatic send. Read it, adjust anything that n
 
 The agent reads the call, finds what changed, and proposes updates. That keeps stage, close date and next steps current without chasing anyone.
 
-The meeting's **CRM Updates** tab lists what changed after the call. Applied changes, such as an account summary, a scorecard or a new contact, carry a green check and a link to the record. A change waiting for you, such as a stage move, shows as **Pending Update** with **Update Deal**.
+The meeting's **CRM Updates** tab lists what changed after the call. Applied changes, such as an account summary, a scorecard or a new contact, carry a green check and a link to the record. A change waiting for you, such as a stage move, shows as **Pending Update** with **Update Deal**. Before you press it, check the move against what the buyer actually agreed.
 
 <figure>
 
@@ -171,7 +171,7 @@ Approval settings for agent actions in general are explained in [agent tools and
 
 ### Act on the qualification gaps {#act-on-gaps}
 
-Gap flags appear after each deal meeting, so reps and managers can act before missing details hurt the deal. The meeting's **Meeting insights** tab has a chip for each criterion of the active framework, from **Metrics** to **Champion**, plus **Additional Fields**. Each section holds evidence cards with timestamps. Where nothing was said, the card says so, as in "No ROI".
+Gap flags appear after each deal meeting, so you can ask for the missing detail on the next call. The meeting's **Meeting insights** tab has a chip for each criterion of the active framework, from **Metrics** to **Champion**, plus **Additional Fields**. Each section holds evidence cards with timestamps. Where nothing was said, the card says so, as in "No ROI".
 
 <figure>
 
@@ -179,7 +179,8 @@ Gap flags appear after each deal meeting, so reps and managers can act before mi
 
 <figcaption>Gaps show up as plainly as evidence. A "not discussed" card, like the missing ROI here, is the question to raise on the next call. The admin-time figure on this tab is a demo value.</figcaption>
 </figure>
- Your team's framework decides what counts as a gap, so it helps to agree on your [sales methodology](https://www.oliv.ai/sales-methodology) first.
+
+Your team's framework decides what counts as a gap, so it helps to agree on your [sales methodology](https://www.oliv.ai/sales-methodology) first.
 
 ## How to measure meeting prep and follow-up {#measure-follow-through}
 
@@ -226,7 +227,7 @@ That is 6 to 7 hours a week before any CRM updates, close to a full working day.
 
 ### CRM Manager {#with-crm-manager}
 
-[Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) writes the field updates that Meeting Assistant surfaces. Meeting Assistant proposes, and CRM Manager keeps the pipeline current without manual cleanup.
+[Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) writes the field updates that Meeting Assistant proposes, which keeps the pipeline current without manual cleanup.
 
 ### Deal Driver {#with-deal-driver}
 
@@ -234,7 +235,7 @@ That is 6 to 7 hours a week before any CRM updates, close to a full working day.
 
 ### Forecaster {#with-forecaster}
 
-[Oliv AI's Forecaster agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/forecaster/) uses the deal qualification data that Meeting Assistant helps keep current. Better data after each call feeds a more grounded pipeline projection.
+[Oliv AI's Forecaster agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/forecaster/) uses the deal qualification data that Meeting Assistant helps keep current.
 
 ### Coach {#with-coach}
 
@@ -260,7 +261,7 @@ BDRs use it on meetings tied to an active opportunity. They get the same brief b
 
 ### Sales managers {#sales-managers}
 
-Sales managers see the same call summaries their reps do before each 1:1. Combined with Deal Driver, the meeting opens on the deal, not on a retelling of it. Read how Oliv AI works for [sales managers](https://www.oliv.ai/sales-managers).
+Sales managers see the same call summaries their reps do before each 1:1. Combined with Deal Driver, the 1:1 opens on the deal, not on a retelling of it. Read how Oliv AI works for [sales managers](https://www.oliv.ai/sales-managers).
 
 ## How Oliv AI compares as an AI meeting assistant {#compare}
 
@@ -289,7 +290,7 @@ AI meeting assistant features, from each platform's public documentation:
 
 ## Limits and things to know {#limits}
 
-- **It works on active opportunities.** Meetings with no linked opportunity don't get a deal brief. First meetings with new contacts are handled by research before the first call.
+- **It works on active opportunities.** Meetings with no linked opportunity don't get a deal brief. First meetings with new contacts get a research brief instead.
 - **It proposes, it doesn't send.** You review, adjust and send the follow-up yourself. Field updates go through CRM Manager, which holds changes like a stage move for you to confirm.
 - **It isn't a forecasting agent.** Meeting Assistant surfaces field updates. Forecaster uses them for pipeline projection.
 - **It isn't a coaching tool.** Meeting Assistant is operational. Coach handles rep development.
@@ -335,11 +336,11 @@ Meeting Assistant works with CRM Manager to keep deal fields current. If data is
 
 #### Is there a minimum team size? {#faq-team-size}
 
-No. It delivers value for individual reps straight away. Qualification gap tracking gets more useful as deal volume grows.
+No. A single rep gets the brief and the drafted follow-up straight away. Qualification gap tracking gets more useful as deal volume grows.
 
 #### Can customer success teams use it? {#faq-customer-success}
 
-Yes, on meetings linked to an active opportunity, such as a renewal or expansion. Customer success and account management are among the teams it's built for.
+Yes, on meetings linked to an active opportunity, such as a renewal or expansion.
 
 #### What should a pre-call brief include? {#faq-brief-contents}
 
@@ -347,7 +348,7 @@ For a deal meeting, the deal summary, where qualification stands, who is attendi
 
 #### Can an AI meeting assistant update the CRM? {#faq-update-crm}
 
-Meeting Assistant proposes the field changes it heard on the call, and CRM Manager writes them. Changes like a stage move wait for your approval on the meeting's **CRM Updates** tab.
+Yes. Meeting Assistant proposes the field changes it heard on the call, and CRM Manager writes them. Changes like a stage move wait for your approval on the meeting's **CRM Updates** tab.
 
 #### Can it track MEDDPICC gaps? {#faq-meddpicc}
 

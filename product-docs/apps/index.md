@@ -91,7 +91,7 @@ Look in [Slack](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product
 
 ## Which seat brings which app {#seats-and-apps}
 
-Before you send someone to an app, check that their seat brings it. Oliv AI sells seats by role, and the plans stack: Converse includes Amplify, Sell includes Converse, and Grow includes Sell. So an SDR who only needs conversation capture takes Converse. An account executive who forecasts takes Sell, which adds the Forecast app. A customer success manager takes Grow, which adds the Retain app.
+Before you send someone to an app, check that their seat brings it. Oliv AI sells seats by role, and the plans stack: Sell includes everything in Converse, and Grow includes everything in Sell. So an SDR who only needs conversation capture takes Converse. An account executive who forecasts takes Sell, which adds the Forecast app. A customer success manager takes Grow, which adds the Retain app.
 
 Enable and Engage are add-ons, so neither one comes with a seat on its own. Map each person on your team to a seat in [Plans and seat roles](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/plans/plans-and-seat-roles/#at-a-glance), and take cost questions to [Oliv AI's pricing page](https://www.oliv.ai/pricing). If you're weighing app spend against agent budget, read [the playbook for unbundling your sales tech stack](https://www.oliv.ai/blog/b2b-sales-tech-stack-consolidation).
 

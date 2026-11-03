@@ -7,7 +7,7 @@ How sales coaching software lets you coach from recorded calls: Oliv AI's Coach 
 - Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/coach/
 
-You want to coach every rep on evidence from real calls, without listening to every recording, and that is the job of sales coaching software. Oliv AI's Coach agent does it by scoring every recorded call, meeting and deal, then recommending the three behaviors most likely to improve each rep's results that month. You set one goal, and the agent tracks the rep's progress every week until the next monthly cycle begins.
+No manager can listen to every recording, yet coaching has to rest on evidence from real calls. Sales coaching software has to do that listening for you, and Oliv AI's Coach agent does it by scoring every recorded call, meeting and deal, then recommending the three behaviors most likely to improve each rep's results that month. You set one goal, and the agent tracks the rep's progress every week until the next monthly cycle begins.
 
 ## At a glance {#at-a-glance}
 
@@ -24,7 +24,7 @@ You want to coach every rep on evidence from real calls, without listening to ev
 
 ## What the Coach agent is {#what-it-is}
 
-Oliv AI's Coach agent is a revenue coaching agent. Its goals are tied to close rates, stage conversion and deal size, not to communication style or compliance. The manager doesn't have to watch a single recording, and the rep doesn't wait for a quarterly review.
+Oliv AI's Coach agent ties its goals to close rates, stage conversion and deal size, not to communication style or compliance. The manager doesn't have to watch a single recording, and the rep doesn't wait for a quarterly review.
 
 <figure>
 
@@ -92,11 +92,11 @@ But every one of those calls is already recorded. The patterns that matter, like
 
 Oliv AI handles this with its Coach agent. It scores every recorded call against the team's scorecards and looks for each new hire's real pattern. Their sales manager reviews three ranked recommendations per person and sets one goal. Every week after that, each new hire gets a progress report, and the enablement manager can see who is advancing.
 
-Coach needs about ten calls per rep to find a pattern. Most teams see their first monthly review within two weeks of connecting their call stack. How that cadence measures up against other coaching tools is covered in How Oliv AI compares for sales coaching software, below.
+Coach needs about ten calls per rep to find a pattern. Most teams see their first monthly review within two weeks of connecting their call stack. Until a new hire reaches that volume, keep sitting in on a few of their calls so early habits don't go unseen.
 
 ## Set up Coach {#set-up}
 
-1. **Connect your call stack.** [Zoom](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/zoom/), your existing call recorder or Oliv AI's own call recording. Coach starts scoring as soon as calls start flowing in. It also connects to your CRM and [Slack](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/), with [more than 70 integrations](https://www.oliv.ai/integrations) in all.
+1. **Connect your call stack.** Use [Zoom](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/zoom/), your existing call recorder or Oliv AI's own call recording. Coach starts scoring as soon as calls start flowing in. It also connects to your CRM and [Slack](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/), with [more than 70 integrations](https://www.oliv.ai/integrations) in all.
 2. **Set your scorecards.** Start with the pre-built scorecards for enterprise, mid-market and SMB motions, or bring your own criteria. No engineering is required. The library lives in **Settings › Coaching Scorecard**.
 3. **Let the first monthly review land.** Coach needs about ten calls per rep to find a real pattern. Most teams see their first monthly review within two weeks.
 
@@ -124,7 +124,7 @@ Some scorecards are written for a role, such as the solution engineer on a POC o
 
 ## How reps get coached without hearing every recording {#methods}
 
-Say you have one free afternoon for coaching this week and eight reps to think about. There are four ways to spend it, and each shows you something different. It's worth choosing on purpose, because [Sales Executive Council research reported in Harvard Business Review in January 2011](https://hbr.org/2011/01/the-dirty-secret-of-effective) ranked coaching ahead of every other productivity investment for improving rep performance.
+Say you have one free afternoon for coaching this week and eight reps to think about. There are four ways to spend it, and each shows you something different. The afternoon is worth protecting, because [Sales Executive Council research reported in Harvard Business Review in January 2011](https://hbr.org/2011/01/the-dirty-secret-of-effective) ranked coaching ahead of every other productivity investment for improving rep performance.
 
 ### Sitting in on live calls {#live-calls}
 
@@ -150,10 +150,10 @@ Oliv AI's Coach agent uses the last way. It scores 100% of a rep's recorded acti
 
 | When | What happens |
 |---|---|
-| **Start of the month** | The monthly review is ready before the calendar opens. The manager picks a goal per rep and sets it in about twenty minutes. |
+| **Start of the month** | The monthly review is ready. The manager picks a goal per rep and sets it in about twenty minutes. |
 | **Every week** | The progress report lands without the manager sending it: wins, the current gap and one focus for next week. |
 | **Thursday, or your configured day** | The 1:1 brief arrives before the meeting, with goal progress, call highlights and one coaching question. |
-| **The 1:1** | The conversation opens on what's getting in the way of the goal, not on pipeline reconstruction. |
+| **The 1:1** | The conversation opens on what's getting in the way of the goal, not on a pipeline recap. |
 
 Each rep's **Monthly Review** is listed under Coach in **Reports › My Reports**, scheduled every 30 days. The same review sits in **Apps › Enable › People**, under the rep's **Coach** section, with a list of past months.
 
@@ -175,7 +175,7 @@ Read each goal's **Why?**, then click **Set as goal** on the one that fits. It d
 <figcaption>The manager chooses the month's goal from three, each with its evidence, or keeps last month's goal running, so the rep only ever works on one. The percentages come from fictional demo data.</figcaption>
 </figure>
 
-Add **Coaching Tasks** with due dates to break the goal into steps, and tick them off as the rep completes them.
+Add **Coaching Tasks** with due dates to break the goal into steps.
 
 ### How to choose a coaching goal for a rep {#choose-a-goal}
 
@@ -215,13 +215,13 @@ Sales leaders see coaching performance at team and org level, including skill ga
 
 Two measures sit closest to this job: how many of your recorded calls get scored, and how far each rep has moved toward the month's goal. Check both, because either one alone can mislead you.
 
-**Call coverage** is recorded calls scored, divided by recorded calls. Its weak spot is that it only counts what was recorded and scored. A score also tells you nothing about whether the rep changed, so high coverage is a starting point rather than a result.
+**Call coverage** is recorded calls scored, divided by recorded calls. Its weak spot is that a call nobody recorded never counts. A score also tells you nothing about whether the rep changed, so high coverage is a starting point rather than a result.
 
 **Goal progress** is the goal's metric against its target. With a sample goal of 20 decision makers engaged and 11 reached so far, the rep is at 11 / 20 = 55%. The weak spot is that an activity count can rise while deals don't. Look at close rates and stage conversion over several months before you call a goal a success.
 
 ### Where Coach shows these measures {#coach-measures}
 
-For coverage, open **Settings › Coaching Scorecard** and read **Evaluations (Last 30 days)** on each scorecard. Compare the total with the calls your team recorded in that period, and look into any large gap. For goal progress, Oliv AI's Coach agent shows last month's goal with its progress and metric cards against targets in the monthly review. **Performance Overview** gives the change in points for each dimension, and the weekly report keeps the metric in view between reviews.
+For coverage, open **Settings › Coaching Scorecard** and read **Evaluations (Last 30 days)** on each scorecard. Compare the total with the calls your team recorded in that period, and look into any large gap. For goal progress, the monthly review from Oliv AI's Coach agent shows last month's goal, with its progress and metric cards against targets. **Performance Overview** gives the change in points for each dimension, and the weekly report keeps the metric in view between reviews.
 
 ## How to coach sales reps from recorded calls by hand {#coach-by-hand}
 
@@ -235,7 +235,7 @@ If you're coaching without any software, this is the job. It works, and it's a u
 6. **Check it every week.** Listen to new calls, note the wins and the remaining gap, and send the rep one focus for next week.
 7. **Close the month and start again.** Record where the rep landed, then choose the next goal.
 
-Step 6 is where this tends to break. Coaching is often the first thing cut when the pipeline review runs long, and by week two the rep has drifted back to old habits.
+Step 6 is where this tends to break. Coaching is often the first thing cut when the pipeline review runs long.
 
 ### The same job with Coach {#same-job-coach}
 
@@ -253,7 +253,7 @@ This is an illustrative calculation with sample figures, not an Oliv AI output. 
 | Full calls heard in 6 hours | 360 minutes / 35 minutes | About 10 calls, or about 1 per rep |
 | Time to hear 10 calls per rep | 8 reps × 10 calls × 35 minutes = 2,800 minutes | About 47 hours |
 
-At 11%, this manager hears about one call per rep, which can show a moment but not a habit. Hearing ten calls per rep, the volume Coach needs to find a pattern, would take about 47 hours against the 6 available. The table claims no saving from Oliv AI. It shows why a review by ear can't find patterns at this volume, so run it with your own team's numbers.
+At 11%, this manager hears about one call per rep, which can show a moment but not a habit. Hearing ten calls per rep, the volume Coach needs to find a pattern, would take about 47 hours against the 6 available. The table claims no saving from Oliv AI. It shows why a review by ear can't find patterns at this volume. Run it with your own team's numbers.
 
 ## How Coach works with other agents {#works-with}
 
@@ -263,7 +263,7 @@ At 11%, this manager hears about one call per rep, which can show a moment but n
 
 ### Content Curator {#with-content-curator}
 
-When Coach sets a goal like handling pricing objections, [Oliv AI's Content Curator agent](https://www.oliv.ai/agents/content-curator) supplies clips from the call library as coaching examples. The manager shows what good looks like from the team's own calls.
+When the goal is something like handling pricing objections, [Oliv AI's Content Curator agent](https://www.oliv.ai/agents/content-curator) supplies clips from the call library as coaching examples. The manager shows what good looks like from the team's own calls.
 
 ### Oliver {#with-oliver}
 
@@ -277,11 +277,11 @@ When Coach sets a goal like handling pricing objections, [Oliv AI's Content Cura
 
 ### Sales managers and BDR leads {#sales-managers}
 
-Managers set one goal per rep each month in about twenty minutes and walk into every 1:1 with the brief. Many pair it with the pipeline view in the [Deal Driver agent docs](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/). More on Oliv AI for [sales managers](https://www.oliv.ai/sales-managers) and the [skill gap questions managers should ask](https://www.oliv.ai/blog/sales-coaching-skill-gaps-sales-manager-ai).
+Managers set one goal per rep each month in about twenty minutes and walk into every 1:1 with the brief. Many pair it with the pipeline view in the [Deal Driver agent docs](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/). Read more on Oliv AI for [sales managers](https://www.oliv.ai/sales-managers) and the [skill gap questions managers should ask](https://www.oliv.ai/blog/sales-coaching-skill-gaps-sales-manager-ai).
 
 ### Enablement managers {#enablement}
 
-Enablement sees which skills are actually winning deals and which training isn't sticking. Training can then be built from evidence, not assumptions. Read how coaching can [cut new-hire ramp time](https://www.oliv.ai/blog/sales-new-hire-ramp-time-coaching-onboarding) and how [sales enablement software](https://www.oliv.ai/blog/sales-enablement-software) differs.
+Enablement sees which skills are actually winning deals and which training isn't sticking. Read how coaching can [cut new-hire ramp time](https://www.oliv.ai/blog/sales-new-hire-ramp-time-coaching-onboarding) and how [sales enablement software](https://www.oliv.ai/blog/sales-enablement-software) differs.
 
 ### VPs of Sales {#sales-leadership}
 
@@ -319,7 +319,7 @@ Sales coaching software features, from each platform's public documentation:
 ## Limits and things to know {#limits}
 
 - **It needs call volume.** About 10 calls per rep give enough data for a meaningful pattern. More calls raise confidence.
-- **It isn't real-time.** Coach works on recorded calls after the fact. Live, in-call guidance is a separate tool.
+- **It isn't real-time.** Coach works on recorded calls after the fact. Live, in-call guidance needs a different tool.
 - **It isn't a QA or compliance tool.** Goals are tied to revenue outcomes, not script adherence, tone or legal review.
 - **It doesn't queue calls to watch.** Coach surfaces conclusions, not a list of recordings to review.
 - **It doesn't replace the 1:1.** It gives managers better material for the conversation.
@@ -353,7 +353,7 @@ The scorecard library includes phone call scorecards written for SDR work, such 
 
 #### What if a rep disagrees with the coaching goal? {#faq-rep-disagrees}
 
-The goal is grounded in their own call data and deal outcomes, so the evidence is there to discuss. The aim is a data-led conversation, not a manager's opinion.
+The goal is grounded in their own call data and deal outcomes, so the evidence is there to discuss. Open the goal's **Why?** and go through it together in the 1:1.
 
 #### Can I use my own scoring framework? {#faq-own-framework}
 
@@ -369,7 +369,7 @@ Connect your call recording stack and CRM. Most teams have their first monthly r
 
 #### Does Coach replace Deal Driver? {#faq-deal-driver}
 
-No. Deal Driver gives managers pipeline visibility across active deals. Coach gives them rep development visibility. They're often bought together.
+No. Deal Driver gives managers pipeline visibility across active deals. Coach shows them how each rep is developing. They're often bought together.
 
 #### Where do reps get their weekly report? {#faq-where-reports-go}
 

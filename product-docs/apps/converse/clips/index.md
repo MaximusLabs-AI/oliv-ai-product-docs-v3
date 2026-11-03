@@ -7,7 +7,7 @@ How to collect and share sales call clips without scrubbing recordings: define t
 - Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/clips/
 
-You want reps to hear the sales call clips that teach them something, without anyone scrubbing through recordings to find those moments. Describe the moments once, and Oliv AI's Content Curator agent clips what matches in each new recording and posts each clip to Slack. If a recording has no match, it makes no clip. Clips land in a library on the **Library** tab of Enable, which is an add-on.
+Sales call clips teach reps what good sounds like, but finding the moments means scrubbing through recordings. Describe the moments once, and Oliv AI's Content Curator agent clips what matches in each new recording and posts each clip to Slack. If a recording has no match, it makes no clip. Clips land in a library on the **Library** tab of Enable, which is an add-on.
 
 ## At a glance {#at-a-glance}
 

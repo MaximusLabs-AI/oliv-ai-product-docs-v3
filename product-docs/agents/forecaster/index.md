@@ -7,7 +7,7 @@ How Oliv AI's Forecaster agent drafts each rep's forecast, suggests category mov
 - Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/forecaster/
 
-If you own the forecast number, you want sales forecasting software that reps can submit quickly and that holds up, with the reasons behind every call. Oliv AI's Forecaster agent answers that by automating the forecasting process, from collecting deal data to analyzing each deal to the manager's sign-off. It reads your pipeline and builds the forecast before anyone logs in, so reps review and submit instead of typing. It gets more accurate over time by learning from how deals actually close at your company.
+If you own the forecast number, sales forecasting software is only useful when reps can submit quickly and the number holds up, with the reasons behind every call. Oliv AI's Forecaster agent automates the forecasting process, from collecting deal data to analyzing each deal to the manager's sign-off. It reads your pipeline and builds the forecast before anyone logs in, so reps review and submit instead of typing. It gets more accurate over time by learning from how deals actually close at your company.
 
 ## At a glance {#at-a-glance}
 
@@ -24,7 +24,7 @@ If you own the forecast number, you want sales forecasting software that reps ca
 
 ## What the Forecaster agent is {#what-it-is}
 
-Oliv AI's Forecaster agent is a forecasting agent for revenue teams. It analyzes every deal in the pipeline against historical performance, company patterns and deal progression signals. It doesn't move deals or change stages itself. It recommends and nudges, and people make the call.
+Oliv AI's Forecaster agent analyzes every deal in the pipeline against historical performance, company patterns and deal progression signals. It doesn't move deals or change stages itself. It recommends and nudges, and people make the call.
 
 <figure>
 
@@ -90,9 +90,9 @@ The usual run-up is a round of rep updates, manager check-ins and a rollup sheet
 
 Yet most of what the commit needs already sits in the pipeline and the calls. Close dates slip, stages stall and deals go quiet, and each of those leaves a trail. The hard part is reading that trail across every deal, every week, without waiting on people.
 
-Oliv AI does that reading with its Forecaster agent. It drafts each rep's forecast before anyone logs in and checks it before the call starts. It flags risky commits, surfaces sandbagged upside and removes dead deals. Managers review only what changed, and the VP gets one rolled-up view with the risk already called out.
+Oliv AI does that reading with its Forecaster agent. It drafts each rep's forecast before anyone logs in and checks it before the call starts. It flags risky commits and dead deals, and it surfaces sandbagged upside. Managers review only what changed, and the VP gets one rolled-up view with the risk already called out.
 
-Each board keeps weekly snapshots and an end-of-quarter snapshot, so any commit can be reopened as it stood and checked against what actually closed. How that learning loop lines up against other forecasting tools is covered in How Oliv AI compares for sales forecasting software, below.
+Each board keeps weekly snapshots and an end-of-quarter snapshot, so any commit can be reopened as it stood and checked against what actually closed. The comparison further down shows how that learning loop lines up against other forecasting tools.
 
 ## Set up Forecaster {#set-up}
 
@@ -126,29 +126,29 @@ Most teams are live within two weeks. Reps need no training: they see a pre-draf
 
 ## How a sales forecast gets built {#methods}
 
-Before you defend a number on the commit call, work out which reading of the pipeline it rests on. Most forecasts lean on one of three, and each one misses something different. The [guide to AI sales forecasting software](https://www.oliv.ai/blog/best-ai-sales-forecasting-software) covers what to weigh across tools. This section covers the methods underneath them.
+Before you defend a number on the commit call, work out which reading of the pipeline it rests on. Most forecasts lean on one of three, and each one misses something different. The [guide to AI sales forecasting software](https://www.oliv.ai/blog/best-ai-sales-forecasting-software) covers what to weigh across tools.
 
 ### Reps' own calls, rolled up: what each person believes {#rep-calls}
 
 Each rep sorts deals into categories and calls a number. The manager adjusts it, and the total moves up to the next level. HubSpot's forecast category property, for example, offers [Not forecasted, Pipeline, Best case, Commit and Closed won](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties).
 
-This way catches what only the seller knows, such as a buyer's verbal yes or a budget that moves next month. It misses optimism and sandbagging, and it goes stale as soon as a rep stops updating. Gartner's June 2026 abstract on pipeline metrics [advises against doubling down on seller inputs](https://www.gartner.com/en/documents/7952073) and points to pipeline measures instead.
+A rep's call catches what only the seller knows, such as a buyer's verbal yes or a budget that moves next month. It misses optimism and sandbagging, and it goes stale as soon as a rep stops updating. Gartner's June 2026 abstract on pipeline metrics [advises against doubling down on seller inputs](https://www.gartner.com/en/documents/7952073) and points to pipeline measures instead.
 
 ### Stage-weighted pipeline: what the stages imply {#stage-weighted}
 
 Here, each stage [carries a probability of closing](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines). HubSpot's weighted amount is [the deal amount multiplied by that probability](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties), and you add the results up.
 
-This way gives you a total with nobody's opinion in it, so it makes a useful check on a rep's call. It misses whatever stages can't see. A late-stage deal that went quiet three weeks ago keeps its full weight. Gartner argued in 2019 that [setting close probability from stage completion no longer applies](https://www.gartner.com/en/newsroom/press-releases/2019-11-13-gartner-says-the-traditional-linear-sales-process-no-), because buyers revisit steps instead of moving in a line.
+The result is a total with nobody's opinion in it, so it makes a useful check on a rep's call. It misses whatever stages can't see. A late-stage deal that went quiet three weeks ago keeps its full weight. Gartner argued in 2019 that [setting close probability from stage completion no longer applies](https://www.gartner.com/en/newsroom/press-releases/2019-11-13-gartner-says-the-traditional-linear-sales-process-no-), because buyers revisit steps instead of moving in a line.
 
 ### Deal activity: what is actually happening {#deal-activity}
 
-This way reads the trail each deal leaves: calls held, emails answered, close dates moved and weeks spent in one stage. It catches a commit that looks fine on paper but has stalled, and it can find upside that a cautious rep left out.
+This method reads the trail each deal leaves: calls held, emails answered, close dates moved and weeks spent in one stage. It catches a commit that looks fine on paper but has stalled, and it can find upside that a cautious rep left out.
 
 It misses anything that never reached a call or an email, such as a decision made in the buyer's budget meeting. It also needs a history of closed deals before you can say what a pattern means at your company.
 
 ### Why sales forecasts miss {#why-forecasts-miss}
 
-Most misses come from leaning on one of these readings alone. After a miss, work out which of these you had before you change the process:
+After a miss, work out which of these four happened before you change the process:
 
 - **The call was hopeful.** A deal stayed in Commit with no recent evidence from the buyer.
 - **The data was stale.** Close dates and amounts were weeks old when the number was built.
@@ -157,7 +157,7 @@ Most misses come from leaning on one of these readings alone. After a miss, work
 
 ### Which of these Forecaster does {#what-forecaster-does}
 
-Oliv AI's Forecaster agent combines the first and third ways. The rep's call stays: reps review a pre-drafted forecast, adjust it and submit, then managers add their own adjustments and the number rolls up. The agent also analyzes every deal against historical performance, company patterns and deal progression signals. It generates its recommendations from what's happening in calls and emails, and its value adjustment signal draws on historical close rates and deal trajectory.
+Oliv AI's Forecaster agent combines rep calls with deal activity. The rep's call stays: reps review a pre-drafted forecast, adjust it and submit, then managers add their own adjustments and the number rolls up. The agent also checks every deal against your history and its progress so far. It generates its recommendations from what's happening in calls and emails, and its value adjustment signal draws on historical close rates and deal trajectory.
 
 ## Run the weekly forecast {#run-the-forecast}
 
@@ -197,7 +197,7 @@ Every submission creates a timestamped record. Each board keeps the **Current** 
 
 In the drawer, a **Timeline** lists each weekly submission, marked as scheduled, submitted by Oliv or submitted by the manager. **View as of** reopens a past week, and a **Commit Forecast** chart plots the submission against the actual.
 
-When deals close or push, Forecaster compares the forecast value to the actual outcome. That reconciliation trains the agent. Over time it learns company-specific patterns, such as a deal type that always needs an RFP or a rep who runs two weeks optimistic on timelines. Feedback on its signals trains it too. More on [improving forecast accuracy with AI](https://www.oliv.ai/blog/improve-sales-forecast-accuracy-with-ai).
+When deals close or push, Forecaster compares the forecast value to the actual outcome. That reconciliation trains the agent. Over time it learns company-specific patterns, such as a deal type that always needs an RFP or a rep who runs two weeks optimistic on timelines. Feedback on its signals trains it too. Read more on [improving forecast accuracy with AI](https://www.oliv.ai/blog/improve-sales-forecast-accuracy-with-ai).
 
 ### Operating modes (Beta) {#operating-modes}
 
@@ -231,11 +231,11 @@ Forecaster also posts to the Agent Feed on **Home**, for example when deals shif
 
 ## How to measure sales forecast accuracy {#measure-accuracy}
 
-Say your team committed 600,000 USD for the month and 550,000 USD closed. Before you call that close enough, you need to know how far off the call was and which way it leaned. Those are the two measures Oliv AI's Forecaster agent directly affects. Score the number as it stood before the period ended, never a version someone edited later.
+Say your team committed 600,000 USD for the month and 550,000 USD closed. Before you call that close enough, you need to know how far off the call was and which way it leaned. Percentage error and bias answer those two questions, and Oliv AI's Forecaster agent records what you need for both. Score the number as it stood before the period ended, never a version someone edited later.
 
 ### Percentage error: how far off the call was {#percentage-error}
 
-Take the commit minus what closed, drop the sign and divide by what closed. Average that across periods when you want one figure. Because percentage errors are unit-free, you can compare a rep carrying 100,000 USD with a team carrying 1,000,000 USD.
+Take the commit minus what closed, drop the sign and divide by what closed. Average that across periods when you want one figure. Because the result is a percentage, you can compare a rep carrying 100,000 USD with a team carrying 1,000,000 USD.
 
 Watch for two weak spots. The measure turns [infinite or undefined when the actual is zero, and extreme when it's close to zero](https://otexts.com/fpp3/toolbox.html#sec-simple-methods), so a rep who closed almost nothing can swamp an average. It can also flatter a team, because one rep's overcall cancels another's undercall in the total. Score each rep as well as the team.
 
@@ -249,7 +249,7 @@ Bias needs several periods before it tells you anything, which is slow on a long
 
 Open a person's submission drawer first. The **Commit Forecast** chart plots the submission against the actual, which gives you both inputs. The **Timeline** shows each weekly submission and who made it, and **View as of** reopens a past week, so you score the number as it stood.
 
-On a board, pick an end-of-quarter snapshot from **Snapshot** to compare levels. RevOps can run the same comparison across reps to spot systematic bias. The **Current Standing** view in the Weekly Forecast report adds one more check: the gap between your team's forecast and the AI forecast. Forecaster makes its own comparison as deals close or push, which is what trains it.
+On a board, pick an end-of-quarter snapshot from **Snapshot** to compare reps and managers as the quarter ended. RevOps can run the same comparison across reps to spot systematic bias. The **Current Standing** view in the Weekly Forecast report adds one more check: the gap between your team's forecast and the AI forecast.
 
 ## How to build a sales forecast by hand {#build-by-hand}
 
@@ -332,7 +332,7 @@ VPs of Sales and CROs get one forecast view, split by motion, with risk already 
 
 ### Sales managers {#sales-managers}
 
-Managers review submissions, add their own adjustments and sign off. They spend time on the deals Forecaster flagged, not the whole board. Pair it with the manager visibility in the [Deal Driver agent docs](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/). See Oliv AI for [sales managers](https://www.oliv.ai/sales-managers).
+Managers review submissions, add their own adjustments and sign off. They spend time on the deals Forecaster flagged, not the whole board. For the view of a single deal, see the [Deal Driver agent docs](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/). Read more about Oliv AI for [sales managers](https://www.oliv.ai/sales-managers).
 
 ### Revenue operations {#revops}
 
@@ -368,7 +368,7 @@ AI sales forecasting features, from each platform's public documentation:
 
 ## Limits and things to know {#limits}
 
-- **It recommends, it doesn't move deals on its own.** Forecaster doesn't change deal stages or categories itself. It suggests a move, and a person accepts it.
+- **It recommends and doesn't move deals on its own.** Forecaster doesn't change deal stages or categories itself. It suggests a move, and a person accepts it.
 - **It isn't deal scoring.** Oliv AI's Deal Insights layer evaluates deal health, and Forecaster consumes those insights.
 - **It isn't a real-time alert tool.** Deal Driver handles alerts on deals as they happen.
 - **It isn't a coaching tool.** Coach handles rep development.
@@ -403,11 +403,11 @@ Yes. Pick a past weekly or end-of-quarter snapshot from **Snapshot**, and the bo
 
 #### Does this replace my CRM forecast field? {#faq-crm-field}
 
-No. Forecaster can sync values back to the CRM if you configure it, but it's primarily Oliv-based. The CRM stays current without anyone updating it by hand.
+No. Forecaster can sync values back to the CRM if you configure it, but the forecast itself is kept in Oliv AI. CRM Manager is what keeps your CRM's deal fields current.
 
 #### How is this different from built-in CRM forecasting? {#faq-crm-forecasting}
 
-CRM forecasting relies on reps keeping fields updated by hand. Forecaster removes that dependency by analyzing the pipeline itself and getting smarter every week.
+CRM forecasting relies on reps keeping fields updated by hand. Forecaster analyzes the pipeline itself and gets smarter every week, with CRM Manager keeping the fields current.
 
 #### We already have a pipeline visibility tool. Do we still need Forecaster? {#faq-existing-tools}
 

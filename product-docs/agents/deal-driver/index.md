@@ -1,13 +1,13 @@
-# Deal intelligence agent for sales managers: how Oliv AI's Deal Driver flags deal risk
+# Deal intelligence software for sales managers: how Oliv AI's Deal Driver flags deal risk
 
-How Oliv AI's Deal Driver agent gives sales managers deal intelligence: what it sends each day and week, which deal risks trigger an alert, how to set it up, and how it compares with other deal intelligence tools.
+Deal intelligence software for sales managers: what Oliv AI's Deal Driver agent sends each day and week, which deal risks trigger an alert, how to set it up, and how it compares with other tools.
 
 - Applies to: Sales managers, BDR leads and sales leadership
 - Status: Live
 - Verified: 2026-10-22
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/
 
-A deal intelligence agent should tell a sales manager which deals need attention before the forecast call, not after a rep escalates. Oliv AI's Deal Driver agent does that: it keeps sales managers ahead of their team's pipeline without daily standups, manual rep check-ins or digging through CRM reports. Every weekday it sends a **Morning Brief**, fires alerts when something important happens, and closes the day with a **Sunset Summary**. It also prepares a **One-on-One Prep** report for each rep and a **Pipeline Review** every Monday.
+Deal intelligence software should tell a sales manager which deals need attention before the forecast call, not after a rep escalates. Oliv AI's Deal Driver agent does that: it keeps sales managers ahead of their team's pipeline without daily standups, manual rep check-ins or digging through CRM reports. Every weekday it sends a **Morning Brief**, fires alerts when something important happens, and closes the day with a **Sunset Summary**. It also prepares a **One-on-One Prep** report for each rep and a **Pipeline Review** every Monday.
 
 ## At a glance {#at-a-glance}
 
@@ -22,7 +22,7 @@ A deal intelligence agent should tell a sales manager which deals need attention
 
 ## What the Deal Driver agent is {#what-it-is}
 
-Oliv AI's Deal Driver agent is a manager intelligence agent. Managers stay informed at every level, from an individual rep to a single deal to the full team, from one agent. It doesn't write to the CRM. It surfaces signals for the manager to act on.
+Oliv AI's Deal Driver agent is a manager intelligence agent. One agent keeps you informed at every level: a single deal, an individual rep or the full team. It doesn't write to the CRM. It surfaces signals for the manager to act on.
 
 Deal Driver is also a bundle. It includes the capabilities of [Oliv AI's Meeting Assistant agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/meeting-assistant/): pre-call prep, post-call follow-up and CRM sync for reps. If you're on Deal Driver, your reps already have Meeting Assistant.
 
@@ -98,7 +98,7 @@ A deal can go quiet with no activity, no CRM flag and no alert. A week later, th
 
 ### Why buyers care {#why-buyers-care}
 
-Deal Driver is bought by sales managers, VPs of Sales and regional heads. The sales manager is the main daily beneficiary, because the agent turns time spent on admin into time spent coaching.
+Sales managers, VPs of Sales and regional heads buy Deal Driver. Sales managers use it most each day, because time that went on admin goes to coaching instead.
 
 ## The Oliv AI approach to the Deal Driver agent {#approach}
 
@@ -112,7 +112,7 @@ The raw signals already exist as the team works. Meetings get held, next steps g
 
 Oliv AI handles this with its Deal Driver agent. It monitors all activity on the team's deals and alerts the leader when a deal enters a risk state. Each alert carries the signal, the context and a suggested action. Before the first Monday standup, the Pipeline Review is already prepared.
 
-Managers choose what counts as risk. Inactivity windows, field completion requirements and deal value thresholds can all be set per manager or per team, as listed in the set-up steps. How that rhythm lines up against other pipeline tools is covered in How Oliv AI compares for deal intelligence, below.
+Managers choose what counts as risk. Inactivity windows, field completion requirements and deal value thresholds can all be set per manager or per team. A quiet week means something different on a short sales cycle than on a long one. Agree the windows with revenue operations, because they keep the CRM data behind the alerts accurate. For how this rhythm lines up against other tools, see How Oliv AI compares with other deal intelligence software, below.
 
 ## Set up Deal Driver {#set-up}
 
@@ -179,7 +179,7 @@ The Monday Pipeline Review groups every deal into **Closed**, **Closing Soon**, 
 
 ## How to find deal risk in a pipeline by hand {#find-deal-risk-by-hand}
 
-Without a deal intelligence tool, finding risk means pulling the signals together yourself. Most managers do it on a Friday, before the Monday forecast call.
+Without deal intelligence software, finding risk means pulling the signals together yourself. Most managers do it on a Friday, before the Monday forecast call.
 
 1. Export the open deals expected to close this period from the CRM, with amount, stage, close date, last activity date and next step.
 2. Work out each deal's weighted amount (amount times stage probability) and add them up.
@@ -193,7 +193,7 @@ The Monday meeting itself is covered step by step in [Run a pipeline review](htt
 
 ### The same job with Deal Driver {#same-job-deal-driver}
 
-Deal Driver does steps 3 to 6 continuously instead of once a week. It watches activity and close dates on every deal, alerts the manager when a deal enters a risk state, nudges the rep directly when next steps go overdue, and files the Pipeline Review before the first Monday standup. The manager's part shrinks to step 7 and the decision that follows: which deals to join, rescue or drop.
+Deal Driver covers most of steps 3 to 6 as deals move, instead of once a week. It watches activity and close dates on every deal, alerts the manager when a deal enters a risk state, nudges the rep directly when next steps go overdue, and files the Pipeline Review before the first Monday standup. That leaves you the weighted totals and the decision that follows: which deals to join, rescue or drop.
 
 ### Worked example: a quarter's pipeline with slippage {#worked-example}
 
@@ -246,7 +246,7 @@ The weighted pipeline promised 344,000 USD, and 130,000 USD of it sat in the thr
 
 ### Sales managers {#sales-managers}
 
-A sales manager reads the Morning Brief before the standup and each rep's One-on-One Prep before their 1:1. Many shorten the daily standup, and some drop it. More on Oliv AI for [sales managers](https://www.oliv.ai/sales-managers) and a [day in a sales manager's workflow](https://www.oliv.ai/blog/oliv-ai-sales-manager-daily-use-guide-features).
+A sales manager reads the Morning Brief before the standup and each rep's One-on-One Prep before their 1:1. Many shorten the daily standup, and some drop it. See Oliv AI for [sales managers](https://www.oliv.ai/sales-managers) and a [day in a sales manager's workflow](https://www.oliv.ai/blog/oliv-ai-sales-manager-daily-use-guide-features).
 
 ### BDR leads {#bdr-leads}
 
@@ -258,13 +258,13 @@ Leaders get the Pipeline Review every Monday, ready before the first standup of 
 
 ### Revenue operations {#revops}
 
-RevOps sets the alert thresholds and keeps the CRM data behind them accurate. More on how Oliv AI works for [revenue operations](https://www.oliv.ai/revops).
+RevOps sets the alert thresholds and keeps the CRM data behind them accurate. See how Oliv AI works for [revenue operations](https://www.oliv.ai/revops).
 
-## How Oliv AI compares for deal intelligence {#compare}
+## How Oliv AI compares with other deal intelligence software {#compare}
 
-Most deal intelligence tools give managers somewhere to look. Deal Driver tells them when to look, sends a 1:1 report for every rep each week, and wraps each weekday in a Sunset Summary. Oliv AI is the only platform in this table that does all three.
+Most deal intelligence software gives managers somewhere to look. Deal Driver tells them when to look, sends a 1:1 report for every rep each week, and wraps each weekday in a Sunset Summary. Oliv AI is the only platform in this table that does all three.
 
-Deal intelligence features, from each platform's public documentation:
+Deal intelligence software features, from each platform's public documentation:
 
 | Platform | Deal risk alerts | Per-rep 1:1 report each week | End-of-day summary for the manager |
 |---|---|---|---|
@@ -277,7 +277,7 @@ Deal intelligence features, from each platform's public documentation:
 
 *Yes: documented and built in. Partly: documented with a limit, shown in brackets. Not in docs: not found in the vendor's public documentation.*
 
-### Why Oliv AI is the stronger choice for deal intelligence {#compare-stronger}
+### Why Oliv AI is the stronger choice of deal intelligence software {#compare-stronger}
 
 - **The 1:1 report comes to you.** Deal Driver compiles each rep's pipeline on that rep's own schedule and files it in the manager's My Reports. Gong [recommends checking a deal board weekly, particularly before 1:1s and pipeline reviews](https://help.gong.io/docs/recipe-focus-on-deals-that-need-your-attention). Compare [Oliv AI vs Gong](https://www.oliv.ai/blog/gong-vs-oliv).
 - **An alert with a next move.** Each Deal Driver alert carries the deal, the signal, the context and a suggested action. Avoma's Deal Health [produces a 0 to 100 risk score with a Low, Medium or High classification](https://help.avoma.com/deal-health). Compare [Oliv AI vs Avoma](https://www.oliv.ai/blog/avoma-vs-oliv-ai).
@@ -335,9 +335,9 @@ Connect your CRM and your team's calendar, then set your alert thresholds. Most 
 
 No. Deal Driver works in the background and shows up for reps as follow-up prompts and next-step reminders.
 
-#### What is deal intelligence? {#faq-deal-intelligence}
+#### What is deal intelligence software? {#faq-deal-intelligence}
 
-Deal intelligence reads what is happening on individual deals, such as meetings, emails and field changes, and turns it into signals about risk, momentum and next steps. Deal Driver is Oliv AI's deal intelligence agent, and it sends those signals to the sales manager.
+Deal intelligence software reads what is happening on individual deals, such as meetings, emails and field changes, and turns it into signals about risk, momentum and next steps. Deal Driver is Oliv AI's agent for this job, and it sends those signals to the sales manager.
 
 #### Which pipeline metrics show deal risk early? {#faq-pipeline-metrics}
 

@@ -83,7 +83,7 @@ Within minutes of the call ending, [Oliv AI's Meeting Assistant agent](https://m
 | **Owners** | Who is doing each next step |
 | **Next steps** | What happens next, with specific dates where possible |
 
-Read it through, change anything that needs changing, and send it. Nothing reaches your buyer until you've reviewed it. If you'd rather ask, tell [Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) "Draft the follow-up from my call this afternoon" and she drafts it from the transcript.
+Read it through against the checks further down this page, change anything that needs changing, and send it. Nothing reaches your buyer until you've reviewed it. If you'd rather ask, tell [Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) "Draft the follow-up from my call this afternoon" and she drafts it from the transcript.
 
 ## Step 4: Approve the CRM updates {#step-4-crm}
 
@@ -106,7 +106,7 @@ How freely agents act in your CRM is set per action. [Agent tools and run modes]
 
 ## Step 5: Check the qualification gaps {#step-5-gaps}
 
-After every deal call, Oliv AI flags new information, or notable absences, that affect the deal's qualification status. Gaps show up while there's still time to close them.
+After every deal call, Oliv AI flags new information, or notable absences, that affect the deal's qualification status.
 
 Open the meeting's **Meeting insights** tab to see them. A row of chips, from **Metrics** and **Economic Buyer** to **Champion** and **Additional Fields**, follows your qualification framework. Click a chip to jump to its section, where each card holds what was said, with timestamps. Where nothing was said, the card says so instead of guessing.
 
@@ -117,7 +117,7 @@ Open the meeting's **Meeting insights** tab to see them. A row of chips, from **
 <figcaption>Meeting insights files what the buyer said under each qualification criterion. A card that says nothing was discussed is the gap to raise on the next call. Any figures on these cards are made up for the demo.</figcaption>
 </figure>
 
-Turn each gap into a question for the next meeting, and it will feed the brief that helps you [prepare for the next meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/).
+Turn each gap into a question, and raise it when you [prepare for the next meeting](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/).
 
 ## Step 6: Share the moment that matters {#step-6-share}
 
@@ -147,7 +147,7 @@ A phone call's **Recording** tab plays the audio with a **Transcript** and **Com
 
 Post-call follow-up is the work Oliv AI does once a recorded meeting ends, so you don't write the recap or update the CRM from memory. It has five outputs.
 
-| Output | Sent by | When |
+| Output | Comes from | When |
 |---|---|---|
 | **Meeting summary** | Oliv AI, to Slack and email | Immediately after the meeting ends |
 | **Takeaways, summary and tasks** | Oliv AI, on the meeting's Overview and Action Items tabs | Once the recording is processed |
@@ -155,7 +155,7 @@ Post-call follow-up is the work Oliv AI does once a recorded meeting ends, so yo
 | **Proposed CRM updates** | Oliv AI's Meeting Assistant agent, written by Oliv AI's CRM Manager agent | After the recording is processed |
 | **Qualification gap flags** | Oliv AI's Meeting Assistant agent | After every deal call |
 
-Oliv AI's Olivia agent drives the whole post-meeting workflow: follow-up drafted, CRM updates flagged for review and next steps identified. You review and act; she handles the execution. It's the after-call half of an [AI meeting assistant for sales](https://www.oliv.ai/blog/ai-meeting-assistant-for-sales).
+Oliv AI's Olivia agent drives the post-meeting workflow: follow-up drafted, CRM updates flagged for review and next steps identified. Together, these outputs are the after-call half of an [AI meeting assistant for sales](https://www.oliv.ai/blog/ai-meeting-assistant-for-sales).
 
 ## Why post-call follow-up matters {#why-it-matters}
 
@@ -188,9 +188,9 @@ The usual fix is a quick email typed from memory, or a note to write it properly
 
 Everything the recap needs was said on the call. Who asked about pricing, what was agreed, and when the security review happens are all in the transcript. Writing the email is mostly a job of finding those lines and putting them in order.
 
-Oliv AI does that job with its Meeting Assistant agent. Within minutes of the demo ending, the draft is written from the transcript, with the recap, commitments, owners and next steps. Proposed CRM updates and qualification gap flags come back alongside it for the AE to approve. The AE reads it on the way to the next call.
+Oliv AI does that job with its Meeting Assistant agent. Within minutes of the demo ending, the draft is written from the transcript, with the recap, commitments, owners and next steps. Proposed CRM updates and qualification gap flags come back alongside it for the AE to review. The AE reads it on the way to the next call.
 
-The draft is never a template, and nothing reaches the buyer until the AE has read it and pressed send. How other platforms handle the draft and the CRM after a call is covered in How Oliv AI compares for AI follow-up emails, below.
+The draft is never a template, and nothing reaches the buyer until the AE has read it and sent it. The comparison table below shows how other platforms handle the draft and the CRM after a call.
 
 ## How a follow-up email gets written after a sales call {#methods}
 
@@ -198,23 +198,23 @@ There are four common ways to get this email written. Each one fails in its own 
 
 ### From memory {#from-memory}
 
-You type the recap straight after the call, from what you recall. This catches whatever struck you most, and it's quick. It tends to miss who owns what, especially with the next meeting already on your mind. Nielsen Norman Group explains that [working memory has limited capacity](https://www.nngroup.com/articles/working-memory-external-memory/), and that overloading it can slow a task or cause mistakes.
+You type the recap straight after the call, from what you recall. It's quick and captures whatever struck you most, but it tends to miss who owns what, especially with the next meeting already on your mind. Nielsen Norman Group explains that [working memory has limited capacity](https://www.nngroup.com/articles/working-memory-external-memory/), and that overloading it can slow a task or cause mistakes.
 
 ### From a template {#from-template}
 
-You paste a saved email and fill in the blanks. This catches structure, so you won't forget to ask for the next meeting. It misses everything specific to this buyer, because the blanks still come from your memory or your notes.
+You paste a saved email and fill in the blanks. The structure means you won't forget to ask for the next meeting. Everything specific to this buyer still comes from your memory or your notes.
 
 ### From your own notes {#from-notes}
 
-You work from what you typed during the call. This catches the commitments you wrote down at the time. It misses whatever was said while you were talking, and the note often doesn't say who agreed to what.
+You work from what you typed during the call, so you have the commitments you wrote down at the time. You lose whatever was said while you were talking, and the note often doesn't say who agreed to what.
 
 ### From the transcript {#from-transcript}
 
-You work from the words actually spoken, with each speaker labeled. This catches who said what, including the small promises you'd otherwise lose. It misses anything outside the call, such as a hallway chat or a decision you made afterwards. That part is still yours to add.
+You work from the words actually spoken, with each speaker labeled, so you can see who said what, including the small promises you'd otherwise lose. A transcript can't hold anything outside the call, such as a hallway chat or a decision you made afterwards. That part is still yours to add.
 
 ### Which of these Oliv AI does {#which-oliv-does}
 
-Oliv AI uses the transcript. Oliv AI's Meeting Assistant agent reads it and writes the draft from the actual conversation, so no template sits underneath. You then add what the call didn't cover before you send.
+Oliv AI's Meeting Assistant agent uses the transcript. It writes the draft from the actual conversation, so no template sits underneath. You then add what the call didn't cover before you send.
 
 ## What to check before you send or approve {#what-to-check}
 
@@ -240,7 +240,7 @@ Approve against what the buyer said, not what you hoped they meant. Three fields
 - **Stage.** HubSpot [updates a deal's probability when a user moves it to a new stage](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties), and [weighted amount in board view depends on stage probability](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines). A stage move you wave through can therefore change the number your manager reads.
 - **Next step.** Make sure the field matches the next step in your email, so the record and the buyer see the same plan.
 
-What happens across the rest of the record is the job of [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/), so look there for field rules and hygiene.
+For field rules and hygiene across the rest of the record, see [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/).
 
 ## How to measure follow-up speed after a call {#measure-follow-up}
 
@@ -307,15 +307,15 @@ The median says a typical email goes out in 3.5 hours, which looks healthy. The 
 
 ### Meeting prep {#with-prep}
 
-What you approve after one call feeds the brief before the next. Oliv AI's Meeting Assistant agent [sends that brief](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/) before every meeting on an active opportunity, with the deal summary, qualification status and a recommended agenda.
+Oliv AI's Meeting Assistant agent [sends a brief](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/) before every meeting on an active opportunity, with the deal summary, qualification status and a recommended agenda. Check it against the gaps you noted after the last call.
 
 ### Recording modes {#with-recording-modes}
 
-Who sends the invite [decides how a call is recorded](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/recording-modes/). When your company organizes, Oliv AI records through [Zoom](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/zoom/) or Microsoft Teams with no bot. When the customer organizes, a note taker joins with your company's name. [Converse](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/) also captures phone calls and in-person meetings.
+Who organizes the meeting [decides how a call is recorded](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/recording-modes/), as Step 1 explains. [Converse](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/) also captures phone calls and in-person meetings.
 
 ### Manager 1:1s {#with-one-on-ones}
 
-[Oliv AI's Deal Driver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/) pairs the per-call summaries with pipeline context before each [manager 1:1](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/run-a-pipeline-review/). Managers coach from the same picture their reps have.
+[Oliv AI's Deal Driver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/deal-driver/) pairs the per-call summaries with pipeline context before each [manager 1:1](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/run-a-pipeline-review/).
 
 ### Clips {#with-clips}
 
@@ -323,7 +323,7 @@ Who sends the invite [decides how a call is recorded](https://maximuslabs-ai.git
 
 ### Your CRM {#with-crm}
 
-Proposed updates land in [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/), [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/) or Zoho once approved. See every connection on [Oliv AI integrations](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/).
+Updates are written to your deals in [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/), [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/) or Zoho. See every connection on [Oliv AI integrations](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/).
 
 ## Who records and follows up with Oliv AI, and how {#who-uses-it}
 
@@ -331,7 +331,7 @@ These are typical patterns, shown to illustrate how teams use the follow-up.
 
 ### Account executives {#account-executives}
 
-An account executive reviews the draft between back-to-back calls, fixes one date and sends it. The CRM updates get approved in the same sitting. It's a core part of how AEs [run their deals in Oliv AI](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/).
+An account executive reviews the draft between back-to-back calls, fixes one date and sends it. The CRM updates get approved in the same sitting. For the rest of an AE's day, see how AEs [run their deals in Oliv AI](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/use-cases/ae-run-deals/).
 
 ### Sales development {#sales-development}
 
@@ -339,7 +339,7 @@ A [sales development](https://www.oliv.ai/sales-development) rep finishes a disc
 
 ### Account managers {#account-managers}
 
-An [account manager](https://www.oliv.ai/account-management) closes a renewal call with three commitments from the customer. The recap lists each one with an owner, so nothing gets lost before the next check-in.
+An [account manager](https://www.oliv.ai/account-management) closes a renewal call with three commitments from the customer. The recap lists each one with an owner, so both sides know who owes what before the next check-in.
 
 ### Sales managers {#sales-managers}
 

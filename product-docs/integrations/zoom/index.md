@@ -7,7 +7,7 @@ How to run a Zoom AI note taker on customer calls: Oliv AI's two Zoom apps, host
 - Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/zoom/
 
-You meet customers on Zoom and want a Zoom AI note taker that records and summarizes each call, with or without a bot. You also want to update the CRM from inside Zoom, not after the call. Oliv AI can record botlessly through Zoom when your company organizes the call, and joins as a named note taker when someone else does. Its **Oliv.ai** app opens in the meeting window, so you can [update CRM fields](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/) while you talk.
+If your customer calls happen on Zoom, a Zoom AI note taker should record and summarize each one, with or without a bot, and let you update the CRM from inside the meeting, not after it. Oliv AI can record botlessly through Zoom when your company organizes the call, and joins as a named note taker when someone else does. Its **Oliv.ai** app opens in the meeting window, so you can [update CRM fields](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/) while you talk.
 
 ## At a glance {#at-a-glance}
 

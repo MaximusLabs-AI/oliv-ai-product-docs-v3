@@ -7,7 +7,7 @@ How to read AI agent instructions in Oliv AI: the Objective, Process and Output 
 - Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/instructions/
 
-You want AI agent instructions you can read before a run, so you know exactly what an agent will do and whether to trust it. Oliv AI answers that with an **Instructions** tab on every agent with a detail page, in three parts: **Objective**, **Process** and **Output**. Each step names its tools, and pressing one opens its card, where the run mode shows whether that action needs a person's approval.
+Before an agent does a real run, you should be able to read exactly what it will do, and AI agent instructions are where you read it. Oliv AI puts them on an **Instructions** tab on every agent with a detail page, in three parts: **Objective**, **Process** and **Output**. Each step names its tools, and pressing one opens its card, where the run mode shows whether that action needs a person's approval.
 
 <figure>
 
@@ -23,14 +23,14 @@ You want AI agent instructions you can read before a run, so you know exactly wh
 | **What instructions are** | A written statement of what an agent does and how |
 | **Where they live** | **Agents › [agent] › Instructions**, the second tab after **Overview** |
 | **Sections** | **Objective**, **Process**, **Output** |
-| **Process steps** | 3 to 6 per agent, each with a title and a description |
-| **Output items** | 1 to 3 per agent, where the agent has any |
+| **Process steps** | Typically 3 to 6 per agent, each with a title and a description |
+| **Output items** | Typically 1 to 3 per agent, where the agent has any |
 | **Tool chips** | Inside each step; pressing one opens that tool on the **Tools** tab |
 | **Navigation** | A contents list down the left |
 
 ## What agent instructions are {#what-it-is}
 
-Instructions are how you understand an agent before you trust it. They spell out, in plain prose, what the agent is trying to achieve, the steps it takes and what it hands back. Every agent that has a detail page carries them.
+Instructions are how you understand an agent before you trust it. They spell out, in plain prose, what the agent is trying to achieve, the steps it takes and what it hands back.
 
 | Section | What it says | Always shown |
 |---|---|---|
@@ -62,13 +62,11 @@ Steps can hold more than plain prose:
 <figcaption>Instructions can carry real rules: who to disqualify by territory and size, and which rep pool gets each lead, named as an @-mention chip. The territory and size limits on screen are sample rules, not defaults.</figcaption>
 </figure>
 
-The tab opens with a header card carrying the agent's picture, its name and its one-line description. The **Overview** tab carries a separate, shorter **Goal** statement.
-
 ## Why agent instructions matter {#why-it-matters}
 
 ### What it's for {#what-its-for}
 
-Instructions tell you what an agent will do before it does it. They lay out the agent's aim, its method and its results in words a sales team can read. They also show which tool each step relies on.
+Use the tab to decide whether an agent is ready for your team. Compare its steps with how your team sells, then check which tool each step relies on. If a step doesn't match, you know before reps see its output.
 
 ### How it helps {#how-it-helps}
 
@@ -79,11 +77,11 @@ Instructions tell you what an agent will do before it does it. They lay out the 
 
 ### What happens without it {#without-it}
 
-Without written instructions, an agent's method is a guess. A leader can't tell whether it follows the way the team sells. Reps get output with no account of how it was reached, and trust in the agent fades.
+Without written instructions, an agent's method is a guess. A leader can't tell whether it follows the way the team sells. Reps get output with no account of how it was reached, so they have nothing to check it against.
 
 ### Why buyers care {#why-buyers-care}
 
-This matters most to [sales leaders](https://www.oliv.ai/sales-managers), who answer for how their team sells. It matters before an agent reaches the team, when a leader decides whether to back it. It matters again when the sales method changes, because the steps should still match it.
+[Sales leaders](https://www.oliv.ai/sales-managers) feel this most, because they answer for how their team sells. They need the written steps when deciding whether to back an agent. They need them again when the sales method changes, because the steps should still match it.
 
 ## The Oliv AI approach to agent instructions {#approach}
 
@@ -95,19 +93,17 @@ Often an agent arrives as a black box with a one-line summary. Leaders tend to j
 
 The method is a sequence, so the agent's work should read as one. If its steps are written down in order, a leader can lay them beside the qualification method and check each one. Any gap shows up on the page, not in a lost deal.
 
-Oliv AI writes each agent's method out on its **Instructions** tab. **Objective** states the aim, **Process** lists the numbered steps, and **Output** names what the agent produces. The sales director reads **Process** step by step against her method. Where a step relies on a tool, she presses its chip and checks how freely it acts.
+Oliv AI writes each agent's method out on its **Instructions** tab. The sales director reads **Process** step by step against her method. Where a step relies on a tool, she presses its chip and checks how freely it acts.
 
-The steps are on the tab for anyone to read. Each one has a title and a description, and the tools it uses appear as chips inside the text. How other platforms describe what an agent does is covered in How Oliv AI compares for AI agent instructions, below.
+Each step has a title and a description, and its tools appear as chips inside the text. The tab shows the agent's method, not what happened on a live deal, so she still checks real runs once it's working. The comparison further down shows how other platforms describe what an agent does.
 
 ## Read an agent's instructions {#read-instructions}
 
 1. Open the agent from the [agent marketplace](https://www.oliv.ai/agents-marketplace) and select the **Instructions** tab, the second tab after **Overview**.
 2. Read the header card at the top: the agent's picture, name and one-line description.
-3. Read **Objective**, a short paragraph on what the agent is trying to achieve.
-4. Read **Process**. Each numbered step has a short title in bold and a description beneath.
+3. Read **Objective**, a short paragraph on what the agent is trying to achieve. If that isn't the job you want done, stop here.
+4. Read **Process**. Each numbered step has a short title in bold and a description beneath. Note any step that's missing or out of order for how your team sells.
 5. Read **Output**, if the agent has one: a numbered list of what it produces.
-
-Steps are numbered from 1 in the order they're stored.
 
 ## Trace a step to its tool {#trace-to-tool}
 
@@ -115,7 +111,7 @@ Steps are numbered from 1 in the order they're stored.
 2. Press the chip. The page switches to the **Tools** tab with that tool scrolled into view.
 3. Read the tool's card: what it does, and its run mode, such as **Auto Run** or **Requires Approval**.
 
-The run mode decides whether that action needs a person's approval, as the guide to [agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/) explains. Every chip opens the **Tools** tab, wherever it sits in a step.
+The run mode decides whether that action needs a person's approval, as the guide to [agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/) explains.
 
 <figure>
 
@@ -152,19 +148,19 @@ Don't let clear writing settle the question. Writing about AI chat interfaces, N
 
 ### Trace each step to what it can touch {#check-what-it-touches}
 
-Tracing catches which steps only read and which ones write or send. It misses how far a single write travels once it lands in the connected system, so ask what else depends on the field.
+Tracing shows which steps only read and which ones write or send. It won't show how far a single write travels in the connected system, so ask what else depends on the field.
 
 HubSpot shows why this matters. [Moving a deal into a closed-won or closed-lost stage sets its close date to today](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties) unless that automation is turned off. Its [weighted amount is the amount multiplied by the deal probability](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties), so a change to either one moves that figure too. One step on the page can change more than one number in a report.
 
 ### Judge the approval points {#check-approval-points}
 
-Approval settings catch the places where a person stands between the agent and your customer. They miss whether that person really reads what they're approving.
+Approval settings show where a person stands between the agent and your customer, but not whether that person really reads what they're approving.
 
 Putting approval on every step isn't the safe answer. Nielsen Norman Group's guidance on confirmation dialogs says [if you warn people too much, they stop paying attention](https://www.nngroup.com/articles/confirmation-dialog/), and it saves them for actions that cannot be undone or carry serious consequences. That guidance is about software dialogs, but an approval queue asks people the same question. Keep approval for the steps you'd hate to see go wrong.
 
 ### Review real runs afterward {#check-real-runs}
 
-Run records catch what the agent actually did on a real deal. They can't catch anything before it happens, so they back up the first three checks and don't replace them.
+Run records show what the agent actually did on a real deal. They come too late to stop anything, so they back up the first three checks and don't replace them.
 
 ### What Oliv AI shows for each check {#what-oliv-shows}
 
@@ -183,7 +179,7 @@ Both numbers count steps, and steps aren't equal. A note on a CRM record and an 
 
 Run modes shift the count as well. **Auto Run** is the default for a tool with no stored mode, and **Agent Decides** leaves the choice to the agent. For a strict check, count **Agent Decides** as acting alone.
 
-The result is also a snapshot. The tab keeps no version history and has no export, so keep your own dated table. Recount whenever someone changes a tool's run mode.
+The result is also a snapshot. The tab keeps no version history and has no export, so keep your own dated table. Run mode changes are saved, so recount whenever someone changes one.
 
 ### Where you find the counts in Oliv AI {#measure-in-oliv}
 
@@ -191,7 +187,7 @@ You build both numbers from two screens. **Process** and the contents list give 
 
 ## How to check an agent's process by hand {#check-by-hand}
 
-Without a tab like this one, the same check is a spreadsheet job. It goes like this:
+Without a tab like this one, the same check is a spreadsheet job:
 
 1. Ask whoever built or sold the agent for its process, as the steps it runs in order. A one-line summary won't do.
 2. Put each step on its own row, in that order.
@@ -244,7 +240,7 @@ The **Overview** tab gives a short **Goal** statement and lists the agent's tool
 
 ### Knowledge and triggers {#with-knowledge-and-triggers}
 
-On agents that have them, the [**Knowledge** tab](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/knowledge/) lists the files an agent works against, and the [**Triggers** tab](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/triggers/) lists what starts it. Read them with the instructions to see the full picture of an agent.
+On agents that have them, the [**Knowledge** tab](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/knowledge/) lists the files an agent works against, and the [**Triggers** tab](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/triggers/) lists what starts it.
 
 ### Deal work {#with-deal-work}
 
@@ -311,7 +307,7 @@ Three parts. **Objective** is a short paragraph on the agent's aim, **Process** 
 
 #### Where do I see what an agent actually does? {#faq-where}
 
-Open the agent and select the **Instructions** tab. **Objective** says what it's for, **Process** lists its steps and **Output** lists what it produces.
+Open the agent and select the **Instructions** tab, the second tab after **Overview**. Read **Process** for the steps it takes, in order.
 
 #### Can I edit an agent's instructions? {#faq-edit}
 
@@ -327,7 +323,7 @@ Press the tool chip in that step. The **Tools** tab opens on that tool, and its 
 
 #### How many steps does an agent's process have? {#faq-how-many-steps}
 
-Between 3 and 6 across the agents in the product.
+Typically between 3 and 6. To see an agent's own number, count the numbered steps under **Process**.
 
 #### Why does one agent have no Output section? {#faq-no-output}
 

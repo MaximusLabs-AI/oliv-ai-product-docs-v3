@@ -50,7 +50,7 @@ Oliv AI offers two set-up paths. Pick one before kickoff, because it decides how
 | **Prompts to write** | Yours to write and change | None |
 | **Control** | Full control over every update | Updates handled for you |
 
-Choose **You Run It** if your revenue operations team wants to own every rule change. Choose **We Run It** if the team is stretched and you'd rather review than build. Either way, [Oliv AI's Oliver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/) holds the result.
+Choose **You Run It** if your revenue operations team wants to own every rule change. Choose **We Run It** if the team is stretched and you'd rather review than build. Either way, the rules end up in [Oliv AI's Oliver agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/oliver/).
 
 ## Step 2: Line up admin access {#step-2-admin-access}
 
@@ -84,7 +84,7 @@ Oliv AI's onboarding team works with your revenue operations lead to translate e
 5. **How proofs of concept run.** What makes one eligible, what success looks like and how long it should last.
 6. **How proposals and territories work.** Review steps, approvals and who owns which pipeline.
 
-Your stakeholder checks each section for accuracy. Once it's in place, every agent works inside those rules from day one. Oliver's proposed changes wait as **Pending Review** until your company approves them, and minor ones that apply on their own are still logged in the Playbook's **History**.
+Your stakeholder checks each section for accuracy. Once it's in place, every agent works inside those rules. Oliver's proposed changes wait as **Pending Review** until your company approves them, and minor ones that apply on their own are still logged in the Playbook's **History**.
 
 ### Set your stages and qualification framework {#step-4-settings}
 
@@ -115,7 +115,7 @@ While the handbook is built, set the two definitions every deal is measured agai
 
 Reps don't wait for the handbook to finish. [Oliv AI's Olivia agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/olivia/) delivers deal context, risk and next steps 30 minutes before the next meeting on the calendar, with no waiting period. For meetings on an active deal, [Oliv AI's Meeting Assistant agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/meeting-assistant/) adds qualification status and a recommended agenda, as the [meeting preparation guide](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/prepare-for-a-meeting/) shows.
 
-At the same time, start [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) in **Ask First** mode. From the first meeting, call or email it proposes updates, and each one waits for review before anything reaches the CRM. Your reps learn what it gets right while nothing changes without them.
+At the same time, start [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) in **Ask First** mode. From the first meeting, call or email, it proposes updates, and each one waits for review before anything reaches the CRM. Your reps see what it gets right, and nothing changes without them.
 
 ## Step 6: Add managers and customer success {#step-6-managers}
 
@@ -179,7 +179,7 @@ Score the rollout first, using the three counts in How to measure a rollout at d
 
 ## What a deployment plan for Oliv AI is {#what-it-is}
 
-A deployment plan is the order in which you connect tools, build rules and switch on agents, so each team gets value as early as possible. Oliv AI splits it into two tracks that run at once.
+Your Oliv AI rollout runs as two tracks at once, so reps get value while the rules are still being built.
 
 | Track | What happens | Who's involved | When |
 |---|---|---|---|
@@ -192,22 +192,22 @@ The tracks meet in the handbook. Oliv AI's Oliver agent keeps the rules, and Oli
 
 ### What it's for {#what-its-for}
 
-A plan puts the right agent in front of the right team in the right week. Reps see value early, and managers get agents built on rules you've agreed.
+Use the plan to decide which team gets which agent in which week, and who you need to book to make that happen. Reps see value early, and managers get agents built on rules you've agreed.
 
 ### How it helps {#how-it-helps}
 
-- **Reps feel it first.** The first brief lands before the next meeting, so adoption starts on day one.
+- **Reps feel it first.** The first brief lands before the next meeting, so reps have something to use before the handbook is finished.
 - **Admins are booked early.** CRM, Zoom and Slack approvals don't stall the rollout in week three.
 - **Rules come before scale.** Managers get alerts and forecasts that follow one agreed process.
-- **Trust is earned.** CRM updates start in review, and auto mode waits until the numbers say so.
+- **CRM updates stay supervised.** Updates start in review, and auto mode waits until accuracy thresholds are met.
 
 ### What happens without it {#without-it}
 
-Without a plan, a rollout tends to switch everything on at once. Reps get alerts before the rules behind them are agreed. Managers see forecasts built on fields nobody mapped. The first impression is noise, and some teams never come back from that.
+Without a plan, a rollout tends to switch everything on at once. Managers get alerts before the rules behind them are agreed, and forecasts built on fields nobody mapped.
 
 ### Why buyers care {#why-buyers-care}
 
-This matters most to revenue operations leads, who own the rollout and answer for its results. It matters to sales and CS leaders too, who need their teams working in it within the month. It counts most when the contract starts close to a quarter or renewal season, because there's no slack for a slow start.
+Revenue operations leads own the rollout and answer for its results, and sales and CS leaders need their teams working in it within the month. If the contract starts close to a quarter or renewal season, there's no slack for a slow start, so book your admins on day one.
 
 ## The Oliv AI approach to deployment {#approach}
 
@@ -217,9 +217,9 @@ Say a revenue operations lead has just signed with Oliv AI for 25 account execut
 
 The usual route is to clean the CRM, write the playbook down properly and then train everyone at once. Each of those steps can take weeks on its own. By the time they're done, the quarter has moved on and the team has lost interest.
 
-Nothing about the agents needs a finished playbook before reps can start. A brief only needs a calendar, a recorder and a CRM. The rules can be built alongside, as long as someone owns them and reviews each change.
+Reps don't need a finished playbook to start, because the first brief has no waiting period. The rules can be built alongside, as long as someone owns them and reviews each change.
 
-Oliv AI runs both tracks for her. Reps get their first brief before their next meeting, while Oliv AI's onboarding team turns her deck into Oliver's handbook in one to two weeks. If she picks We Run It, Oliv AI's operators maintain the playbooks on her behalf.
+With Oliv AI, both tracks run at once. Reps get their first brief before their next meeting, while Oliv AI's onboarding team turns her deck into Oliver's handbook in one to two weeks. If she picks We Run It, Oliv AI's operators maintain the playbooks on her behalf.
 
 The proof of value adds one more piece: a tailored version of Oliv AI is live within 1 day of kickoff. How other platforms handle setup and tailoring is covered in How Oliv AI compares for AI sales agent rollouts, below.
 
@@ -229,7 +229,7 @@ Rollouts tend to follow one of four orders. Pick yours before kickoff, because e
 
 ### Everything on at once {#rollout-all-at-once}
 
-You connect every tool, switch on every agent and invite every team in the same week. This catches broken connections fast, because every gap shows up together. It misses the order of trust: managers can read alerts and forecasts before anyone has agreed the rules behind them.
+You connect every tool, switch on every agent and invite every team in the same week. This catches broken connections fast, because every gap shows up together. The weak point is trust: managers can read alerts and forecasts before anyone has agreed the rules behind them.
 
 ### One team first {#rollout-one-team}
 
@@ -237,7 +237,7 @@ You run the whole plan with one pod or region, then widen it. This catches what 
 
 ### Rules first, then people {#rollout-rules-first}
 
-You clean the CRM, write the playbook and then train everyone. This catches disagreements about process before a rep sees any output. It misses time, because nobody gets value until the rules are done.
+You clean the CRM, write the playbook and then train everyone. This catches disagreements about process before a rep sees any output. The cost is time, because nobody gets value until the rules are done.
 
 Cleaning has a blind spot too, since a filled field isn't always a person's view. In HubSpot, a deal created in an open stage with no close date [gets the last day of the month or your chosen default](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties). A tidy close date column can still hold guesses, and only use shows you which ones.
 
@@ -251,7 +251,7 @@ Oliv AI follows the two-track order, and the steps above are written for it. Oli
 
 ## How to measure a rollout at day 30 {#measure-rollout}
 
-Count three things on day 30, each as a plain share. Write down what you're counting in week one, so nobody argues about the planned totals later. The three counts follow the plan's own order: did reps get value, are the tools connected and are the rules agreed.
+Count three things on day 30, each as a plain share. Write down what you're counting in week one, so nobody argues about the planned totals later. Each count answers one question: did reps get value, are the tools connected and are the rules agreed.
 
 | Count | How to work it out | Its weak spot |
 |---|---|---|
@@ -263,11 +263,11 @@ Count three things on day 30, each as a plain share. Write down what you're coun
 
 The handbook count comes from the Playbook. Oliver's proposed changes wait as **Pending Review**, and **History** logs every change. Keep the brief and connection counts in your tracker, using confirmations from your admins and a quick question to each rep.
 
-Two other screens help you read the counts. CRM Manager's weekly digest gives acceptance rate by rep, so a low acceptance rate can point to a team that needs attention. In **Settings › Coaching Scorecard**, **Evaluations (Last 30 days)** shows which scorecards are in use.
+Two other places help you read the counts. CRM Manager's weekly digest gives acceptance rate by rep, so you can see who needs attention. In **Settings › Coaching Scorecard**, **Evaluations (Last 30 days)** shows which scorecards are in use.
 
 ## How to run a 30-day rollout by hand {#rollout-by-hand}
 
-Without a vendor team, the rollout runs from one shared tracker. It usually goes wrong when a single admin on leave blocks three later steps, so name people and dates from the start.
+Without a vendor team, the rollout runs from one shared tracker. It can stall when one admin on leave blocks later steps, so name people and dates from the start.
 
 1. **List the reps.** Put everyone in the rollout on one sheet, with team and role. This is your planned total for brief coverage.
 2. **List the connections.** Give each one an owner and a booked date. In HubSpot, the person changing pipelines or stages needs [Edit property settings permissions](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines), so check that before the session.
@@ -278,9 +278,9 @@ Without a vendor team, the rollout runs from one shared tracker. It usually goes
 
 ### The same job in Oliv AI {#same-job-oliv}
 
-You still name the people, book the admins and make the day-30 call. Oliv AI takes on the steps in between. **Import Pipeline from CRM** pulls your existing stages into **Revenue Process**, so you check them rather than copy them. Oliv AI's onboarding team builds the handbook with your revenue operations lead, working from your existing decks.
+You still name the people, book the admins and make the day-30 call. Oliv AI takes on some of the steps in between. **Import Pipeline from CRM** pulls your existing stages into **Revenue Process**, so you check them rather than copy them. Oliv AI's onboarding team builds the handbook with your revenue operations lead, working from your existing decks.
 
-Oliv AI's Olivia agent sends briefs without anyone scheduling them. If you choose **We Run It**, its operators maintain the playbooks too. For the admin's view of the same work, read the [RevOps implementation guide](https://www.oliv.ai/blog/oliv-ai-revops-implementation-admin-guide).
+Oliv AI's Olivia agent sends briefs without anyone scheduling them. If you choose **We Run It**, Oliv AI's operators maintain the playbooks too. For the admin's view of the same work, read the [RevOps implementation guide](https://www.oliv.ai/blog/oliv-ai-revops-implementation-admin-guide).
 
 ### Worked example: scoring a rollout at day 30 {#worked-example}
 
@@ -359,7 +359,7 @@ Setup and onboarding, from each platform's public documentation:
 
 ## Limits and things to know {#limits}
 
-- **The calendar comes first.** Oliv AI can't take notes in meetings until calendars are connected, so that step can't be skipped or delayed.
+- **Calendars are required.** Oliv AI can't take notes in meetings until each user connects their calendar, so don't let that step slip.
 - **Some steps need an admin.** Salesforce, Zoom recording without the host and, in some workspaces, Slack all need an admin on your side.
 - **Handbook changes are reviewed or logged.** Oliver's proposals wait for your company's approval. Minor changes can apply on their own, and every change appears in the Playbook's **History**.
 - **Reps don't work with Oliver.** Revenue operations and leaders do. Reps work with Olivia, who follows Oliver's rules.
@@ -370,7 +370,7 @@ Setup and onboarding, from each platform's public documentation:
 
 #### How long does an Oliv AI rollout take? {#faq-how-long}
 
-Reps get value in the first week, from their first brief. The handbook takes one to two weeks, and the manager agents are typically live within one to two weeks of being connected.
+About a month, and most of it runs in parallel. Reps get value in the first week, from their first brief. The handbook takes one to two weeks, and Deal Driver and Forecaster are typically live within one to two weeks of being connected.
 
 #### When do reps see something useful? {#faq-first-value}
 
@@ -382,7 +382,7 @@ On the You Run It path, onboarding takes 2 to 4 sessions with your revenue opera
 
 #### Do we need to clean the CRM before we start? {#faq-clean-crm}
 
-No. Oliv AI reads what's already there, messy data included. Oliv AI's CRM Manager agent fills missing or stale fields from call history as it goes.
+No. Oliv AI reads what's already there, messy data included. Oliv AI's CRM Manager agent proposes values for missing or stale fields from call history, and in **Ask First** mode each one waits for review.
 
 #### Which admin access do we need? {#faq-admin-access}
 
@@ -410,7 +410,7 @@ Yes. Human feedback and quarterly re-research track new offerings, positioning a
 
 #### Who should run an AI sales agent rollout? {#faq-who-runs}
 
-One revenue operations lead should own it, with a sales or leadership stakeholder who checks the handbook for accuracy. Reps don't run any part of it, because they work with Oliv AI's Olivia agent and not Oliver.
+One revenue operations lead should own it, with a sales or leadership stakeholder who checks the handbook for accuracy. Reps don't own any part of it, because they work with Oliv AI's Olivia agent and not Oliver.
 
 #### How do you review an AI sales agent rollout after 30 days? {#faq-day-30-review}
 

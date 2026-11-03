@@ -7,7 +7,7 @@ An AI agent audit trail guide: read an agent's Runs tab and open a run record to
 - Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/run-history/
 
-You need an AI agent audit trail when someone asks what an agent did overnight and you have to answer before it takes on more work. Oliv AI's run history is that record: each agent's **Runs** tab lists its past runs, newest first, with when each one ran, how it started and how it ended. Press **View** on a row and the full record opens. It shows every email the agent wrote and the people it picked, a sequence's steps, a drafted reply or a clipped call.
+When someone asks what an agent did overnight and you have to answer before it takes on more work, you need an AI agent audit trail. Oliv AI's run history is that record: each agent's **Runs** tab lists its past runs, newest first, with when each one ran, how it started and how it ended. Press **View** on a row and the full record opens. It shows every email the agent wrote and the people it picked, a sequence's steps, a drafted reply or a clipped call.
 
 <figure>
 

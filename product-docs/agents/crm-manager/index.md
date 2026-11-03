@@ -7,7 +7,7 @@ CRM automation with Oliv AI's CRM Manager agent: what it writes after every acti
 - Verified: 2026-11-02
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/
 
-CRM automation should keep every record accurate after each call, email and meeting, without your reps typing a thing. Oliv AI answers that with its CRM Manager agent, a layer on top of your CRM: after every activity, it works out what changed and writes it to Salesforce, HubSpot or Zoho. Each suggested change waits on the deal's **CRM Updates** tab beside the field's current value, so reps can accept or reject it. Once the team trusts the results, you can switch it to fully automatic updates.
+Your reps stop typing and every record stays accurate after each call, email and meeting: that's the test for CRM automation. Oliv AI's CRM Manager agent, a layer on top of your CRM, works out what changed after every activity and writes it to Salesforce, HubSpot or Zoho. Each suggested change waits on the deal's **CRM Updates** tab beside the field's current value, so reps can accept or reject it. Once the team trusts the results, you can switch it to fully automatic updates.
 
 ## At a glance {#at-a-glance}
 
@@ -26,7 +26,7 @@ CRM automation should keep every record accurate after each call, email and meet
 
 Oliv AI's CRM Manager agent is an always-on agent that sits on top of your CRM. It isn't a CRM itself. It works with [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/), [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/) or Zoho, and its updates flow into your existing workflows, reports and dashboards.
 
-It runs as a result of every activity rather than when someone asks. Oliv AI's Deal Insights layer works out what a conversation means. CRM Manager is the operator that takes that work and applies it everywhere it needs to go. On the live page, the promise reads "Your CRM can now run itself."
+It runs after every activity, so nobody has to ask. Oliv AI's Deal Insights layer works out what a conversation means, and CRM Manager applies the result to your records.
 
 <figure>
 
@@ -38,12 +38,12 @@ It runs as a result of every activity rather than when someone asks. Oliv AI's D
 ### What it keeps current {#keeps-current}
 
 - **Accounts and contacts.** When an activity involves a company or person not yet in the CRM, it creates the record and enriches it straight away.
-- **Account structure.** It maps activity to the right account and opportunity, keeps parent and subsidiary links current, and removes duplicates.
+- **Account structure.** It maps activity to the right account and opportunity, keeps parent and subsidiary links current, and resolves duplicates.
 - **Stakeholder roles.** It tracks each contact's role on each opportunity, such as economic buyer, champion or blocker, and updates Opportunity Contact Roles.
 - **Opportunities.** It creates the opportunity once there are enough activity signals, then moves the stage as the deal progresses.
 - **Activities and tasks.** It logs every meeting, call and email, and creates tasks from the next steps it hears.
 
-After a meeting, its **CRM Updates** tab shows each write as a card: **Account Updated**, **Opportunity Updated**, **Contact Created**. A change that waits for you, such as a stage move, shows as **Pending Update** with **Update Deal**.
+After a meeting, that meeting's **CRM Updates** tab shows each write as a card: **Account Updated**, **Opportunity Updated**, **Contact Created**. A change that waits for you, such as a stage move, shows as **Pending Update** with **Update Deal**.
 
 <figure>
 
@@ -103,25 +103,25 @@ Imagine an account executive on a Friday afternoon after eleven customer calls t
 
 The common fix is an hour or two of copying notes into fields, deal by deal. Some fields get rushed and others get skipped. The record ends up showing whatever she had time to type, which may not match what buyers actually said.
 
-Every one of those calls already happened on a recorded line, so the facts exist. The missing step is moving them into the right fields. A rep shouldn't have to retype a conversation, only check that the record matches it.
+Every one of those calls was recorded, so the facts already exist. The missing step is moving them into the right fields. A rep shouldn't have to retype a conversation, only check that the record matches it.
 
-Oliv AI gives that step to its CRM Manager agent. After every meeting, call and email, it proposes values for standard, methodology and custom fields. Each one appears on the deal's **CRM Updates** tab with the suggested value above the current one. The AE accepts or rejects each field.
+Oliv AI gives that step to its CRM Manager agent. After every meeting, call and email, it proposes values for standard, methodology and custom fields. Each one appears on the deal's **CRM Updates** tab with the suggested value above the current one. The AE accepts or rejects each field. On Monday, her manager reviews the pipeline from records she has checked, not retyped.
 
-Teams on the weekly cadence get pending suggestions on Friday morning, and anything left unreviewed is accepted automatically on Sunday night. RevOps then receives a summary that includes how often each rep accepted the suggestions. How that digest stacks up is covered in How Oliv AI compares for CRM automation, below.
+Teams on the weekly cadence get pending suggestions on Friday morning, and anything left unreviewed is accepted automatically on Sunday night. RevOps then receives a summary that includes how often each rep accepted the suggestions. The section below, How Oliv AI compares for CRM automation, shows how that digest stacks up.
 
 ## Set up CRM Manager {#set-up}
 
 1. **Connect your CRM.** Use the one-click integration for [Salesforce](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/salesforce/), [HubSpot](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/) or Zoho. Your pipeline and fields sync straight away.
 2. **Let Oliv AI [map your custom fields](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/field-mapping/).** Oliv AI's team configures them during onboarding as a service, so RevOps has nothing to build.
-3. **Let activity start the engine.** From the first meeting, call or email, CRM Manager is already working.
+3. **Run your first meeting, call or email.** CRM Manager starts working from that first activity.
 4. **Review updates as they arrive.** Reps check suggestions while the team builds confidence in them.
-5. **Switch to auto when you're ready.** Once accuracy thresholds are met, RevOps confirms the move to auto mode.
+5. **Switch to Auto-Pilot when you're ready.** Once accuracy thresholds are met, RevOps confirms the move.
 
 Adding email and phone integrations widens what it sees beyond meetings. The [integrations directory](https://www.oliv.ai/integrations) lists what you can connect.
 
 ## How CRM records get updated {#methods}
 
-There are four common ways a field gets its value after a call. Most teams run two or three at once, and each one fails in a different place.
+There are four common ways a field gets its value after a call, and each one fails in a different place.
 
 ### Reps type it in {#manual-entry}
 
@@ -135,7 +135,7 @@ A stale stage spreads further than one field. In HubSpot, [stage probability set
 
 ### Extraction from calls, reviewed first {#extract-and-review}
 
-A tool reads the conversation and proposes values, and a person approves each one. This catches what was actually said and keeps a human check on every write. It costs a few clicks per call, and a backlog builds if reps ignore it.
+A tool reads the conversation and proposes values, and a person approves each one. You get what was actually said, with a human check on every write. The cost is a few clicks per call, and a backlog builds if reps ignore it.
 
 ### Extraction from calls, written straight away {#extract-and-write}
 
@@ -187,7 +187,7 @@ These batch jobs replace the rule-heavy clean-up work that older tools need, wit
 - **A weekly report.** Newly created deals, accounts and contacts, fields updated and enriched, and records cleaned or de-duplicated.
 - **A governance summary.** Suggestions made, fields updated, reverts, time saved, acceptance rate by rep and flags that need review.
 - **Stale data flags.** CRM objects with missing or stale data.
-- **A usage and ROI tab.** Visible in the product, alongside an estimate of time saved on manual CRM work.
+- **A usage and ROI tab.** It shows in the product, with an estimate of the time saved on manual CRM work.
 
 ## How to measure CRM field accuracy {#measure-accuracy}
 
@@ -200,7 +200,7 @@ Both have weak spots. A rep who accepts everything without reading inflates the 
 
 ### Where CRM Manager shows these numbers {#crm-manager-measures}
 
-The weekly governance summary for RevOps lists suggestions made, fields updated, reverts and acceptance rate by rep. On each deal, the **AI Suggestions** count shows what is still waiting, and **Updates History** shows how each field changed. Start with the rep whose acceptance rate is lowest, then open their deals' history to see which fields they reject.
+The weekly governance summary for RevOps lists suggestions made, fields updated, reverts and acceptance rate by rep. On each deal, the **AI Suggestions** count shows what is still waiting, and **Updates History** shows how each field changed. Start with the rep whose acceptance rate is lowest, then open their deals' **Updates History** to see which fields changed.
 
 ## How to check CRM automation before you trust it {#check-by-hand}
 
@@ -259,19 +259,19 @@ CRM Manager doesn't direct other agents. They read the data it produces.
 
 ### Account executives {#account-executives}
 
-An AE gets a message after each call and reviews proposed updates in a few clicks. The record stays current without an end-of-week typing session. More on Oliv AI for [account executives](https://www.oliv.ai/account-executives).
+An [account executive](https://www.oliv.ai/account-executives) gets a message after each call and reviews proposed updates in a few clicks. The record stays current without an end-of-week typing session.
 
 ### Revenue operations {#revops}
 
-RevOps owns CRM Manager. It confirms the switch to auto mode, runs batch clean-up jobs and reads the weekly governance digest. The RevOps view of the **Agent Feed** lists CRM Manager beside Oliver and Forecaster. See how Oliv AI supports [revenue operations](https://www.oliv.ai/revops).
+[Revenue operations](https://www.oliv.ai/revops) owns CRM Manager. The team confirms the switch to **Auto-Pilot**, runs batch clean-up jobs and reads the weekly governance digest. The RevOps view of the **Agent Feed** lists CRM Manager beside Oliver and Forecaster.
 
 ### Sales managers {#sales-managers}
 
-Managers check the **AI Suggestions** count on each deal's **CRM Updates** tab, so one-on-ones start from clean data instead of CRM police work. Read about Oliv AI for [sales managers](https://www.oliv.ai/sales-managers).
+[Sales managers](https://www.oliv.ai/sales-managers) check the **AI Suggestions** count on each deal's **CRM Updates** tab, so one-on-ones start from clean data instead of CRM police work.
 
 ### Customer success managers {#customer-success}
 
-CRM Manager covers the full revenue lifecycle, including onboarding, QBRs and renewals. When a champion mentions a reorg in passing, the stakeholder map changes and the champion is flagged at risk. Learn more about Oliv AI for [customer success](https://www.oliv.ai/customer-success).
+For [customer success](https://www.oliv.ai/customer-success), CRM Manager covers onboarding, QBRs and renewals. When a champion mentions a reorg in passing, the stakeholder map changes and the champion is flagged at risk.
 
 ## How Oliv AI compares for CRM automation {#compare}
 
@@ -304,22 +304,22 @@ CRM automation features, from each platform's public documentation:
 - **It writes what Deal Insights produces.** CRM Manager doesn't score deals or decide field values from scratch.
 - **It isn't for pipeline risk.** Pipeline risk signals belong to Deal Driver. CRM Manager surfaces data quality issues.
 - **It isn't a forecast.** Forecaster handles projections.
-- **Auto mode needs a decision.** RevOps confirms the switch once accuracy thresholds are met.
+- **Auto-Pilot needs a decision.** RevOps confirms the switch once accuracy thresholds are met.
 - **If it can't tell where an activity belongs, it asks.** The seller confirms the right account or opportunity.
 
 ## Common questions {#common-questions}
 
 #### Does CRM Manager write directly to my CRM, or do I approve updates first? {#faq-approve-first}
 
-Both. By default, every suggested update waits under **AI Suggestions** before anything reaches your CRM. Once your team trusts it, switch to auto mode for hands-free updates.
+Both. By default, every suggested update waits under **AI Suggestions** before anything reaches your CRM. Once your team trusts it, switch to **Auto-Pilot** for hands-free updates.
 
 #### What if it makes a wrong update? {#faq-wrong-update}
 
-Each suggestion shows the current value next to the suggested one, so you can reject it before it's written. **Updates History** keeps the record of every change.
+Each suggestion shows the current value next to the suggested one, so you can reject it before it's written. **Updates History** keeps the record of the changes made.
 
 #### Our CRM data is already a mess. Will it still work? {#faq-messy-data}
 
-Yes. Real-time mode fixes issues as new activity comes in, and batch mode cleans what's already there. You don't need a clean CRM to start.
+Yes. It fixes issues as new activity comes in, and a batch job cleans what's already there. You don't need a clean CRM to start.
 
 #### Which CRMs does it support? {#faq-crms}
 

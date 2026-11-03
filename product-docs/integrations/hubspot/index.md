@@ -7,13 +7,13 @@ How to connect Oliv AI to HubSpot, show Oliv AI fields on deal records, decide h
 - Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/hubspot/
 
-You want AI for HubSpot that's simple to connect, lets you control how updates are approved, and shows you what stays current on each deal. Oliv AI is that HubSpot AI integration: it connects to HubSpot so your deals, contacts and companies stay current without reps typing updates after every call. HubSpot remains your CRM, and Oliv AI works on top of it. Here you'll find the connection steps, how to show Oliv AI fields on a deal, and how approvals work.
+A HubSpot AI integration should be simple to connect, let you control how updates are approved and show you what stays current on each deal. Oliv AI connects to HubSpot so your deals, contacts and companies stay current without reps typing updates after every call. HubSpot remains your CRM, and Oliv AI works on top of it. Here you'll find the connection steps, how to show Oliv AI fields on a deal, and how approvals work.
 
 ## At a glance {#at-a-glance}
 
 | | |
 |---|---|
-| **What it does** | Pulls HubSpot data into Oliv AI and fills it back with what customers said |
+| **What it does** | Pulls HubSpot data into Oliv AI and writes back what customers said |
 | **How you connect** | From the HubSpot integration in the Oliv AI web app, then share your HubSpot URL |
 | **What it keeps current** | Deals, contacts, companies, activities, tasks and buying committee roles |
 | **Approvals** | **Ask First** by default, or **Auto-Pilot** once you trust the updates |
@@ -22,7 +22,7 @@ You want AI for HubSpot that's simple to connect, lets you control how updates a
 
 ## What the HubSpot integration is {#what-it-is}
 
-The HubSpot integration links your portal to Oliv AI in both directions. Oliv AI pulls in information from HubSpot, and it fills auto-generated insights back in, so nobody on the team does manual updates. You don't need to replace HubSpot, because Oliv AI works with the CRM you already have.
+The HubSpot integration links your portal to Oliv AI in both directions. Oliv AI pulls information in from HubSpot and writes insights from your conversations back, so reps stop typing those updates by hand.
 
 The sync covers pipeline, fields, owners, close dates, stages and forecast categories. Writing back to HubSpot is the job of [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/).
 
@@ -43,8 +43,8 @@ The HubSpot integration is for sales teams whose deal records fall behind their 
 
 ### How it helps {#how-it-helps}
 
-- **Deals you can trust on Monday.** Stage, amount and next steps update after each activity.
-- **Stakeholders on the record.** Every new person from a call becomes a contact with a role on the deal.
+- **Deals you can trust on Monday.** Stage, amount and next steps are proposed or updated after each activity.
+- **Stakeholders on the record.** A new person from a call becomes a contact with a role on the deal.
 - **Next steps that don't get lost.** Commitments from calls turn into HubSpot tasks with an owner.
 - **Approval you control.** Reps see each proposed change beside the current CRM value, then accept or reject it.
 
@@ -68,7 +68,7 @@ The information she needs already exists. It was said out loud on calls and writ
 
 Oliv AI adds that step on top of HubSpot. Oliv AI's CRM Manager agent reads each meeting, call and email, then proposes updates to the deal, its contacts and its tasks. She starts every rep on **Ask First**, so reps **Accept** or **Reject** each proposal on the deal's **CRM Updates** tab.
 
-Nothing reaches HubSpot until a rep approves it, and every proposal shows the current CRM value beside the suggested one. Approval before writing is one of the points covered in How Oliv AI compares as AI for HubSpot, below.
+Every proposal shows the current CRM value beside the suggested one, so a rep can spot a wrong value before accepting it. A rejected suggestion leaves the current HubSpot value in place, so her Monday board reflects what her reps have agreed to.
 
 ## Connect HubSpot {#connect-hubspot}
 
@@ -89,7 +89,7 @@ Your core deal properties are mapped on connection and start filling from day on
 
 ## Show Oliv AI fields on HubSpot deals {#show-fields-on-deals}
 
-Oliv AI's help center walks through adding a custom property and a card, so Oliv AI's data sits on the deal record.
+Add a custom property and a card in HubSpot, so Oliv AI's data sits on the deal record.
 
 1. In HubSpot, click **Settings** at the top of the page.
 2. Under **Data Management**, select **Properties**, then click **Create Property**.
@@ -107,7 +107,7 @@ Check your HubSpot permissions before you start. HubSpot asks for [Edit property
 Out of the box, Oliv AI's CRM Manager agent holds every suggestion for review before it touches HubSpot. There are two control modes:
 
 - **Ask First.** Each update waits for a rep before anything is written to HubSpot.
-- **Auto-Pilot.** Updates nobody reviewed are applied on their own, so deals stay current with no one acting.
+- **Auto-Pilot.** Updates are applied without a rep reviewing them, so deals stay current with no one acting.
 
 After a call, the rep gets a [Slack message](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/integrations/slack/), or a note in their preferred channel, saying updates were found. On the deal, the **CRM Updates** tab lists each proposed change under **AI Suggestions**. The suggested value sits in its own field above the **Current Value**, and the choices are **Accept** or **Reject**. **AI Updates** holds changes already applied, and **Updates History** keeps the record.
 
@@ -127,39 +127,39 @@ Each meeting has a **CRM Updates** tab of its own. It lists what was written aft
 <figcaption>After a call, the meeting's CRM Updates timeline shows what reached HubSpot and what is still pending, with a link to each record that changed. The company, names and dates belong to a sample account.</figcaption>
 </figure>
 
-Reps with open tasks or unverified deal updates get an end-of-day reminder. If updates stay undone past a set window, deals can be deferred or flagged as closed-lost, and your org chooses whether that happens. When accuracy is good enough, the person who owns HubSpot confirms the move to auto mode.
+Reps with open tasks or unverified deal updates get an end-of-day reminder. If updates stay undone past a set window, deals can be deferred or flagged as closed-lost, and your org chooses whether that happens. Auto mode waits until the person who owns HubSpot confirms it, and the measures below help you decide when.
 
 ## How updates get onto a HubSpot deal {#methods}
 
-Before you choose an approval mode, look at how your deals get updated today. There are five common ways, and most portals run more than one. Each catches something different, and each leaves a different gap on the deal record.
+Before you choose an approval mode, look at how your deals get updated today. There are five common ways, and you may be running more than one.
 
 ### Reps type updates in {#reps-type-updates}
 
-This catches what only the rep knows, such as a judgment call on a close date. It misses whatever they didn't get round to typing. A person who joined a call late rarely becomes a contact this way, and the record falls behind on busy weeks.
+A rep can record what only the rep knows, such as a judgment call on a close date. Anything they don't get round to typing is lost. A person who joined a call late rarely becomes a contact this way, and the record falls behind on busy weeks.
 
 ### HubSpot asks for properties at a stage move {#stage-properties}
 
-HubSpot's [conditional stage logic shows chosen properties](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines) when a user creates a record in a stage or moves it there. This catches blank fields at the moment a deal moves. It misses the quality of the answer, and it misses deals that sit still, because a slipping close date doesn't trigger a stage move.
+HubSpot's [conditional stage logic shows chosen properties](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines) when a user creates a record in a stage or moves it there. That stops blank fields at the moment a deal moves. It can't judge the quality of the answer, and it never fires on a deal that sits still, because a slipping close date doesn't trigger a stage move.
 
 ### A meeting tool pushes notes to the record {#notes-on-the-record}
 
-This catches the conversation, so anyone opening the deal can read what was said. It misses the properties themselves. A note doesn't change the amount or the stage, so your boards and reports still read the old values.
+Anyone opening the deal can now read what was said, but the properties stay as they were. A note doesn't change the amount or the stage, so your boards and reports still read the old values.
 
 ### A tool writes properties directly {#direct-writes}
 
-This catches every call with no rep effort, and the deal stays current. It misses the check. A wrong value reaches your reports before anyone has seen it, so you find the error later and have to trace where it came from.
+Calls reach the deal with no rep effort, and the deal stays current. What you give up is the check. A wrong value reaches your reports before anyone has seen it, so you find the error later and have to trace where it came from.
 
 ### A tool proposes and a person approves {#proposed-updates}
 
-This catches a wrong value before it reaches HubSpot, and the person approving sees the old value beside the new one. It misses anything nobody reviews, so a queue of pending updates can leave a deal as stale as before. It also adds a step for each rep.
+A wrong value can be stopped before it reaches HubSpot, because the person approving sees the old value beside the new one. The risk moves to the queue, since pending updates nobody reviews can leave a deal as stale as before. It also adds a step for each rep.
 
 ### Which of these Oliv AI does {#what-oliv-does}
 
-Oliv AI's CRM Manager agent uses the last two, and you choose between them. On **Ask First**, it proposes and a rep approves. On **Auto-Pilot**, updates nobody reviewed are written on their own. Either way, the agent reads from HubSpot and writes back, so it [adds to your HubSpot records instead of replacing them](https://www.oliv.ai/blog/bi-directional-crm-sync-ai).
+Oliv AI's CRM Manager agent uses the last two, and you choose between them. On **Ask First**, it proposes and a rep approves. On **Auto-Pilot**, updates are written without a rep's review. Either way, the agent reads from HubSpot and writes back, so it [adds to your HubSpot records instead of replacing them](https://www.oliv.ai/blog/bi-directional-crm-sync-ai).
 
 ## What to check in HubSpot after you connect {#check-after-connecting}
 
-Run these checks in your first week, while the number of updates is still small enough to read. They take you from the pipeline down to single records.
+Run these checks in your first week, while the number of updates is still small enough to read.
 
 1. **Check the stages.** Open **Settings** › **Revenue Process** and compare the imported stages with your HubSpot pipeline. If you never changed HubSpot's default Sales Pipeline, [it has seven deal stages](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines).
 2. **Check the deal card.** Open a deal and confirm your card shows. An empty field is normal until Oliv AI captures something relevant for it.
@@ -191,7 +191,7 @@ The weekly governance summary gives RevOps or the manager the acceptance rate by
 
 ## How to add meeting contacts to HubSpot by hand {#by-hand}
 
-If you're doing this today, or you want to see what you're replacing, here is the routine after each call. It's also the fastest way to spot where your records fall behind.
+If you're doing this today, or you want to see what you're replacing, here is the routine after each call.
 
 1. Open the deal in HubSpot and compare the meeting's attendees with the contacts on the deal.
 2. Search HubSpot for each new person by email address. [HubSpot deduplicates contacts by email address and companies by domain name](https://knowledge.hubspot.com/records/deduplication-of-records), so those are the values to match on.
@@ -222,7 +222,7 @@ Say you have 40 open deals. Last month, 120 people joined meetings on those deal
 | Share of people who are new | 35 / 120 | 29% |
 | New contacts per open deal | 35 / 40 | About 0.9 |
 
-So a month like that one should bring about 35 new contacts, or just under one per open deal. Group those 35 by email domain to estimate new companies, because any domain HubSpot doesn't have is a new company record.
+So a month like that one should bring about 35 new contacts, or just under one per open deal. Group those 35 by email domain to estimate new companies, because a business domain HubSpot doesn't have is likely a new company record.
 
 Now you have a number to check against. If the real count runs far above 35, look first for people who joined from a second email address. If it runs far below, check that your calendar is connected for every rep.
 
@@ -270,7 +270,7 @@ How each tool asks for approval is explained in [agent tools and run modes](http
 
 ### Sales leaders {#sales-leaders}
 
-A head of sales opens the deals board on Monday and finds stages, amounts and next steps already updated from last week's calls. The **AI Suggestions** count on each deal's **CRM Updates** tab shows what still needs review. More on Oliv AI for [sales managers](https://www.oliv.ai/sales-managers).
+A head of sales opens the deals board on Monday and finds approved changes to stages, amounts and next steps from last week's calls already on each deal. The **AI Suggestions** count on each deal's **CRM Updates** tab shows what still needs review. More on Oliv AI for [sales managers](https://www.oliv.ai/sales-managers).
 
 ### Account executives {#account-executives}
 
@@ -278,11 +278,11 @@ An AE finishes a demo where a new economic buyer joined late. By the next call, 
 
 ### Sales development {#sales-development}
 
-An SDR books a first meeting with three people from a target company. Each attendee who isn't in HubSpot becomes a contact, and the meeting is logged against the company. More on Oliv AI for [sales development teams](https://www.oliv.ai/sales-development).
+An SDR books a first meeting with three people from a target company. Each attendee who isn't in HubSpot becomes a contact, and the meeting is logged against the company. See also [Oliv AI for sales development teams](https://www.oliv.ai/sales-development).
 
 ### Account management {#account-management}
 
-An account manager's renewal and check-in calls update the company record the same way sales calls do. Changes to the stakeholder map show up on the record before the next renewal talk. More on Oliv AI for [account management](https://www.oliv.ai/account-management).
+An account manager's renewal and check-in calls update the company record the same way sales calls do. Changes to the stakeholder map show up on the record before the next renewal talk. Renewal teams can read [Oliv AI for account management](https://www.oliv.ai/account-management).
 
 ## How Oliv AI compares as AI for HubSpot {#compare}
 
@@ -353,7 +353,7 @@ No. CRM Manager works with unclean data and normalizes it as it goes, resolving 
 
 #### Can a wrong update be undone? {#faq-wrong-update}
 
-Every suggestion shows the current value next to the proposed one, and you can reject it before it's written. Changes already applied are listed under **AI Updates**, and **Updates History** keeps the record.
+Before it's written, yes: every suggestion shows the current value next to the proposed one, and you can reject it. Changes already applied are listed under **AI Updates**, and **Updates History** keeps the record, so you can see what changed and fix the value in HubSpot.
 
 #### Does it work for customer calls after the sale? {#faq-after-sale}
 

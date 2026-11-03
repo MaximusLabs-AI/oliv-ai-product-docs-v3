@@ -22,7 +22,7 @@ You're adding AI for Salesforce, so you need to install it, choose how updates a
 
 ## What the Salesforce integration is {#what-it-is}
 
-The Salesforce integration lets Oliv AI pull information from your org and populate auto-generated insights back into it, so reps don't update records by hand. Oliv AI works with your existing CRM rather than replacing it. It brings the context together and [keeps Salesforce updated](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/), so your existing reports and dashboards run on current data.
+The Salesforce integration fills records from conversations, so reps don't update them by hand. Oliv AI [keeps Salesforce updated](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/workflows/keep-the-crm-updated/) rather than replacing it, so your existing reports and dashboards run on current data.
 
 Once connected, the sync covers pipeline, fields, owners, close dates, stages and forecast categories. [Oliv AI's CRM Manager agent](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/crm-manager/) does the writing.
 
@@ -54,7 +54,7 @@ Salesforce reflects what got logged, not what happened. Reps fill fields from me
 
 ### Why buyers care {#why-buyers-care}
 
-A RevOps lead usually buys it, because RevOps owns data quality and runs the reports. In mid-market teams a VP of Sales or VP of Customer Success often signs off too. Account executives and CSMs benefit without extra work, since their records stay accurate after every call.
+A RevOps lead usually buys it, because RevOps owns data quality and runs the reports. In mid-market teams a VP of Sales or VP of Customer Success often signs off too. Account executives and CSMs benefit without extra work, since their records update after every call.
 
 ## The Oliv AI approach to the Salesforce integration {#approach}
 
@@ -68,7 +68,7 @@ The blank fields and the duplicates come from the same place. Fields stay empty 
 
 Oliv AI starts from the org as it is. Oliv AI's CRM Manager agent writes to Salesforce after every meeting, call and email, and it resolves duplicates as activity touches them. For the backlog, the admin gives it a direct job. It can find all duplicate accounts from last quarter, or backfill MEDDPICC fields across the pipeline.
 
-Before anything is written, the admin picks how updates land. **Ask First** shows each proposed update beside the current Salesforce value, while **Auto-Pilot** applies updates without review. That review step is one of the points covered in How Oliv AI compares as AI for Salesforce, below.
+Before anything is written, the admin picks how updates land. **Ask First** shows each proposed update beside the current Salesforce value, while **Auto-Pilot** applies updates without review.
 
 ## Connect Salesforce {#connect-salesforce}
 
@@ -78,7 +78,7 @@ You need admin access in Salesforce to install the package. Connect a calendar a
 2. Follow the package install link and select **Install for All Users**.
 3. Share your Salesforce URL with Oliv AI's team.
 4. In Salesforce, enable the **Assign tasks to multiple objects** feature.
-5. Enable the **Advanced notes** functionality, which Oliv AI's guide points to as Salesforce's enhanced notes.
+5. Enable the **Advanced notes** feature. Oliv AI's install guide points to Salesforce's enhanced notes for this.
 6. Connect your calendar by logging in to `web.oliv.ai` with Gmail or Outlook.
 7. In Oliv AI, open **Settings** › **Revenue Process** and press **Import Pipeline from CRM** to pull your existing stages in.
 
@@ -115,7 +115,7 @@ After each activity, the rep gets a [notification in Slack](https://maximuslabs-
 <figcaption>Under Ask First, this is the review step: each suggested Salesforce field change sits beside its current value, and the deal header's Sync to Salesforce button pushes the deal to the CRM. The deal value and contacts are sample data.</figcaption>
 </figure>
 
-Once accuracy thresholds are met, RevOps confirms the switch to auto mode. Until then, reps get end-of-day reminders for unverified deal updates, and managers can see what is waiting from the **AI Suggestions** count on each deal.
+Once accuracy thresholds are met, RevOps confirms the switch to **Auto-Pilot**. Until then, reps get end-of-day reminders for unverified deal updates, and managers can see what is waiting from the **AI Suggestions** count on each deal.
 
 Each meeting also has a **CRM Updates** tab. It shows what was written after the call, such as **Account Updated**, **Opportunity Updated** or **Contact Created**, and holds a stage move as a **Pending Update** until someone presses **Update Deal**.
 
@@ -151,7 +151,7 @@ Parent and subsidiary account relationships are also maintained as org structure
 
 ## How activity gets matched to the right Salesforce opportunity {#methods}
 
-An update is only as good as the record it lands on. A correct next step written to the wrong opportunity looks clean in every report, so it's harder to catch than a blank field. There are three common ways to decide where a call or email belongs, and each one fails in a different place.
+A correct next step written to the wrong opportunity looks clean in every report, so it's harder to catch than a blank field. There are three common ways to decide where a call or email belongs, and each one fails in a different place.
 
 ### A rep picks the record {#match-by-rep}
 
@@ -171,7 +171,7 @@ An agent reads what was said and who was there, then places the activity the way
 
 ### Which of these Oliv AI uses {#match-oliv}
 
-Oliv AI's CRM Manager agent uses the third way. It maps every activity to the right account and opportunity by reading full context rather than rules, including when one account has several opportunities. If it can't resolve a match, it asks the seller, so a rep's judgment stays as the fallback.
+Oliv AI's CRM Manager agent uses the third way. It matches each activity to an account and opportunity by reading full context rather than rules, including when one account has several opportunities. If it can't resolve a match, it asks the seller, so a rep's judgment stays as the fallback.
 
 ## How to measure whether Salesforce updates are safe to leave unreviewed {#measure-review}
 
@@ -191,7 +191,7 @@ Its weak spot is the sample. If you only check accounts with one open opportunit
 
 ### Where Oliv AI shows these {#where-measures-show}
 
-The weekly governance summary gives RevOps and managers the suggestions made, fields updated, reverts, acceptance rate by rep and flags requiring review. On a deal, **Updates History** shows how each field has changed. You work out the correction rate yourself from your spot-check, using Salesforce's history as a second record that doesn't depend on Oliv AI.
+The weekly governance digest gives RevOps and managers the suggestions made, fields updated, reverts, acceptance rate by rep and flags requiring review. On a deal, **Updates History** shows how each field has changed. You work out the correction rate yourself from your spot-check, using Salesforce's history as a second record that doesn't depend on Oliv AI.
 
 ## How to check what an AI tool writes to Salesforce by hand {#check-by-hand}
 
@@ -206,13 +206,13 @@ You can run this audit with Salesforce reports and field history alone. It works
 
 ### The same job in Oliv AI {#same-job}
 
-The agent's work sits on the record, so steps 3 and 4 get shorter. Open a meeting's **CRM Updates** tab to see what was written after that call, and which stage move still waits as a **Pending Update**. Open a deal's **CRM Updates** tab for its **AI Suggestions**, **AI Updates** and **Updates History**.
+Oliv AI's CRM Manager agent shows its work on the record, so steps 3 and 4 get shorter. Open a meeting's **CRM Updates** tab to see what was written after that call, and which stage move still waits as a **Pending Update**. Open a deal's **CRM Updates** tab for its **AI Suggestions**, **AI Updates** and **Updates History**.
 
 The weekly digest gives you the tally of suggestions and the acceptance rate by rep, and the spot-check itself stays with you. Keep Salesforce's field history on as well, because it's your org's own record of each change.
 
 ### Worked example: where to spot-check first {#worked-example}
 
-A RevOps lead counts 200 accounts and sorts them by how many open opportunities each one has. This is an illustrative calculation with sample figures, not an Oliv AI output, and it claims no saving.
+A RevOps lead counts 200 accounts and sorts them by how many open opportunities each one has. This is an illustrative calculation with sample figures, not an Oliv AI output.
 
 | Open opportunities per account | Accounts | Opportunities |
 |---|---|---|
@@ -245,7 +245,7 @@ Oliv AI's CRM Manager agent writes every update to Salesforce, so all changes fl
 
 ### Agents you build {#with-custom-agents}
 
-When you add tools to an agent, Salesforce is selected first in the **Add Tool** catalogue. It offers 34 tools in six groups: **Lookup / Search**, **Create / Update**, **Associations**, **Activities**, **Pipeline / Forecast** and **Utility**. They range from **Find Opportunity** and **Log Call** to **Get Forecast Snapshot** and **Merge Duplicates**. The approval choice for each action is covered in [agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/).
+When you add tools to an agent, the **Add Tool** catalogue opens on Salesforce. It offers 34 tools in six groups: **Lookup / Search**, **Create / Update**, **Associations**, **Activities**, **Pipeline / Forecast** and **Utility**. They range from **Find Opportunity** and **Log Call** to **Get Forecast Snapshot** and **Merge Duplicates**. The approval choice for each action is covered in [agent tools and run modes](https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/agents/builder/tools-and-run-modes/).
 
 <figure>
 
@@ -336,7 +336,7 @@ A Salesforce admin opens Oliv AI's admin install link, installs the package for 
 
 #### Who has to install it? {#faq-who-installs}
 
-A Salesforce admin. They run the admin install link, install the package with **Install for All Users**, and share the org's Salesforce URL with Oliv AI's team.
+A Salesforce admin, who also needs Salesforce's Download AppExchange Packages permission. Check that you have it before you open the install link.
 
 #### Which Salesforce objects does Oliv AI keep current? {#faq-objects}
 
@@ -344,7 +344,7 @@ Accounts, contacts, opportunities, activities and tasks. It also updates Opportu
 
 #### Will it write to Salesforce without anyone approving? {#faq-approval}
 
-Not by default. Every suggested update surfaces for review first. Once your team has built confidence, RevOps can switch to **Auto-Pilot** for hands-free updates.
+Not by default. Every suggested update surfaces for review first. Once your team has built confidence, RevOps can switch to **Auto-Pilot**, and updates then apply without review.
 
 #### Our Salesforce data is a mess. Can we still connect? {#faq-messy-data}
 
@@ -356,7 +356,7 @@ Oliv AI's team configures custom fields during onboarding as a service. Once map
 
 #### How does it pick the right opportunity when an account has several? {#faq-multiple-opportunities}
 
-Oliv AI uses AI to connect meeting, phone, email and Slack activity to the right accounts, contacts and opportunities, including when one account has multiple opportunities.
+Oliv AI's CRM Manager agent reads the full context of meeting, phone, email and Slack activity rather than relying on rules. It then connects the activity to the matching account, contact and opportunity. If it can't resolve a match, it asks the seller.
 
 #### Does it log activity from meetings Oliv AI didn't record? {#faq-other-activity}
 
@@ -364,7 +364,7 @@ Yes. Activity logging applies to any activity that reaches the platform, not onl
 
 #### Can I see how a field changed over time? {#faq-field-history}
 
-Yes. A full history of how each field has been updated is kept and visible. On a deal, **Updates History** sits on the **CRM Updates** tab next to **AI Updates**, the changes already applied.
+Yes. Oliv AI keeps a full history of how each field has been updated. On a deal, **Updates History** sits on the **CRM Updates** tab next to **AI Updates**, the changes already applied.
 
 #### How can I check what Oliv AI has written to Salesforce? {#faq-check-writes}
 

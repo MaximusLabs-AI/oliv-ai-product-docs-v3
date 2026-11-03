@@ -7,7 +7,7 @@ How to find a past customer meeting in a sales call library, by date, by phrase,
 - Verified: 2026-11-03
 - Canonical page: https://maximuslabs-ai.github.io/oliv-ai-product-docs-v3/product-docs/apps/converse/meetings/
 
-When you search for a sales call library, you usually need one thing: what a customer said on a past call, before your next meeting. Oliv AI answers with the Meetings list under **Activities › Meetings**, where you search by date or phrase, filter the grid and open the meeting's record. You can also skip the list and press **Open Meeting** in the Slack message about the call. Phone calls sit in their own list under **Activities › Calls**, so check there if the conversation wasn't a meeting.
+Your next meeting is close and you need what the customer said on the last one, which is what a sales call library is for. Oliv AI keeps that in the Meetings list under **Activities › Meetings**, where you search by date or phrase, filter the grid and open the meeting's record. You can also skip the list and press **Open Meeting** in the Slack message about the call. Phone calls sit in their own list under **Activities › Calls**, so check there if the conversation wasn't a meeting.
 
 ## At a glance {#at-a-glance}
 
